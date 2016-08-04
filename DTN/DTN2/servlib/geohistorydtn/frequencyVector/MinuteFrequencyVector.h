@@ -10,15 +10,12 @@ class MinuteFrequencyVector: public FrequencyVector
 	    template<class Archive>
 	    void serialize(Archive & ar, const unsigned int version)
 	    {
-	        ar & vector_;//序列化或反序列化&操作符比>>和<<更为方便
-	        ar & vectorLevel;
-	        ar & serviceType;
-	        ar & vectorLength;
-	        ar & vectorChange;
+	    	ar & boost::serialization::base_object<FrequencyVector>(*this);
 
 	    }
 
 public:
+	    MinuteFrequencyVector(){}
 
 	MinuteFrequencyVector(int vectorLevel, int serviceType)
 	{
@@ -45,9 +42,6 @@ public:
 				//对该向量加1
 				++vector_[minute];
 				vectorChange[minute]=true;
-				for(int i=17;i<25;++i)
-					cout<<i<<":"<<vector_[i]<<" ";
-				cout<<endl;
 			}
 		}
 	}
@@ -64,12 +58,11 @@ public:
 				//对该向量加1
 				++vector_[minute];
 				vectorChange[minute]=true;
-				for(int i=17;i<25;++i)
-					cout<<i<<":"<<vector_[i]<<" ";
-				cout<<endl;
 			}
 		}
 	}
 
 };
+
 }
+

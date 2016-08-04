@@ -3,10 +3,7 @@
 #include<string>
 #include "servlib/geohistorydtn/routing/BlockingQueue.h"
 
-#ifndef AREAMANAGER_H_
-#define AREAMANAGER_H_
-#include "servlib/geohistorydtn/area/AreaManager.h"
-#endif
+#include"servlib/geohistorydtn/neighbour/NeighbourManager.h"
 
 //#include <oasys/thread/Thread.h>
 //#include "geohistorydtn/questAreaInfo/QuestAreaInfo.h"
@@ -118,7 +115,6 @@ public:
 		{
 			//生成对应的Area
 			Area *newBaseArea=areamanager->checkAreaInfo(areaInfo);
-			cout<<newBaseArea->id<<endl;
 			if(newBaseArea!=NULL)
 			{
 				//变动相应的频率向量,因为每次计时到了就开始改变FVector，所以在变更区域的时候不需要进行变动频率向量
@@ -131,7 +127,9 @@ public:
 				baseArea=newBaseArea;
 
 				//将移动的记录保存到日志中
-				//areamanager->writeAreaLogToFile("move to new area, ",baseArea);
+				//即新的各层区域的id ，level 和各个频率向量
+				string s="move to new area";
+				areamanager->writeAreaLogToFile(s,baseArea,areaInfo);
 			}
 		}
 	}

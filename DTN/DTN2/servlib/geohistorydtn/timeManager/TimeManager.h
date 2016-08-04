@@ -255,97 +255,18 @@ public:
 
 
 	//每分钟需要触发的操作
-	void minuteTask(int minute)
-	{
-		//日志输出及提示信息
-		//Log.i(tag,getTimeNow()+"\t触发小时操作");
-
-		for(list<FrequencyVector *>::iterator it=minFVectorQueue.begin();
-						it!=minFVectorQueue.end();++it)
-		{
-			cout<<"!!!!!"<<endl;
-			(dynamic_cast<MinuteFrequencyVector*>(*it))->changeVector(minute);
-		}
-
-	}
+	void minuteTask(int minute);
 
 	//每小时需要触发的操作
-	void hourTask(int hour)
-	{
-		//日志输出及提示信息
-		//Log.i(tag,getTimeNow()+"\t触发小时操作");
-
-		for(list<FrequencyVector *>::iterator it=hourFVectorQueue.begin();
-							it!=hourFVectorQueue.end();++it)
-		{
-			(*it)->changeVector(hour);
-		}
-
-		//对所有的需要小时衰减的向量进行
-		FrequencyVectorManager::Getinstance()->hourAttenuation();
-
-		//写入时间区域频率向量随时间的变化
-	//	AreaManager.writeAreaTimeChange2Log(getSimplifyTime());
-
-		//将历史区域向量记录到文件中
-	//	AreaManager.getInstance().wrieteAreaInfoToFile();
-
-		//测试 将邻居的频率向量全部显示出来
-	//	NeighbourManager.getInstance().printAllNeighbour();
-	}
+	void hourTask(int hour);
 
 	//每星期需要出发的操作
-	void weekTask(int week)
-	{
-		//日志输出及提示信息
-	//	Log.i(tag,getTimeNow()+"\t触发周操作");
-	//	AreaManager.writeAreaTimeChange2Log(getSimplifyTime());
-
-		for(list<FrequencyVector *>::iterator it=weekFVectorQueue.begin();
-							it!=weekFVectorQueue.end();++it)
-		{
-			(*it)->changeVector(week);
-		}
-
-		//对所有的需要小时衰减的向量进行
-		FrequencyVectorManager::Getinstance()->weekAttenuation();
-
-	}
+	void weekTask(int week);
 
 	//每月需要触发的操作
-	void monthTask(int month)
-	{
-		//日志输出及提示信息
-		//Log.i(tag,getTimeNow()+"\t触发月操作");
-		//AreaManager.writeAreaTimeChange2Log(getSimplifyTime());
-
-		for(list<FrequencyVector *>::iterator it=monFVectorQueue.begin();
-							it!=monFVectorQueue.end();++it)
-		{
-			(*it)->changeVector(month);
-		}
-
-		//对所有的需要小时衰减的向量进行
-		FrequencyVectorManager::Getinstance()->monthAttenuation();
-	}
-
-
+	void monthTask(int month);
 	//每月需要触发的操作
-	void monafteveTask(int monafteve)
-	{
-		//日志输出及提示信息
-		//Log.i(tag,getTimeNow()+"\t触发月操作");
-		//AreaManager.writeAreaTimeChange2Log(getSimplifyTime());
-
-		for(list<FrequencyVector *>::iterator it=monafteveFVectorQueue.begin();
-							it!=monafteveFVectorQueue.end();++it)
-		{
-			(*it)->changeVector(monafteve);
-		}
-
-		//对所有的需要小时衰减的向量进行
-		FrequencyVectorManager::Getinstance()->monafteveAttenuation();
-	}
+	void monafteveTask(int monafteve);
 
 
 	//每隔1分钟倒数计时一次，这样计时器的最小时间就是一分钟

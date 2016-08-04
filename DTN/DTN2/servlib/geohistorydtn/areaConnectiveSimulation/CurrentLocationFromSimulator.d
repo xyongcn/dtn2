@@ -125,6 +125,10 @@ geohistorydtn/areaConnectiveSimulation/CurrentLocationFromSimulator.o geohistory
  ../servlib/routing/RouterInfo.h ../servlib/bundling/BundleInfoCache.h \
  ../servlib/reg/Registration.h ../servlib/session/SessionTable.h \
  ../servlib/geohistorydtn/routing/BlockingQueue.h \
+ ../servlib/geohistorydtn/neighbour/NeighbourManager.h \
+ ../servlib/geohistorydtn/neighbour/Neighbour.h \
+ ../servlib/geohistorydtn/neighbour/NeighbourArea.h \
+ ../servlib/geohistorydtn/config/NeighbourConfig.h \
  ../servlib/geohistorydtn/area/AreaManager.h \
  ../servlib/geohistorydtn/area/Area.h \
  ../servlib/geohistorydtn/timeManager/TimeManager.h \
@@ -433,6 +437,14 @@ geohistorydtn/areaConnectiveSimulation/CurrentLocationFromSimulator.o geohistory
 ../servlib/session/SessionTable.h:
 
 ../servlib/geohistorydtn/routing/BlockingQueue.h:
+
+../servlib/geohistorydtn/neighbour/NeighbourManager.h:
+
+../servlib/geohistorydtn/neighbour/Neighbour.h:
+
+../servlib/geohistorydtn/neighbour/NeighbourArea.h:
+
+../servlib/geohistorydtn/config/NeighbourConfig.h:
 
 ../servlib/geohistorydtn/area/AreaManager.h:
 

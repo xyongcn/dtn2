@@ -1,4 +1,7 @@
+#ifndef FVLEVEL_H_
+#define FVLEVEL_H_
 #include"servlib/geohistorydtn/frequencyVector/FrequencyVectorLevel.h"
+#endif
 #include"servlib/geohistorydtn/frequencyVector/FrequencyVectorServiceType.h"
 /**
  * 说明 :用来维护相应的衰减系数
@@ -20,7 +23,9 @@ public:
 			{
 
 			case FrequencyVectorLevel::minuteVector:
-				return 1;
+				//测试
+				return 0.99;
+				//return 1;
 
 			case FrequencyVectorLevel::hourVector:
 				return 0.99;

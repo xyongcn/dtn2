@@ -1,6 +1,8 @@
 geohistorydtn/timeManager/TimeManager.o geohistorydtn/timeManager/TimeManager.E: \
  geohistorydtn/timeManager/TimeManager.cc \
- geohistorydtn/timeManager/TimeManager.h \
+ ../servlib/geohistorydtn/area/AreaManager.h \
+ ../servlib/geohistorydtn/area/Area.h \
+ ../servlib/geohistorydtn/timeManager/TimeManager.h \
  ../servlib/geohistorydtn/frequencyVector/FrequencyVectorManager.h \
  ../servlib/geohistorydtn/frequencyVector/MonthFrequencyVector.h \
  ../servlib/geohistorydtn/frequencyVector/WeekFrequencyVector.h \
@@ -145,7 +147,11 @@ geohistorydtn/timeManager/TimeManager.o geohistorydtn/timeManager/TimeManager.E:
  ../servlib/bundling/../reg/RegistrationTable.h \
  ../servlib/bundling/../reg/Registration.h
 
-geohistorydtn/timeManager/TimeManager.h:
+../servlib/geohistorydtn/area/AreaManager.h:
+
+../servlib/geohistorydtn/area/Area.h:
+
+../servlib/geohistorydtn/timeManager/TimeManager.h:
 
 ../servlib/geohistorydtn/frequencyVector/FrequencyVectorManager.h:
 

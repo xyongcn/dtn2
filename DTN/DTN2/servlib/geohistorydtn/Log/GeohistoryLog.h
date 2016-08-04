@@ -19,21 +19,21 @@ private:
 	static GeohistoryLog *instance;
 	GeohistoryLog()
 		{
-			name="./GeohistoryLog.txt";
+			name="./logDocuments/GeohistoryLog.txt";
 
 			errno = 0;
-				g_pWTLog_File_descriptor = fopen(name.c_str(),"a");
-				if (NULL == g_pWTLog_File_descriptor)
+			g_pWTLog_File_descriptor = fopen(name.c_str(),"a");
+			if (NULL == g_pWTLog_File_descriptor)
+			{
+				if (EINVAL == errno)
 				{
-					if (EINVAL == errno)
-					{
-						printf("err:fopen log file %s failed\n",name.c_str());
-					}
-					else
-					{
-						printf("err:unknow\n");
-					}
+					printf("err:fopen log file %s failed\n",name.c_str());
 				}
+				else
+				{
+					printf("err:unknow\n");
+				}
+			}
 
 			   pthread_mutex_init(&g_Mutex,NULL);
 

@@ -1,5 +1,6 @@
 #include"MinuteFrequencyVector.h"
 
+
 namespace dtn{
 class HourFrequencyVector: public FrequencyVector
 {
@@ -8,18 +9,14 @@ class HourFrequencyVector: public FrequencyVector
 	    template<class Archive>
 	    void serialize(Archive & ar, const unsigned int version)
 	    {
-	        ar & vector_;//序列化或反序列化&操作符比>>和<<更为方便
-	        ar & vectorLevel;
-	        ar & serviceType;
-	        ar & vectorLength;
-	        ar & vectorChange;
+	    	ar & boost::serialization::base_object<FrequencyVector>(*this);
 
 	    }
 
 
 
 public:
-
+	    HourFrequencyVector(){}
 	HourFrequencyVector(int vectorLevel, int serviceType)
 	{
 		//FrequencyVector(FrequencyVectorLevel::hourVector, serviceType);

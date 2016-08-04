@@ -11,6 +11,7 @@ using namespace std;
  * 作用:用来描述区域的对象
  *
  */
+
 namespace dtn{
 
 class Area
@@ -204,7 +205,7 @@ public:
 	void removeTimeCount()
 	{
 		cancleCurrent();
-		cout<<"remove"<<endl;
+		cout<<"remove Frequency"<<endl;
 		for(list<FrequencyVector *>::iterator it=vectorlist.begin();
 				it!=vectorlist.end();++it)
 		{
@@ -368,8 +369,9 @@ public:
 
 	 string toString() {
 		string s="";
-		s.append("level and id:%s#%d,", level,id);
-
+		char temp_c[300];
+		sprintf(temp_c,"level and id:%d#%d\n",level,id);
+		s.append(temp_c);
 		for(list<FrequencyVector *>::iterator it=vectorlist.begin();
 				it!=vectorlist.end();++it)
 		{
@@ -377,32 +379,38 @@ public:
 			{
 
 			case FrequencyVectorLevel::minuteVector:
-				s.append("minuteVector:(%s),", (*it)->toString().c_str());
+				s.append("minuteVector:");
+				s.append((*it)->toString());
+				s.append("\n");
 				break;
 
 			case FrequencyVectorLevel::hourVector:
-				s.append("hourVector:(%s),",(*it)->toString().c_str());
+				s.append("hourVector:");
+				s.append((*it)->toString());
+				s.append("\n");
 				break;
 
 			case FrequencyVectorLevel::weekVector:
+				s.append("weekVector:");
+				s.append((*it)->toString());
 				s.append("\n");
-				s.append("weekVector:(%s),", (*it)->toString().c_str());
 				break;
 
 			case FrequencyVectorLevel::monthVector:
+				s.append("monthVector:");
+				s.append((*it)->toString());
 				s.append("\n");
-				s.append("monthVector:(%s)", (*it)->toString().c_str());
 				break;
 
 			case FrequencyVectorLevel::monAftEveVector:
+				s.append("monaftVector:");
+				s.append((*it)->toString());
 				s.append("\n");
-				s.append("monafteveVector:(%s)",(*it)->toString().c_str());
 				break;
 			}
 		}
-		s.append("\n");
+		//s.append("\n");
 		return s;
-//		return super.toString();
 	}
 };
 }

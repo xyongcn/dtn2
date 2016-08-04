@@ -123,6 +123,10 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
  ../servlib/routing/RouterInfo.h ../servlib/bundling/BundleInfoCache.h \
  ../servlib/reg/Registration.h ../servlib/session/SessionTable.h \
  ../servlib/geohistorydtn/routing/BlockingQueue.h \
+ ../servlib/geohistorydtn/neighbour/NeighbourManager.h \
+ ../servlib/geohistorydtn/neighbour/Neighbour.h \
+ ../servlib/geohistorydtn/neighbour/NeighbourArea.h \
+ ../servlib/geohistorydtn/config/NeighbourConfig.h \
  ../servlib/geohistorydtn/area/AreaManager.h \
  ../servlib/geohistorydtn/area/Area.h \
  ../servlib/geohistorydtn/timeManager/TimeManager.h \
@@ -147,6 +151,7 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h \
+ ../servlib/geohistorydtn/config/HandleMydtnConfig.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/NetUtils.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/tclcmd/ConsoleCommand.h \
@@ -494,6 +499,14 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
 
 ../servlib/geohistorydtn/routing/BlockingQueue.h:
 
+../servlib/geohistorydtn/neighbour/NeighbourManager.h:
+
+../servlib/geohistorydtn/neighbour/Neighbour.h:
+
+../servlib/geohistorydtn/neighbour/NeighbourArea.h:
+
+../servlib/geohistorydtn/config/NeighbourConfig.h:
+
 ../servlib/geohistorydtn/area/AreaManager.h:
 
 ../servlib/geohistorydtn/area/Area.h:
@@ -541,6 +554,8 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
 ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h:
 
 ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h:
+
+../servlib/geohistorydtn/config/HandleMydtnConfig.h:
 
 /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/NetUtils.h:
 

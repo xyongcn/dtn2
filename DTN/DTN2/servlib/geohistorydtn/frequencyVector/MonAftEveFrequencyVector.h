@@ -9,16 +9,12 @@ private:
 	    template<class Archive>
 	    void serialize(Archive & ar, const unsigned int version)
 	    {
-	        ar & vector_;//序列化或反序列化&操作符比>>和<<更为方便
-	        ar & vectorLevel;
-	        ar & serviceType;
-	        ar & vectorLength;
-	        ar & vectorChange;
+	    	ar & boost::serialization::base_object<FrequencyVector>(*this);
 
 	    }
 
 public:
-
+	    MonAftEveFrequencyVector(){}
 	MonAftEveFrequencyVector(int vectorLevel, int serviceType)
 	{
 		//FrequencyVector(FrequencyVectorLevel::monAftEveVector, serviceType);

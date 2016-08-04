@@ -6,6 +6,12 @@
 #include "servlib/geohistorydtn/area/AreaManager.h"
 #endif
 
+BOOST_CLASS_EXPORT_GUID(dtn::HourFrequencyVector, "HourFrequencyVector")
+BOOST_CLASS_EXPORT_GUID(dtn::MinuteFrequencyVector, "MinuteFrequencyVector")
+BOOST_CLASS_EXPORT_GUID(dtn::WeekFrequencyVector, "WeekFrequencyVector")
+BOOST_CLASS_EXPORT_GUID(dtn::MonthFrequencyVector, "MonthFrequencyVector")
+BOOST_CLASS_EXPORT_GUID(dtn::MonAftEveFrequencyVector, "MonAftEveFrequencyVector")
+
 namespace dtn{
 
 void Area::changeFVector(AreaInfo info)

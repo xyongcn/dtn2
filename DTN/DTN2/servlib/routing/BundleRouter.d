@@ -205,6 +205,10 @@ routing/BundleRouter.o routing/BundleRouter.E: routing/BundleRouter.cc \
  ../servlib/geohistorydtn/routing/GeoHistoryRouter.h \
  ../servlib/routing/TableBasedRouter.h \
  ../servlib/geohistorydtn/routing/BlockingQueue.h \
+ ../servlib/geohistorydtn/neighbour/NeighbourManager.h \
+ ../servlib/geohistorydtn/neighbour/Neighbour.h \
+ ../servlib/geohistorydtn/neighbour/NeighbourArea.h \
+ ../servlib/geohistorydtn/config/NeighbourConfig.h \
  ../servlib/geohistorydtn/area/AreaManager.h \
  ../servlib/geohistorydtn/area/Area.h \
  ../servlib/geohistorydtn/timeManager/TimeManager.h \
@@ -737,6 +741,14 @@ routing/TcaControlBundle.h:
 ../servlib/routing/TableBasedRouter.h:
 
 ../servlib/geohistorydtn/routing/BlockingQueue.h:
+
+../servlib/geohistorydtn/neighbour/NeighbourManager.h:
+
+../servlib/geohistorydtn/neighbour/Neighbour.h:
+
+../servlib/geohistorydtn/neighbour/NeighbourArea.h:
+
+../servlib/geohistorydtn/config/NeighbourConfig.h:
 
 ../servlib/geohistorydtn/area/AreaManager.h:
 

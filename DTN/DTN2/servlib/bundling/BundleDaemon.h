@@ -593,8 +593,12 @@ protected:
 
 public:
     //添加 by gaorui
-
+    BundleRouter* getrouter()
+    {
+        return router_;
+    }
     static BundleDaemon *GetInstance();
+
 };
 
 } // namespace dtn

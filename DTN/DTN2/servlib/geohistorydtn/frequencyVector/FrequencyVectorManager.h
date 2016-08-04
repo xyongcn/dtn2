@@ -46,6 +46,75 @@ public:
 	/**
 	 * 对向量进行衰减
 	 */
+
+
+	void minuteResetFrequency()
+	{
+		list<FrequencyVector *>::iterator iter=minutevectorlist.begin();
+		while(iter!=minutevectorlist.end())
+		{
+			FrequencyVector *minutevector=*iter;
+			cout<<"reset all miute frequency:"<<endl;
+			minutevector->resetChangeFVectorSign();
+			iter++;
+		}
+
+	}
+
+	void hourResetFrequency()
+	{
+		list<FrequencyVector *>::iterator iter=hourvectorlist.begin();
+		while(iter!=hourvectorlist.end())
+		{
+			FrequencyVector *hourvector=*iter;
+			cout<<"reset all hour frequency:"<<endl;
+			hourvector->resetChangeFVectorSign();
+			iter++;
+		}
+
+	}
+
+	void monafteveResetFrequency()
+	{
+		list<FrequencyVector *>::iterator iter=monaftevevectorlist.begin();
+		while(iter!=monaftevevectorlist.end())
+		{
+			FrequencyVector *monaftevevector=*iter;
+			cout<<"reset all monafteve frequency:"<<endl;
+			monaftevevector->resetChangeFVectorSign();
+			iter++;
+		}
+
+	}
+
+	void weekResetFrequency()
+	{
+		list<FrequencyVector *>::iterator iter=weekvectorlist.begin();
+		while(iter!=weekvectorlist.end())
+		{
+			FrequencyVector *weekvector=*iter;
+			cout<<"reset all week frequency:"<<endl;
+			weekvector->resetChangeFVectorSign();
+			iter++;
+		}
+
+	}
+
+	void monthResetFrequency()
+	{
+		list<FrequencyVector *>::iterator iter=monthvectorlist.begin();
+		while(iter!=monthvectorlist.end())
+		{
+			FrequencyVector *monthvector=*iter;
+			cout<<"reset all month frequency:"<<endl;
+			monthvector->resetChangeFVectorSign();
+			iter++;
+		}
+
+	}
+
+
+
 	void hourAttenuation()
 	{
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,
@@ -83,6 +152,7 @@ public:
 		}
 	}
 
+	//测试使用
 	void minuteAttenuation()
 	{
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,
@@ -92,6 +162,7 @@ public:
 		{
 			FrequencyVector *minutevector=*iter;
 			minutevector->attenuationVector();
+			cout<<endl;
 			iter++;
 		}
 	}
@@ -109,6 +180,8 @@ public:
 			iter++;
 		}
 	}
+
+
 
 
 	//对外的公共方法

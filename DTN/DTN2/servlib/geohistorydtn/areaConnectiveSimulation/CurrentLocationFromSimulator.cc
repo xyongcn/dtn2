@@ -110,7 +110,7 @@ namespace dtn{
 			cout<<s<<endl;
 			cout<<"______________________________________"<<endl;
 
-			BundleRouter *router=BundleDaemon::GetInstance()->router();
+			BundleRouter *router=BundleDaemon::GetInstance()->getrouter();
 			GeoHistoryRouter *geoHistoryRouter=dynamic_cast<GeoHistoryRouter *>(router);
 			if(geoHistoryRouter!=NULL)
 			{

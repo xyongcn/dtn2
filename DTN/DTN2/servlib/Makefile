@@ -137,7 +137,12 @@ GEOHISTORYDTN_SRCS :=				\
 	geohistorydtn/questAreaInfo/QuestAreaInfo.cc			\
 	geohistorydtn/timeManager/TimeManager.cc			\
 	geohistorydtn/timeManager/CurrentTimeManager.cc			\
-	geohistorydtn/config/FrequencyConfig.cc	
+	geohistorydtn/neighbour/NeighbourArea.cc			\
+	geohistorydtn/neighbour/Neighbour.cc			\
+	geohistorydtn/neighbour/NeighbourManager.cc			\
+	geohistorydtn/config/FrequencyConfig.cc			\
+	geohistorydtn/config/NeighbourConfig.cc			\
+	geohistorydtn/config/HandleMydtnConfig.cc	
 	
 # Check if we should include IPND sources
 ifeq ($(BBN_IPND_ENABLED),1)

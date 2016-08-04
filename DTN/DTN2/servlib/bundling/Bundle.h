@@ -418,6 +418,150 @@ private:
      * Initialization helper function.
      */
     void init(u_int32_t id);
+
+
+
+    //add by gaorui
+    ////添加电子地图DTN算法的必要属性
+    //	private long timestamp;
+    //	private long invalidtime;//bundle的失效时间
+private:
+    //area的各层区域id,0层区域，最底层区域，也是可达层区域,1,2,3...
+    int *areaid; //new int [13],初始化为0
+
+    int areasize;//=0//区域层次个数
+
+    int deliverBundleNum;//=0;//传递阶段的bundle数量
+    int floodBundleNum;//=0;//洪泛扩散阶段bundle的数量
+    int isFlooding;//=0;//是否进入了flood阶段
+public:
+
+    int getAreaSize()
+    {
+       return areasize;
+    }
+
+    void setAreaSize(int size)
+    {
+       if(size>0 && size<=12)
+    	   areasize=size;
+       return;
+    }
+
+    int bottomArea()
+    {
+        return areaid[0];
+    }
+
+    void setbottomArea(int id)
+    {
+    	areaid[0]=id;
+        return;
+    }
+
+
+    int getAreaId(int level)
+    {
+    	if(level<=12 && level>=0)
+        	return areaid[level];
+        return 0;
+    }
+
+    void setAreaId(int level,int id)
+    {
+         if(level<=12 && level>=0)
+        	areaid[level]=id;
+         return;
+    }
+
+
+
+    int getDeliverBundleNum()
+    {
+    	return this->deliverBundleNum;
+    }
+
+    void setDeliverBundleNum(int deliverbundlenum)
+    {
+     	this->deliverBundleNum=deliverbundlenum;
+    }
+
+    int getFloodBundleNum()
+    {
+    	return this->floodBundleNum;
+    }
+
+    void setFloodBundleNum(int floodbundlenum)
+    {
+     	this->floodBundleNum=floodbundlenum;
+    }
+
+    int getIsFlooding()
+    {
+    	return isFlooding;
+    }
+
+    void setIsFlooding(int isflooding)
+    {
+    	this->isFlooding=isflooding;
+    }
+
+
+    	/**
+    	 * 对GeoDTN所添加的头部信息的非法判断
+    	 * @return true表示这个bundle的GeoHistory信息时合法的；false表示这个bundle的GeoHistory头部信息时非法的
+    	 */
+    bool isGeoHistoryDtnValide()
+    {
+    	if( areasize==0 && deliverBundleNum==0
+    		&& floodBundleNum==0)
+    		return false;
+    	for(int i=0;i<=areasize;++i)
+    	{
+    		if(areaid[i]==0)
+    			return false;
+    	}
+    	return true;
+    }
+
+    /**
+    * 判断bundle属于哪一种类型
+    * DataBundle=1;//用来节点之间发送数据的bundle
+    * NeighbourHistoryAreaBundle=2;//用来表示邻居之间交换历史区域信息的bundle
+    */
+    int bundleType;//=DATA_BUNDLE;
+    const static int DATA_BUNDLE=1;
+    const static int NEI_AREA_BUNDLE=2;
+
+    /**
+    * 用于geoHistoryRouter里面判断bundle是否传输完成的标识
+    */
+    bool geoRouterTransmmited;//=false;
+
+    //获取bundle的类型
+    int getBundleType()
+    {
+    	return bundleType;
+    }
+
+    		//设置bundle的类型
+    bool setBundleType(int type)
+    {
+    	switch(type)
+    	{
+    		case DATA_BUNDLE:
+    		case NEI_AREA_BUNDLE:
+
+    		bundleType=type;
+    		return true;
+
+    		default:
+    				//默认使用数据bundle
+    			bundleType=DATA_BUNDLE;
+    		return false;
+    	}
+    }
+    //end by gaorui
 };
 
 

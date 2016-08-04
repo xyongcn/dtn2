@@ -5,9 +5,14 @@
 #include "servlib/geohistorydtn/areaConnectiveSimulation/CurrentLocationFromSimulator.h"
 
 #include <boost/serialization/list.hpp>
+#include <boost/serialization/string.hpp>
 #include <boost/serialization/vector.hpp>
-#include <boost/archive/text_oarchive.hpp>
+#include <boost/serialization/base_object.hpp>
+#include <boost/serialization/serialization.hpp>
 #include <boost/archive/text_iarchive.hpp>
+#include <boost/archive/text_oarchive.hpp>
+#include <boost/serialization/export.hpp>
+
 /**
  * 说明 ：时间区域频率向量的基类
  * 将向量的增加标志位的清除放在了衰减函数attenuationVector里面
@@ -26,10 +31,13 @@ private:
 	     ar & serviceType;
 	     ar & vectorLength;
 	     ar & vectorChange;
+	     ar & name;
 
 	}
 
 public:
+	virtual ~FrequencyVector(){}
+	FrequencyVector(){}
 
 	/**
 	 * 时间向量的级别
@@ -111,9 +119,8 @@ public:
 		for(int i=0;i<vector_.size();i++)
 		{
 			vector_[i]=vector_[i]*parameter;
+			cout<<i<<":"<<vector_[i]<<" ";
 		}
-
-		resetChangeFVectorSign();
 	}
 
 	/**

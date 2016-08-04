@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <hash_map>
 
+
 #include "Area.h"
 
 
@@ -55,10 +56,10 @@ private:
 	 */
 	AreaManager()
 	{
-		//geohistoryLog=GeohistoryLog::GetInstance();
+		geohistoryLog=GeohistoryLog::GetInstance();
 		pthread_mutex_init(&lockHistoryAreaMoving,NULL);
 		//需要通过每次使用前使用init
-//		init();
+	//	init();
 	}
 
 public:
@@ -72,40 +73,7 @@ public:
 		return instance ;
 	}
 
-	void init()
-	{
-	    std::fstream ifs;
-	    ifs.open(historyAreaFilePath.c_str(),ios::in);
-		//从文件中读取历史的区域信息
-		if (!ifs.is_open())
-	    {
-	   	 	cout<< "Error opening file";
-	   	 	return;
-	    }
-	    boost::archive::text_iarchive ia(ifs);
-
-		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s:从文件historyarea中读取历史的区域信息",tag.c_str());
-		Area area;
-	  //  try
-	  //  {
-	    	while(!ifs.eof())
-	    	{
-
-	    		//将读取到的area保存起来
-	    		ia >>area;
-	    		string s=area.level+"#"+area.id;
-	    		areaMap[s]= area;
-	    		//将读取到的area的频率向量加入到频率向量管理器中
-	    		addAreaFVector2Manager(area);
-			}
-
-		//}
-	  // catch(boost::archive::archive_exception &e)
-	  // {}
-		ifs.close();
-		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s:从初始文件中获得本地移动的移动规律，并打印出来：",tag.c_str());
-		printAllAreaMoving();
-	}
+	void init();//在dtnd.cc中初始化，用于将原来的历史移动规律读入该程序
 
 
 
@@ -128,9 +96,44 @@ public:
 	 */
 	void addAreaFVector2Manager(Area area){
 		for(list<FrequencyVector *>::iterator it=area.vectorlist.begin()
-				;it!=area.vectorlist.end();++it){
-			FrequencyVector *v=*it;
-			FrequencyVectorManager::Getinstance()->addFVector(v);
+				;it!=area.vectorlist.end();++it)
+		{
+			switch((*it)->vectorLevel)
+			{
+			case FrequencyVectorLevel::minuteVector:
+			{
+				MinuteFrequencyVector *v=dynamic_cast<MinuteFrequencyVector *>(*it);
+				FrequencyVectorManager::Getinstance()->addFVector(v);
+				break;
+			}
+			case FrequencyVectorLevel::hourVector:
+			{
+				HourFrequencyVector *v2=dynamic_cast<HourFrequencyVector *>(*it);
+				FrequencyVectorManager::Getinstance()->addFVector(v2);
+				break;
+			}
+			case FrequencyVectorLevel::monAftEveVector:
+			{
+				MonAftEveFrequencyVector *v3=dynamic_cast<MonAftEveFrequencyVector *>(*it);
+				FrequencyVectorManager::Getinstance()->addFVector(v3);
+				break;
+			}
+			case FrequencyVectorLevel::weekVector:
+			{
+				WeekFrequencyVector *v4=dynamic_cast<WeekFrequencyVector *>(*it);
+				FrequencyVectorManager::Getinstance()->addFVector(v4);
+				break;
+			}
+			case FrequencyVectorLevel::monthVector:
+			{
+				MonthFrequencyVector *v5=dynamic_cast<MonthFrequencyVector *>(*it);
+				FrequencyVectorManager::Getinstance()->addFVector(v5);
+				break;
+			}
+			default:
+				break;
+			}
+
 		}
 	}
 
@@ -200,14 +203,14 @@ public:
 
 	}
 
-	//将内存中的area相关信息写到sdcard中
-//	FileOutputStream geohistoryarea=null;
+	//写入内存中的area相关信息,写入时删除原有的内容
 	void wrieteAreaInfoToFile()
 	{
 
-		lockHistoryAreaMovingFile();
+	//	lockHistoryAreaMovingFile();
+		cout<<"minute:wrieteAreaInfoToFile"<<endl;
 		fstream ofs;
-		ofs.open(historyAreaFilePath.c_str(),ios::out);
+		ofs.open(historyAreaFilePath.c_str(),ios::trunc|ios::out);
 		boost::archive::text_oarchive oa(ofs);
 		for(hash_map<string,Area>::iterator it=areaMap.begin();
 				it!=areaMap.end();++it)
@@ -219,7 +222,7 @@ public:
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s:更新完本地的移动记录文件",tag.c_str());
 		printAllAreaMoving();
 
-
+	//	unlockHistoryAreaMovingFile();
 	}
 
 
@@ -228,9 +231,11 @@ public:
 	 * @param reason 原因前缀
 	 * @param area 新移动的区域
 	 */
-	void writeAreaLogToFile(string reason,Area area)
+	void writeAreaLogToFile(string reason,Area *area,AreaInfo areainfo)
 	{
+		//cout<<"writeAreaLogToFile"<<endl;
 		FILE * fr;
+		errno=0;
 		fr= fopen(historyAreaMovingFilePath.c_str(),"a");
 		if (NULL == fr)
 		{
@@ -244,24 +249,48 @@ public:
 			}
 		}
 		string temp;
-		string fatherid=0;
+		string father;
 
 		temp.append(reason);
 		temp.append(":\n");
-		do{
-			temp.append(area.toString());
-			temp.append("\n");
-			fatherid=area.father;
-			if(fatherid.empty())
-				break;
-			else
-			{
-				hash_map<string,Area>::iterator it=areaMap.find(fatherid);
-				area=it->second;
-			}
-		}while(true);
+		char time_c[10];
+		sprintf(time_c,"%d",areainfo.month+1);
+		temp.append(time_c);
+		temp.append("月,");
+		if(areainfo.week==0)
+			temp.append("星期天,");
+		else
+		{
+			sprintf(time_c,"%d",areainfo.week);
+			temp.append("星期");
+			temp.append(time_c);
+			temp.append(",");
+		}
+		if(areainfo.monafteve==1)
+			temp.append("上午,");
+		else if(areainfo.monafteve==2)
+			temp.append("下午,");
+		else
+			temp.append("晚上,");
 
-        fseek(fr, 0, SEEK_END);
+		sprintf(time_c,"%d",areainfo.hour);
+
+		temp.append(time_c);
+		temp.append("点");
+		sprintf(time_c,"%d",areainfo.minute);
+		temp.append(time_c);
+		temp.append("分钟\n");
+
+		do{
+			temp.append(area->toString());
+			temp.append("\n");
+			father=area->father;
+			if(!father.empty())
+				area=AreaManager::Getinstance()->lookforArea(father);
+			else
+				break;
+		}while(true);
+		fseek(fr, 0, SEEK_END);
 		int h=fwrite(temp.c_str(),sizeof(char),strlen(temp.c_str()),fr);
 		fflush(fr);
 
@@ -276,10 +305,13 @@ public:
 	 * 计时器时间发生变化将写入日志中
 	 * @param time
 	 */
-	static void writeAreaTimeChange2Log(string time)
+	/*static void writeAreaTimeChange2Log(string time)
 	{
 		FILE * fr;
+		errno = 0;
 		fr= fopen(historyAreaMovingFilePath.c_str(),"a");
+		//name="./logDocuments/GeohistoryLog.txt";
+
 		if (NULL == fr)
 		{
 			if (EINVAL == errno)
@@ -302,7 +334,7 @@ public:
 			return ;
 		}
 
-	}
+	}*/
 
 	Area *lookforArea(string areakey)
 	{
@@ -324,15 +356,23 @@ public:
 
 	void printAllAreaMoving()
 	{
-		int i=1;
 		for(hash_map<string,Area>::iterator it=areaMap.begin();
 				it!=areaMap.end();++it)
 		{
 			Area a=it->second;
-			char i_temp[5];
-			sprintf(i_temp,"%d",i);
-			++i;
-			geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s:第%d个区域的移动规律：\n%s",tag.c_str(),i_temp,a.toString().c_str());
+			string s;
+			char c[20];
+			s.append(tag.c_str());
+			s.append(":层次为");
+			sprintf(c,"%d",a.level);
+			s.append(c);
+			s.append("的区域");
+			sprintf(c,"%d",a.id);
+			s.append(c);
+			s.append("的移动规律:\n");
+			s.append(a.toString());
+		//	cout<<s<<endl;
+		//	geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s",s.c_str());
 		}
 	}
 

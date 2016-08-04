@@ -25,7 +25,7 @@
 #define _GEOROUTER_H_
 #include "servlib/geohistorydtn/routing/GeoHistoryRouter.h"
 #endif
-
+#include "servlib/geohistorydtn/config/HandleMydtnConfig.h"
 
 #include <errno.h>
 #include <string>
@@ -193,6 +193,10 @@ DTND::main(int argc, char* argv[])
 {
     init_app(argc, argv);
     GeohistoryLog *geohistoryLog=GeohistoryLog::GetInstance();
+    HandleMydtnConfig *myconfig=HandleMydtnConfig::Getinstance();
+//	for(vector<int>::iterator it=FrequencyConfig::frequcyType.begin();
+//		it!=FrequencyConfig::frequcyType.end();++it)
+//		cout<<*it<<endl;
     log_notice_p("/dtnd", "DTN daemon starting up... (pid %d)", getpid());
 
 
@@ -214,8 +218,6 @@ DTND::main(int argc, char* argv[])
         log_err_p("/dtnd", "error in configuration file, exiting...");
         notify_and_exit(1);
     }
-	FrequencyConfig::frequcyType.push_back(1);
-	FrequencyConfig::frequcyType.push_back(2);
 
     if (storage_config_.init_)
     {
@@ -252,11 +254,11 @@ DTND::main(int argc, char* argv[])
         apiserver->bind_listen_start(apiserver->local_addr(), 
                                      apiserver->local_port());
     }
-
-
-
-
-
+	//FrequencyConfig::frequcyType.push_back(1);
+	//FrequencyConfig::frequcyType.push_back(2);
+   // HandleMydtnConfig *myconfig=HandleMydtnConfig::Getinstance();//决定每个Area和Neighbor中的频率的类型，默认是分钟，小时
+    AreaManager *areamanager= AreaManager::Getinstance();
+    areamanager->init();//用于将原来的历史移动规律读入该程序
     CurrentLocationFromSimulator *location=CurrentLocationFromSimulator::Getinstance();
     location->start();
     TimeManager *timemanager=TimeManager::GetInstance();

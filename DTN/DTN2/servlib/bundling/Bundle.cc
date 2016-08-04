@@ -58,6 +58,20 @@ Bundle::init(u_int32_t id)
     fragmented_incoming_= false;
     session_flags_      = 0;
     freed_          = false;
+
+    //add by gaorui
+    areaid=new int[13];
+    for(int i=0;i<12;++i)
+       	areaid=0;
+    areasize=0;
+    deliverBundleNum=0;
+    floodBundleNum=0;
+    isFlooding=0;
+
+    bundleType=DATA_BUNDLE;
+    geoRouterTransmmited=false;
+    //end by gaorui
+
 #ifdef BSP_ENABLED
     security_config_ = BundleSecurityConfig(Ciphersuite::config);
     payload_bek_ = NULL;
