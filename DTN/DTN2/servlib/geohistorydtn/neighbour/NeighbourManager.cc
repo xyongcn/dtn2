@@ -43,7 +43,7 @@ namespace dtn{
 	/**
 	 * 将历史的邻居记录保存到文件中，以便下一次访问
 	 */
-	void NeighbourManager::saveHistoryNieghbour()
+	void NeighbourManager::saveHistoryNeighbour()
 	{
 		string directories;
 		string file;
@@ -88,7 +88,7 @@ namespace dtn{
 			geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s",n.toString().c_str());
 			n.printAreaInfo();
 		}
-		saveHistoryNieghbour();//保存所有的邻居对象到文件
+		saveHistoryNeighbour();//保存所有的邻居对象到文件
 
 		neighbourlist.clear();//清空邻居列表
 	}
@@ -148,7 +148,8 @@ namespace dtn{
 				it!=neighbourlist.end();++it)
 		{
 			Neighbour *n=&(it->second);
-			geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s",n->toString().c_str());
+			cout<<n->toString()<<endl;
+			//geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s",n->toString().c_str());
 		}
 	}
 

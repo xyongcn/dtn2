@@ -2,7 +2,7 @@
 #include "AreaLevel.h"
 #include <vector>
 #include "servlib/geohistorydtn/timeManager/CurrentTimeManager.h"
-
+#include "servlib/geohistorydtn/routing/Object_RouteMessage.h"
 using namespace std;
 
 /**
@@ -15,7 +15,7 @@ namespace dtn
 {
 
 //class TimeManeger;
-class AreaInfo {
+class AreaInfo:public Object_RouteMessage{
 public:
 	/**
 	 * 各个区域层次的id，从底层到到高层，范围依次扩大

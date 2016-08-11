@@ -202,6 +202,8 @@ APIClient::APIClient(int fd, in_addr_t addr, u_int16_t port, APIServer *parent)
     sessions_ = new APIRegistrationList();
 }
 
+
+
 //----------------------------------------------------------------------
 APIClient::~APIClient()
 {
@@ -850,6 +852,47 @@ APIClient::handle_unbind()
 }
     
 //----------------------------------------------------------------------
+/*int
+APIClient::handle_send2(std::string dest_eid,std::string fileroute,bool rctp,int bundleType,unsigned int expiration)
+{
+	 dtn_reg_id_t regid;
+	    dtn_bundle_spec_t spec;
+	    dtn_bundle_payload_t payload;
+
+	    regid=0;
+
+
+	    BundleDaemon *daemon=BundleDaemon::GetInstance();
+	    const char *source=daemon->local_eid().str().c_str();
+	    size_t len1;
+
+	    len1 = strlen(source) + 1;
+	    memcpy(&(spec.source.uri[0]), source, len1);
+	    memcpy(&(spec.replyto.uri[0]), source, len1);
+
+
+	    const char *destination=dest_eid.c_str();
+	  	size_t len2;
+
+	  	len2 = strlen(destination) + 1;
+	  	memcpy(&(spec.dest.uri[0]), destination, len2);
+
+	    spec.expiration = expiration;
+	    spec.dopts      = 0;
+	    spec.priority   = COS_NORMAL;
+
+	    payload.location =	DTN_PAYLOAD_FILE;
+
+	    char *val;
+	    int len = fileroute.length();
+	    val = (char *)malloc((len+1)*sizeof(char));
+
+	    fileroute.copy(val,len,0);
+        payload.filename.filename_val = val;
+        payload.filename.filename_len = strlen(val);
+	}*/
+
+
 int
 APIClient::handle_send()
 {
@@ -1096,7 +1139,7 @@ APIClient::handle_send()
 
     // metadata blocks
     for (unsigned int i = 0; i < spec.metadata.metadata_len; ++i) {
-        dtn_extension_block_t* block = &spec.metadata.metadata_val[i];
+    	dtn_extension_block_t* block = &spec.metadata.metadata_val[i];
 
         LinkRef null_link("APIServer::handle_send");
         MetadataVec * vec = b->generated_metadata().find_blocks(null_link);

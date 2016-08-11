@@ -152,7 +152,6 @@ BundleProtocol::reload_post_process(Bundle* bundle)
 BlockInfoVec*
 BundleProtocol::prepare_blocks(Bundle* bundle, const LinkRef& link)
 {
-
     log_info_p(LOG, "BundleProtocol::prepare_blocks begin");
     // create a new block list for the outgoing link by first calling
     // prepare on all the BlockProcessor classes for the blocks that

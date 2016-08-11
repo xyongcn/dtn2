@@ -44,7 +44,6 @@ public:
 	EndpointID neighbourEid;
 	string neighbourEidstr;
 
-
 	Neighbour(){}
 
 	Neighbour(EndpointID eid);

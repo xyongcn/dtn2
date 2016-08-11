@@ -140,6 +140,7 @@ GEOHISTORYDTN_SRCS :=				\
 	geohistorydtn/neighbour/NeighbourArea.cc			\
 	geohistorydtn/neighbour/Neighbour.cc			\
 	geohistorydtn/neighbour/NeighbourManager.cc			\
+	geohistorydtn/routing/GeoHistoryRouter.cc			\
 	geohistorydtn/config/FrequencyConfig.cc			\
 	geohistorydtn/config/NeighbourConfig.cc			\
 	geohistorydtn/config/HandleMydtnConfig.cc	

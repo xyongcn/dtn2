@@ -1,12 +1,15 @@
+#ifndef NEIGHBOUR_H_
+#define NEIGHBOUR_H_
 #include"Neighbour.h"
+#endif
 
 
 
-BOOST_CLASS_EXPORT_GUID(dtn::HourFrequencyVector, "HourFrequencyVector")
-BOOST_CLASS_EXPORT_GUID(dtn::MinuteFrequencyVector, "MinuteFrequencyVector")
-BOOST_CLASS_EXPORT_GUID(dtn::WeekFrequencyVector, "WeekFrequencyVector")
-BOOST_CLASS_EXPORT_GUID(dtn::MonthFrequencyVector, "MonthFrequencyVector")
-BOOST_CLASS_EXPORT_GUID(dtn::MonAftEveFrequencyVector, "MonAftEveFrequencyVector")
+//BOOST_CLASS_EXPORT_GUID(dtn::HourFrequencyVector, "HourFrequencyVector")
+//BOOST_CLASS_EXPORT_GUID(dtn::MinuteFrequencyVector, "MinuteFrequencyVector")
+//BOOST_CLASS_EXPORT_GUID(dtn::WeekFrequencyVector, "WeekFrequencyVector")
+//BOOST_CLASS_EXPORT_GUID(dtn::MonthFrequencyVector, "MonthFrequencyVector")
+//BOOST_CLASS_EXPORT_GUID(dtn::MonAftEveFrequencyVector, "MonAftEveFrequencyVector")
 
 namespace dtn
 {
@@ -54,8 +57,7 @@ namespace dtn
 			}
 
 		}
-
-			//生成该邻居的历史区域向量记录
+		//生成该邻居的历史区域向量记录
 		init();
 	}
 
@@ -89,7 +91,8 @@ namespace dtn
 			if(neighbourAreaFile)
 			{
 				geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"从文件historyarea中读取历史的区域信息");
-				neighbourArea->updateArea(neighbourAreaFile);
+				neighbourAreaFile.close();
+				neighbourArea->updateArea(file);
 			}
 			else
 			{
@@ -165,9 +168,11 @@ namespace dtn
 	*/
 	void Neighbour::addTimeCount()
 	{
+		int i=1;
 		for(list<FrequencyVector *>::iterator it=vectorlist.begin();
 			it!=vectorlist.end();++it)
 		{
+			cout<<i++;
 			FrequencyVector *v=*it;
 			TimeManager::GetInstance()->addVectorListen(v);
 		}

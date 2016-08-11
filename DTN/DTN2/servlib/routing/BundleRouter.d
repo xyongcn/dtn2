@@ -229,10 +229,12 @@ routing/BundleRouter.o routing/BundleRouter.E: routing/BundleRouter.cc \
  ../servlib/geohistorydtn/area/AreaLevel.h \
  ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h \
  ../servlib/geohistorydtn/config/FrequencyConfig.h \
+ ../servlib/geohistorydtn/routing/Object_RouteMessage.h \
  ../servlib/geohistorydtn/Log/GeohistoryLog.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
- ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h
+ ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h \
+ ../servlib/geohistorydtn/config/BundleConfig.h
 
 ../dtn-config.h:
 
@@ -790,6 +792,8 @@ routing/TcaControlBundle.h:
 
 ../servlib/geohistorydtn/config/FrequencyConfig.h:
 
+../servlib/geohistorydtn/routing/Object_RouteMessage.h:
+
 ../servlib/geohistorydtn/Log/GeohistoryLog.h:
 
 ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h:
@@ -797,3 +801,5 @@ routing/TcaControlBundle.h:
 ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h:
 
 ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h:
+
+../servlib/geohistorydtn/config/BundleConfig.h:

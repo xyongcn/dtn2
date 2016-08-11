@@ -45,7 +45,7 @@ public :
 		}
 		return -1;
 	}
-
+	const static int CurrentAreaLevelNum=3;
 	//最顶层
 	const static int MINLEVEL=FIRSTLEVEL;
 	//最底层

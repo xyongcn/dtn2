@@ -59,8 +59,9 @@ private:
 	 * @param eid
 	 * @param payload
 	 */
-	void init(string eid,BundlePayload payload);
+
 public:
+	void Payload_update(string eid,const BundlePayload *payload);
 	/**
 	 * 该邻居的区域向量记录
 	 */
@@ -82,7 +83,7 @@ public:
 	 * @throws StreamCorruptedException
 	 * @throws ClassNotFoundException
 	 */
-	void updateArea(fstream &payloadFile);
+	void updateArea(string fileroute);
 
 
 

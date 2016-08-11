@@ -1,10 +1,14 @@
 
 #include "servlib/routing/TableBasedRouter.h"
+
 #include<string>
 #include "servlib/geohistorydtn/routing/BlockingQueue.h"
 
+#ifndef NEIGHBOURMANAGER_H_
+#define NEIGHBOURMANAGER_H_
 #include"servlib/geohistorydtn/neighbour/NeighbourManager.h"
-
+#endif
+#include "servlib/geohistorydtn/config/BundleConfig.h"
 //#include <oasys/thread/Thread.h>
 //#include "geohistorydtn/questAreaInfo/QuestAreaInfo.h"
 
@@ -28,25 +32,58 @@ public:
 
 	//pthread_mutex_t areaInfoQueue_Mutex;
 	//queue<AreaInfo> areaInfoQueue;
-	BlockingQueue <AreaInfo> areaInfoQueue;
+	BlockingQueue <Object_RouteMessage*> areaInfoQueue;
+	GeohistoryLog *geohistoryLog;
 
 	GeoHistoryRouter()
 	:TableBasedRouter("GeoHistoryRouter", "geohistory"),
 	 Thread("GeoHistoryRouter", CREATE_JOINABLE)
 	{
+		expiration=BundleConfig::EXPIRATION_TIME;
 		baseArea=NULL;
 		areamanager=AreaManager::Getinstance();
+		geohistoryLog=GeohistoryLog::GetInstance();
 
 	}
 
 	virtual ~GeoHistoryRouter(){}
 
-	///////////////////////////处理区域问题
+	/////////////////////////处理link//////////
 
+private:
+	class SendBundleMsg:public Object_RouteMessage
+	{
+	public:
+		string dest_eid;
+		string fileroute;
+		bool rctp;
+		vector<int> areaid;
+		int bundleType;
+
+		SendBundleMsg(string dest_eid,string fileroute,bool rctp,vector<int> areaid,int bundleType)
+		{
+			this->dest_eid=dest_eid;
+			this->fileroute=fileroute;
+			this->rctp=rctp;
+			this->areaid=areaid;
+			this->bundleType=bundleType;
+		}
+	};
+protected:
+	void handle_link_created(LinkCreatedEvent *event);
+
+
+
+	void handle_contact_up(ContactUpEvent* event);
+	//针对收到要发送的bundle，需要转发的bundle，邻居交互信息的bundle的处理
+	void handle_bundle_received(BundleReceivedEvent* event);
+
+	///////////////////////////处理区域问题
+public:
 	Area *baseArea;
 	AreaManager *areamanager;
 
-	void movetoArea(AreaInfo areaInfo)
+	void movetoArea(AreaInfo *areaInfo)
 	{
 		areaInfoQueue.push(areaInfo);
 
@@ -109,8 +146,10 @@ public:
 	}
 
 
-	void handle_areamoving(AreaInfo areaInfo)
+	void handle_areamoving(AreaInfo *aInfo)
 	{
+		AreaInfo areaInfo=*aInfo;
+		delete aInfo;
 		if(isChangedArea(areaInfo))
 		{
 			//生成对应的Area
@@ -135,6 +174,16 @@ public:
 	}
 
 	///////////////////////////////////////////处理区域问题
+
+	/////////////////////////////////////////////处理bundle信息
+	unsigned int expiration; //=3600
+	bool sendMessage2(BundleRef b,string fileroute,dtn_endpoint_id_t source_eid);
+	bool sendMessage3(BundleRef b,size_t payload_len,char *filename,
+			 dtn_endpoint_id_t source_eid);
+	void handle_sendBundle(SendBundleMsg *sbm);
+	// u_char buffer[4096];
+	bool sendMessage(string dest_eid,string fileroute,bool rctp,vector<int> areaid,int bundleType);
+	///////////////////////////////////
 	void run()
 	{
 		while(true)
@@ -142,8 +191,19 @@ public:
 			//if(BundleDaemon::GetInstance()->shutting_down)
 			//	break;
 			cout<<"geohistoryrouter"<<endl;
-			AreaInfo a=areaInfoQueue.pop();
-			handle_areamoving(a);
+			Object_RouteMessage *o=areaInfoQueue.pop();
+			AreaInfo *areaInfo=dynamic_cast<AreaInfo *>(o);
+			if(areaInfo!=NULL)
+			{
+				handle_areamoving(areaInfo);
+				continue;
+			}
+			SendBundleMsg *sbm=dynamic_cast<SendBundleMsg *>(o);
+			if(sbm!=NULL)
+			{
+				handle_sendBundle(sbm);
+				continue;
+			}
 
 
 		sleep(2);

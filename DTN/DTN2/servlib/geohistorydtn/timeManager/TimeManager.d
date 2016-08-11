@@ -1,5 +1,9 @@
 geohistorydtn/timeManager/TimeManager.o geohistorydtn/timeManager/TimeManager.E: \
  geohistorydtn/timeManager/TimeManager.cc \
+ ../servlib/geohistorydtn/neighbour/NeighbourManager.h \
+ ../servlib/geohistorydtn/neighbour/Neighbour.h \
+ ../servlib/geohistorydtn/neighbour/NeighbourArea.h \
+ ../servlib/geohistorydtn/config/NeighbourConfig.h \
  ../servlib/geohistorydtn/area/AreaManager.h \
  ../servlib/geohistorydtn/area/Area.h \
  ../servlib/geohistorydtn/timeManager/TimeManager.h \
@@ -31,6 +35,7 @@ geohistorydtn/timeManager/TimeManager.o geohistorydtn/timeManager/TimeManager.E:
  ../servlib/geohistorydtn/area/AreaLevel.h \
  ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h \
  ../servlib/geohistorydtn/config/FrequencyConfig.h \
+ ../servlib/geohistorydtn/routing/Object_RouteMessage.h \
  ../servlib/geohistorydtn/Log/GeohistoryLog.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
@@ -147,6 +152,14 @@ geohistorydtn/timeManager/TimeManager.o geohistorydtn/timeManager/TimeManager.E:
  ../servlib/bundling/../reg/RegistrationTable.h \
  ../servlib/bundling/../reg/Registration.h
 
+../servlib/geohistorydtn/neighbour/NeighbourManager.h:
+
+../servlib/geohistorydtn/neighbour/Neighbour.h:
+
+../servlib/geohistorydtn/neighbour/NeighbourArea.h:
+
+../servlib/geohistorydtn/config/NeighbourConfig.h:
+
 ../servlib/geohistorydtn/area/AreaManager.h:
 
 ../servlib/geohistorydtn/area/Area.h:
@@ -208,6 +221,8 @@ geohistorydtn/timeManager/TimeManager.o geohistorydtn/timeManager/TimeManager.E:
 ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h:
 
 ../servlib/geohistorydtn/config/FrequencyConfig.h:
+
+../servlib/geohistorydtn/routing/Object_RouteMessage.h:
 
 ../servlib/geohistorydtn/Log/GeohistoryLog.h:
 

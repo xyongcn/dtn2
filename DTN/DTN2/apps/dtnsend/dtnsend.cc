@@ -326,7 +326,6 @@ main(int argc, char** argv)
                              bundle_spec.source.uri,
                              bundle_spec.creation_ts.secs,
                              bundle_spec.creation_ts.seqno);
-
         if ((ret = dtn_send(handle, regid, &bundle_spec, &send_payload,
                             &bundle_id)) != 0)
         {

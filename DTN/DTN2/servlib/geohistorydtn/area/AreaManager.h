@@ -42,6 +42,7 @@ class AreaManager
 private:
 
 	static const string tag;
+public:
 	static const string historyAreaFilePath;
 	static const string historyAreaMovingFilePath;
 
@@ -207,7 +208,7 @@ public:
 	void wrieteAreaInfoToFile()
 	{
 
-	//	lockHistoryAreaMovingFile();
+		lockHistoryAreaMovingFile();
 		cout<<"minute:wrieteAreaInfoToFile"<<endl;
 		fstream ofs;
 		ofs.open(historyAreaFilePath.c_str(),ios::trunc|ios::out);
@@ -222,7 +223,7 @@ public:
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s:更新完本地的移动记录文件",tag.c_str());
 		printAllAreaMoving();
 
-	//	unlockHistoryAreaMovingFile();
+		unlockHistoryAreaMovingFile();
 	}
 
 

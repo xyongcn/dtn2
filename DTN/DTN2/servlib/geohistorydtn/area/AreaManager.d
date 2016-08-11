@@ -30,6 +30,7 @@ geohistorydtn/area/AreaManager.o geohistorydtn/area/AreaManager.E: \
  ../servlib/geohistorydtn/area/AreaLevel.h \
  ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h \
  ../servlib/geohistorydtn/config/FrequencyConfig.h \
+ ../servlib/geohistorydtn/routing/Object_RouteMessage.h \
  ../servlib/geohistorydtn/Log/GeohistoryLog.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
@@ -207,6 +208,8 @@ geohistorydtn/area/Area.h:
 ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h:
 
 ../servlib/geohistorydtn/config/FrequencyConfig.h:
+
+../servlib/geohistorydtn/routing/Object_RouteMessage.h:
 
 ../servlib/geohistorydtn/Log/GeohistoryLog.h:
 

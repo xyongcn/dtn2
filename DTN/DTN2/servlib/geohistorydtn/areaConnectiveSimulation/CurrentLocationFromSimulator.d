@@ -149,10 +149,12 @@ geohistorydtn/areaConnectiveSimulation/CurrentLocationFromSimulator.o geohistory
  ../servlib/geohistorydtn/area/AreaLevel.h \
  ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h \
  ../servlib/geohistorydtn/config/FrequencyConfig.h \
+ ../servlib/geohistorydtn/routing/Object_RouteMessage.h \
  ../servlib/geohistorydtn/Log/GeohistoryLog.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
- ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h
+ ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h \
+ ../servlib/geohistorydtn/config/BundleConfig.h
 
 ../servlib/geohistorydtn/routing/GeoHistoryRouter.h:
 
@@ -486,6 +488,8 @@ geohistorydtn/areaConnectiveSimulation/CurrentLocationFromSimulator.o geohistory
 
 ../servlib/geohistorydtn/config/FrequencyConfig.h:
 
+../servlib/geohistorydtn/routing/Object_RouteMessage.h:
+
 ../servlib/geohistorydtn/Log/GeohistoryLog.h:
 
 ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h:
@@ -493,3 +497,5 @@ geohistorydtn/areaConnectiveSimulation/CurrentLocationFromSimulator.o geohistory
 ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h:
 
 ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h:
+
+../servlib/geohistorydtn/config/BundleConfig.h:

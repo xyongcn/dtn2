@@ -1,8 +1,12 @@
-#ifndef AREAMANAGER_H_
+/*#ifndef AREAMANAGER_H_
 #define AREAMANAGER_H_
 #include "servlib/geohistorydtn/area/AreaManager.h"
-#endif
+#endif*/
 
+#ifndef NEIGHBOURMANAGER_H_
+#define NEIGHBOURMANAGER_H_
+#include"servlib/geohistorydtn/neighbour/NeighbourManager.h"
+#endif
 
 namespace dtn{
 const string TimeManager::tag="TimeManager";
@@ -26,6 +30,7 @@ TimeManager * TimeManager::instance=NULL;
 		//测试使用,分钟尺度，并不应该进行衰减和写入Area的信息。
 		FrequencyVectorManager::Getinstance()->minuteAttenuation();
 		AreaManager::Getinstance()->wrieteAreaInfoToFile();
+		NeighbourManager::Getinstance()->printAllNeighbour();
 	}
 
 	//每小时需要触发的操作
@@ -49,7 +54,7 @@ TimeManager * TimeManager::instance=NULL;
 		AreaManager::Getinstance()->wrieteAreaInfoToFile();
 
 		//测试 将邻居的频率向量全部显示出来
-	//	NeighbourManager.getInstance().printAllNeighbour();
+	//	NeighbourManager::Getinstance()->printAllNeighbour();
 	}
 
 	//每星期需要出发的操作

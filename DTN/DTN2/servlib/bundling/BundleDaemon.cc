@@ -3106,12 +3106,10 @@ BundleDaemon::handle_event(BundleEvent* event, bool closeTransaction)
     
     if (! event->daemon_only_) {
         // dispatch the event to the router(s) and the contact manager
-        router_->handle_event(event);
+    	router_->handle_event(event);
         contactmgr_->handle_event(event);
     }
-
     event_handlers_completed(event);
-
     if (closeTransaction) {
         oasys::DurableStore* ds = oasys::DurableStore::instance();
         if ( ds->is_transaction_open() ) {

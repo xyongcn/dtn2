@@ -28,6 +28,7 @@ geohistorydtn/frequencyVector/FrequencyVectorManager.o geohistorydtn/frequencyVe
  ../servlib/geohistorydtn/area/AreaLevel.h \
  ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h \
  ../servlib/geohistorydtn/config/FrequencyConfig.h \
+ ../servlib/geohistorydtn/routing/Object_RouteMessage.h \
  ../servlib/geohistorydtn/Log/GeohistoryLog.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
@@ -199,6 +200,8 @@ geohistorydtn/frequencyVector/FrequencyVector.h:
 ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h:
 
 ../servlib/geohistorydtn/config/FrequencyConfig.h:
+
+../servlib/geohistorydtn/routing/Object_RouteMessage.h:
 
 ../servlib/geohistorydtn/Log/GeohistoryLog.h:
 

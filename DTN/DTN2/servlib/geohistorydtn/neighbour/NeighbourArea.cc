@@ -10,71 +10,151 @@ namespace dtn
 
 	void NeighbourArea::init()
 	{
+		string filename;
+		string temp=neighbourEID.str();
+		for(int i=0;i<temp.size();)
+		{
+			if(temp[i-1]=='/')
+			{
+				if(temp[i]=='/')
+				{
+					int pointnum=0;
+					for(int j=i+1;j<temp.size();++j)
+					{
+						string t;
+						stringstream stream;
+						stream << temp[j];
+						t= stream.str();
+						if(!strcmp(t.c_str(),"."))
+							pointnum++;
+						if(pointnum==4)
+							break;
+						filename.append(t);
+
+					}
+					break;
+				}
+			}
+			++i;
+		}
 		string directories;
 		string file;
 		directories.append(NeighbourConfig::NEIGHBOURAREAFILEDIR);
 		file.append(directories);
-		file.append(neighbourEID.str());
-		fstream neighbourAreaDir(directories.c_str());
+		file.append(filename);
+		fstream neighbourAreaDir;
+		neighbourAreaDir.open(directories.c_str(),ios::in);
+		//cout<<directories<<endl;
+		//cout<<file<<endl;
 
 		if (!neighbourAreaDir)
 		{
-			if(mkdir(directories.c_str(),S_IRWXU|S_IRWXG|S_IRWXO)==0)
-				cout<<"Folder creation success"<<endl;//文件夹创建成功
-			else
-				cout<<"Folder creation fail"<<endl;//can not make a dir;
-			return;
-		}
+			string Dir;
+			const char* c="/";
+			char *dir=new char[30];
+			strcpy(dir,directories.c_str());
+			char *Dirpart=strtok(dir,c);
+			Dir.append(Dirpart);
+			Dirpart=strtok(NULL,c);
+			while(Dirpart!=NULL)
+			{
+				Dir.append("/");
+				Dir.append(Dirpart);
+				fstream fdir(Dir.c_str());
+				if(!fdir)
+				{
+					if(mkdir(Dir.c_str(),S_IRWXU|S_IRWXG|S_IRWXO)==0)
+						cout<<Dir<<" Folder creation success"<<endl;//文件夹创建成功
+					else
+						cout<<Dir<<" Folder creation fail"<<endl;//can not make a dir;}
+				}
 
-		fstream neighbourAreaFile(file.c_str());
+				Dirpart=strtok(NULL,c);
+			}
+			neighbourAreaDir.close();
+			return;
+
+		}
+		neighbourAreaDir.close();
+
+		fstream neighbourAreaFile;
+		neighbourAreaFile.open(file.c_str(),ios::in);
 		if(neighbourAreaFile)
 		{
+			neighbourAreaFile.close();
 			geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"从文件historyarea中读取历史的区域信息");
-			updateArea(neighbourAreaFile);
+			updateArea(file);
+		}
+		else
+		{
+			neighbourAreaFile.close();
+			return;
 		}
 
 	}
 
 	/**
 	 * 利用收到邻居的区域信息的bundle来初始化本地的邻居历史区域信息
+	 * 将payload保存到文件中，再更新NeighbourArea
 	 * @param eid
 	 * @param payload
 	 */
-	void NeighbourArea::init(string eid,BundlePayload payload)
+	void NeighbourArea::Payload_update(string eid,const BundlePayload *payload)
 	{
 		if(!areaMap.empty())
 			areaMap.clear();
 
 		//将文件保存到本地
+
+		string filename;
+		string temp=neighbourEID.str();
+		for(int i=0;i<temp.size();)
+		{
+			if(temp[i-1]=='/')
+			{
+				if(temp[i]=='/')
+				{
+					int pointnum=0;
+					for(int j=i+1;j<temp.size();++j)
+					{
+						string t;
+						stringstream stream;
+						stream << temp[j];
+						t= stream.str();
+						if(!strcmp(t.c_str(),"."))
+							pointnum++;
+						if(pointnum==4)
+							break;
+						filename.append(t);
+
+					}
+					break;
+				}
+			}
+			++i;
+		}
 		string directories;
 		string file;
 		directories.append(NeighbourConfig::NEIGHBOURAREAFILEDIR);
 		file.append(directories);
-		file.append(neighbourEID.str());
-		fstream neighbourAreaDir(directories.c_str());
+		file.append(filename);
 
-		if (!neighbourAreaDir)
-		{
-			if(mkdir(directories.c_str(),S_IRWXU|S_IRWXG|S_IRWXO)==0)
-				cout<<"Folder creation success"<<endl;//文件夹创建成功
-			else
-				cout<<"Folder creation fail"<<endl;//can not make a dir;
-			return;
-		}
+		fstream neighAreaFile;
+		neighAreaFile.open(file.c_str(),ios::trunc|ios::out|ios::binary);//删除原来的记录，重新写
 
-		fstream neighAreaFile(file.c_str(),ios::trunc|ios::out|ios::binary);//删除原来的记录，重新写
 
 		//将邻居的区域记录保存到本地
 		//	GeohistoryLog.i(tag, String.format("将邻居（ %s）发来的payload里面的区域移动规律存储到文件中", eid));
 		//payload.copy_to_file(neighAreaFile);
 		//将payload读到一个字符流，再将字符流读到一个文件
-		int length=payload.length();
+		int length=payload->length();
 		u_char *buf=new u_char[length];
-		payload.read_data(0,length,buf);
+		payload->read_data(0,length,buf);
 
 		neighAreaFile.write((char *)buf,length);
-		updateArea(neighAreaFile);
 		neighAreaFile.close();
+		updateArea(file);
+
 	}
 
 	/**
@@ -102,14 +182,15 @@ namespace dtn
 	 * @throws StreamCorruptedException
 	 * @throws ClassNotFoundException
 	 */
-	void NeighbourArea::updateArea(fstream &payloadFile)
+	void NeighbourArea::updateArea(string fileroute)
 	{
+		fstream payloadFile(fileroute.c_str());
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s,利用payloadFile来更新内存中邻居的区域移动规律",tag.c_str());
 		//payloadFile.open(historyAreaFilePath.c_str(),ios::in);
 		//从文件中读取历史的区域信息
 		if (!payloadFile.is_open())
 		{
-			cout<< "Error opening file";
+			cout<<fileroute<<" Error opening file";
 			return;
 		}
 		boost::archive::text_iarchive ia(payloadFile);

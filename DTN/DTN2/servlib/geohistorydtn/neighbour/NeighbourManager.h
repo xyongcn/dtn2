@@ -4,9 +4,12 @@
  * 尚未完成：没有将当前邻居的频率向量加入到计时器中
  */
 #include<string>
-#include"Neighbour.h"
 #include<list>
 
+#ifndef NEIGHBOUR_H_
+#define NEIGHBOUR_H_
+#include"Neighbour.h"
+#endif
 
 namespace dtn{
 class NeighbourManager {
@@ -46,7 +49,7 @@ public:
 	/**
 	 * 将历史的邻居记录保存到文件中，以便下一次访问
 	 */
-	void saveHistoryNieghbour();
+	void saveHistoryNeighbour();
 
 
 

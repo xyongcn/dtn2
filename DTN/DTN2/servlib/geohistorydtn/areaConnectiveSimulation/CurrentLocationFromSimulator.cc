@@ -114,7 +114,7 @@ namespace dtn{
 			GeoHistoryRouter *geoHistoryRouter=dynamic_cast<GeoHistoryRouter *>(router);
 			if(geoHistoryRouter!=NULL)
 			{
-				AreaInfo areaInfo(areaLayerInfo);
+				AreaInfo *areaInfo=new AreaInfo(areaLayerInfo);
 				geoHistoryRouter->movetoArea(areaInfo);
 			}
 			//++num;

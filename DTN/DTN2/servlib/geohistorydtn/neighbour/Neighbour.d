@@ -33,6 +33,7 @@ geohistorydtn/neighbour/Neighbour.o geohistorydtn/neighbour/Neighbour.E: \
  ../servlib/geohistorydtn/area/AreaLevel.h \
  ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h \
  ../servlib/geohistorydtn/config/FrequencyConfig.h \
+ ../servlib/geohistorydtn/routing/Object_RouteMessage.h \
  ../servlib/geohistorydtn/Log/GeohistoryLog.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
@@ -216,6 +217,8 @@ geohistorydtn/neighbour/NeighbourArea.h:
 ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h:
 
 ../servlib/geohistorydtn/config/FrequencyConfig.h:
+
+../servlib/geohistorydtn/routing/Object_RouteMessage.h:
 
 ../servlib/geohistorydtn/Log/GeohistoryLog.h:
 

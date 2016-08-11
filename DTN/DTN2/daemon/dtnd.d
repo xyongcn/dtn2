@@ -147,10 +147,12 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
  ../servlib/geohistorydtn/area/AreaLevel.h \
  ../servlib/geohistorydtn/timeManager/CurrentTimeManager.h \
  ../servlib/geohistorydtn/config/FrequencyConfig.h \
+ ../servlib/geohistorydtn/routing/Object_RouteMessage.h \
  ../servlib/geohistorydtn/Log/GeohistoryLog.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h \
+ ../servlib/geohistorydtn/config/BundleConfig.h \
  ../servlib/geohistorydtn/config/HandleMydtnConfig.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/NetUtils.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h \
@@ -547,6 +549,8 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
 
 ../servlib/geohistorydtn/config/FrequencyConfig.h:
 
+../servlib/geohistorydtn/routing/Object_RouteMessage.h:
+
 ../servlib/geohistorydtn/Log/GeohistoryLog.h:
 
 ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h:
@@ -554,6 +558,8 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
 ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h:
 
 ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h:
+
+../servlib/geohistorydtn/config/BundleConfig.h:
 
 ../servlib/geohistorydtn/config/HandleMydtnConfig.h:
 
