@@ -1,0 +1,46 @@
+#!/bin/bash
+usage(){
+	echo "usage: `basename $0` ip-addrs"
+}
+IP=$1
+if [ $# -ne 1 ]; then
+        usage
+        exit 1
+fi
+
+
+#fbaodv config
+MESH_DEV="mesh_dev=adhoc0"
+
+AODV_NET="network_ip=$IP/255.255.255.0"
+GATEWAY="aodv_gateway=0"
+#METRIC="routing_metric=ETT"
+METRIC="routing_metric=HOPS"
+RATE="nominal_rate=60"
+COM_RADIUS="com_radius=300"
+echo "1" > /proc/sys/net/ipv4/ip_forward
+echo "Running AODV-MCC"
+rmmod fbaodv_ubuntu
+#echo "clean log!"
+#echo > /system/log
+if [ $adhoc0_join -eq 1 ];then
+	echo "insmod /system/fbaodv_ubuntu.ko $MESH_DEV $AODV_NET $METRIC $RATE $GATEWAY $COM_RADIUS aodv_blacklist=\"$aodvblacklist\" dtn_blacklist=\"$dtnblacklist\""
+
+	insmod ./fbaodv_ubuntu.ko $MESH_DEV $AODV_NET $METRIC $RATE $GATEWAY $COM_RADIUS aodv_blacklist="$aodvblacklist" dtn_blacklist="$dtnblacklist"
+fi
+
+
+
+
+MESH_DEV="mesh_dev=wlan0"
+
+AODV_NET="network_ip=$IP/255.255.255.0"
+GATEWAY="aodv_gateway=0"
+#METRIC="routing_metric=ETT"
+METRIC="routing_metric=HOPS"
+RATE="nominal_rate=60"
+echo "1" > /proc/sys/net/ipv4/ip_forward
+echo "Running AODV-MCC"
+rmmod fbaodv_nex
+insmod /data/adhoc/fbaodv_nex.ko $MESH_DEV $AODV_NET $METRIC $RATE $GATEWAY aodv_blacklist="192.168.1.3","192.168.1.7","192.168.1.8","192.168.1.9","192.168.1.10" dtn_blacklist="192.168.1.3","192.168.1.7","192.168.1.8","192.168.1.9","192.168.1.10"
+

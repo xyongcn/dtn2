@@ -48,6 +48,7 @@
 #include "storage/RegistrationStore.h"
 #include "storage/LinkStore.h"
 #include "bundling/S10Logger.h"
+#include "applib/APIServer.h"
 
 #ifdef BSP_ENABLED
 #  include "security/Ciphersuite.h"

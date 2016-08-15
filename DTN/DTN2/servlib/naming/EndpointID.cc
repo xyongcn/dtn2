@@ -173,6 +173,7 @@ EndpointID::assign(const dtn_endpoint_id_t* eid)
     uri_.assign(std::string(eid->uri));
     return validate();
 }
+
     
 //----------------------------------------------------------------------
 void

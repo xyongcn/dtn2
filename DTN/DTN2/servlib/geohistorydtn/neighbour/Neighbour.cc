@@ -172,7 +172,6 @@ namespace dtn
 		for(list<FrequencyVector *>::iterator it=vectorlist.begin();
 			it!=vectorlist.end();++it)
 		{
-			cout<<i++;
 			FrequencyVector *v=*it;
 			TimeManager::GetInstance()->addVectorListen(v);
 		}

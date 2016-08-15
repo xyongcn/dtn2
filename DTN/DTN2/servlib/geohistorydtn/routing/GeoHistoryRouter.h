@@ -9,6 +9,9 @@
 #include"servlib/geohistorydtn/neighbour/NeighbourManager.h"
 #endif
 #include "servlib/geohistorydtn/config/BundleConfig.h"
+
+
+#include "applib/APIServer.h"
 //#include <oasys/thread/Thread.h>
 //#include "geohistorydtn/questAreaInfo/QuestAreaInfo.h"
 
@@ -16,8 +19,6 @@
 //#define AREA_H_
 //#include "geohistorydtn/area/Area.h"
 //#endif
-
-
 
 using namespace std;
 using namespace oasys;
@@ -34,17 +35,8 @@ public:
 	//queue<AreaInfo> areaInfoQueue;
 	BlockingQueue <Object_RouteMessage*> areaInfoQueue;
 	GeohistoryLog *geohistoryLog;
-
-	GeoHistoryRouter()
-	:TableBasedRouter("GeoHistoryRouter", "geohistory"),
-	 Thread("GeoHistoryRouter", CREATE_JOINABLE)
-	{
-		expiration=BundleConfig::EXPIRATION_TIME;
-		baseArea=NULL;
-		areamanager=AreaManager::Getinstance();
-		geohistoryLog=GeohistoryLog::GetInstance();
-
-	}
+	//APIServer *api;
+	GeoHistoryRouter();
 
 	virtual ~GeoHistoryRouter(){}
 
@@ -76,7 +68,7 @@ protected:
 
 	void handle_contact_up(ContactUpEvent* event);
 	//针对收到要发送的bundle，需要转发的bundle，邻居交互信息的bundle的处理
-	void handle_bundle_received(BundleReceivedEvent* event);
+	//void handle_bundle_received(BundleReceivedEvent* event);
 
 	///////////////////////////处理区域问题
 public:
@@ -177,9 +169,9 @@ public:
 
 	/////////////////////////////////////////////处理bundle信息
 	unsigned int expiration; //=3600
-	bool sendMessage2(BundleRef b,string fileroute,dtn_endpoint_id_t source_eid);
+	bool sendMessage2(BundleRef b,string fileroute,string source);
 	bool sendMessage3(BundleRef b,size_t payload_len,char *filename,
-			 dtn_endpoint_id_t source_eid);
+			 string source_eid);
 	void handle_sendBundle(SendBundleMsg *sbm);
 	// u_char buffer[4096];
 	bool sendMessage(string dest_eid,string fileroute,bool rctp,vector<int> areaid,int bundleType);

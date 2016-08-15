@@ -234,7 +234,17 @@ routing/BundleRouter.o routing/BundleRouter.E: routing/BundleRouter.cc \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h \
- ../servlib/geohistorydtn/config/BundleConfig.h
+ ../servlib/geohistorydtn/config/BundleConfig.h ../applib/APIServer.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPClient.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPClient.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPSocket.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../debug/Log.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPServer.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../thread/Thread.h \
+ ../applib/dtn_api.h ../applib/dtn_errno.h ../applib/dtn_types.h \
+ ../applib/dtn_ipc.h
 
 ../dtn-config.h:
 
@@ -803,3 +813,29 @@ routing/TcaControlBundle.h:
 ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h:
 
 ../servlib/geohistorydtn/config/BundleConfig.h:
+
+../applib/APIServer.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPClient.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPClient.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPSocket.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../debug/Log.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPServer.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../thread/Thread.h:
+
+../applib/dtn_api.h:
+
+../applib/dtn_errno.h:
+
+../applib/dtn_types.h:
+
+../applib/dtn_ipc.h:

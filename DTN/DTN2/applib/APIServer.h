@@ -136,6 +136,8 @@ protected:
     APIServer* parent_;
     size_t total_sent_;
     size_t total_rcvd_;
+public:
+    int handle_send2(std::string dest_eid,std::string fileroute,bool rctp,int bundleType,unsigned int expiration);
 };
 
 

@@ -3683,3 +3683,650 @@ INFO:请求经纬度和分层信息线程开始
 INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
 INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
 INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,-0.002555
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,0.002546
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.002286
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.002030
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.001770
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.001509
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.001254
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.001002
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.000755
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.000498
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.000241
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:获取请求到的经纬度信息:116.306700,-0.000003
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000258
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000509
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000762
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.001018
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,0.003137
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,0.001620
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,-0.002304
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.303137,-0.003403
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.303137,-0.002886
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303137,-0.002634
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303137,-0.002377
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303137,-0.002119
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303137,-0.001862
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303137,-0.001610
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303137,-0.001364
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,0.000348
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.000099
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,-0.000153
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000403
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000657
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000916
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.001163
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.001416
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,0.002660
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.002399
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.002146
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.001888
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.001625
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.001365
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.001114
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.000865
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.000611
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.000354
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,0.000105
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 231314
+INFO:获取请求到的经纬度信息:116.306700,-0.000148
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000398
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000653
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.000911
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.001158
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.001410
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.001677
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.001939
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.002196
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:获取请求到的经纬度信息:116.306700,-0.002450
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.002707
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.002956
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.003222
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306700,-0.003476
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306562,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306309,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.306049,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.305795,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.305544,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.305293,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.305039,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 1413910
+INFO:获取请求到的经纬度信息:116.304792,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.304536,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.304284,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.304030,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303776,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303517,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303264,-0.003602
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:获取请求到的经纬度信息:116.303137,-0.003467
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:获取请求到的经纬度信息:116.303137,-0.003213
+INFO:分层信息(由最顶层到最底层): 15711 , 13911 , 12141011
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All hour Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All monafteve Frequency Vector Attenuation
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All hour Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件

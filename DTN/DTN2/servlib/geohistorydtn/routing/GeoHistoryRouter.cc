@@ -2,15 +2,27 @@
 #include "servlib/routing/RouteEntry.h"
 #include "servlib/routing/RouteTable.h"
 //#include "applib/dtn_api.h"
-#include "applib/APIServer.h"
+
 #include "sys/types.h"
 
 
 namespace dtn
 {
 
+GeoHistoryRouter::GeoHistoryRouter()
+:TableBasedRouter("GeoHistoryRouter", "geohistory"),
+ Thread("GeoHistoryRouter", CREATE_JOINABLE)
+{
+	expiration=BundleConfig::EXPIRATION_TIME;
+	baseArea=NULL;
+	areamanager=AreaManager::Getinstance();
+	geohistoryLog=GeohistoryLog::GetInstance();
+
+}
+
+
 //////////////////针对收到要发送的bundle，需要转发的bundle，邻居交互信息的bundle的处理
-	void GeoHistoryRouter::handle_bundle_received(BundleReceivedEvent *event)
+	/*void GeoHistoryRouter::handle_bundle_received(BundleReceivedEvent *event)
 	{
 		cout<< "GeohistoryRouter收到一个BundleReceivedEvent"<<endl;
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"GeohistoryRouter 收到一个 BundleReceivedEvent");
@@ -19,7 +31,7 @@ namespace dtn
 		 * 利用creation_ts和DTNTime.TIMEVAL_CONVERSION即可得到bundle创建时的真实时间
 		 * bundle的expirionTime则是指bundle的有效时间
 		 * bundle之间
-		 */
+		 *
 		if(event->bundleref_.object()->getBundleType()==Bundle::NEI_AREA_BUNDLE)
 		{
 			//自己想邻居发送的交换历史区域的bundle
@@ -95,7 +107,7 @@ namespace dtn
 	   }
 
 
-	}
+	}*/
 
 /////////////////////////处理link//////////
 	void GeoHistoryRouter::handle_link_created(LinkCreatedEvent *event) {
@@ -185,7 +197,7 @@ namespace dtn
 	void GeoHistoryRouter::handle_sendBundle(SendBundleMsg *msg)
 	{
 
-		bool f=sendMessage(msg->dest_eid, msg->fileroute, msg->rctp, msg->areaid, msg->bundleType);
+		bool f=sendMessage(msg->dest_eid, msg->fileroute, msg->rctp,msg->areaid,msg->bundleType);
 		if(f)
 			cout<<"send successfully!"<<endl;
 		else
@@ -227,10 +239,10 @@ namespace dtn
 
 		//由APIServer的成员函数handle_send()修改
 
-	    BundleRef b("APIClient::handle_send");
+		BundleRef b("GeoHistoryRouter::handle_send");
 	    b = new Bundle();
 
-	    if(bundleType==Bundle::DATA_BUNDLE)
+	      if(bundleType==Bundle::DATA_BUNDLE)
 	    {
 	    	b->setAreaSize(AreaLevel::CurrentAreaLevelNum);
 	    	int i=1;
@@ -248,26 +260,14 @@ namespace dtn
 		b->setIsFlooding(0);
 		b->setBundleType(bundleType);
 
-	    dtn_endpoint_id_t* source_eid;
-	    dtn_endpoint_id_t* destination_eid;
 
-	    BundleDaemon *daemon=BundleDaemon::GetInstance();
-	    const char *source=daemon->local_eid().str().c_str();
-	    size_t len1;
 
-	    len1 = strlen(source) + 1;
-	    memcpy(&source_eid->uri[0], source, len1);
-	    b->mutable_source()->assign(source_eid);
+		string source=BundleDaemon::GetInstance()->local_eid().str();
+		b->mutable_source()->assign(source);
+		b->mutable_dest()->assign(dest_eid);
 
-	    const char *destination=dest_eid.c_str();
-		size_t len2;
-		len2 = strlen(destination) + 1;
-		memcpy(&destination_eid->uri[0], destination, len2);
-	    b->mutable_dest()->assign(destination_eid);
-
-	    b->mutable_replyto()->assign(source_eid);
+	    b->mutable_replyto()->assign(source);
 	    b->mutable_custodian()->assign(EndpointID::NULL_EID());
-
 
 	    EndpointID::singleton_info_t info;
 
@@ -286,9 +286,6 @@ namespace dtn
 	    switch (info)
 	    {
 	        case EndpointID::UNKNOWN:
-	           log_err("bundle destination %s in unknown scheme and "
-	                        "app did not assert singleton/multipoint",
-	                        b->dest().c_str());
 	           return false;
 
 	         case EndpointID::SINGLETON:
@@ -299,12 +296,12 @@ namespace dtn
 	             b->set_singleton_dest(false);
 	             break;
 	    }
-	    if(sendMessage2(b,fileroute,*source_eid))
+	   if(sendMessage2(b,fileroute,source))
 	    	return true;
 	    else
 	    	return false;
 	 }
-	 bool GeoHistoryRouter::sendMessage2(BundleRef b,string fileroute,dtn_endpoint_id_t source_eid)
+	 bool GeoHistoryRouter::sendMessage2(BundleRef b,string fileroute,string source)
 	 {
 	    dtn_bundle_priority_t priority = COS_NORMAL;
 
@@ -396,7 +393,7 @@ namespace dtn
 	    b->mutable_payload()->set_length(payload_len);
 
 
-	    if(sendMessage3(b,payload_len,filename,source_eid))
+	    if(sendMessage3(b,payload_len,filename,source))
 	    	return true;
 	    else
 	    	return false;
@@ -404,7 +401,7 @@ namespace dtn
 	}
 
 	bool GeoHistoryRouter::sendMessage3(BundleRef b,size_t payload_len,char *filename,
-			 	 	 	 	 	 	 	 dtn_endpoint_id_t source_eid)
+			 	 	 	 	 	 	 	 string source)
 	{
         FILE* file;
         int r, left;
@@ -442,13 +439,13 @@ namespace dtn
          AreaManager::Getinstance()->unlockHistoryAreaMovingFile();//锁住文件的读写
        	 delete buffer;
 
-       	 dtn_bundle_id_t id;
-       	 memcpy(&id.source, &source_eid, sizeof(dtn_endpoint_id_t));
+       /*	 dtn_bundle_id_t id;
+       	 memcpy(&id.source, source.c_str(), sizeof(dtn_endpoint_id_t));
 
        	 id.creation_ts.secs  = b->creation_ts().seconds_;
        	 id.creation_ts.seqno = b->creation_ts().seqno_;
        	 id.frag_offset = 0;
-       	 id.orig_length = 0;
+       	 id.orig_length = 0;*/
 
        	 log_info("DTN_SEND bundle *%p", b.object());
 

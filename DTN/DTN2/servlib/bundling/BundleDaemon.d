@@ -190,7 +190,17 @@ bundling/BundleDaemon.o bundling/BundleDaemon.E: bundling/BundleDaemon.cc \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/storage/StoreDetail.h \
  ../servlib/bundling/Bundle.h ../servlib/bundling/BPQBlock.h \
  ../servlib/storage/RegistrationStore.h ../servlib/storage/LinkStore.h \
- ../servlib/bundling/S10Logger.h
+ ../servlib/bundling/S10Logger.h ../applib/APIServer.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPClient.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPClient.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPSocket.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../debug/Log.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPServer.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../thread/Thread.h \
+ ../applib/dtn_api.h ../applib/dtn_errno.h ../applib/dtn_types.h \
+ ../applib/dtn_ipc.h
 
 ../dtn-config.h:
 
@@ -643,3 +653,29 @@ bundling/FragmentManager.h:
 ../servlib/storage/LinkStore.h:
 
 ../servlib/bundling/S10Logger.h:
+
+../applib/APIServer.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPClient.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPClient.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPSocket.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../debug/Log.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPServer.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../thread/Thread.h:
+
+../applib/dtn_api.h:
+
+../applib/dtn_errno.h:
+
+../applib/dtn_types.h:
+
+../applib/dtn_ipc.h:

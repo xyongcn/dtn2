@@ -45,7 +45,7 @@ private:
 	:Thread("CurrentLocation", CREATE_JOINABLE)
 	{
 			shutdown_flag=false;
-		// init 10003
+		// init 10005
 			geohistoryLog=GeohistoryLog::GetInstance();
 			bzero(&servaddr_query, sizeof(servaddr_query));
 			servaddr_query.sin_family = AF_INET;
@@ -62,7 +62,7 @@ private:
 				exit(1);
 			 }*/
 
-			//bind 10004
+			//bind 10006
 			bzero(&servaddr_reply, sizeof(servaddr_reply));
 			servaddr_reply.sin_family = AF_INET;
 			servaddr_reply.sin_addr.s_addr = htonl(INADDR_ANY);
@@ -78,8 +78,8 @@ private:
 	}
 
 public:
-	static const int QUERY_LOCATION_PORT = 10003;//Realsimulator绑定
-	static const int REPLY_LOCATION_PORT = 10004;//该程序绑定
+	static const int QUERY_LOCATION_PORT = 10005;//Realsimulator绑定
+	static const int REPLY_LOCATION_PORT = 10006;//该程序绑定
 	struct sockaddr_in servaddr_query;
 	struct sockaddr_in servaddr_reply;
 	struct sockaddr_in cliaddr_reply;

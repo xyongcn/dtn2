@@ -152,10 +152,18 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/LocationHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/IpHelper.h \
  ../servlib/geohistorydtn/areaConnectiveSimulation/ByteHelper.h \
- ../servlib/geohistorydtn/config/BundleConfig.h \
- ../servlib/geohistorydtn/config/HandleMydtnConfig.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/NetUtils.h \
+ ../servlib/geohistorydtn/config/BundleConfig.h ../applib/APIServer.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPClient.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPClient.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPSocket.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../debug/Log.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPServer.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../thread/Thread.h \
+ ../applib/dtn_api.h ../applib/dtn_errno.h ../applib/dtn_types.h \
+ ../applib/dtn_ipc.h ../servlib/geohistorydtn/config/HandleMydtnConfig.h \
+ /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/NetUtils.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/tclcmd/ConsoleCommand.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/tclcmd/TclCommand.h \
  /opt/tcl/include/tcl.h /opt/tcl/include/tclDecls.h \
@@ -173,16 +181,7 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/util/../util/Getopt.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/util/../util/Options.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/util/Getopt.h \
- ../applib/APIServer.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPClient.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPClient.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPSocket.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../debug/Log.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPServer.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../thread/Thread.h \
- ../applib/dtn_api.h ../applib/dtn_errno.h ../applib/dtn_types.h \
- ../applib/dtn_ipc.h ../servlib/cmd/TestCommand.h ../servlib/DTNServer.h \
+ ../servlib/cmd/TestCommand.h ../servlib/DTNServer.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/thread/Atomic.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/storage/DurableStore.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/storage/../debug/Log.h \
@@ -561,11 +560,35 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
 
 ../servlib/geohistorydtn/config/BundleConfig.h:
 
+../applib/APIServer.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPClient.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPClient.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPSocket.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../debug/Log.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPServer.h:
+
+/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../thread/Thread.h:
+
+../applib/dtn_api.h:
+
+../applib/dtn_errno.h:
+
+../applib/dtn_types.h:
+
+../applib/dtn_ipc.h:
+
 ../servlib/geohistorydtn/config/HandleMydtnConfig.h:
 
 /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/NetUtils.h:
-
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../compat/inttypes.h:
 
 /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/tclcmd/ConsoleCommand.h:
 
@@ -602,30 +625,6 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
 /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/util/../util/Options.h:
 
 /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/util/Getopt.h:
-
-../applib/APIServer.h:
-
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h:
-
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPClient.h:
-
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPClient.h:
-
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/IPSocket.h:
-
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../debug/Log.h:
-
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/TCPServer.h:
-
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/io/../thread/Thread.h:
-
-../applib/dtn_api.h:
-
-../applib/dtn_errno.h:
-
-../applib/dtn_types.h:
-
-../applib/dtn_ipc.h:
 
 ../servlib/cmd/TestCommand.h:
 

@@ -40,7 +40,7 @@
 #include <oasys/util/Getopt.h>
 #include <oasys/util/StringBuffer.h>
 
-#include "applib/APIServer.h"
+//#include "applib/APIServer.h"
 #include "cmd/TestCommand.h"
 #include "servlib/DTNServer.h"
 #include "storage/DTNStorageConfig.h"
@@ -263,8 +263,6 @@ DTND::main(int argc, char* argv[])
     location->start();
     TimeManager *timemanager=TimeManager::GetInstance();
      timemanager->start();
-
-
     oasys::Thread::release_start_barrier(); // run blocked threads
 
     // if the test script specified something to run for the test,
