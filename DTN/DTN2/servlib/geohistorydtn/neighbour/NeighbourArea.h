@@ -61,7 +61,7 @@ private:
 	 */
 
 public:
-	void Payload_update(string eid,const BundlePayload *payload);
+	void Payload_update(string eid,const BundlePayload &payload);
 	/**
 	 * 该邻居的区域向量记录
 	 */

@@ -60,9 +60,8 @@ Bundle::init(u_int32_t id)
     freed_          = false;
 
     //add by gaorui
-    areaid=new int[13];
-    for(int i=0;i<12;++i)
-       	areaid=0;
+    for(int i=0;i<13;++i)
+       	areaid[i]=0;
     areasize=0;
     deliverBundleNum=0;
     floodBundleNum=0;

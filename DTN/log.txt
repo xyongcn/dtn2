@@ -1,0 +1,1422 @@
+[    0.427569] pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+[    0.428737] pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+[    0.429132] pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+[    0.430286] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+[    0.430702] pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+[    0.431866] pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+[    0.432812] pci 0000:00:01.0: PCI bridge to [bus 01-01]
+[    0.433301] pci 0000:02:00.0: [15ad:0774] type 00 class 0x0c0300
+[    0.435571] pci 0000:02:00.0: reg 20: [io  0x20c0-0x20df]
+[    0.436651] pci 0000:02:01.0: [1022:2000] type 00 class 0x020000
+[    0.437123] pci 0000:02:01.0: reg 10: [io  0x2000-0x207f]
+[    0.439744] pci 0000:02:01.0: reg 30: [mem 0x00000000-0x0000ffff pref]
+[    0.439951] pci 0000:02:02.0: [1274:1371] type 00 class 0x040100
+[    0.440533] pci 0000:02:02.0: reg 10: [io  0x2080-0x20bf]
+[    0.443914] pci 0000:02:03.0: [15ad:0770] type 00 class 0x0c0320
+[    0.444357] pci 0000:02:03.0: reg 10: [mem 0xfd5ff000-0xfd5fffff]
+[    0.447227] pci 0000:02:05.0: [15ad:07e0] type 00 class 0x010601
+[    0.449686] pci 0000:02:05.0: reg 24: [mem 0xfd5fe000-0xfd5fefff]
+[    0.450056] pci 0000:02:05.0: reg 30: [mem 0x00000000-0x0000ffff pref]
+[    0.450636] pci 0000:02:05.0: PME# supported from D3hot
+[    0.451212] pci 0000:00:11.0: PCI bridge to [bus 02-02] (subtractive decode)
+[    0.451247] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+[    0.451283] pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+[    0.451350] pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[    0.451353] pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff] (subtractive decode)
+[    0.451356] pci 0000:00:11.0:   bridge window [mem 0x000d0000-0x000d3fff] (subtractive decode)
+[    0.451358] pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000d7fff] (subtractive decode)
+[    0.451361] pci 0000:00:11.0:   bridge window [mem 0x000d8000-0x000dbfff] (subtractive decode)
+[    0.451363] pci 0000:00:11.0:   bridge window [mem 0xc0000000-0xfebfffff] (subtractive decode)
+[    0.451366] pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7] (subtractive decode)
+[    0.451368] pci 0000:00:11.0:   bridge window [io  0x0d00-0xfeff] (subtractive decode)
+[    0.452116] pci 0000:00:15.0: PCI bridge to [bus 03-03]
+[    0.452152] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+[    0.452187] pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+[    0.452254] pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+[    0.452986] pci 0000:00:15.1: PCI bridge to [bus 04-04]
+[    0.453021] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+[    0.453056] pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+[    0.453123] pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+[    0.453848] pci 0000:00:15.2: PCI bridge to [bus 05-05]
+[    0.453883] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+[    0.453918] pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+[    0.453985] pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+[    0.454829] pci 0000:00:15.3: PCI bridge to [bus 06-06]
+[    0.454896] pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+[    0.454963] pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+[    0.455720] pci 0000:00:15.4: PCI bridge to [bus 07-07]
+[    0.455786] pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+[    0.455853] pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+[    0.456581] pci 0000:00:15.5: PCI bridge to [bus 08-08]
+[    0.456647] pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+[    0.456714] pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+[    0.457438] pci 0000:00:15.6: PCI bridge to [bus 09-09]
+[    0.457505] pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+[    0.457571] pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+[    0.458309] pci 0000:00:15.7: PCI bridge to [bus 0a-0a]
+[    0.458376] pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+[    0.458442] pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+[    0.459169] pci 0000:00:16.0: PCI bridge to [bus 0b-0b]
+[    0.459204] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+[    0.459239] pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+[    0.459306] pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+[    0.460043] pci 0000:00:16.1: PCI bridge to [bus 0c-0c]
+[    0.460078] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+[    0.460113] pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+[    0.460180] pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+[    0.460923] pci 0000:00:16.2: PCI bridge to [bus 0d-0d]
+[    0.460958] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+[    0.460994] pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+[    0.461061] pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+[    0.461788] pci 0000:00:16.3: PCI bridge to [bus 0e-0e]
+[    0.461855] pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+[    0.461922] pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[    0.462646] pci 0000:00:16.4: PCI bridge to [bus 0f-0f]
+[    0.462712] pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+[    0.462779] pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+[    0.463516] pci 0000:00:16.5: PCI bridge to [bus 10-10]
+[    0.463583] pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+[    0.463650] pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+[    0.464375] pci 0000:00:16.6: PCI bridge to [bus 11-11]
+[    0.464444] pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[    0.464511] pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+[    0.465236] pci 0000:00:16.7: PCI bridge to [bus 12-12]
+[    0.465302] pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+[    0.465370] pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[    0.466095] pci 0000:00:17.0: PCI bridge to [bus 13-13]
+[    0.466130] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+[    0.466165] pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+[    0.466232] pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+[    0.466957] pci 0000:00:17.1: PCI bridge to [bus 14-14]
+[    0.466992] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+[    0.467027] pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+[    0.467093] pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+[    0.467833] pci 0000:00:17.2: PCI bridge to [bus 15-15]
+[    0.467869] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+[    0.467905] pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+[    0.467971] pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+[    0.468697] pci 0000:00:17.3: PCI bridge to [bus 16-16]
+[    0.468763] pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+[    0.468830] pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[    0.469555] pci 0000:00:17.4: PCI bridge to [bus 17-17]
+[    0.469621] pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+[    0.469688] pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+[    0.470416] pci 0000:00:17.5: PCI bridge to [bus 18-18]
+[    0.470482] pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+[    0.470549] pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+[    0.471274] pci 0000:00:17.6: PCI bridge to [bus 19-19]
+[    0.471340] pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+[    0.471407] pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+[    0.472145] pci 0000:00:17.7: PCI bridge to [bus 1a-1a]
+[    0.472211] pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+[    0.472278] pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[    0.473005] pci 0000:00:18.0: PCI bridge to [bus 1b-1b]
+[    0.473040] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+[    0.473075] pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+[    0.473142] pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+[    0.473868] pci 0000:00:18.1: PCI bridge to [bus 1c-1c]
+[    0.473903] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+[    0.473938] pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+[    0.474005] pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+[    0.474730] pci 0000:00:18.2: PCI bridge to [bus 1d-1d]
+[    0.474796] pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+[    0.474862] pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[    0.475612] pci 0000:00:18.3: PCI bridge to [bus 1e-1e]
+[    0.475679] pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+[    0.475745] pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[    0.476472] pci 0000:00:18.4: PCI bridge to [bus 1f-1f]
+[    0.476538] pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+[    0.476605] pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+[    0.477330] pci 0000:00:18.5: PCI bridge to [bus 20-20]
+[    0.477396] pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+[    0.477463] pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+[    0.478188] pci 0000:00:18.6: PCI bridge to [bus 21-21]
+[    0.478255] pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+[    0.478321] pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[    0.479047] pci 0000:00:18.7: PCI bridge to [bus 22-22]
+[    0.479113] pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+[    0.479180] pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+[    0.482539] pci_bus 0000:00: on NUMA node 0
+[    0.482549] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+[    0.483805]  pci0000:00: Requesting ACPI _OSC control (0x1d)
+[    0.484261]  pci0000:00: ACPI _OSC control (0x15) granted
+[    0.625459] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 *9 10 11 14 15)
+[    0.625563] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 9 10 *11 14 15)
+[    0.625660] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 9 *10 11 14 15)
+[    0.625755] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 *5 6 7 9 10 11 14 15)
+[    0.625978] vgaarb: device added: PCI:0000:00:0f.0,decodes=io+mem,owns=io+mem,locks=none
+[    0.625995] vgaarb: loaded
+[    0.625996] vgaarb: bridge control possible 0000:00:0f.0
+[    0.626672] SCSI subsystem initialized
+[    0.626764] libata version 3.00 loaded.
+[    0.626788] ACPI: bus type usb registered
+[    0.626811] usbcore: registered new interface driver usbfs
+[    0.626820] usbcore: registered new interface driver hub
+[    0.626918] usbcore: registered new device driver usb
+[    0.627176] PCI: Using ACPI for IRQ routing
+[    0.667642] PCI: pci_cache_line_size set to 64 bytes
+[    0.669102] e820: reserve RAM buffer [mem 0x0009ec00-0x0009ffff]
+[    0.669105] e820: reserve RAM buffer [mem 0x7fee0000-0x7fffffff]
+[    0.669273] NetLabel: Initializing
+[    0.669275] NetLabel:  domain hash size = 128
+[    0.669276] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.669286] NetLabel:  unlabeled traffic allowed by default
+[    0.669561] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[    0.669574] hpet0: 16 comparators, 64-bit 14.318180 MHz counter
+[    0.672720] Switching to clocksource hpet
+[    0.694651] AppArmor: AppArmor Filesystem Enabled
+[    0.694679] pnp: PnP ACPI init
+[    0.694696] ACPI: bus type pnp registered
+[    0.695689] pnp 00:00: [bus 00-7f]
+[    0.695693] pnp 00:00: [mem 0x000a0000-0x000bffff window]
+[    0.695695] pnp 00:00: [mem 0x000c0000-0x000c3fff window]
+[    0.695697] pnp 00:00: [mem 0x000c4000-0x000c7fff window]
+[    0.695699] pnp 00:00: [mem 0x000c8000-0x000cbfff window]
+[    0.695701] pnp 00:00: [mem 0x000cc000-0x000cffff window]
+[    0.695703] pnp 00:00: [mem 0x000d0000-0x000d3fff window]
+[    0.695705] pnp 00:00: [mem 0x000d4000-0x000d7fff window]
+[    0.695708] pnp 00:00: [mem 0x000d8000-0x000dbfff window]
+[    0.695710] pnp 00:00: [mem 0x000dc000-0x000dffff window]
+[    0.695712] pnp 00:00: [mem 0x000e0000-0x000e3fff window]
+[    0.695714] pnp 00:00: [mem 0x000e4000-0x000e7fff window]
+[    0.695716] pnp 00:00: [mem 0x000e8000-0x000ebfff window]
+[    0.695718] pnp 00:00: [mem 0x000ec000-0x000effff window]
+[    0.695720] pnp 00:00: [mem 0xc0000000-0xfebfffff window]
+[    0.695723] pnp 00:00: [io  0x0cf8-0x0cff]
+[    0.695725] pnp 00:00: [io  0x0000-0x0cf7 window]
+[    0.695727] pnp 00:00: [io  0x0d00-0xfeff window]
+[    0.695811] pnp 00:00: Plug and Play ACPI device, IDs PNP0a03 PNP0a08 (active)
+[    0.695938] pnp 00:01: [io  0x0010-0x001f]
+[    0.695941] pnp 00:01: [io  0x0024-0x0025]
+[    0.695943] pnp 00:01: [io  0x0028-0x0029]
+[    0.695945] pnp 00:01: [io  0x002c-0x002d]
+[    0.695947] pnp 00:01: [io  0x002e-0x002f]
+[    0.695948] pnp 00:01: [io  0x0030-0x0031]
+[    0.695950] pnp 00:01: [io  0x0034-0x0035]
+[    0.695952] pnp 00:01: [io  0x0038-0x0039]
+[    0.695954] pnp 00:01: [io  0x003c-0x003d]
+[    0.695956] pnp 00:01: [io  0x0050-0x0053]
+[    0.695958] pnp 00:01: [io  0x0072-0x0077]
+[    0.695960] pnp 00:01: [io  0x0080]
+[    0.695962] pnp 00:01: [io  0x0090-0x009f]
+[    0.695963] pnp 00:01: [io  0x00a4-0x00a5]
+[    0.695965] pnp 00:01: [io  0x00a8-0x00a9]
+[    0.695967] pnp 00:01: [io  0x00ac-0x00ad]
+[    0.695969] pnp 00:01: [io  0x00b0-0x00b5]
+[    0.695971] pnp 00:01: [io  0x00b8-0x00b9]
+[    0.695973] pnp 00:01: [io  0x00bc-0x00bd]
+[    0.695975] pnp 00:01: [io  0x1000-0x103f]
+[    0.695977] pnp 00:01: [io  0x1040-0x104f]
+[    0.695979] pnp 00:01: [io  0x0cf0-0x0cf1]
+[    0.696060] system 00:01: [io  0x1000-0x103f] has been reserved
+[    0.696063] system 00:01: [io  0x1040-0x104f] has been reserved
+[    0.696066] system 00:01: [io  0x0cf0-0x0cf1] has been reserved
+[    0.696069] system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.696080] pnp 00:02: [io  0x0000-0x000f]
+[    0.696082] pnp 00:02: [io  0x0081-0x008f]
+[    0.696084] pnp 00:02: [io  0x00c0-0x00df]
+[    0.696086] pnp 00:02: [dma 4]
+[    0.696158] pnp 00:02: Plug and Play ACPI device, IDs PNP0200 (active)
+[    0.696171] pnp 00:03: [io  0x0020-0x0021]
+[    0.696173] pnp 00:03: [io  0x00a0-0x00a1]
+[    0.696175] pnp 00:03: [io  0x04d0-0x04d1]
+[    0.696177] pnp 00:03: [irq 2 disabled]
+[    0.696199] pnp 00:03: Plug and Play ACPI device, IDs PNP0001 (active)
+[    0.696209] pnp 00:04: [io  0x0070-0x0071]
+[    0.696225] pnp 00:04: [irq 8]
+[    0.696247] pnp 00:04: Plug and Play ACPI device, IDs PNP0b00 (active)
+[    0.696255] pnp 00:05: [io  0x0061]
+[    0.696306] pnp 00:05: Plug and Play ACPI device, IDs PNP0800 (active)
+[    0.696317] pnp 00:06: [io  0x0060]
+[    0.696319] pnp 00:06: [io  0x0064]
+[    0.696329] pnp 00:06: [irq 1]
+[    0.696355] pnp 00:06: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.696370] pnp 00:07: [irq 12]
+[    0.696391] pnp 00:07: Plug and Play ACPI device, IDs PNP0f13 (active)
+[    0.696633] pnp 00:08: [mem 0xfed00000-0xfed003ff]
+[    0.696715] system 00:08: [mem 0xfed00000-0xfed003ff] has been reserved
+[    0.696718] system 00:08: Plug and Play ACPI device, IDs PNP0103 PNP0c01 (active)
+[    0.698636] pnp 00:09: [io  0x0378-0x037b]
+[    0.698648] pnp 00:09: [irq 7]
+[    0.699234] pnp 00:09: Plug and Play ACPI device, IDs PNP0400 (active)
+[    0.699448] pnp 00:0a: [io  0x03f8-0x03ff]
+[    0.699459] pnp 00:0a: [irq 4]
+[    0.699583] pnp 00:0a: Plug and Play ACPI device, IDs PNP0501 (active)
+[    0.699797] pnp 00:0b: [io  0x02f8-0x02ff]
+[    0.699808] pnp 00:0b: [irq 3]
+[    0.699898] pnp 00:0b: Plug and Play ACPI device, IDs PNP0501 (active)
+[    0.700142] pnp 00:0c: [io  0x03f0-0x03f5]
+[    0.700144] pnp 00:0c: [io  0x03f7]
+[    0.700153] pnp 00:0c: [irq 6]
+[    0.700156] pnp 00:0c: [dma 2]
+[    0.700242] pnp 00:0c: Plug and Play ACPI device, IDs PNP0700 (active)
+[    0.700493] pnp 00:0d: [mem 0xf0000000-0xf7ffffff]
+[    0.700495] pnp 00:0d: [io  0xfce0-0xfcff]
+[    0.700498] pnp 00:0d: [mem 0xfe800000-0xfe9fffff]
+[    0.700557] system 00:0d: [io  0xfce0-0xfcff] has been reserved
+[    0.700561] system 00:0d: [mem 0xf0000000-0xf7ffffff] has been reserved
+[    0.700565] system 00:0d: [mem 0xfe800000-0xfe9fffff] has been reserved
+[    0.700568] system 00:0d: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.707470] pnp 00:0e: [mem 0x10000000-0x7fffffff window]
+[    0.707568] pnp 00:0e: Plug and Play ACPI device, IDs PNP0c80 (active)
+[    0.709755] pnp: PnP ACPI: found 15 devices
+[    0.709758] ACPI: ACPI bus type pnp unregistered
+[    0.709763] PnPBIOS: Disabled by ACPI PNP
+[    0.747784] pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06-06] add_size 1000
+[    0.747878] pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07-07] add_size 1000
+[    0.747970] pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08-08] add_size 1000
+[    0.748061] pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09-09] add_size 1000
+[    0.748152] pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a-0a] add_size 1000
+[    0.748498] pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e-0e] add_size 1000
+[    0.748588] pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f-0f] add_size 1000
+[    0.748679] pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10-10] add_size 1000
+[    0.748781] pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11-11] add_size 1000
+[    0.748872] pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12-12] add_size 1000
+[    0.749220] pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16-16] add_size 1000
+[    0.749312] pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17-17] add_size 1000
+[    0.749403] pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18-18] add_size 1000
+[    0.749494] pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19-19] add_size 1000
+[    0.749584] pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a-1a] add_size 1000
+[    0.749858] pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d-1d] add_size 1000
+[    0.749950] pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e-1e] add_size 1000
+[    0.750042] pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f-1f] add_size 1000
+[    0.750133] pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20-20] add_size 1000
+[    0.750260] pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21-21] add_size 1000
+[    0.750354] pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22-22] add_size 1000
+[    0.750375] pci 0000:00:15.3: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750378] pci 0000:00:15.4: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750382] pci 0000:00:15.5: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750385] pci 0000:00:15.6: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750388] pci 0000:00:15.7: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750391] pci 0000:00:16.3: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750395] pci 0000:00:16.4: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750398] pci 0000:00:16.5: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750401] pci 0000:00:16.6: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750404] pci 0000:00:16.7: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750408] pci 0000:00:17.3: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750411] pci 0000:00:17.4: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750414] pci 0000:00:17.5: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750417] pci 0000:00:17.6: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750421] pci 0000:00:17.7: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750424] pci 0000:00:18.2: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750427] pci 0000:00:18.3: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750431] pci 0000:00:18.4: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750434] pci 0000:00:18.5: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750437] pci 0000:00:18.6: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750440] pci 0000:00:18.7: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[    0.750449] pci 0000:00:0f.0: BAR 6: assigned [mem 0xc0000000-0xc0007fff pref]
+[    0.750455] pci 0000:00:10.0: BAR 6: assigned [mem 0xc0008000-0xc000bfff pref]
+[    0.750461] pci 0000:00:15.3: BAR 13: can't assign io (size 0x1000)
+[    0.750466] pci 0000:00:15.4: BAR 13: can't assign io (size 0x1000)
+[    0.750471] pci 0000:00:15.5: BAR 13: can't assign io (size 0x1000)
+[    0.750475] pci 0000:00:15.6: BAR 13: can't assign io (size 0x1000)
+[    0.750480] pci 0000:00:15.7: BAR 13: can't assign io (size 0x1000)
+[    0.750485] pci 0000:00:16.3: BAR 13: can't assign io (size 0x1000)
+[    0.750489] pci 0000:00:16.4: BAR 13: can't assign io (size 0x1000)
+[    0.750494] pci 0000:00:16.5: BAR 13: can't assign io (size 0x1000)
+[    0.750498] pci 0000:00:16.6: BAR 13: can't assign io (size 0x1000)
+[    0.750503] pci 0000:00:16.7: BAR 13: can't assign io (size 0x1000)
+[    0.750507] pci 0000:00:17.3: BAR 13: can't assign io (size 0x1000)
+[    0.750512] pci 0000:00:17.4: BAR 13: can't assign io (size 0x1000)
+[    0.750517] pci 0000:00:17.5: BAR 13: can't assign io (size 0x1000)
+[    0.750521] pci 0000:00:17.6: BAR 13: can't assign io (size 0x1000)
+[    0.750526] pci 0000:00:17.7: BAR 13: can't assign io (size 0x1000)
+[    0.750530] pci 0000:00:18.2: BAR 13: can't assign io (size 0x1000)
+[    0.750535] pci 0000:00:18.3: BAR 13: can't assign io (size 0x1000)
+[    0.750539] pci 0000:00:18.4: BAR 13: can't assign io (size 0x1000)
+[    0.750544] pci 0000:00:18.5: BAR 13: can't assign io (size 0x1000)
+[    0.750548] pci 0000:00:18.6: BAR 13: can't assign io (size 0x1000)
+[    0.750553] pci 0000:00:18.7: BAR 13: can't assign io (size 0x1000)
+[    0.750561] pci 0000:00:01.0: PCI bridge to [bus 01-01]
+[    0.750696] pci 0000:02:01.0: BAR 6: assigned [mem 0xe7b00000-0xe7b0ffff pref]
+[    0.750701] pci 0000:02:05.0: BAR 6: assigned [mem 0xe7b10000-0xe7b1ffff pref]
+[    0.750705] pci 0000:00:11.0: PCI bridge to [bus 02-02]
+[    0.750724] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+[    0.750772] pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+[    0.750805] pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[    0.750865] pci 0000:00:15.0: PCI bridge to [bus 03-03]
+[    0.750884] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+[    0.750930] pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+[    0.750963] pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+[    0.751071] pci 0000:00:15.1: PCI bridge to [bus 04-04]
+[    0.751092] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+[    0.751139] pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+[    0.751171] pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+[    0.751250] pci 0000:00:15.2: PCI bridge to [bus 05-05]
+[    0.751270] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+[    0.751317] pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+[    0.751350] pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+[    0.751427] pci 0000:00:15.3: PCI bridge to [bus 06-06]
+[    0.751475] pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+[    0.751507] pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+[    0.751584] pci 0000:00:15.4: PCI bridge to [bus 07-07]
+[    0.751632] pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+[    0.751664] pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+[    0.751741] pci 0000:00:15.5: PCI bridge to [bus 08-08]
+[    0.751789] pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+[    0.751821] pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+[    0.751898] pci 0000:00:15.6: PCI bridge to [bus 09-09]
+[    0.751946] pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+[    0.751978] pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+[    0.752054] pci 0000:00:15.7: PCI bridge to [bus 0a-0a]
+[    0.752102] pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+[    0.752135] pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+[    0.752214] pci 0000:00:16.0: PCI bridge to [bus 0b-0b]
+[    0.752234] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+[    0.752281] pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+[    0.752314] pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+[    0.752391] pci 0000:00:16.1: PCI bridge to [bus 0c-0c]
+[    0.752411] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+[    0.752458] pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+[    0.752490] pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+[    0.752567] pci 0000:00:16.2: PCI bridge to [bus 0d-0d]
+[    0.752587] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+[    0.752634] pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+[    0.752667] pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+[    0.752753] pci 0000:00:16.3: PCI bridge to [bus 0e-0e]
+[    0.752801] pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+[    0.752834] pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[    0.752912] pci 0000:00:16.4: PCI bridge to [bus 0f-0f]
+[    0.752960] pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+[    0.752992] pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+[    0.753069] pci 0000:00:16.5: PCI bridge to [bus 10-10]
+[    0.753117] pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+[    0.753150] pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+[    0.753227] pci 0000:00:16.6: PCI bridge to [bus 11-11]
+[    0.753288] pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+[    0.753321] pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+[    0.753398] pci 0000:00:16.7: PCI bridge to [bus 12-12]
+[    0.753446] pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+[    0.753478] pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[    0.753555] pci 0000:00:17.0: PCI bridge to [bus 13-13]
+[    0.753576] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+[    0.753623] pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+[    0.753656] pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+[    0.753734] pci 0000:00:17.1: PCI bridge to [bus 14-14]
+[    0.753754] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+[    0.753801] pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+[    0.753834] pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+[    0.753910] pci 0000:00:17.2: PCI bridge to [bus 15-15]
+[    0.753930] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+[    0.753978] pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+[    0.754010] pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+[    0.754087] pci 0000:00:17.3: PCI bridge to [bus 16-16]
+[    0.754135] pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+[    0.754168] pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[    0.754248] pci 0000:00:17.4: PCI bridge to [bus 17-17]
+[    0.754296] pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+[    0.754329] pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+[    0.754407] pci 0000:00:17.5: PCI bridge to [bus 18-18]
+[    0.754455] pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+[    0.754487] pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+[    0.754564] pci 0000:00:17.6: PCI bridge to [bus 19-19]
+[    0.754611] pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+[    0.754670] pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+[    0.754749] pci 0000:00:17.7: PCI bridge to [bus 1a-1a]
+[    0.754796] pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+[    0.754829] pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[    0.754905] pci 0000:00:18.0: PCI bridge to [bus 1b-1b]
+[    0.754926] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+[    0.754973] pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+[    0.755005] pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+[    0.755082] pci 0000:00:18.1: PCI bridge to [bus 1c-1c]
+[    0.755102] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+[    0.755149] pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+[    0.755182] pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+[    0.755258] pci 0000:00:18.2: PCI bridge to [bus 1d-1d]
+[    0.755306] pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+[    0.755338] pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[    0.755415] pci 0000:00:18.3: PCI bridge to [bus 1e-1e]
+[    0.755462] pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+[    0.755495] pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[    0.755571] pci 0000:00:18.4: PCI bridge to [bus 1f-1f]
+[    0.755618] pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+[    0.755651] pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+[    0.755727] pci 0000:00:18.5: PCI bridge to [bus 20-20]
+[    0.755775] pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+[    0.755807] pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+[    0.755883] pci 0000:00:18.6: PCI bridge to [bus 21-21]
+[    0.755931] pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+[    0.755964] pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[    0.756040] pci 0000:00:18.7: PCI bridge to [bus 22-22]
+[    0.756088] pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+[    0.756120] pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+[    0.756249] pci 0000:00:01.0: setting latency timer to 64
+[    0.757722] pci_bus 0000:00: resource 4 [mem 0x000a0000-0x000bffff]
+[    0.757726] pci_bus 0000:00: resource 5 [mem 0x000d0000-0x000d3fff]
+[    0.757729] pci_bus 0000:00: resource 6 [mem 0x000d4000-0x000d7fff]
+[    0.757732] pci_bus 0000:00: resource 7 [mem 0x000d8000-0x000dbfff]
+[    0.757736] pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff]
+[    0.757739] pci_bus 0000:00: resource 9 [io  0x0000-0x0cf7]
+[    0.757742] pci_bus 0000:00: resource 10 [io  0x0d00-0xfeff]
+[    0.757746] pci_bus 0000:02: resource 0 [io  0x2000-0x3fff]
+[    0.757749] pci_bus 0000:02: resource 1 [mem 0xfd500000-0xfdffffff]
+[    0.757752] pci_bus 0000:02: resource 2 [mem 0xe7b00000-0xe7ffffff 64bit pref]
+[    0.757756] pci_bus 0000:02: resource 4 [mem 0x000a0000-0x000bffff]
+[    0.757759] pci_bus 0000:02: resource 5 [mem 0x000d0000-0x000d3fff]
+[    0.757762] pci_bus 0000:02: resource 6 [mem 0x000d4000-0x000d7fff]
+[    0.757765] pci_bus 0000:02: resource 7 [mem 0x000d8000-0x000dbfff]
+[    0.757768] pci_bus 0000:02: resource 8 [mem 0xc0000000-0xfebfffff]
+[    0.757771] pci_bus 0000:02: resource 9 [io  0x0000-0x0cf7]
+[    0.757775] pci_bus 0000:02: resource 10 [io  0x0d00-0xfeff]
+[    0.757778] pci_bus 0000:03: resource 0 [io  0x4000-0x4fff]
+[    0.757781] pci_bus 0000:03: resource 1 [mem 0xfd400000-0xfd4fffff]
+[    0.757785] pci_bus 0000:03: resource 2 [mem 0xe7a00000-0xe7afffff 64bit pref]
+[    0.757788] pci_bus 0000:04: resource 0 [io  0x8000-0x8fff]
+[    0.757791] pci_bus 0000:04: resource 1 [mem 0xfd000000-0xfd0fffff]
+[    0.757794] pci_bus 0000:04: resource 2 [mem 0xe7600000-0xe76fffff 64bit pref]
+[    0.757798] pci_bus 0000:05: resource 0 [io  0xc000-0xcfff]
+[    0.757801] pci_bus 0000:05: resource 1 [mem 0xfcc00000-0xfccfffff]
+[    0.757804] pci_bus 0000:05: resource 2 [mem 0xe7200000-0xe72fffff 64bit pref]
+[    0.757807] pci_bus 0000:06: resource 1 [mem 0xfc800000-0xfc8fffff]
+[    0.757811] pci_bus 0000:06: resource 2 [mem 0xe6e00000-0xe6efffff 64bit pref]
+[    0.757814] pci_bus 0000:07: resource 1 [mem 0xfc400000-0xfc4fffff]
+[    0.757817] pci_bus 0000:07: resource 2 [mem 0xe6a00000-0xe6afffff 64bit pref]
+[    0.757821] pci_bus 0000:08: resource 1 [mem 0xfc000000-0xfc0fffff]
+[    0.757824] pci_bus 0000:08: resource 2 [mem 0xe6600000-0xe66fffff 64bit pref]
+[    0.757827] pci_bus 0000:09: resource 1 [mem 0xfbc00000-0xfbcfffff]
+[    0.757830] pci_bus 0000:09: resource 2 [mem 0xe6200000-0xe62fffff 64bit pref]
+[    0.757834] pci_bus 0000:0a: resource 1 [mem 0xfb800000-0xfb8fffff]
+[    0.757837] pci_bus 0000:0a: resource 2 [mem 0xe5e00000-0xe5efffff 64bit pref]
+[    0.757840] pci_bus 0000:0b: resource 0 [io  0x5000-0x5fff]
+[    0.757843] pci_bus 0000:0b: resource 1 [mem 0xfd300000-0xfd3fffff]
+[    0.757847] pci_bus 0000:0b: resource 2 [mem 0xe7900000-0xe79fffff 64bit pref]
+[    0.757850] pci_bus 0000:0c: resource 0 [io  0x9000-0x9fff]
+[    0.757853] pci_bus 0000:0c: resource 1 [mem 0xfcf00000-0xfcffffff]
+[    0.757856] pci_bus 0000:0c: resource 2 [mem 0xe7500000-0xe75fffff 64bit pref]
+[    0.757859] pci_bus 0000:0d: resource 0 [io  0xd000-0xdfff]
+[    0.757862] pci_bus 0000:0d: resource 1 [mem 0xfcb00000-0xfcbfffff]
+[    0.757866] pci_bus 0000:0d: resource 2 [mem 0xe7100000-0xe71fffff 64bit pref]
+[    0.757869] pci_bus 0000:0e: resource 1 [mem 0xfc700000-0xfc7fffff]
+[    0.757872] pci_bus 0000:0e: resource 2 [mem 0xe6d00000-0xe6dfffff 64bit pref]
+[    0.757876] pci_bus 0000:0f: resource 1 [mem 0xfc300000-0xfc3fffff]
+[    0.757879] pci_bus 0000:0f: resource 2 [mem 0xe6900000-0xe69fffff 64bit pref]
+[    0.757882] pci_bus 0000:10: resource 1 [mem 0xfbf00000-0xfbffffff]
+[    0.757885] pci_bus 0000:10: resource 2 [mem 0xe6500000-0xe65fffff 64bit pref]
+[    0.757889] pci_bus 0000:11: resource 1 [mem 0xfbb00000-0xfbbfffff]
+[    0.757892] pci_bus 0000:11: resource 2 [mem 0xe6100000-0xe61fffff 64bit pref]
+[    0.757895] pci_bus 0000:12: resource 1 [mem 0xfb700000-0xfb7fffff]
+[    0.757898] pci_bus 0000:12: resource 2 [mem 0xe5d00000-0xe5dfffff 64bit pref]
+[    0.757902] pci_bus 0000:13: resource 0 [io  0x6000-0x6fff]
+[    0.757905] pci_bus 0000:13: resource 1 [mem 0xfd200000-0xfd2fffff]
+[    0.757908] pci_bus 0000:13: resource 2 [mem 0xe7800000-0xe78fffff 64bit pref]
+[    0.757911] pci_bus 0000:14: resource 0 [io  0xa000-0xafff]
+[    0.757914] pci_bus 0000:14: resource 1 [mem 0xfce00000-0xfcefffff]
+[    0.757918] pci_bus 0000:14: resource 2 [mem 0xe7400000-0xe74fffff 64bit pref]
+[    0.757921] pci_bus 0000:15: resource 0 [io  0xe000-0xefff]
+[    0.757924] pci_bus 0000:15: resource 1 [mem 0xfca00000-0xfcafffff]
+[    0.757927] pci_bus 0000:15: resource 2 [mem 0xe7000000-0xe70fffff 64bit pref]
+[    0.757930] pci_bus 0000:16: resource 1 [mem 0xfc600000-0xfc6fffff]
+[    0.757934] pci_bus 0000:16: resource 2 [mem 0xe6c00000-0xe6cfffff 64bit pref]
+[    0.757937] pci_bus 0000:17: resource 1 [mem 0xfc200000-0xfc2fffff]
+[    0.757940] pci_bus 0000:17: resource 2 [mem 0xe6800000-0xe68fffff 64bit pref]
+[    0.757944] pci_bus 0000:18: resource 1 [mem 0xfbe00000-0xfbefffff]
+[    0.757947] pci_bus 0000:18: resource 2 [mem 0xe6400000-0xe64fffff 64bit pref]
+[    0.757950] pci_bus 0000:19: resource 1 [mem 0xfba00000-0xfbafffff]
+[    0.757953] pci_bus 0000:19: resource 2 [mem 0xe6000000-0xe60fffff 64bit pref]
+[    0.757957] pci_bus 0000:1a: resource 1 [mem 0xfb600000-0xfb6fffff]
+[    0.757960] pci_bus 0000:1a: resource 2 [mem 0xe5c00000-0xe5cfffff 64bit pref]
+[    0.757963] pci_bus 0000:1b: resource 0 [io  0x7000-0x7fff]
+[    0.757966] pci_bus 0000:1b: resource 1 [mem 0xfd100000-0xfd1fffff]
+[    0.757969] pci_bus 0000:1b: resource 2 [mem 0xe7700000-0xe77fffff 64bit pref]
+[    0.757973] pci_bus 0000:1c: resource 0 [io  0xb000-0xbfff]
+[    0.757976] pci_bus 0000:1c: resource 1 [mem 0xfcd00000-0xfcdfffff]
+[    0.757979] pci_bus 0000:1c: resource 2 [mem 0xe7300000-0xe73fffff 64bit pref]
+[    0.757982] pci_bus 0000:1d: resource 1 [mem 0xfc900000-0xfc9fffff]
+[    0.757986] pci_bus 0000:1d: resource 2 [mem 0xe6f00000-0xe6ffffff 64bit pref]
+[    0.757989] pci_bus 0000:1e: resource 1 [mem 0xfc500000-0xfc5fffff]
+[    0.757992] pci_bus 0000:1e: resource 2 [mem 0xe6b00000-0xe6bfffff 64bit pref]
+[    0.757995] pci_bus 0000:1f: resource 1 [mem 0xfc100000-0xfc1fffff]
+[    0.757999] pci_bus 0000:1f: resource 2 [mem 0xe6700000-0xe67fffff 64bit pref]
+[    0.758002] pci_bus 0000:20: resource 1 [mem 0xfbd00000-0xfbdfffff]
+[    0.758005] pci_bus 0000:20: resource 2 [mem 0xe6300000-0xe63fffff 64bit pref]
+[    0.758009] pci_bus 0000:21: resource 1 [mem 0xfb900000-0xfb9fffff]
+[    0.758012] pci_bus 0000:21: resource 2 [mem 0xe5f00000-0xe5ffffff 64bit pref]
+[    0.758015] pci_bus 0000:22: resource 1 [mem 0xfb500000-0xfb5fffff]
+[    0.758019] pci_bus 0000:22: resource 2 [mem 0xe5b00000-0xe5bfffff 64bit pref]
+[    0.758207] NET: Registered protocol family 2
+[    0.758275] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.759211] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.764671] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.767539] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.767545] TCP: reno registered
+[    0.767551] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.767652] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.767836] NET: Registered protocol family 1
+[    0.767852] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[    0.767979] pci 0000:00:0f.0: Boot video device
+[    0.769049] PCI: CLS 32 bytes, default 64
+[    0.769421] Simple Boot Flag at 0x36 set to 0x1
+[    0.769462] Switching to clocksource tsc
+[    0.769975] audit: initializing netlink socket (disabled)
+[    0.769987] type=2000 audit(1471414510.624:1): initialized
+[    0.793286] Trying to unpack rootfs image as initramfs...
+[    0.821592] highmem bounce pool size: 64 pages
+[    0.821605] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[    0.831847] VFS: Disk quotas dquot_6.5.2
+[    0.831946] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.832810] fuse init (API version 7.19)
+[    0.832933] msgmni has been set to 1690
+[    0.849059] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    0.849113] io scheduler noop registered
+[    0.849115] io scheduler deadline registered (default)
+[    0.849125] io scheduler cfq registered
+[    0.850157] pcieport 0000:00:15.0: irq 40 for MSI/MSI-X
+[    0.851575] pcieport 0000:00:15.1: irq 41 for MSI/MSI-X
+[    0.852969] pcieport 0000:00:15.2: irq 42 for MSI/MSI-X
+[    0.854375] pcieport 0000:00:15.3: irq 43 for MSI/MSI-X
+[    0.855762] pcieport 0000:00:15.4: irq 44 for MSI/MSI-X
+[    0.861081] pcieport 0000:00:15.5: irq 45 for MSI/MSI-X
+[    0.862468] pcieport 0000:00:15.6: irq 46 for MSI/MSI-X
+[    0.863912] pcieport 0000:00:15.7: irq 47 for MSI/MSI-X
+[    0.868922] pcieport 0000:00:16.0: irq 48 for MSI/MSI-X
+[    0.870344] pcieport 0000:00:16.1: irq 49 for MSI/MSI-X
+[    0.871726] pcieport 0000:00:16.2: irq 50 for MSI/MSI-X
+[    0.880780] pcieport 0000:00:16.3: irq 51 for MSI/MSI-X
+[    0.882168] pcieport 0000:00:16.4: irq 52 for MSI/MSI-X
+[    0.883583] pcieport 0000:00:16.5: irq 53 for MSI/MSI-X
+[    0.889012] pcieport 0000:00:16.6: irq 54 for MSI/MSI-X
+[    0.890420] pcieport 0000:00:16.7: irq 55 for MSI/MSI-X
+[    0.891813] pcieport 0000:00:17.0: irq 56 for MSI/MSI-X
+[    0.896825] pcieport 0000:00:17.1: irq 57 for MSI/MSI-X
+[    0.898267] pcieport 0000:00:17.2: irq 58 for MSI/MSI-X
+[    0.899755] pcieport 0000:00:17.3: irq 59 for MSI/MSI-X
+[    0.905108] pcieport 0000:00:17.4: irq 60 for MSI/MSI-X
+[    0.906537] pcieport 0000:00:17.5: irq 61 for MSI/MSI-X
+[    0.907944] pcieport 0000:00:17.6: irq 62 for MSI/MSI-X
+[    0.912755] pcieport 0000:00:17.7: irq 63 for MSI/MSI-X
+[    0.914173] pcieport 0000:00:18.0: irq 64 for MSI/MSI-X
+[    0.915537] pcieport 0000:00:18.1: irq 65 for MSI/MSI-X
+[    0.921018] pcieport 0000:00:18.2: irq 66 for MSI/MSI-X
+[    0.922455] pcieport 0000:00:18.3: irq 67 for MSI/MSI-X
+[    0.923850] pcieport 0000:00:18.4: irq 68 for MSI/MSI-X
+[    0.928749] pcieport 0000:00:18.5: irq 69 for MSI/MSI-X
+[    0.930138] pcieport 0000:00:18.6: irq 70 for MSI/MSI-X
+[    0.931507] pcieport 0000:00:18.7: irq 71 for MSI/MSI-X
+[    0.932262] pcieport 0000:00:15.0: Signaling PME through PCIe PME interrupt
+[    0.932297] pcie_pme 0000:00:15.0:pcie01: service driver pcie_pme loaded
+[    0.932458] pcieport 0000:00:15.1: Signaling PME through PCIe PME interrupt
+[    0.932493] pcie_pme 0000:00:15.1:pcie01: service driver pcie_pme loaded
+[    0.936945] pcieport 0000:00:15.2: Signaling PME through PCIe PME interrupt
+[    0.936989] pcie_pme 0000:00:15.2:pcie01: service driver pcie_pme loaded
+[    0.937158] pcieport 0000:00:15.3: Signaling PME through PCIe PME interrupt
+[    0.937193] pcie_pme 0000:00:15.3:pcie01: service driver pcie_pme loaded
+[    0.937355] pcieport 0000:00:15.4: Signaling PME through PCIe PME interrupt
+[    0.937389] pcie_pme 0000:00:15.4:pcie01: service driver pcie_pme loaded
+[    0.937579] pcieport 0000:00:15.5: Signaling PME through PCIe PME interrupt
+[    0.937615] pcie_pme 0000:00:15.5:pcie01: service driver pcie_pme loaded
+[    0.937799] pcieport 0000:00:15.6: Signaling PME through PCIe PME interrupt
+[    0.937835] pcie_pme 0000:00:15.6:pcie01: service driver pcie_pme loaded
+[    0.937995] pcieport 0000:00:15.7: Signaling PME through PCIe PME interrupt
+[    0.938029] pcie_pme 0000:00:15.7:pcie01: service driver pcie_pme loaded
+[    0.938190] pcieport 0000:00:16.0: Signaling PME through PCIe PME interrupt
+[    0.938224] pcie_pme 0000:00:16.0:pcie01: service driver pcie_pme loaded
+[    0.938384] pcieport 0000:00:16.1: Signaling PME through PCIe PME interrupt
+[    0.938418] pcie_pme 0000:00:16.1:pcie01: service driver pcie_pme loaded
+[    0.938579] pcieport 0000:00:16.2: Signaling PME through PCIe PME interrupt
+[    0.938613] pcie_pme 0000:00:16.2:pcie01: service driver pcie_pme loaded
+[    0.938773] pcieport 0000:00:16.3: Signaling PME through PCIe PME interrupt
+[    0.938807] pcie_pme 0000:00:16.3:pcie01: service driver pcie_pme loaded
+[    0.938967] pcieport 0000:00:16.4: Signaling PME through PCIe PME interrupt
+[    0.939001] pcie_pme 0000:00:16.4:pcie01: service driver pcie_pme loaded
+[    0.939182] pcieport 0000:00:16.5: Signaling PME through PCIe PME interrupt
+[    0.939217] pcie_pme 0000:00:16.5:pcie01: service driver pcie_pme loaded
+[    0.939377] pcieport 0000:00:16.6: Signaling PME through PCIe PME interrupt
+[    0.939411] pcie_pme 0000:00:16.6:pcie01: service driver pcie_pme loaded
+[    0.939571] pcieport 0000:00:16.7: Signaling PME through PCIe PME interrupt
+[    0.939605] pcie_pme 0000:00:16.7:pcie01: service driver pcie_pme loaded
+[    0.939839] pcieport 0000:00:17.0: Signaling PME through PCIe PME interrupt
+[    0.939876] pcie_pme 0000:00:17.0:pcie01: service driver pcie_pme loaded
+[    0.940037] pcieport 0000:00:17.1: Signaling PME through PCIe PME interrupt
+[    0.940071] pcie_pme 0000:00:17.1:pcie01: service driver pcie_pme loaded
+[    0.940232] pcieport 0000:00:17.2: Signaling PME through PCIe PME interrupt
+[    0.940266] pcie_pme 0000:00:17.2:pcie01: service driver pcie_pme loaded
+[    0.940426] pcieport 0000:00:17.3: Signaling PME through PCIe PME interrupt
+[    0.940460] pcie_pme 0000:00:17.3:pcie01: service driver pcie_pme loaded
+[    0.944629] pcieport 0000:00:17.4: Signaling PME through PCIe PME interrupt
+[    0.944673] pcie_pme 0000:00:17.4:pcie01: service driver pcie_pme loaded
+[    0.944842] pcieport 0000:00:17.5: Signaling PME through PCIe PME interrupt
+[    0.944877] pcie_pme 0000:00:17.5:pcie01: service driver pcie_pme loaded
+[    0.945040] pcieport 0000:00:17.6: Signaling PME through PCIe PME interrupt
+[    0.945074] pcie_pme 0000:00:17.6:pcie01: service driver pcie_pme loaded
+[    0.945263] pcieport 0000:00:17.7: Signaling PME through PCIe PME interrupt
+[    0.945297] pcie_pme 0000:00:17.7:pcie01: service driver pcie_pme loaded
+[    0.945459] pcieport 0000:00:18.0: Signaling PME through PCIe PME interrupt
+[    0.945493] pcie_pme 0000:00:18.0:pcie01: service driver pcie_pme loaded
+[    0.945653] pcieport 0000:00:18.1: Signaling PME through PCIe PME interrupt
+[    0.945687] pcie_pme 0000:00:18.1:pcie01: service driver pcie_pme loaded
+[    0.945847] pcieport 0000:00:18.2: Signaling PME through PCIe PME interrupt
+[    0.945881] pcie_pme 0000:00:18.2:pcie01: service driver pcie_pme loaded
+[    0.946084] pcieport 0000:00:18.3: Signaling PME through PCIe PME interrupt
+[    0.946120] pcie_pme 0000:00:18.3:pcie01: service driver pcie_pme loaded
+[    0.946281] pcieport 0000:00:18.4: Signaling PME through PCIe PME interrupt
+[    0.946316] pcie_pme 0000:00:18.4:pcie01: service driver pcie_pme loaded
+[    0.946476] pcieport 0000:00:18.5: Signaling PME through PCIe PME interrupt
+[    0.946510] pcie_pme 0000:00:18.5:pcie01: service driver pcie_pme loaded
+[    0.946670] pcieport 0000:00:18.6: Signaling PME through PCIe PME interrupt
+[    0.946705] pcie_pme 0000:00:18.6:pcie01: service driver pcie_pme loaded
+[    0.946865] pcieport 0000:00:18.7: Signaling PME through PCIe PME interrupt
+[    0.946899] pcie_pme 0000:00:18.7:pcie01: service driver pcie_pme loaded
+[    0.946929] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    0.947666] pciehp 0000:00:15.0:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.947760] pciehp 0000:00:15.0:pcie04: service driver pciehp loaded
+[    0.947856] pciehp 0000:00:15.1:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.947945] pciehp 0000:00:15.1:pcie04: service driver pciehp loaded
+[    0.948040] pciehp 0000:00:15.2:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.948158] pciehp 0000:00:15.2:pcie04: service driver pciehp loaded
+[    0.948253] pciehp 0000:00:15.3:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.948341] pciehp 0000:00:15.3:pcie04: service driver pciehp loaded
+[    0.948436] pciehp 0000:00:15.4:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.948524] pciehp 0000:00:15.4:pcie04: service driver pciehp loaded
+[    0.948628] pciehp 0000:00:15.5:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.952719] pciehp 0000:00:15.5:pcie04: service driver pciehp loaded
+[    0.952820] pciehp 0000:00:15.6:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.952911] pciehp 0000:00:15.6:pcie04: service driver pciehp loaded
+[    0.953008] pciehp 0000:00:15.7:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.953127] pciehp 0000:00:15.7:pcie04: service driver pciehp loaded
+[    0.953223] pciehp 0000:00:16.0:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.953345] pciehp 0000:00:16.0:pcie04: service driver pciehp loaded
+[    0.953441] pciehp 0000:00:16.1:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.953533] pciehp 0000:00:16.1:pcie04: service driver pciehp loaded
+[    0.953628] pciehp 0000:00:16.2:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.953718] pciehp 0000:00:16.2:pcie04: service driver pciehp loaded
+[    0.953824] pciehp 0000:00:16.3:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.953913] pciehp 0000:00:16.3:pcie04: service driver pciehp loaded
+[    0.954008] pciehp 0000:00:16.4:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.954149] pciehp 0000:00:16.4:pcie04: service driver pciehp loaded
+[    0.954245] pciehp 0000:00:16.5:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.954334] pciehp 0000:00:16.5:pcie04: service driver pciehp loaded
+[    0.954430] pciehp 0000:00:16.6:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.954518] pciehp 0000:00:16.6:pcie04: service driver pciehp loaded
+[    0.954613] pciehp 0000:00:16.7:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.954731] pciehp 0000:00:16.7:pcie04: service driver pciehp loaded
+[    0.954827] pciehp 0000:00:17.0:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.954916] pciehp 0000:00:17.0:pcie04: service driver pciehp loaded
+[    0.955011] pciehp 0000:00:17.1:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.955099] pciehp 0000:00:17.1:pcie04: service driver pciehp loaded
+[    0.955194] pciehp 0000:00:17.2:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.955306] pciehp 0000:00:17.2:pcie04: service driver pciehp loaded
+[    0.955401] pciehp 0000:00:17.3:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.955512] pciehp 0000:00:17.3:pcie04: service driver pciehp loaded
+[    0.955608] pciehp 0000:00:17.4:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.955696] pciehp 0000:00:17.4:pcie04: service driver pciehp loaded
+[    0.955791] pciehp 0000:00:17.5:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.955879] pciehp 0000:00:17.5:pcie04: service driver pciehp loaded
+[    0.955974] pciehp 0000:00:17.6:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.956062] pciehp 0000:00:17.6:pcie04: service driver pciehp loaded
+[    0.956157] pciehp 0000:00:17.7:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.956281] pciehp 0000:00:17.7:pcie04: service driver pciehp loaded
+[    0.956398] pciehp 0000:00:18.0:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.956488] pciehp 0000:00:18.0:pcie04: service driver pciehp loaded
+[    0.956583] pciehp 0000:00:18.1:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.956667] pciehp 0000:00:18.1:pcie04: service driver pciehp loaded
+[    0.960837] pciehp 0000:00:18.2:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.960938] pciehp 0000:00:18.2:pcie04: service driver pciehp loaded
+[    0.961036] pciehp 0000:00:18.3:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.961127] pciehp 0000:00:18.3:pcie04: service driver pciehp loaded
+[    0.961223] pciehp 0000:00:18.4:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.961342] pciehp 0000:00:18.4:pcie04: service driver pciehp loaded
+[    0.961439] pciehp 0000:00:18.5:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.961528] pciehp 0000:00:18.5:pcie04: service driver pciehp loaded
+[    0.961624] pciehp 0000:00:18.6:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.961713] pciehp 0000:00:18.6:pcie04: service driver pciehp loaded
+[    0.961809] pciehp 0000:00:18.7:pcie04: HPC vendor_id 15ad device_id 7a0 ss_vid 15ad ss_did 7a0
+[    0.961927] pciehp 0000:00:18.7:pcie04: service driver pciehp loaded
+[    0.961937] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[    0.962192] intel_idle: does not run on family 6 model 42
+[    0.962511] ACPI: AC Adapter [ACAD] (on-line)
+[    0.968685] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    0.968693] ACPI: Power Button [PWRF]
+[    1.069448] GHES: HEST is not enabled!
+[    1.069631] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    1.092420] serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+[    1.092474] isapnp: Scanning for PnP cards...
+[    1.188372] serial8250: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+[    1.236354] 00:0a: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+[    1.328360] 00:0b: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+[    1.396723] Linux agpgart interface v0.103
+[    1.396769] agpgart-intel 0000:00:00.0: Intel 440BX Chipset
+[    1.404591] agpgart-intel 0000:00:00.0: AGP aperture is 256M @ 0x0
+[    1.406671] brd: module loaded
+[    1.407819] loop: module loaded
+[    1.407866] ahci 0000:02:05.0: version 3.0
+[    1.408434] ahci 0000:02:05.0: irq 72 for MSI/MSI-X
+[    1.416445] ahci 0000:02:05.0: AHCI 0001.0300 32 slots 30 ports 6 Gbps 0x3fffffff impl SATA mode
+[    1.416461] ahci 0000:02:05.0: flags: 64bit ncq clo only 
+[    1.560524] scsi0 : ahci
+[    1.560711] scsi1 : ahci
+[    1.564350] scsi2 : ahci
+[    1.564575] scsi3 : ahci
+[    1.564765] scsi4 : ahci
+[    1.568380] scsi5 : ahci
+[    1.568574] scsi6 : ahci
+[    1.568760] scsi7 : ahci
+[    1.572345] scsi8 : ahci
+[    1.572534] scsi9 : ahci
+[    1.572724] scsi10 : ahci
+[    1.576342] scsi11 : ahci
+[    1.576531] scsi12 : ahci
+[    1.576721] scsi13 : ahci
+[    1.580341] scsi14 : ahci
+[    1.580529] scsi15 : ahci
+[    1.580715] scsi16 : ahci
+[    1.584338] scsi17 : ahci
+[    1.584531] scsi18 : ahci
+[    1.588346] scsi19 : ahci
+[    1.588542] scsi20 : ahci
+[    1.588729] scsi21 : ahci
+[    1.636318] scsi22 : ahci
+[    1.636513] scsi23 : ahci
+[    1.636704] scsi24 : ahci
+[    1.640312] scsi25 : ahci
+[    1.640501] scsi26 : ahci
+[    1.640691] scsi27 : ahci
+[    1.644313] scsi28 : ahci
+[    1.644502] scsi29 : ahci
+[    1.644548] ata1: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe100 irq 72
+[    1.644557] ata2: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe180 irq 72
+[    1.644564] ata3: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe200 irq 72
+[    1.644570] ata4: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe280 irq 72
+[    1.644577] ata5: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe300 irq 72
+[    1.644583] ata6: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe380 irq 72
+[    1.644589] ata7: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe400 irq 72
+[    1.644595] ata8: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe480 irq 72
+[    1.644601] ata9: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe500 irq 72
+[    1.644608] ata10: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe580 irq 72
+[    1.644614] ata11: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe600 irq 72
+[    1.644620] ata12: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe680 irq 72
+[    1.644626] ata13: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe700 irq 72
+[    1.644632] ata14: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe780 irq 72
+[    1.644638] ata15: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe800 irq 72
+[    1.644644] ata16: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe880 irq 72
+[    1.644651] ata17: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe900 irq 72
+[    1.644657] ata18: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fe980 irq 72
+[    1.644663] ata19: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fea00 irq 72
+[    1.644669] ata20: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fea80 irq 72
+[    1.644676] ata21: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5feb00 irq 72
+[    1.644682] ata22: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5feb80 irq 72
+[    1.644688] ata23: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fec00 irq 72
+[    1.644694] ata24: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fec80 irq 72
+[    1.644700] ata25: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fed00 irq 72
+[    1.644707] ata26: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fed80 irq 72
+[    1.644713] ata27: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fee00 irq 72
+[    1.644720] ata28: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fee80 irq 72
+[    1.644726] ata29: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fef00 irq 72
+[    1.644732] ata30: SATA max UDMA/133 abar m4096@0xfd5fe000 port 0xfd5fef80 irq 72
+[    1.644788] ata_piix 0000:00:07.1: version 2.13
+[    1.645313] scsi30 : ata_piix
+[    1.648527] scsi31 : ata_piix
+[    1.648574] ata31: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0x1060 irq 14
+[    1.648584] ata32: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0x1068 irq 15
+[    1.648630] Fixed MDIO Bus: probed
+[    1.648676] tun: Universal TUN/TAP device driver, 1.6
+[    1.648684] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    1.648805] PPP generic driver version 2.4.2
+[    1.648915] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.648961] ehci_hcd 0000:02:03.0: EHCI Host Controller
+[    1.648985] ehci_hcd 0000:02:03.0: new USB bus registered, assigned bus number 1
+[    1.649031] ehci_hcd 0000:02:03.0: cache line size of 32 is not supported
+[    1.649078] ehci_hcd 0000:02:03.0: irq 17, io mem 0xfd5ff000
+[    1.660343] ehci_hcd 0000:02:03.0: USB 2.0 started, EHCI 1.00
+[    1.660389] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.660400] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.660408] usb usb1: Product: EHCI Host Controller
+[    1.660414] usb usb1: Manufacturer: Linux 3.5.0-23-generic ehci_hcd
+[    1.660421] usb usb1: SerialNumber: 0000:02:03.0
+[    1.660797] hub 1-0:1.0: USB hub found
+[    1.660812] hub 1-0:1.0: 6 ports detected
+[    1.660905] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    1.660951] uhci_hcd: USB Universal Host Controller Interface driver
+[    1.660998] uhci_hcd 0000:02:00.0: UHCI Host Controller
+[    1.661044] uhci_hcd 0000:02:00.0: new USB bus registered, assigned bus number 2
+[    1.661142] uhci_hcd 0000:02:00.0: irq 18, io base 0x000020c0
+[    1.661188] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+[    1.661199] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.661206] usb usb2: Product: UHCI Host Controller
+[    1.661214] usb usb2: Manufacturer: Linux 3.5.0-23-generic uhci_hcd
+[    1.661220] usb usb2: SerialNumber: 0000:02:00.0
+[    1.661359] hub 2-0:1.0: USB hub found
+[    1.661374] hub 2-0:1.0: 2 ports detected
+[    1.661466] usbcore: registered new interface driver libusual
+[    1.661512] i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:MOUS] at 0x60,0x64 irq 1,12
+[    1.661987] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    1.662014] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    1.662277] mousedev: PS/2 mouse device common for all mice
+[    1.683329] rtc_cmos 00:04: rtc core: registered rtc_cmos as rtc0
+[    1.683476] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+[    1.684654] rtc0: alarms up to one month, y3k, 114 bytes nvram, hpet irqs
+[    1.684700] device-mapper: uevent: version 1.0.3
+[    1.685050] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+[    1.685097] EISA: Probing bus 0 at eisa.0
+[    1.685104] EISA: Cannot allocate resource for mainboard
+[    1.685111] Cannot allocate resource for EISA slot 1
+[    1.685116] Cannot allocate resource for EISA slot 2
+[    1.685122] Cannot allocate resource for EISA slot 3
+[    1.685127] Cannot allocate resource for EISA slot 4
+[    1.685133] Cannot allocate resource for EISA slot 5
+[    1.685138] Cannot allocate resource for EISA slot 6
+[    1.685144] Cannot allocate resource for EISA slot 7
+[    1.685149] Cannot allocate resource for EISA slot 8
+[    1.685155] EISA: Detected 0 cards.
+[    1.685174] cpuidle: using governor ladder
+[    1.685179] cpuidle: using governor menu
+[    1.685184] EFI Variables Facility v0.08 2004-May-17
+[    1.688521] ashmem: initialized
+[    1.688671] TCP: cubic registered
+[    1.688717] NET: Registered protocol family 10
+[    1.688764] NET: Registered protocol family 17
+[    1.688796] Key type dns_resolver registered
+[    1.688842] Using IPI No-Shortcut mode
+[    1.689068] PM: Hibernation image not present or could not be loaded.
+[    1.689097] registered taskstats version 1
+[    1.896350] isapnp: No Plug & Play device found
+[    2.000155] ata1: SATA link down (SStatus 0 SControl 300)
+[    2.004217] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    2.004300] ata2.00: ATAPI: VMware Virtual SATA CDRW Drive, 00000001, max UDMA/33
+[    2.004433] ata2.00: configured for UDMA/33
+[    2.004614] ata3: SATA link down (SStatus 0 SControl 300)
+[    2.004653] ata4: SATA link down (SStatus 0 SControl 300)
+[    2.004684] ata5: SATA link down (SStatus 0 SControl 300)
+[    2.004715] ata6: SATA link down (SStatus 0 SControl 300)
+[    2.004746] ata7: SATA link down (SStatus 0 SControl 300)
+[    2.004776] ata8: SATA link down (SStatus 0 SControl 300)
+[    2.004805] ata9: SATA link down (SStatus 0 SControl 300)
+[    2.004836] ata10: SATA link down (SStatus 0 SControl 300)
+[    2.004867] ata11: SATA link down (SStatus 0 SControl 300)
+[    2.004897] ata12: SATA link down (SStatus 0 SControl 300)
+[    2.004941] ata13: SATA link down (SStatus 0 SControl 300)
+[    2.004972] ata14: SATA link down (SStatus 0 SControl 300)
+[    2.005214] scsi 1:0:0:0: CD-ROM            NECVMWar VMware SATA CD01 1.00 PQ: 0 ANSI: 5
+[    2.005618] sr0: scsi3-mmc drive: 1x/1x writer dvd-ram cd/rw xa/form2 cdda tray
+[    2.005626] cdrom: Uniform CD-ROM driver Revision: 3.20
+[    2.005777] sr 1:0:0:0: Attached scsi CD-ROM sr0
+[    2.006023] sr 1:0:0:0: Attached scsi generic sg0 type 5
+[    2.008141] usb 2-1: new full-speed USB device number 2 using uhci_hcd
+[    2.016148] ata15: SATA link down (SStatus 0 SControl 300)
+[    2.016193] ata16: SATA link down (SStatus 0 SControl 300)
+[    2.016226] ata17: SATA link down (SStatus 0 SControl 300)
+[    2.016256] ata18: SATA link down (SStatus 0 SControl 300)
+[    2.016286] ata19: SATA link down (SStatus 0 SControl 300)
+[    2.016316] ata20: SATA link down (SStatus 0 SControl 300)
+[    2.016346] ata21: SATA link down (SStatus 0 SControl 300)
+[    2.016376] ata22: SATA link down (SStatus 0 SControl 300)
+[    2.028127] ata24: SATA link down (SStatus 0 SControl 300)
+[    2.028167] ata23: SATA link down (SStatus 0 SControl 300)
+[    2.052124] Freeing initrd memory: 15032k freed
+[    2.054393] Key type trusted registered
+[    2.056840] Key type encrypted registered
+[    2.068231] ata25: SATA link down (SStatus 0 SControl 300)
+[    2.068278] ata26: SATA link down (SStatus 0 SControl 300)
+[    2.068310] ata27: SATA link down (SStatus 0 SControl 300)
+[    2.068340] ata28: SATA link down (SStatus 0 SControl 300)
+[    2.068370] ata29: SATA link down (SStatus 0 SControl 300)
+[    2.068400] ata30: SATA link down (SStatus 0 SControl 300)
+[    2.084197]   Magic number: 12:642:266
+[    2.084348] rtc_cmos 00:04: setting system clock to 2016-08-17 06:15:12 UTC (1471414512)
+[    2.084468] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+[    2.084473] EDD information not available.
+[    2.084688] Freeing unused kernel memory: 760k freed
+[    2.084745] Write protecting the kernel text: 6064k
+[    2.084778] Write protecting the kernel read-only data: 2488k
+[    2.084782] NX-protecting the kernel data: 4176k
+[    2.111624] udevd[148]: starting version 175
+[    2.140386] VMware vmxnet3 virtual NIC driver - version 1.1.29.0-k-NAPI
+[    2.148733] usb 2-1: New USB device found, idVendor=0e0f, idProduct=0003
+[    2.148743] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.148750] usb 2-1: Product: VMware Virtual USB Mouse
+[    2.148755] usb 2-1: Manufacturer: VMware
+[    2.149739] VMware PVSCSI driver - version 1.0.2.0-k
+[    2.260028] usb 2-2: new full-speed USB device number 3 using uhci_hcd
+[    2.276875] usbcore: registered new interface driver usbhid
+[    2.276882] usbhid: USB HID core driver
+[    2.315235] Floppy drive(s): fd0 is 1.44M
+[    2.328247] FDC 0 is a post-1991 82077
+[    2.329719] Fusion MPT base driver 3.04.20
+[    2.329724] Copyright (c) 1999-2008 LSI Corporation
+[    2.329983] Fusion MPT SPI Host driver 3.04.20
+[    2.335592] mptbase: ioc0: Initiating bringup
+[    2.369008] pcnet32: pcnet32.c:v1.35 21.Apr.2008 tsbogend@alpha.franken.de
+[    2.369065] pcnet32: PCnet/PCI II 79C970A at 0x2000, 00:0c:29:1a:b5:29 assigned IRQ 19
+[    2.369179] pcnet32: eth0: registered as PCnet/PCI II 79C970A
+[    2.380022] pcnet32: 1 cards_found
+[    2.389042] usb 2-2: New USB device found, idVendor=0e0f, idProduct=0002
+[    2.389051] usb 2-2: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.389056] usb 2-2: Product: VMware Virtual USB Hub
+[    2.390143] hub 2-2:1.0: USB hub found
+[    2.392159] hub 2-2:1.0: 7 ports detected
+[    2.403959] ioc0: LSI53C1030 B0: Capabilities={Initiator}
+[    2.567916] scsi32 : ioc0: LSI53C1030 B0, FwRev=01032920h, Ports=1, MaxQ=128, IRQ=17
+[    2.593750] input: VMware VMware Virtual USB Mouse as /devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/input/input2
+[    2.594300] hid-generic 0003:0E0F:0003.0001: input,hidraw0: USB HID v1.10 Mouse [VMware VMware Virtual USB Mouse] on usb-0000:02:00.0-1/input0
+[    2.676065] usb 2-2.1: new full-speed USB device number 4 using uhci_hcd
+[    2.681966] scsi 32:0:0:0: Direct-Access     VMware,  VMware Virtual S 1.0  PQ: 0 ANSI: 2
+[    2.681993] scsi target32:0:0: Beginning Domain Validation
+[    2.683800] scsi target32:0:0: Domain Validation skipping write tests
+[    2.683808] scsi target32:0:0: Ending Domain Validation
+[    2.683902] scsi target32:0:0: FAST-40 WIDE SCSI 80.0 MB/s ST (25 ns, offset 127)
+[    2.690746] sd 32:0:0:0: [sda] 125829120 512-byte logical blocks: (64.4 GB/60.0 GiB)
+[    2.690860] sd 32:0:0:0: [sda] Write Protect is off
+[    2.690871] sd 32:0:0:0: [sda] Mode Sense: 61 00 00 00
+[    2.690997] sd 32:0:0:0: [sda] Cache data unavailable
+[    2.691005] sd 32:0:0:0: [sda] Assuming drive cache: write through
+[    2.691626] sd 32:0:0:0: [sda] Cache data unavailable
+[    2.691634] sd 32:0:0:0: [sda] Assuming drive cache: write through
+[    2.692954] sd 32:0:0:0: Attached scsi generic sg1 type 0
+[    2.764885]  sda: sda1 sda2 < sda5 >
+[    2.765821] sd 32:0:0:0: [sda] Cache data unavailable
+[    2.765832] sd 32:0:0:0: [sda] Assuming drive cache: write through
+[    2.765840] sd 32:0:0:0: [sda] Attached SCSI disk
+[    2.773020] usb 2-2.1: New USB device found, idVendor=0e0f, idProduct=0008
+[    2.773032] usb 2-2.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    2.773040] usb 2-2.1: Product: Virtual Bluetooth Adapter
+[    2.773047] usb 2-2.1: Manufacturer: VMware
+[    2.773053] usb 2-2.1: SerialNumber: 000650268328
+[    2.876983] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[   48.310540] Adding 2094076k swap on /dev/sda5.  Priority:-1 extents:1 across:2094076k 
+[   48.425483] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   48.466698] udevd[425]: starting version 175
+[   48.843190] lp: driver loaded but no devices found
+[   49.490832] Disabling lock debugging due to kernel taint
+[   49.494793] ndiswrapper version 1.60 loaded (smp=yes, preempt=no)
+[   50.111030] usbcore: registered new interface driver ndiswrapper
+[   50.426043] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+[   50.608616] parport_pc 00:09: reported by Plug and Play ACPI
+[   50.609088] parport0: PC-style at 0x378, irq 7 [PCSPP,TRISTATE]
+[   50.611240] piix4_smbus 0000:00:07.3: Host SMBus controller not enabled!
+[   50.613217] [624]: VMCI: shared components initialized.
+[   50.613252] Probing for vmci/PCI.
+[   50.613501] Found vmci/PCI at 0x1080, irq 16.
+[   50.613567] VMCI: using capabilities 0xc.
+[   50.613729] [624]: VMCI: Host capability check passed.
+[   50.614400] vmci 0000:00:07.7: irq 73 for MSI/MSI-X
+[   50.614535] vmci 0000:00:07.7: irq 74 for MSI/MSI-X
+[   50.615229] Registered vmci device.
+[   50.632218] [624]: VMCI: Using guest personality
+[   50.632228] [624]: VMCI: host components initialized.
+[   50.632374] [624]: VMCI: Module registered (name=vmci, major=10, minor=53).
+[   50.632377] [624]: VMCI: Using host personality
+[   50.632380] [624]: VMCI: Module (name=vmci) is initialized
+[   50.755220] lp0: using parport0 (interrupt-driven).
+[   50.798177] type=1400 audit(1471414561.233:2): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=651 comm="apparmor_parser"
+[   50.801557] type=1400 audit(1471414561.237:3): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=651 comm="apparmor_parser"
+[   50.802311] type=1400 audit(1471414561.237:4): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=651 comm="apparmor_parser"
+[   50.816584] [drm] Initialized drm 1.1.0 20060810
+[   50.952774] [drm] Capabilities:
+[   50.952780] [drm]   Rect copy.
+[   50.952782] [drm]   Cursor.
+[   50.952783] [drm]   Cursor bypass.
+[   50.952785] [drm]   Cursor bypass 2.
+[   50.952787] [drm]   8bit emulation.
+[   50.952789] [drm]   Alpha cursor.
+[   50.952790] [drm]   3D.
+[   50.952792] [drm]   Extended Fifo.
+[   50.952794] [drm]   Multimon.
+[   50.952795] [drm]   Pitchlock.
+[   50.952797] [drm]   Irq mask.
+[   50.952799] [drm]   Display Topology.
+[   50.952800] [drm]   GMR.
+[   50.952802] [drm]   Traces.
+[   50.952804] [drm]   GMR2.
+[   50.952806] [drm]   Screen Object 2.
+[   50.952808] [drm] Max GMR ids is 64
+[   50.952810] [drm] Max GMR descriptors is 4096
+[   50.952813] [drm] Max number of GMR pages is 196608
+[   50.952815] [drm] Max dedicated hypervisor surface memory is 786432 kiB
+[   50.952817] [drm] VRAM at 0xe8000000 size is 131072 kiB
+[   50.952820] [drm] MMIO at 0xfe000000 size is 2048 kiB
+[   50.952824] [drm] global init.
+[   50.954143] Bluetooth: Core ver 2.16
+[   50.959960] [TTM] Zone  kernel: Available graphics memory: 440572 kiB
+[   50.959965] [TTM] Zone highmem: Available graphics memory: 1032384 kiB
+[   50.959967] [TTM] Initializing pool allocator
+[   50.959977] [TTM] Initializing DMA pool allocator
+[   50.963250] [drm] width 640
+[   50.963281] [drm] height 480
+[   50.963310] [drm] bpp 32
+[   51.010260] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x0000077f
+[   51.014170] NET: Registered protocol family 31
+[   51.014177] Bluetooth: HCI device and connection manager initialized
+[   51.014181] Bluetooth: HCI socket layer initialized
+[   51.014184] Bluetooth: L2CAP socket layer initialized
+[   51.014200] Bluetooth: SCO socket layer initialized
+[   51.196715] usbcore: registered new interface driver btusb
+[   51.452786] [drm] Supports vblank timestamp caching Rev 1 (10.10.2010).
+[   51.452793] [drm] No driver support for vblank timestamp query.
+[   51.453554] [drm] Screen objects system initialized
+[   51.453563] [drm] Detected device 3D availability.
+[   51.511797] fbcon: svgadrmfb (fb0) is primary device
+[   51.591442] Console: switching to colour frame buffer device 100x37
+[   51.763101] [drm] Initialized vmwgfx 2.4.0 20120209 for 0000:00:0f.0 on minor 0
+[   52.398476] Bluetooth: RFCOMM TTY layer initialized
+[   52.398486] Bluetooth: RFCOMM socket layer initialized
+[   52.398488] Bluetooth: RFCOMM ver 1.11
+[   52.400073] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   52.400078] Bluetooth: BNEP filters: protocol multicast
+[   52.402523] ppdev: user-space parallel port driver
+[   52.639261] type=1400 audit(1471414563.077:5): apparmor="STATUS" operation="profile_load" name="/usr/lib/cups/backend/cups-pdf" pid=822 comm="apparmor_parser"
+[   52.646051] type=1400 audit(1471414563.081:6): apparmor="STATUS" operation="profile_load" name="/usr/sbin/cupsd" pid=822 comm="apparmor_parser"
+[   53.343524] microcode: CPU0 sig=0x206a7, pf=0x1, revision=0x1a
+[   53.403242] input: ImPS/2 Generic Wheel Mouse as /devices/platform/i8042/serio1/input/input3
+[   53.887276] init: failsafe main process (893) killed by TERM signal
+[   54.260991] type=1400 audit(1471414564.697:7): apparmor="STATUS" operation="profile_load" name="/usr/lib/lightdm/lightdm/lightdm-guest-session-wrapper" pid=1008 comm="apparmor_parser"
+[   54.295326] type=1400 audit(1471414564.733:8): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=1009 comm="apparmor_parser"
+[   54.296773] type=1400 audit(1471414564.733:9): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1009 comm="apparmor_parser"
+[   54.297146] type=1400 audit(1471414564.733:10): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=1009 comm="apparmor_parser"
+[   54.465983] type=1400 audit(1471414564.901:11): apparmor="STATUS" operation="profile_load" name="/usr/bin/evince" pid=1014 comm="apparmor_parser"
+[   54.628394] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+[   54.689689] pcnet32 0000:02:01.0: eth0: link up
+[   62.908422] init: plymouth-stop pre-start process (1401) terminated with status 1
+[   64.612092] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[   64.613007] acpiphp: Slot [32] registered
+[   64.613062] acpiphp: Slot [33] registered
+[   64.613112] acpiphp: Slot [34] registered
+[   64.613161] acpiphp: Slot [35] registered
+[   64.613211] acpiphp: Slot [36] registered
+[   64.613261] acpiphp: Slot [37] registered
+[   64.613309] acpiphp: Slot [38] registered
+[   64.613361] acpiphp: Slot [39] registered
+[   64.613410] acpiphp: Slot [40] registered
+[   64.613458] acpiphp: Slot [41] registered
+[   64.613509] acpiphp: Slot [42] registered
+[   64.613560] acpiphp: Slot [43] registered
+[   64.613611] acpiphp: Slot [44] registered
+[   64.613660] acpiphp: Slot [45] registered
+[   64.613712] acpiphp: Slot [46] registered
+[   64.613762] acpiphp: Slot [47] registered
+[   64.613813] acpiphp: Slot [48] registered
+[   64.613867] acpiphp: Slot [49] registered
+[   64.613917] acpiphp: Slot [50] registered
+[   64.613968] acpiphp: Slot [51] registered
+[   64.622851] acpiphp: Slot [52] registered
+[   64.622920] acpiphp: Slot [53] registered
+[   64.622974] acpiphp: Slot [54] registered
+[   64.623033] acpiphp: Slot [55] registered
+[   64.623085] acpiphp: Slot [56] registered
+[   64.623137] acpiphp: Slot [57] registered
+[   64.623189] acpiphp: Slot [58] registered
+[   64.623240] acpiphp: Slot [59] registered
+[   64.623295] acpiphp: Slot [60] registered
+[   64.623348] acpiphp: Slot [61] registered
+[   64.623401] acpiphp: Slot [62] registered
+[   64.623453] acpiphp: Slot [63] registered
+[  172.140937] audit_printk_skb: 36 callbacks suppressed
+[  172.140946] type=1400 audit(1471414682.633:24): apparmor="DENIED" operation="open" parent=1 profile="/usr/lib/telepathy/mission-control-5" name="/usr/share/gvfs/remote-volume-monitors/" pid=2436 comm="mission-control" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[  359.803731] type=1400 audit(1471414870.393:25): apparmor="DENIED" operation="capable" parent=1 profile="/usr/sbin/cupsd" pid=824 comm="cupsd" pid=824 comm="cupsd" capability=36  capname="block_suspend"
+[  439.274764] usb 1-1: new high-speed USB device number 2 using ehci_hcd
+[  439.859608] usb 1-1: New USB device found, idVendor=07d1, idProduct=3c0d
+[  439.859618] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  439.859624] usb 1-1: Product: 11n Adapter
+[  439.859629] usb 1-1: Manufacturer: Ralink
+[  439.859633] usb 1-1: SerialNumber: 1.0
+[  440.618453] cfg80211: Calling CRDA to update world regulatory domain
+[  441.412011] cfg80211: World regulatory domain updated:
+[  441.412021] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+[  441.412026] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  441.412031] cfg80211:   (2457000 KHz - 2482000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  441.412035] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  441.412038] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  441.412042] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  441.876186] usb 1-1: reset high-speed USB device number 2 using ehci_hcd
+[  442.819085] cfg80211: Updating information on frequency 2412 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819091] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819094] cfg80211: Updating information on frequency 2417 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819097] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819099] cfg80211: Updating information on frequency 2422 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819102] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819104] cfg80211: Updating information on frequency 2427 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819106] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819108] cfg80211: Updating information on frequency 2432 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819111] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819113] cfg80211: Updating information on frequency 2437 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819116] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819118] cfg80211: Updating information on frequency 2442 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819120] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819122] cfg80211: Updating information on frequency 2447 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819125] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819127] cfg80211: Updating information on frequency 2452 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819129] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819131] cfg80211: Updating information on frequency 2457 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819134] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819136] cfg80211: Updating information on frequency 2462 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819139] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  442.819141] cfg80211: Updating information on frequency 2467 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819143] cfg80211: 2457000 KHz - 2482000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  442.819145] cfg80211: Updating information on frequency 2472 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819148] cfg80211: 2457000 KHz - 2482000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  442.819150] cfg80211: Updating information on frequency 2484 MHz for a 20 MHz width channel with regulatory rule:
+[  442.819152] cfg80211: 2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  442.861920] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+[  442.863499] Registered led device: rt2800usb-phy0::radio
+[  442.863707] Registered led device: rt2800usb-phy0::assoc
+[  442.863790] Registered led device: rt2800usb-phy0::quality
+[  442.864929] usbcore: registered new interface driver rt2800usb
+[  442.940461] rtusb init rt2870 --->
+[  442.941806] usbcore: registered new interface driver rt2870
+[  447.060338] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[  447.063195] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[  453.568412] cfg80211: Found new beacon on frequency: 2472 MHz (Ch 13) on phy0
+[  482.239837] wlan0: authenticate with 08:bd:43:8a:aa:56
+[  483.155148] wlan0: send auth to 08:bd:43:8a:aa:56 (try 1/3)
+[  483.215485] wlan0: authenticated
+[  483.725917] wlan0: associate with 08:bd:43:8a:aa:56 (try 1/3)
+[  483.751307] wlan0: RX AssocResp from 08:bd:43:8a:aa:56 (capab=0x431 status=0 aid=1)
+[  483.962315] wlan0: associated
+[  483.962668] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[  679.790050] wlan0: deauthenticating from 08:bd:43:8a:aa:56 by local choice (reason=3)
+[  680.877213] cfg80211: All devices are disconnected, going to restore regulatory settings
+[  680.877224] cfg80211: Restoring regulatory settings
+[  680.877277] cfg80211: Calling CRDA to update world regulatory domain
+[  680.947501] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  680.960576] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  681.001597] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  684.721210] IPv6: ADDRCONF(NETDEV_UP): adhoc0: link is not ready
+[  684.724295] cfg80211: Updating information on frequency 2412 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724304] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724308] cfg80211: Updating information on frequency 2417 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724312] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724316] cfg80211: Updating information on frequency 2422 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724319] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724323] cfg80211: Updating information on frequency 2427 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724326] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724329] cfg80211: Updating information on frequency 2432 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724333] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724336] cfg80211: Updating information on frequency 2437 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724340] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724344] cfg80211: Updating information on frequency 2442 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724347] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724350] cfg80211: Updating information on frequency 2447 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724354] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724357] cfg80211: Updating information on frequency 2452 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724361] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724364] cfg80211: Updating information on frequency 2457 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724368] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724371] cfg80211: Updating information on frequency 2462 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724375] cfg80211: 2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724378] cfg80211: Updating information on frequency 2467 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724382] cfg80211: 2457000 KHz - 2482000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  684.724385] cfg80211: Updating information on frequency 2472 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724389] cfg80211: 2457000 KHz - 2482000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  684.724392] cfg80211: Updating information on frequency 2484 MHz for a 20 MHz width channel with regulatory rule:
+[  684.724396] cfg80211: 2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  684.724401] cfg80211: World regulatory domain updated:
+[  684.724404] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+[  684.724408] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724412] cfg80211:   (2457000 KHz - 2482000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  684.724416] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[  684.724419] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.724423] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[  684.788999] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  684.860123] adhoc0: Trigger new scan to find an IBSS to join
+[  684.952525] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  684.965431] IPv6: ADDRCONF(NETDEV_UP): adhoc0: link is not ready
+[  685.015359] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.056521] Miguel Catalan Cid
+[  685.056521] Implementation built on top of aodv-st by Krishna Ramachandran, UC Santa Barbara
+[  685.056529] ---------------------------------------------
+[  685.056532] Hop count routing
+[  685.056532] 
+[  685.056536] * Network IP - 192.168.5.11/255.255.255.0
+[  685.056540] AODV BLACK LIST:
+[  685.056543]            
+[  685.056545] DTN BLACK LIST:
+[  685.056547]            
+[  685.056552] 
+[  685.056552] *Initialicing mesh device  - adhoc0
+[  685.056557] i=0
+[  685.056564] -----------new dev ip 192.168.11.128--------
+[  685.060314] =================init g_mesh_dev192.168.11.128=============
+[  685.060323] ------------------------------------
+[  685.060323] dev->name:eth0
+[  685.060323] dev->ifindex:2
+[  685.060323] dev->type:1
+[  685.060323] dev->dev_id:0
+[  685.060323] ----------------------------------
+[  685.060330] i=1
+[  685.060334] 
+[  685.060334] 
+[  685.060334] DEVICE ERROR! Unable to locate device: adhoc0, Bailing!
+[  685.060334] 
+[  685.060342] ==========dev:eth0	192.168.11.128============
+[  685.060344] *************************************
+[  685.060347] Node Type:101
+[  685.060349] subnet:(null)
+[  685.060352] network_ip:192.168.5.11
+[  685.060355] gateway:0.0.0.0
+[  685.060358] Number of devs:1
+[  685.060360] Communication Radius:300
+[  685.060362] *************************************
+[  685.062660] 
+[  685.062660] 
+[  685.062660] ****FBAODV_PROTO module initialization complete****
+[  685.062660] 
+[  685.083894] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.120539] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.174568] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.227392] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.259494] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.315295] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.364566] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.408869] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.441410] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.457550] output_handler: insert gen_rreq task
+[  685.457593] -----------------gen rreq--------------
+[  685.457618] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  685.475424] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.500447] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  685.525676] Loading kernel module for a network device with CAP_SYS_MODULE (deprecated).  Use CAP_NET_ADMIN and alias netdev-wlan0 instead.
+[  686.060286] output_handler: insert gen_rreq task
+[  686.060681] -----------------gen rreq--------------
+[  686.060723] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  686.559760] output_handler: insert gen_rreq task
+[  686.560085] -----------------gen rreq--------------
+[  686.560116] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  686.921446] output_handler: insert gen_rreq task
+[  686.921607] -----------------gen rreq--------------
+[  686.921638] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  687.059689] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  687.663769] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  688.164208] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  688.523918] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  689.464050] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  690.067845] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  690.271549] IPv6: ADDRCONF(NETDEV_UP): adhoc0: link is not ready
+[  690.455045] output_handler: insert gen_rreq task
+[  690.455081] -----------------gen rreq--------------
+[  690.455107] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  690.569632] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  690.929446] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  691.567853] output_handler: insert gen_rreq task
+[  691.567890] -----------------gen rreq--------------
+[  691.567913] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  692.056581] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  693.173443] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  694.460319] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  695.575713] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  696.216370] cfg80211: Found new beacon on frequency: 2472 MHz (Ch 13) on phy0
+[  696.569479] output_handler: insert gen_rreq task
+[  696.569519] -----------------gen rreq--------------
+[  696.569540] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  698.173388] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  700.577282] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  701.575009] output_handler: insert gen_rreq task
+[  701.575047] -----------------gen rreq--------------
+[  701.575068] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  703.181197] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  705.081549] adhoc0: authenticate with 08:bd:43:8a:aa:56
+[  705.584341] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  706.152053] adhoc0: send auth to 08:bd:43:8a:aa:56 (try 1/3)
+[  706.178364] adhoc0: authenticated
+[  706.641645] adhoc0: associate with 08:bd:43:8a:aa:56 (try 1/3)
+[  706.669431] adhoc0: RX AssocResp from 08:bd:43:8a:aa:56 (capab=0x431 status=0 aid=1)
+[  706.914087] adhoc0: associated
+[  706.914530] IPv6: ADDRCONF(NETDEV_CHANGE): adhoc0: link becomes ready
+[  707.050282] output_handler: insert gen_rreq task
+[  707.050307] -----------------gen rreq--------------
+[  707.050332] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  707.202239] output_handler: insert gen_rreq task
+[  707.202264] -----------------gen rreq--------------
+[  707.202291] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  708.540896] output_handler: insert gen_rreq task
+[  708.540964] -----------------gen rreq--------------
+[  708.540979] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  708.652445] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  708.804062] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  710.145021] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  711.056904] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  711.209361] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  712.056813] output_handler: insert gen_rreq task
+[  712.056866] -----------------gen rreq--------------
+[  712.056886] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  712.548879] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  713.539245] output_handler: insert gen_rreq task
+[  713.539295] -----------------gen rreq--------------
+[  713.539317] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  713.660798] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  715.145061] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  716.064743] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  717.548792] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  719.850869] output_handler: insert gen_rreq task
+[  719.850922] -----------------gen rreq--------------
+[  719.850942] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  720.227599] output_handler: insert gen_rreq task
+[  720.227635] -----------------gen rreq--------------
+[  720.227661] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  720.427483] output_handler: insert gen_rreq task
+[  720.427520] -----------------gen rreq--------------
+[  720.427547] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  720.627301] output_handler: insert gen_rreq task
+[  720.627336] -----------------gen rreq--------------
+[  720.627364] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  720.827161] output_handler: insert gen_rreq task
+[  720.827196] -----------------gen rreq--------------
+[  720.827221] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  721.452490] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  721.829309] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  722.034024] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  722.226768] output_handler: insert gen_rreq task
+[  722.226794] -----------------gen rreq--------------
+[  722.226821] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  722.235955] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  722.426390] output_handler: insert gen_rreq task
+[  722.426425] -----------------gen rreq--------------
+[  722.426452] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  722.433145] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  722.628729] output_handler: insert gen_rreq task
+[  722.628774] -----------------gen rreq--------------
+[  722.628796] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  722.826734] output_handler: insert gen_rreq task
+[  722.826762] -----------------gen rreq--------------
+[  722.826784] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  723.834114] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  723.853270] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.028285] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.228265] output_handler: insert gen_rreq task
+[  724.228302] -----------------gen rreq--------------
+[  724.228331] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.233851] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.234263] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.428027] output_handler: insert gen_rreq task
+[  724.428060] -----------------gen rreq--------------
+[  724.428083] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.433299] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.438119] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.627924] output_handler: insert gen_rreq task
+[  724.627960] -----------------gen rreq--------------
+[  724.627989] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.637773] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.827876] output_handler: insert gen_rreq task
+[  724.827915] -----------------gen rreq--------------
+[  724.827946] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  724.837599] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  725.829734] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.029616] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.227105] output_handler: insert gen_rreq task
+[  726.227142] -----------------gen rreq--------------
+[  726.227168] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.230041] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.236998] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.426891] output_handler: insert gen_rreq task
+[  726.426926] -----------------gen rreq--------------
+[  726.426949] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.429838] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.430305] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.626800] output_handler: insert gen_rreq task
+[  726.626835] -----------------gen rreq--------------
+[  726.626862] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.636800] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.826924] output_handler: insert gen_rreq task
+[  726.826960] -----------------gen rreq--------------
+[  726.826988] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  726.836594] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  727.828771] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  728.028628] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  728.228589] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  728.233771] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  728.428494] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  728.437210] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  728.633244] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  728.831947] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  730.232571] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  730.429911] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  730.629814] input_handler: Recv a RREQ, from (null) to 192.168.11.128
+[  730.829798] input_handler: Recv a RREQ, from (null) to 192.168.11.128

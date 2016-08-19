@@ -44,8 +44,6 @@ namespace dtn
 		file.append(filename);
 		fstream neighbourAreaDir;
 		neighbourAreaDir.open(directories.c_str(),ios::in);
-		//cout<<directories<<endl;
-		//cout<<file<<endl;
 
 		if (!neighbourAreaDir)
 		{
@@ -82,10 +80,11 @@ namespace dtn
 		if(neighbourAreaFile)
 		{
 			neighbourAreaFile.close();
-			geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"从文件historyarea中读取历史的区域信息");
+			//geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"从文件historyarea中读取历史的区域信息");
 			updateArea(file);
+			return;
 		}
-		else
+			else
 		{
 			neighbourAreaFile.close();
 			return;
@@ -99,7 +98,7 @@ namespace dtn
 	 * @param eid
 	 * @param payload
 	 */
-	void NeighbourArea::Payload_update(string eid,const BundlePayload *payload)
+	void NeighbourArea::Payload_update(string eid,const BundlePayload &payload)
 	{
 		if(!areaMap.empty())
 			areaMap.clear();
@@ -138,18 +137,17 @@ namespace dtn
 		directories.append(NeighbourConfig::NEIGHBOURAREAFILEDIR);
 		file.append(directories);
 		file.append(filename);
-
 		fstream neighAreaFile;
-		neighAreaFile.open(file.c_str(),ios::trunc|ios::out|ios::binary);//删除原来的记录，重新写
+		neighAreaFile.open(file.c_str(),ios::trunc|ios::out);//删除原来的记录，重新写
 
 
 		//将邻居的区域记录保存到本地
 		//	GeohistoryLog.i(tag, String.format("将邻居（ %s）发来的payload里面的区域移动规律存储到文件中", eid));
 		//payload.copy_to_file(neighAreaFile);
 		//将payload读到一个字符流，再将字符流读到一个文件
-		int length=payload->length();
+		int length=payload.length();
 		u_char *buf=new u_char[length];
-		payload->read_data(0,length,buf);
+		payload.read_data(0,length,buf);
 
 		neighAreaFile.write((char *)buf,length);
 		neighAreaFile.close();
@@ -171,7 +169,7 @@ namespace dtn
 	NeighbourArea::NeighbourArea(EndpointID eid)
 	{
 		neighbourEID=eid;
-		init();
+		//init();
 	}
 
 	/**
@@ -182,17 +180,18 @@ namespace dtn
 	 * @throws StreamCorruptedException
 	 * @throws ClassNotFoundException
 	 */
-	void NeighbourArea::updateArea(string fileroute)
+	void NeighbourArea::updateArea(string file)
 	{
-		fstream payloadFile(fileroute.c_str());
-		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s,利用payloadFile来更新内存中邻居的区域移动规律",tag.c_str());
+		fstream payloadFile;
+		payloadFile.open(file.c_str(),ios::in);
+		//geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s,利用payloadFile来更新内存中邻居的区域移动规律",tag.c_str());
 		//payloadFile.open(historyAreaFilePath.c_str(),ios::in);
 		//从文件中读取历史的区域信息
 		if (!payloadFile.is_open())
-		{
-			cout<<fileroute<<" Error opening file";
-			return;
-		}
+	    {
+	   	 	cout<< "Error opening file";
+	   	 	return;
+	    }
 		boost::archive::text_iarchive ia(payloadFile);
 		Area area;
 		try

@@ -68,7 +68,7 @@ protected:
 
 	void handle_contact_up(ContactUpEvent* event);
 	//针对收到要发送的bundle，需要转发的bundle，邻居交互信息的bundle的处理
-	//void handle_bundle_received(BundleReceivedEvent* event);
+	void handle_bundle_received(BundleReceivedEvent* event);
 
 	///////////////////////////处理区域问题
 public:

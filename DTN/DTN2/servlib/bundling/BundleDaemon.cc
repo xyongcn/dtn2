@@ -1211,7 +1211,7 @@ BundleDaemon::handle_bundle_delivered(BundleDeliveredEvent* event)
      */
     Bundle* bundle = event->bundleref_.object();
 
-    log_warn("in bundle delivered, source:%s, dest:%s", bundle->source().c_str(), bundle->dest().c_str());
+    log_warn("in bundle delivered, source:%s, dest:%s,type:%d", bundle->source().c_str(), bundle->dest().c_str(),bundle->getBundleType());
 
     char logfile[255];
     const BlockInfo* bkinfo = NULL;

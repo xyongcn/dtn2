@@ -100,10 +100,8 @@ PayloadBlockProcessor::consume(Bundle*    bundle,
     } else {
         tocopy = len;
     }
-
     bundle->mutable_payload()->set_length(rcvd + tocopy);
     bundle->mutable_payload()->write_data(buf, rcvd, tocopy);
-
     consumed += tocopy;
 
     log_debug_p(log, "PayloadBlockProcessor consumed %zu/%u (%s)",

@@ -22,16 +22,28 @@ GeoHistoryRouter::GeoHistoryRouter()
 
 
 //////////////////针对收到要发送的bundle，需要转发的bundle，邻居交互信息的bundle的处理
-	/*void GeoHistoryRouter::handle_bundle_received(BundleReceivedEvent *event)
+	void GeoHistoryRouter::handle_bundle_received(BundleReceivedEvent *event)
 	{
 		cout<< "GeohistoryRouter收到一个BundleReceivedEvent"<<endl;
+		cout<<"!"<<event->bundleref_.object()->getBundleType()<<endl;
+		cout<<"!"<<event->bundleref_.object()->source().str()<<endl;
+		cout<<"!"<<event->bundleref_.object()->dest().str()<<endl;
+		cout<<"!"<<event->source_<<endl;
+
+
+		int length=event->bundleref_.object()->payload().length();
+		u_char *buf=new u_char[length];
+		event->bundleref_.object()->payload().read_data(0,length,buf);
+
+		//cout<<buf<<endl;
+
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"GeohistoryRouter 收到一个 BundleReceivedEvent");
-		/**
-		 * DTN中的时间，bundle的creation_ts为bundle创建的相对时间，DTNTime.TIMEVAL_CONVERSION就是相对的参数，应该是2000，00：00。
-		 * 利用creation_ts和DTNTime.TIMEVAL_CONVERSION即可得到bundle创建时的真实时间
-		 * bundle的expirionTime则是指bundle的有效时间
-		 * bundle之间
-		 *
+		//
+		// * DTN中的时间，bundle的creation_ts为bundle创建的相对时间，DTNTime.TIMEVAL_CONVERSION就是相对的参数，应该是2000，00：00。
+		// * 利用creation_ts和DTNTime.TIMEVAL_CONVERSION即可得到bundle创建时的真实时间
+		// * bundle的expirionTime则是指bundle的有效时间
+		// * bundle之间
+		 //*
 		if(event->bundleref_.object()->getBundleType()==Bundle::NEI_AREA_BUNDLE)
 		{
 			//自己想邻居发送的交换历史区域的bundle
@@ -42,15 +54,17 @@ GeoHistoryRouter::GeoHistoryRouter()
 			}
 			else if(event->bundleref_.object()->dest().str()==BundleDaemon::GetInstance()->local_eid().str())
 			{
+				cout<<"邻居发来的邻居bundle"<<endl;
 				const EndpointID source_eid=event->bundleref_.object()->source();
 				Neighbour *nei=NeighbourManager::Getinstance()->checkNeighbour(source_eid);
-
-				const BundlePayload payload=event->bundleref_.object()->payload();
+				const BundlePayload &payload=event->bundleref_.object()->payload();
 				//将payload保存到文件中，再更新NeighbourArea
-				nei->getNeighbourArea()->Payload_update(source_eid.str(),&payload);
+				nei->getNeighbourArea()->Payload_update(source_eid.str(),payload);
 			}
 			else
 			{
+				printf("既不是自己发出的，也不是发给自己的邻居信息，源：%s,目的：%s"
+										,event->bundleref_.object()->source().str().c_str(),event->bundleref_.object()->dest().str().c_str());
 				geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"既不是自己发出的，也不是发给自己的邻居信息，源：%s,目的：%s"
 						,event->bundleref_.object()->source().str().c_str(),event->bundleref_.object()->dest().str().c_str());
 			}
@@ -63,10 +77,11 @@ GeoHistoryRouter::GeoHistoryRouter()
 		}
 		else
 		{
+			printf("bundle_%d 的类型不明确，type：%d", event->bundleref_.object()->bundleid(),
+					event->bundleref_.object()->getBundleType());
 			geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"bundle_%d 的类型不明确，type：%d", event->bundleref_.object()->bundleid(),
 					event->bundleref_.object()->getBundleType());
 		}
-
 
 		///////TableBasedRouter原本的
 		std::cout<<"geohistory::handle_bundle_received"<<std::endl;
@@ -107,7 +122,7 @@ GeoHistoryRouter::GeoHistoryRouter()
 	   }
 
 
-	}*/
+	}
 
 /////////////////////////处理link//////////
 	void GeoHistoryRouter::handle_link_created(LinkCreatedEvent *event) {
@@ -196,7 +211,7 @@ GeoHistoryRouter::GeoHistoryRouter()
 
 	void GeoHistoryRouter::handle_sendBundle(SendBundleMsg *msg)
 	{
-
+		printf("send message!\n");
 		bool f=sendMessage(msg->dest_eid, msg->fileroute, msg->rctp,msg->areaid,msg->bundleType);
 		if(f)
 			cout<<"send successfully!"<<endl;
@@ -404,13 +419,10 @@ GeoHistoryRouter::GeoHistoryRouter()
 			 	 	 	 	 	 	 	 string source)
 	{
         FILE* file;
-        int r, left;
-        u_char *buffer=new u_char[4096];
-        size_t offset;
+        u_char *buffer=new u_char[payload_len];
 
-        left = payload_len;
-        r = 0;
-        offset = 0;
+        int r = 0;
+
         AreaManager::Getinstance()->lockHistoryAreaMovingFile();//锁住文件的读写
         if ((file = fopen(filename, "r")) == NULL)
         {
@@ -419,11 +431,15 @@ GeoHistoryRouter::GeoHistoryRouter()
                     filename, strerror(errno));
             return false;
         }
-
-
-        while (left > 0)
+        r = fread(buffer, 1, payload_len, file);
+        b->mutable_payload()->write_data(buffer, 0, payload_len);
+      /*  while (left > 0)
        	{
+        	printf("")
        	    r = fread(buffer, 1, (left>4096)?4096:left, file);
+       	    printf("~~%d~~\n",r);
+       	    printf("%s",buffer);
+
        	    if (r)
        	    {
        	         b->mutable_payload()->write_data(buffer, offset, r);
@@ -433,7 +449,7 @@ GeoHistoryRouter::GeoHistoryRouter()
        	    {
        	        sleep(1); // pause before re-reading
        	     }
-       	 }
+       	 }*/
 
        	 fclose(file);
          AreaManager::Getinstance()->unlockHistoryAreaMovingFile();//锁住文件的读写

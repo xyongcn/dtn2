@@ -379,7 +379,6 @@ UDPConvergenceLayer::Receiver::process_data(u_char* bp, size_t len)
 {
     // the payload should contain a full bundle
     Bundle* bundle = new Bundle();
-    
     bool complete = false;
     int cc = BundleProtocol::consume(bundle, bp, len, &complete);
 
@@ -414,7 +413,6 @@ UDPConvergenceLayer::Receiver::run()
     while (1) {
         if (should_stop())
             break;
-        
         ret = recvfrom((char*)buf, MAX_UDP_PACKET, 0, &addr, &port);
         if (ret <= 0) {   
             if (errno == EINTR) {
@@ -427,7 +425,7 @@ UDPConvergenceLayer::Receiver::run()
         }
         
         log_debug("got %d byte packet from %s:%d",
-                  ret, intoa(addr), port);               
+                  ret, intoa(addr), port);
         process_data(buf, ret);
     }
 }

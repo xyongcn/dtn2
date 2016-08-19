@@ -427,17 +427,33 @@ private:
     //	private long invalidtime;//bundle的失效时间
 private:
     //area的各层区域id,0层区域，最底层区域，也是可达层区域,1,2,3...
-    int *areaid; //new int [13],初始化为0
+    int areaid[13]; //new int [13],初始化为0
 
     int areasize;//=0//区域层次个数
 
     int deliverBundleNum;//=0;//传递阶段的bundle数量
     int floodBundleNum;//=0;//洪泛扩散阶段bundle的数量
     int isFlooding;//=0;//是否进入了flood阶段
-public:
 
-    int getAreaSize()
-    {
+
+    /**
+    * 判断bundle属于哪一种类型
+    * DataBundle=1;//用来节点之间发送数据的bundle
+    * NeighbourHistoryAreaBundle=2;//用来表示邻居之间交换历史区域信息的bundle
+    */
+public:
+    int bundleType;//=DATA_BUNDLE;
+    const static int DATA_BUNDLE=1;
+    const static int NEI_AREA_BUNDLE=2;
+
+    /**
+    * 用于geoHistoryRouter里面判断bundle是否传输完成的标识
+    */
+    bool geoRouterTransmmited;//=false;
+
+
+    u_int64_t getAreaSize()
+   const {
        return areasize;
     }
 
@@ -460,8 +476,8 @@ public:
     }
 
 
-    int getAreaId(int level)
-    {
+    u_int64_t getAreaId(int level)
+    const{
     	if(level<=12 && level>=0)
         	return areaid[level];
         return 0;
@@ -476,8 +492,8 @@ public:
 
 
 
-    int getDeliverBundleNum()
-    {
+    u_int64_t getDeliverBundleNum()
+    const{
     	return this->deliverBundleNum;
     }
 
@@ -486,8 +502,8 @@ public:
      	this->deliverBundleNum=deliverbundlenum;
     }
 
-    int getFloodBundleNum()
-    {
+    u_int64_t getFloodBundleNum()
+    const{
     	return this->floodBundleNum;
     }
 
@@ -496,8 +512,8 @@ public:
      	this->floodBundleNum=floodbundlenum;
     }
 
-    int getIsFlooding()
-    {
+    u_int64_t getIsFlooding()
+   const {
     	return isFlooding;
     }
 
@@ -524,23 +540,9 @@ public:
     	return true;
     }
 
-    /**
-    * 判断bundle属于哪一种类型
-    * DataBundle=1;//用来节点之间发送数据的bundle
-    * NeighbourHistoryAreaBundle=2;//用来表示邻居之间交换历史区域信息的bundle
-    */
-    int bundleType;//=DATA_BUNDLE;
-    const static int DATA_BUNDLE=1;
-    const static int NEI_AREA_BUNDLE=2;
-
-    /**
-    * 用于geoHistoryRouter里面判断bundle是否传输完成的标识
-    */
-    bool geoRouterTransmmited;//=false;
-
     //获取bundle的类型
-    int getBundleType()
-    {
+    u_int64_t getBundleType()
+    const{
     	return bundleType;
     }
 

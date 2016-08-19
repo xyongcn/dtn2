@@ -4330,3 +4330,2298 @@ INFO:All minute Frequency Vector Attenuation
 INFO:AreaManager:更新完本地的移动记录文件
 INFO:All minute Frequency Vector Attenuation
 INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,-0.001506
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,0.002680
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:获取请求到的经纬度信息:116.306700,0.003094
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All hour Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:All minute Frequency Vector Attenuation
+INFO:AreaManager:更新完本地的移动记录文件
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:AreaManager:从文件historyarea中读取历史的区域信息
+INFO:AreaManager:从初始文件中获得本地移动的移动规律，并打印出来：
+INFO:请求经纬度和分层信息线程开始
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent
+INFO:GeohistoryRouter 收到一个 BundleReceivedEvent

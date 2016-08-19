@@ -1288,7 +1288,6 @@ protocol_err:
         goto protocol_err;
         
     }
-    
     BundleDaemon::post(
         new BundleReceivedEvent(incoming->bundle_.object(),
                                 EVENTSRC_PEER,

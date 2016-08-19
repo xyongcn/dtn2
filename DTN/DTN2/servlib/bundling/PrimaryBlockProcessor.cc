@@ -270,6 +270,27 @@ PrimaryBlockProcessor::get_primary_len(const Bundle*  bundle,
     primary->processing_flags |= format_cos_flags(bundle);
     primary->processing_flags |= format_srr_flags(bundle);
 
+    //add by gaorui
+    primary->block_length += SDNV::encoding_len(bundle->getAreaSize());
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(1));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(2));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(3));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(4));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(5));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(6));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(7));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(8));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(9));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(10));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(11));
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(12));
+
+    primary->block_length += SDNV::encoding_len(bundle->getDeliverBundleNum());
+    primary->block_length += SDNV::encoding_len(bundle->getFloodBundleNum());
+    primary->block_length += SDNV::encoding_len(bundle->getIsFlooding());
+    primary->block_length += SDNV::encoding_len(bundle->getBundleType());
+    //end by gaorui
+
     /*
      * Finally, add up the initial preamble and the variable
      * length part.
@@ -277,7 +298,6 @@ PrimaryBlockProcessor::get_primary_len(const Bundle*  bundle,
     primary_len = 1 + SDNV::encoding_len(primary->processing_flags) +
                   SDNV::encoding_len(primary->block_length) +
                   primary->block_length;
-    
     log_debug_p(log, "get_primary_len(bundle %d): %zu",
                 bundle->bundleid(), primary_len);
     
@@ -288,6 +308,7 @@ PrimaryBlockProcessor::get_primary_len(const Bundle*  bundle,
     primary->creation_sequence = bundle->creation_ts().seqno_;
     primary->lifetime = bundle->expiration();
     
+
     return primary_len;
 }
 
@@ -397,7 +418,6 @@ PrimaryBlockProcessor::consume(Bundle*    bundle,
     consumed += cc;
 
     size_t primary_len = block->full_length();
-
     buf = block->writable_contents()->buf();
     len = block->writable_contents()->len();
 
@@ -449,7 +469,9 @@ PrimaryBlockProcessor::consume(Bundle*    bundle,
     PBP_READ_SDNV(&primary.creation_sequence);
     PBP_READ_SDNV(&primary.lifetime);
     PBP_READ_SDNV(&primary.dictionary_length);
-    
+
+
+
     bundle->set_creation_ts(BundleTimestamp(primary.creation_time,
                                             primary.creation_sequence));
     bundle->set_expiration(primary.lifetime);
@@ -545,6 +567,49 @@ PrimaryBlockProcessor::consume(Bundle*    bundle,
                     bundle->frag_offset(), bundle->orig_length());
     }
     
+
+
+    //add by gaorui
+    PBP_READ_SDNV(&primary.areasize_flag);
+    PBP_READ_SDNV(&primary.areaid1_flag);
+    PBP_READ_SDNV(&primary.areaid2_flag);
+    PBP_READ_SDNV(&primary.areaid3_flag);
+    PBP_READ_SDNV(&primary.areaid4_flag);
+    PBP_READ_SDNV(&primary.areaid5_flag);
+    PBP_READ_SDNV(&primary.areaid6_flag);
+    PBP_READ_SDNV(&primary.areaid7_flag);
+    PBP_READ_SDNV(&primary.areaid8_flag);
+    PBP_READ_SDNV(&primary.areaid9_flag);
+    PBP_READ_SDNV(&primary.areaid10_flag);
+    PBP_READ_SDNV(&primary.areaid11_flag);
+    PBP_READ_SDNV(&primary.areaid12_flag);
+
+     PBP_READ_SDNV(&primary.deliverBundleNum_flag);
+    PBP_READ_SDNV(&primary.floodBundleNum_flag);
+    PBP_READ_SDNV(&primary.isFlooding_flag);
+    PBP_READ_SDNV(&primary.bundleType_flag);
+
+    bundle->setAreaSize(primary.areasize_flag);
+    bundle->setAreaId(1,primary.areaid1_flag);
+    bundle->setAreaId(2,primary.areaid2_flag);
+    bundle->setAreaId(3,primary.areaid3_flag);
+    bundle->setAreaId(4,primary.areaid4_flag);
+    bundle->setAreaId(5,primary.areaid5_flag);
+    bundle->setAreaId(6,primary.areaid6_flag);
+    bundle->setAreaId(7,primary.areaid7_flag);
+    bundle->setAreaId(8,primary.areaid8_flag);
+    bundle->setAreaId(9,primary.areaid9_flag);
+    bundle->setAreaId(10,primary.areaid10_flag);
+    bundle->setAreaId(11,primary.areaid11_flag);
+    bundle->setAreaId(12,primary.areaid12_flag);
+    bundle->setbottomArea(primary.areaid1_flag);
+
+    bundle->setDeliverBundleNum(primary.deliverBundleNum_flag);
+    bundle->setFloodBundleNum(primary.floodBundleNum_flag);
+    bundle->setIsFlooding(primary.isFlooding_flag);
+    bundle->setBundleType(primary.bundleType_flag);
+    //end by gaorui
+
 #undef PBP_READ_SDNV
     
     return consumed;
@@ -710,6 +775,7 @@ PrimaryBlockProcessor::generate_primary(const Bundle* bundle,
     PBP_WRITE_SDNV(bundle->expiration());
     PBP_WRITE_SDNV(primary.dictionary_length);
     
+
     // Add the dictionary.
 //    memcpy(buf, dict->dict(), dict->length());
 	memcpy(buf, dict->dict(), primary.dictionary_length);
@@ -727,9 +793,29 @@ PrimaryBlockProcessor::generate_primary(const Bundle* bundle,
         PBP_WRITE_SDNV(bundle->frag_offset());
         PBP_WRITE_SDNV(bundle->orig_length());
     }
-    
+
+    //add by gaorui
+    PBP_WRITE_SDNV(bundle->getAreaSize());
+    PBP_WRITE_SDNV(bundle->getAreaId(1));
+    PBP_WRITE_SDNV(bundle->getAreaId(2));
+    PBP_WRITE_SDNV(bundle->getAreaId(3));
+    PBP_WRITE_SDNV(bundle->getAreaId(4));
+    PBP_WRITE_SDNV(bundle->getAreaId(5));
+    PBP_WRITE_SDNV(bundle->getAreaId(6));
+    PBP_WRITE_SDNV(bundle->getAreaId(7));
+    PBP_WRITE_SDNV(bundle->getAreaId(8));
+    PBP_WRITE_SDNV(bundle->getAreaId(9));
+    PBP_WRITE_SDNV(bundle->getAreaId(10));
+    PBP_WRITE_SDNV(bundle->getAreaId(11));
+    PBP_WRITE_SDNV(bundle->getAreaId(12));
+    PBP_WRITE_SDNV(bundle->getDeliverBundleNum());
+    PBP_WRITE_SDNV(bundle->getFloodBundleNum());
+    PBP_WRITE_SDNV(bundle->getIsFlooding());
+    PBP_WRITE_SDNV(bundle->getBundleType());
+
+    //end by gaorui
+
 #undef PBP_WRITE_SDNV
-    
     /*
      * Assuming that get_primary_len is written correctly, len should
      * now be zero since we initialized it to primary_len at the

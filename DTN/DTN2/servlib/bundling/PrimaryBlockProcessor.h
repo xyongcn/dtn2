@@ -104,6 +104,27 @@ protected:
         u_int64_t creation_sequence;
         u_int64_t lifetime;
         u_int64_t dictionary_length;
+
+        //add by gaorui
+        u_int64_t areasize_flag;
+        u_int64_t areaid1_flag;
+        u_int64_t areaid2_flag;
+        u_int64_t areaid3_flag;
+        u_int64_t areaid4_flag;
+        u_int64_t areaid5_flag;
+        u_int64_t areaid6_flag;
+        u_int64_t areaid7_flag;
+        u_int64_t areaid8_flag;
+        u_int64_t areaid9_flag;
+        u_int64_t areaid10_flag;
+        u_int64_t areaid11_flag;
+        u_int64_t areaid12_flag;
+
+        u_int64_t deliverBundleNum_flag;
+        u_int64_t floodBundleNum_flag;
+        u_int64_t isFlooding_flag;
+        u_int64_t bundleType_flag;
+        //end
     };
 
 

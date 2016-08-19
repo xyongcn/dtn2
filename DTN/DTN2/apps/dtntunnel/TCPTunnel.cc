@@ -468,7 +468,6 @@ TCPTunnel::Connection::run()
         } else if (tbegin.sec_ != 0) {
             timeout = tunnel->delay();
         }
-        
         log_debug("blocking in poll... (timeout %d)", timeout);
         int nready = oasys::IO::poll_multiple(pollfds, nfds, timeout,
                                               NULL, logpath_);
@@ -515,7 +514,6 @@ TCPTunnel::Connection::run()
                 }
             }
         }
-
         // now check if we should send the outgoing bundle
         tnow.get_time();
         if ((b_xmit != NULL) &&
@@ -545,7 +543,6 @@ TCPTunnel::Connection::run()
                 exit(1);
             }
         }
-        
         // now check for activity on the incoming bundle queue
         if (msg_poll->revents != 0) {
             b_recv = queue_.pop_blocking();
@@ -588,7 +585,6 @@ TCPTunnel::Connection::run()
 
                 log_debug("sent %d byte payload to client", len);
             }
-
             if (recv_hdr->eof_) {
                 log_info("bundle had eof bit set... closing connection");
 
