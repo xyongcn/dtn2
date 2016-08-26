@@ -205,6 +205,12 @@ routing/BundleRouter.o routing/BundleRouter.E: routing/BundleRouter.cc \
  ../servlib/geohistorydtn/routing/GeoHistoryRouter.h \
  ../servlib/routing/TableBasedRouter.h \
  ../servlib/geohistorydtn/routing/BlockingQueue.h \
+ ../servlib/geohistorydtn/routing/ChanceValueSort.h \
+ ../servlib/geohistorydtn/routing/NodeComparatorSort.h \
+ ../servlib/geohistorydtn/routing/Node.h \
+ ../servlib/geohistorydtn/routing/ChanceValueCompute.h \
+ ../servlib/geohistorydtn/routing/ValidVector.h \
+ ../servlib/geohistorydtn/config/ChanceComputeConfig.h \
  ../servlib/geohistorydtn/neighbour/NeighbourManager.h \
  ../servlib/geohistorydtn/neighbour/Neighbour.h \
  ../servlib/geohistorydtn/neighbour/NeighbourArea.h \
@@ -753,6 +759,18 @@ routing/TcaControlBundle.h:
 ../servlib/routing/TableBasedRouter.h:
 
 ../servlib/geohistorydtn/routing/BlockingQueue.h:
+
+../servlib/geohistorydtn/routing/ChanceValueSort.h:
+
+../servlib/geohistorydtn/routing/NodeComparatorSort.h:
+
+../servlib/geohistorydtn/routing/Node.h:
+
+../servlib/geohistorydtn/routing/ChanceValueCompute.h:
+
+../servlib/geohistorydtn/routing/ValidVector.h:
+
+../servlib/geohistorydtn/config/ChanceComputeConfig.h:
 
 ../servlib/geohistorydtn/neighbour/NeighbourManager.h:
 

@@ -28,5 +28,7 @@ public:
 	 * 存放邻居的历史区域信息的path
 	 */
 	static std::string NEIGHBOURAREAFILEDIR;
+	static std::string NEIGHBOURAREAFILEDIR_FIRST;
+
 };
 }

@@ -141,8 +141,11 @@ GEOHISTORYDTN_SRCS :=				\
 	geohistorydtn/neighbour/Neighbour.cc			\
 	geohistorydtn/neighbour/NeighbourManager.cc			\
 	geohistorydtn/routing/GeoHistoryRouter.cc			\
+	geohistorydtn/routing/ChanceValueCompute.cc			\
+	geohistorydtn/routing/ChanceValueSort.cc			\
 	geohistorydtn/config/FrequencyConfig.cc			\
 	geohistorydtn/config/NeighbourConfig.cc			\
+	geohistorydtn/config/ChanceComputeConfig.cc			\
 	geohistorydtn/config/HandleMydtnConfig.cc	
 	
 

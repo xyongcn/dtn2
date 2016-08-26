@@ -58,7 +58,11 @@ int sleep_time          = 0;
 int wait_for_report     = 0;    // wait for bundle status reports
 int use_reltime         = 0;    // age extension block
 int age                 = 0;
-int zero_creation_ts    = 0;    
+int zero_creation_ts    = 0;
+
+//add bu gaorui
+char *Areaid=NULL;
+//end by gaorui
 
 // bundle options
 int expiration                 = 3600; // expiration timer (default one hour)
@@ -320,6 +324,12 @@ main(int argc, char** argv)
         fill_payload(&send_payload);
         
         memset(&bundle_id, 0, sizeof(bundle_id));
+
+        //add by gaorui
+        if(Areaid!=NULL)
+        	strcpy(bundle_spec.areaid,Areaid);
+       // bundle_spec.areaid=Areaid;
+        //end by gaorui
        
         //XXX remove 
         if (verbose) fprintf(stdout, "bundle going to be sent: id %s,%llu.%llu\n",
@@ -434,9 +444,14 @@ void parse_options(int argc, char**argv)
 
     while (!done)
     {
-        c = getopt(argc, argv, "A:B:vhHr:s:d:e:P:n:woDXFRcC1NWt:p:i:z:E:M:O:S:a:Z");
+        c = getopt(argc, argv, "g:A:B:vhHr:s:d:e:P:n:woDXFRcC1NWt:p:i:z:E:M:O:S:a:Z");
         switch (c)
         {
+        //add by gaorui
+        case 'g':
+        	Areaid=strdup(optarg);
+        	break;
+        //end by gaorui
         case 'A':
             api_IP_set = 1;
             api_IP = optarg;

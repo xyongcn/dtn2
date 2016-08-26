@@ -125,6 +125,12 @@ geohistorydtn/routing/GeoHistoryRouter.o geohistorydtn/routing/GeoHistoryRouter.
  ../servlib/routing/RouterInfo.h ../servlib/bundling/BundleInfoCache.h \
  ../servlib/reg/Registration.h ../servlib/session/SessionTable.h \
  ../servlib/geohistorydtn/routing/BlockingQueue.h \
+ ../servlib/geohistorydtn/routing/ChanceValueSort.h \
+ ../servlib/geohistorydtn/routing/NodeComparatorSort.h \
+ ../servlib/geohistorydtn/routing/Node.h \
+ ../servlib/geohistorydtn/routing/ChanceValueCompute.h \
+ ../servlib/geohistorydtn/routing/ValidVector.h \
+ ../servlib/geohistorydtn/config/ChanceComputeConfig.h \
  ../servlib/geohistorydtn/neighbour/NeighbourManager.h \
  ../servlib/geohistorydtn/neighbour/Neighbour.h \
  ../servlib/geohistorydtn/neighbour/NeighbourArea.h \
@@ -166,7 +172,8 @@ geohistorydtn/routing/GeoHistoryRouter.o geohistorydtn/routing/GeoHistoryRouter.
  ../applib/dtn_api.h ../applib/dtn_errno.h ../applib/dtn_types.h \
  ../applib/dtn_ipc.h ../servlib/routing/RouteEntry.h \
  ../servlib/bundling/CustodyTimer.h ../servlib/bundling/ForwardingInfo.h \
- ../servlib/routing/RouteTable.h ../servlib/routing/RouteEntry.h
+ ../servlib/routing/RouteTable.h ../servlib/routing/RouteEntry.h \
+ ../servlib/bundling/BundleTimestamp.h
 
 geohistorydtn/routing/GeoHistoryRouter.h:
 
@@ -452,6 +459,18 @@ geohistorydtn/routing/GeoHistoryRouter.h:
 
 ../servlib/geohistorydtn/routing/BlockingQueue.h:
 
+../servlib/geohistorydtn/routing/ChanceValueSort.h:
+
+../servlib/geohistorydtn/routing/NodeComparatorSort.h:
+
+../servlib/geohistorydtn/routing/Node.h:
+
+../servlib/geohistorydtn/routing/ChanceValueCompute.h:
+
+../servlib/geohistorydtn/routing/ValidVector.h:
+
+../servlib/geohistorydtn/config/ChanceComputeConfig.h:
+
 ../servlib/geohistorydtn/neighbour/NeighbourManager.h:
 
 ../servlib/geohistorydtn/neighbour/Neighbour.h:
@@ -547,3 +566,5 @@ geohistorydtn/routing/GeoHistoryRouter.h:
 ../servlib/routing/RouteTable.h:
 
 ../servlib/routing/RouteEntry.h:
+
+../servlib/bundling/BundleTimestamp.h:

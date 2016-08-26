@@ -226,137 +226,29 @@ public:
 	 * @param bundle :需要对比目的节点的bundle
 	 * @return :如果父类区域中有和bundle的目的地同一层的区域;则返回该区域；如果没有则返回null;
 	 */
-	 Area *checkBundleDestArea(Bundle bundle)
+	 Area *checkBundleDestArea(Bundle *bundle)
 	{
-		/*switch(this->getAreaLevel())
+		int current_arealevel=level;
+		int current_areaid=id;
+		Area *result=this;
+		for(int i=bundle->getAreaSize();i>=1;--i)
 		{
-		case AreaLevel::TWELVELEVEL:
-			if(this->getAreaId()==bundle.twelveArea())
-				return this;
-			else
+			if(i == current_arealevel)
 			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-
-		case AreaLevel::ELEVENLEVEL:
-			if(this->getAreaId()==bundle.elevenArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-		case AreaLevel::TENLEVEL:
-			if(this->getAreaId()==bundle.tenArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-		case AreaLevel::NINELEVEL:
-			if(this->getAreaId()==bundle.nineArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-
-		case AreaLevel::EIGHTLEVEL:
-			if(this->getAreaId()==bundle.eightArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-		case AreaLevel::SEVENLEVEL:
-			if(this->getAreaId()==bundle.sevenArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-		case AreaLevel::SIXLEVEL:
-			if(this->getAreaId()==bundle.sixArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-		case AreaLevel::FIVELEVEL:
-			if(this->getAreaId()==bundle.fiveArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-		case AreaLevel::FOURLEVEL:
-			if(this->getAreaId()==bundle.fourArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-		case AreaLevel::THIRDLEVEL:
-			if(this->getAreaId()==bundle.thirdArea())
-				return this;
-			else
-			{
-				if(this->getFatherArea().id==0)
-					return NULL;
-				else
-					return this->getFatherArea().checkBundleDestArea(bundle);
-			}
-		case AreaLevel::SECONDLEVEL:
-				if(this->getAreaId()==bundle.secondArea())
-					return this;
+				if(current_areaid == bundle->getAreaId(i))
+				{
+					return result;
+				}
 				else
 				{
-					if(this->getFatherArea().id==0)
-						return NULL;
-					else
-						return this->getFatherArea().checkBundleDestArea(bundle);
+					result=result->getFatherArea();
+					current_arealevel=result->level;
+					current_areaid=result->id;
 				}
-		case AreaLevel::FIRSTLEVEL:
-				if(this->getAreaId()==bundle.firstArea())
-					return this;
-				else
-				{
-					if(this->getFatherArea().id==0)
-						return NULL;
-					else
-						return this->getFatherArea().checkBundleDestArea(bundle);
-				}
-
-		default:
-			return NULL;
+			}
 		}
-*/
+		return NULL;
+
 	}
 
 	/**

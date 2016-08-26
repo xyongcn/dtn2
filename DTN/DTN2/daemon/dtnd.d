@@ -123,6 +123,12 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
  ../servlib/routing/RouterInfo.h ../servlib/bundling/BundleInfoCache.h \
  ../servlib/reg/Registration.h ../servlib/session/SessionTable.h \
  ../servlib/geohistorydtn/routing/BlockingQueue.h \
+ ../servlib/geohistorydtn/routing/ChanceValueSort.h \
+ ../servlib/geohistorydtn/routing/NodeComparatorSort.h \
+ ../servlib/geohistorydtn/routing/Node.h \
+ ../servlib/geohistorydtn/routing/ChanceValueCompute.h \
+ ../servlib/geohistorydtn/routing/ValidVector.h \
+ ../servlib/geohistorydtn/config/ChanceComputeConfig.h \
  ../servlib/geohistorydtn/neighbour/NeighbourManager.h \
  ../servlib/geohistorydtn/neighbour/Neighbour.h \
  ../servlib/geohistorydtn/neighbour/NeighbourArea.h \
@@ -499,6 +505,18 @@ dtnd.o dtnd.E: dtnd.cc ../dtn-config.h \
 ../servlib/session/SessionTable.h:
 
 ../servlib/geohistorydtn/routing/BlockingQueue.h:
+
+../servlib/geohistorydtn/routing/ChanceValueSort.h:
+
+../servlib/geohistorydtn/routing/NodeComparatorSort.h:
+
+../servlib/geohistorydtn/routing/Node.h:
+
+../servlib/geohistorydtn/routing/ChanceValueCompute.h:
+
+../servlib/geohistorydtn/routing/ValidVector.h:
+
+../servlib/geohistorydtn/config/ChanceComputeConfig.h:
 
 ../servlib/geohistorydtn/neighbour/NeighbourManager.h:
 

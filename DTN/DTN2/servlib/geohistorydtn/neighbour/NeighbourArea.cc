@@ -47,31 +47,25 @@ namespace dtn
 
 		if (!neighbourAreaDir)
 		{
-			string Dir;
-			const char* c="/";
-			char *dir=new char[30];
-			strcpy(dir,directories.c_str());
-			char *Dirpart=strtok(dir,c);
-			Dir.append(Dirpart);
-			Dirpart=strtok(NULL,c);
-			while(Dirpart!=NULL)
+			fstream Dir_first;
+			Dir_first.open(NeighbourConfig::NEIGHBOURAREAFILEDIR_FIRST.c_str());
+			if(!Dir_first)
 			{
-				Dir.append("/");
-				Dir.append(Dirpart);
-				fstream fdir(Dir.c_str());
-				if(!fdir)
-				{
-					if(mkdir(Dir.c_str(),S_IRWXU|S_IRWXG|S_IRWXO)==0)
-						cout<<Dir<<" Folder creation success"<<endl;//文件夹创建成功
-					else
-						cout<<Dir<<" Folder creation fail"<<endl;//can not make a dir;}
-				}
+				if(mkdir(NeighbourConfig::NEIGHBOURAREAFILEDIR_FIRST.c_str()
+						,S_IRWXU|S_IRWXG|S_IRWXO)==0)
+					cout<<NeighbourConfig::NEIGHBOURAREAFILEDIR_FIRST<<" Folder creation success"<<endl;//文件夹创建成功
+				else
+					cout<<NeighbourConfig::NEIGHBOURAREAFILEDIR_FIRST<<" Folder creation fail"<<endl;//can not make a dir;}
 
-				Dirpart=strtok(NULL,c);
 			}
+			Dir_first.close();
+			if(mkdir(NeighbourConfig::NEIGHBOURAREAFILEDIR.c_str(),
+					S_IRWXU|S_IRWXG|S_IRWXO)==0)
+				cout<<NeighbourConfig::NEIGHBOURAREAFILEDIR<<" Folder creation success"<<endl;//文件夹创建成功
+			else
+				cout<<NeighbourConfig::NEIGHBOURAREAFILEDIR<<" Folder creation fail"<<endl;//can not make a dir;
 			neighbourAreaDir.close();
 			return;
-
 		}
 		neighbourAreaDir.close();
 
@@ -84,7 +78,7 @@ namespace dtn
 			updateArea(file);
 			return;
 		}
-			else
+		else
 		{
 			neighbourAreaFile.close();
 			return;
@@ -169,7 +163,7 @@ namespace dtn
 	NeighbourArea::NeighbourArea(EndpointID eid)
 	{
 		neighbourEID=eid;
-		//init();
+		init();
 	}
 
 	/**
@@ -269,7 +263,7 @@ namespace dtn
 	 * @param bundle :需要对比目的节点的bundle
 	 * @return :如果找到了同一层次的区域则返回该层次区域；如果该邻居区域信息为空，则为null；一般情况下只要有区域信息就能返回区域信息的。
 	 */
-	Area *checkBundleDestArea(Bundle bundle)
+	Area *NeighbourArea::checkBundleDestArea(Bundle *bundle)
 	{
 		if(areaMap.empty())
 			return NULL;
@@ -277,21 +271,21 @@ namespace dtn
 		string areastr;
 		Area *result=NULL;
 		char c[20];
-		for(int i=1;i<=bundle.getAreaSize();++i)
+		for(int i=1;i<=bundle->getAreaSize();++i)
 		{
 			sprintf(c,"%d",i);
 			areastr.append(c);
 			areastr.append("#");
-			sprintf(c,"%d",bundle.getAreaId(i));
+			sprintf(c,"%d",bundle->getAreaId(i));
 			areastr.append(c);
-			hash_map<string,Area>::iterator it=areaMap.find(areastr);
+			map<string,Area>::iterator it=areaMap.find(areastr);
 			if(it!=areaMap.end())
 			{
 				result=&areaMap[areastr];
 				return result;
 			}
 		}
-		return result;
+		return NULL;
 	}
 
 	/**

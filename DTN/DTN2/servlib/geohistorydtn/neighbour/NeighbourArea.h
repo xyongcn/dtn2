@@ -92,7 +92,7 @@ public:
 	 * @param bundle :需要对比目的节点的bundle
 	 * @return :如果找到了同一层次的区域则返回该层次区域；如果该邻居区域信息为空，则为null；一般情况下只要有区域信息就能返回区域信息的。
 	 */
-	Area *checkBundleDestArea(Bundle bundle);
+	Area *checkBundleDestArea(Bundle *bundle);
 
 	/**
 	 * 根据area查询当前

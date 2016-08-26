@@ -4,6 +4,7 @@ usage(){
 }
 
 if [ $# -lt 1 ]; then
+
         usage
         exit 1
 fi
@@ -23,6 +24,8 @@ del_wlan0=0
 add_adhoc0=0
 adhoc0_up=0
 adhoc0_join=0
+
+stop network-manager
 
 ifconfig adhoc0 $IP
 if [ $? -eq 0 ];then
@@ -85,7 +88,7 @@ GATEWAY="aodv_gateway=0"
 #METRIC="routing_metric=ETT"
 METRIC="routing_metric=HOPS"
 RATE="nominal_rate=60"
-COM_RADIUS="com_radius=300"
+COM_RADIUS="com_radius=700"
 echo "1" > /proc/sys/net/ipv4/ip_forward
 echo "Running AODV-MCC"
 #rmmod fbaodv_ubuntu

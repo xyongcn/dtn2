@@ -279,40 +279,63 @@ public:
 	{
 		cout<<"time!"<<endl;
 		currentTime->resetTime();
-		//分钟级触发任务
-		if(currentTime->currentTime.tm_min!=currentTime->lastTime.tm_min)
+
+		vector<int> frequencyType(FrequencyConfig::frequcyType);
+		for(int i=0;i<frequencyType.size();++i)
 		{
-			//执行分钟级触发的任务
-			minuteTask(currentTime->currentTime.tm_min);
+			if(frequencyType[i]==FrequencyVectorLevel::minuteVector)
+			{
+				//分钟级触发任务
+				if(currentTime->currentTime.tm_min!=currentTime->lastTime.tm_min)
+				{
+					//执行分钟级触发的任务
+					minuteTask(currentTime->currentTime.tm_min);
+				}
+			}
+
+
+			if(frequencyType[i]==FrequencyVectorLevel::hourVector)
+			{
+				//小时级触发任务
+				if(currentTime->currentTime.tm_hour!=currentTime->lastTime.tm_hour)
+				{
+					//执行小时级触发的任务
+					hourTask(currentTime->currentTime.tm_hour);
+				}
+			}
+
+			if(frequencyType[i]==FrequencyVectorLevel::weekVector)
+			{
+				//星期级触发任务
+
+				if(currentTime->currentTime.tm_wday!=currentTime->lastTime.tm_wday)
+				{
+					//对应星期级的任务触发
+					weekTask(currentTime->currentTime.tm_wday);
+				}
+			}
+
+			if(frequencyType[i]==FrequencyVectorLevel::monthVector)
+			{
+				//月级触发任务
+				if(currentTime->currentTime.tm_mon!=currentTime->lastTime.tm_mon)
+				{
+					//对应月级的任务触发
+					monthTask(currentTime->currentTime.tm_mon);
+				}
+			}
+
+			if(frequencyType[i]==FrequencyVectorLevel::monAftEveVector)
+			{
+				if(currentTime->currentTimemonafteve!=currentTime->lastTimemonafteve)
+				{
+					//对应月级的任务触发
+					monafteveTask(currentTime->currentTimemonafteve);
+				}
+
+			}
 		}
 
-			//小时级触发任务
-		if(currentTime->currentTime.tm_hour!=currentTime->lastTime.tm_hour)
-		{
-			//执行小时级触发的任务
-			hourTask(currentTime->currentTime.tm_hour);
-		}
-
-		//星期级触发任务
-
-		if(currentTime->currentTime.tm_wday!=currentTime->lastTime.tm_wday)
-		{
-			//对应星期级的任务触发
-			weekTask(currentTime->currentTime.tm_wday);
-		}
-
-		//月级触发任务
-		if(currentTime->currentTime.tm_mon!=currentTime->lastTime.tm_mon)
-		{
-			//对应月级的任务触发
-			monthTask(currentTime->currentTime.tm_mon);
-		}
-
-		if(currentTime->currentTimemonafteve!=currentTime->lastTimemonafteve)
-		{
-			//对应月级的任务触发
-			monafteveTask(currentTime->currentTimemonafteve);
-		}
 		currentTime->lastTime=currentTime->currentTime;
 		currentTime->lastTimemonafteve=currentTime->currentTimemonafteve;
 

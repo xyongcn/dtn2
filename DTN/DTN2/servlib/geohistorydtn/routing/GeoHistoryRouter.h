@@ -4,10 +4,11 @@
 #include<string>
 #include "servlib/geohistorydtn/routing/BlockingQueue.h"
 
-#ifndef NEIGHBOURMANAGER_H_
+/*#ifndef NEIGHBOURMANAGER_H_
 #define NEIGHBOURMANAGER_H_
 #include"servlib/geohistorydtn/neighbour/NeighbourManager.h"
-#endif
+#endif*/
+#include "servlib/geohistorydtn/routing/ChanceValueSort.h"
 #include "servlib/geohistorydtn/config/BundleConfig.h"
 
 
@@ -23,11 +24,44 @@
 using namespace std;
 using namespace oasys;
 
+
+
+
 namespace dtn {
+typedef Area* Arearef;
+typedef RouteEntry* RouteEntryref;
 //class TableBasedRouter;
 class GeoHistoryRouter : public TableBasedRouter,public Thread
 
 {
+
+protected:
+	//int route_bundle(Bundle* bundle);
+
+
+private:
+	class RouteAllBundleMsg:public Object_RouteMessage
+	{
+		public: RouteAllBundleMsg(){}
+	};
+	 RouteAllBundleMsg *routeAllBundle;
+	 map<string,int> Forward2PayloadNumMap;
+	 map<string,int> Forward1PayloadNumMap;
+	/**
+	 * 路由的方式
+	 */
+	 struct RouteType
+	 {
+		static const int Flooding=-1;
+		static const int Neighbour=-2;
+	 };
+
+	 void handle_routeAllBundle();
+	 int route_neighbourArea_bundle(Bundle *bundle);
+	 bool canDirectDelivery(Bundle *bundle);
+	int get_matching_RouteEntryVec(Bundle *bundle,RouteEntryVec entry_vec,
+					int sameAreaLevel,map<Arearef,RouteEntryref> sameLevelAreaMap);
+	static string StringOfBundle(Bundle *bundle);
 public:
 
 
@@ -196,7 +230,12 @@ public:
 				handle_sendBundle(sbm);
 				continue;
 			}
-
+			RouteAllBundleMsg *rab=dynamic_cast<RouteAllBundleMsg *>(o);
+			if(rab!=NULL)
+			{
+				handle_routeAllBundle();
+				continue;
+			}
 
 		sleep(2);
 		}

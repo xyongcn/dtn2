@@ -1,0 +1,7 @@
+nodeNo:1
+com_Dis:500
+Mode:Config_Mode
+defualtLatitude:39.0
+defualtLongitude:120.0
+startTime:1432604189
+endTime:1433604189

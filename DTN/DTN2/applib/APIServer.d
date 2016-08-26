@@ -1,4 +1,5 @@
-APIServer.o APIServer.E: APIServer.cc ../dtn-config.h \
+APIServer.o APIServer.E: APIServer.cc \
+ ../servlib/geohistorydtn/config/BundleConfig.h ../dtn-config.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/oasys-config.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/inet_aton.h \
  /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/rpc.h \
@@ -162,6 +163,8 @@ APIServer.o APIServer.E: APIServer.cc ../dtn-config.h \
  ../servlib/session/Session.h ../servlib/session/Subscriber.h \
  ../servlib/bundling/SequenceID.h ../servlib/routing/RouteEntry.h \
  ../servlib/bundling/CustodyTimer.h ../servlib/bundling/ForwardingInfo.h
+
+../servlib/geohistorydtn/config/BundleConfig.h:
 
 ../dtn-config.h:
 

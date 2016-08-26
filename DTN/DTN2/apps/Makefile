@@ -46,6 +46,7 @@ OTHER_APPS :=				\
 	dtnperf/dtnperf-client		\
 	tca_admin/tca_admin		\
 	dtnsend/dtnsend			\
+	geodtnsend/geodtnsend			\
 	dtnsource/dtnsource		\
 	num2sdnv/sdnv2num		\
 
@@ -96,6 +97,11 @@ dtntest/dtntest: dtntest/dtntest.o  $(DTN_LIBS_STATIC)
 # Rules for dtnsend
 #
 dtnsend/dtnsend: dtnsend/dtnsend.o  $(DTN_LIBS_STATIC)
+	$(CXX) $(CXXFLAGS) $< -o $@ $(LDFLAGS) $(DTN_LIBS++)
+#
+# Rules for geodtnsend
+#
+geodtnsend/geodtnsend: geodtnsend/geodtnsend.o  $(DTN_LIBS_STATIC)
 	$(CXX) $(CXXFLAGS) $< -o $@ $(LDFLAGS) $(DTN_LIBS++)
 
 #

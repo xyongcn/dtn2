@@ -291,6 +291,7 @@ MPOLLUTE =
 EXTRALIBS = -L/home/gaorui/workspace/DTN/DTN2/applib/perl/.. -ldtnapi
 LDLOADLIBS = -L/home/gaorui/workspace/DTN/DTN2/applib/perl/.. -ldtnapi
 BSLOADLIBS = 
+LD_RUN_PATH = /home/gaorui/workspace/DTN/DTN2/applib/perl/..
 
 
 # --- MakeMaker const_cccmd section:
@@ -472,7 +473,7 @@ INST_DYNAMIC_FIX =
 
 $(INST_DYNAMIC): $(OBJECT) $(MYEXTLIB) $(BOOTSTRAP) $(INST_ARCHAUTODIR)$(DFSEP).exists $(EXPORT_LIST) $(PERL_ARCHIVE) $(PERL_ARCHIVE_AFTER) $(INST_DYNAMIC_DEP)
 	$(RM_F) $@
-	$(LD)  $(LDDLFLAGS) $(LDFROM) $(OTHERLDFLAGS) -o $@ $(MYEXTLIB)	\
+	LD_RUN_PATH="$(LD_RUN_PATH)" $(LD)  $(LDDLFLAGS) $(LDFROM) $(OTHERLDFLAGS) -o $@ $(MYEXTLIB)	\
 	  $(PERL_ARCHIVE) $(LDLOADLIBS) $(PERL_ARCHIVE_AFTER) $(EXPORT_LIST)	\
 	  $(INST_DYNAMIC_FIX)
 	$(CHMOD) $(PERM_RWX) $@
