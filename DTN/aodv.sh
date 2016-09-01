@@ -80,6 +80,9 @@ fi
 ifconfig adhoc0 $IP
 ifconfig adhoc0
 
+route add default gw 192.168.5.1
+route -n
+
 #fbaodv config
 MESH_DEV="mesh_dev=adhoc0"
 

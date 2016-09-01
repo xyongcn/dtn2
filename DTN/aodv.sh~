@@ -26,6 +26,8 @@ adhoc0_up=0
 adhoc0_join=0
 
 stop network-manager
+route add default gw 192.168.5.1
+route -n
 
 ifconfig adhoc0 $IP
 if [ $? -eq 0 ];then

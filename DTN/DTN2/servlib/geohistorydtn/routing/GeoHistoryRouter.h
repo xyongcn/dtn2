@@ -36,7 +36,7 @@ class GeoHistoryRouter : public TableBasedRouter,public Thread
 {
 
 protected:
-	//int route_bundle(Bundle* bundle);
+	int route_bundle(Bundle* bundle);
 
 
 private:
@@ -59,8 +59,8 @@ private:
 	 void handle_routeAllBundle();
 	 int route_neighbourArea_bundle(Bundle *bundle);
 	 bool canDirectDelivery(Bundle *bundle);
-	int get_matching_RouteEntryVec(Bundle *bundle,RouteEntryVec entry_vec,
-					int sameAreaLevel,map<Arearef,RouteEntryref> sameLevelAreaMap);
+	int get_matching_RouteEntryVec(Bundle *bundle,RouteEntryVec &entry_vec,
+					int sameAreaLevel,map<Arearef,RouteEntryref> &sameLevelAreaMap);
 	static string StringOfBundle(Bundle *bundle);
 public:
 
@@ -101,6 +101,7 @@ protected:
 
 
 	void handle_contact_up(ContactUpEvent* event);
+	void handle_contact_down(ContactDownEvent* event);
 	//针对收到要发送的bundle，需要转发的bundle，邻居交互信息的bundle的处理
 	void handle_bundle_received(BundleReceivedEvent* event);
 

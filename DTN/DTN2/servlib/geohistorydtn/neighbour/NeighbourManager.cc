@@ -120,7 +120,10 @@ namespace dtn{
 	{
 		//if(eid==null)
 			//return null;
-		hash_map<string,Neighbour>::iterator it=neighbourlist.find(eid.str());
+		string eid_s=eid.str();
+		eid_s=eid_s.substr(0,eid_s.length()-2);
+
+		hash_map<string,Neighbour>::iterator it=neighbourlist.find(eid_s);
 		if(it==neighbourlist.end())
 			return NULL;
 		else

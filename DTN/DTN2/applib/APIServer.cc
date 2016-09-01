@@ -917,15 +917,15 @@ APIClient::handle_send()
     b = new Bundle();
 
     //add by gaorui
-	b->setDeliverBundleNum(BundleConfig::DELIVERBUNDLENUM);
-	b->setFloodBundleNum(BundleConfig::FLOODBUNDLENUM);
-	b->setIsFlooding(0);
-    b->setBundleType(Bundle::DATA_BUNDLE);
-    b->setAreaSize(3);
+
     if(spec.areaid[0]!='\0')
     {
+    	b->setDeliverBundleNum(BundleConfig::DELIVERBUNDLENUM);
+    	b->setFloodBundleNum(BundleConfig::FLOODBUNDLENUM);
+    	b->setIsFlooding(0);
+        b->setBundleType(Bundle::DATA_BUNDLE);
+        b->setAreaSize(3);
 
-    	printf("^^^^^^^^^^^^ %s ^^^^^^^^^\n",spec.areaid);
     	if(!strcmp(spec.areaid,"121412"))
     	{
     		b->setAreaId(3,121412);
@@ -933,54 +933,59 @@ APIClient::handle_send()
     		b->setAreaId(1,15711);
     		b->setbottomArea(121412);
     	}
-    	if(!strcmp(spec.areaid,"231314"))
+    	else if(!strcmp(spec.areaid,"231314"))
     	{
     		b->setAreaId(3,231314);
     		b->setAreaId(2,13911);
     		b->setAreaId(1,15711);
     		b->setbottomArea(231314);
     	}
-    	if(!strcmp(spec.areaid,"12141011"))
+    	else if(!strcmp(spec.areaid,"12141011"))
     	{
     		b->setAreaId(3,12141011);
     		b->setAreaId(2,13911);
     		b->setAreaId(1,15711);
     		b->setbottomArea(121412);
     	}
-    	if(!strcmp(spec.areaid,"1413910"))
+    	else if(!strcmp(spec.areaid,"1413910"))
     	{
     		b->setAreaId(3,1413910);
     		b->setAreaId(2,13911);
     		b->setAreaId(1,15711);
     		b->setbottomArea(121412);
     	}
-    	if(!strcmp(spec.areaid,"341513"))
+    	else if(!strcmp(spec.areaid,"341513"))
     	{
     		b->setAreaId(3,341513);
     		b->setAreaId(2,3579);
     		b->setAreaId(1,15711);
     		b->setbottomArea(341513);
     	}
-    	if(!strcmp(spec.areaid,"45615"))
+    	else if(!strcmp(spec.areaid,"45615"))
     	{
     		b->setAreaId(3,45615);
     		b->setAreaId(2,3579);
     		b->setAreaId(1,15711);
     		b->setbottomArea(45615);
     	}
-    	if(!strcmp(spec.areaid,"131589"))
+    	else if(!strcmp(spec.areaid,"131589"))
     	{
     		b->setAreaId(3,131589);
     		b->setAreaId(2,3579);
     		b->setAreaId(1,15711);
     		b->setbottomArea(131589);
     	}
-    	if(!strcmp(spec.areaid,"15678"))
+    	else if(!strcmp(spec.areaid,"15678"))
     	{
     		b->setAreaId(3,15678);
     		b->setAreaId(2,3579);
     		b->setAreaId(1,15711);
     		b->setbottomArea(15678);
+    	}
+    	else
+    	{
+    		printf("error paramenter!");
+            return DTN_EINVAL;
     	}
     }
     //end by gaorui

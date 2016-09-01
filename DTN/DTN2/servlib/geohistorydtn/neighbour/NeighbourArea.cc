@@ -271,7 +271,7 @@ namespace dtn
 		string areastr;
 		Area *result=NULL;
 		char c[20];
-		for(int i=1;i<=bundle->getAreaSize();++i)
+		for(int i=bundle->getAreaSize();i>=1;--i)
 		{
 			sprintf(c,"%d",i);
 			areastr.append(c);
