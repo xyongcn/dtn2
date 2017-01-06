@@ -93,7 +93,7 @@ TableBasedRouter::del_route(const EndpointIDPattern& dest)
 void
 TableBasedRouter::handle_changed_routes()
 {
-	std::cout<<"handle_changed_routes"<<std::endl;
+	//std::cout<<"handle_changed_routes"<<std::endl;
     // clear the reception cache when the routes change since we might
     // want to send a bundle back where it came from
     reception_cache_.evict_all();
@@ -112,7 +112,7 @@ TableBasedRouter::handle_event(BundleEvent* event)
 Session*
 TableBasedRouter::get_session_for_bundle(Bundle* bundle)
 {
-	std::cout<<"get_session_for_bundle"<<std::endl;
+	///std::cout<<"get_session_for_bundle"<<std::endl;
     if (bundle->session_flags() != 0)
     {
         log_debug("get_session_for_bundle: bundle id %d is a subscription msg",
@@ -148,7 +148,7 @@ TableBasedRouter::get_session_for_bundle(Bundle* bundle)
 bool
 TableBasedRouter::add_bundle_to_session(Bundle* bundle, Session* session)
 {
-	std::cout<<"add_bundle_to_session"<<std::endl;
+	//std::cout<<"add_bundle_to_session"<<std::endl;
     // XXX/demmer is this the right deletion reason for obsoletes??
     static BundleProtocol::status_report_reason_t deletion_reason =
         BundleProtocol::REASON_DEPLETED_STORAGE;
@@ -222,7 +222,7 @@ TableBasedRouter::add_bundle_to_session(Bundle* bundle, Session* session)
 void
 TableBasedRouter::handle_bundle_received(BundleReceivedEvent* event)
 {
-	std::cout<<"handle_bundle_received"<<std::endl;
+	//std::cout<<"handle_bundle_received"<<std::endl;
     bool should_route = true;
     
     Bundle* bundle = event->bundleref_.object();
@@ -277,7 +277,7 @@ TableBasedRouter::handle_bundle_received(BundleReceivedEvent* event)
 void
 TableBasedRouter::remove_from_deferred(const BundleRef& bundle, int actions)
 {
-	std::cout<<"remove_from_deferred"<<std::endl;
+	//std::cout<<"remove_from_deferred"<<std::endl;
     ContactManager* cm = BundleDaemon::instance()->contactmgr();
     oasys::ScopeLock l(cm->lock(), "TableBasedRouter::remove_from_deferred");
 
@@ -312,7 +312,7 @@ TableBasedRouter::remove_from_deferred(const BundleRef& bundle, int actions)
 void
 TableBasedRouter::handle_bundle_transmitted(BundleTransmittedEvent* event)
 {
-	std::cout<<"handle_bundle_transmitted"<<std::endl;
+	//std::cout<<"handle_bundle_transmitted"<<std::endl;
     const BundleRef& bundle = event->bundleref_;
     log_debug("handle bundle transmitted: *%p", bundle.object());
 
@@ -330,7 +330,7 @@ TableBasedRouter::handle_bundle_transmitted(BundleTransmittedEvent* event)
 bool
 TableBasedRouter::can_delete_bundle(const BundleRef& bundle)
 {
-	std::cout<<"can_delete_bundle"<<std::endl;
+	//std::cout<<"can_delete_bundle"<<std::endl;
     log_debug("TableBasedRouter::can_delete_bundle: checking if we can delete *%p",
               bundle.object());
 
@@ -369,7 +369,7 @@ TableBasedRouter::can_delete_bundle(const BundleRef& bundle)
 void
 TableBasedRouter::delete_bundle(const BundleRef& bundle)
 {
-	std::cout<<"delete_bundle"<<std::endl;
+	//std::cout<<"delete_bundle"<<std::endl;
     log_debug("delete *%p", bundle.object());
 
     remove_from_deferred(bundle, ForwardingInfo::ANY_ACTION);
@@ -394,7 +394,7 @@ TableBasedRouter::delete_bundle(const BundleRef& bundle)
 void
 TableBasedRouter::handle_bundle_cancelled(BundleSendCancelledEvent* event)
 {
-	std::cout<<"handle_bundle_cancelled"<<std::endl;
+	//std::cout<<"handle_bundle_cancelled"<<std::endl;
     Bundle* bundle = event->bundleref_.object();
     log_debug("handle bundle cancelled: *%p", bundle);
 
@@ -423,7 +423,7 @@ TableBasedRouter::handle_route_del(RouteDelEvent* event)
 void
 TableBasedRouter::add_nexthop_route(const LinkRef& link)
 {
-	std::cout<<"add_nexthop_route"<<std::endl;
+	//std::cout<<"add_nexthop_route"<<std::endl;
     // If we're configured to do so, create a route entry for the eid
     // specified by the link when it connected, using the
     // scheme-specific code to transform the URI to wildcard
@@ -454,7 +454,7 @@ TableBasedRouter::add_nexthop_route(const LinkRef& link)
 bool
 TableBasedRouter::should_fwd(const Bundle* bundle, RouteEntry* route)
 {
-	std::cout<<"should_fwd"<<std::endl;
+	//std::cout<<"should_fwd"<<std::endl;
     if (route == NULL)
         return false;
 
@@ -506,7 +506,7 @@ TableBasedRouter::should_fwd(const Bundle* bundle, RouteEntry* route)
 void
 TableBasedRouter::handle_contact_up(ContactUpEvent* event)
 {
-	std::cout<<"contact_up"<<std::endl;
+	//std::cout<<"contact_up"<<std::endl;
     LinkRef link = event->contact_->link();
     ASSERT(link != NULL);
     ASSERT(!link->isdeleted());
@@ -541,7 +541,7 @@ TableBasedRouter::handle_contact_up(ContactUpEvent* event)
 void
 TableBasedRouter::handle_contact_down(ContactDownEvent* event)
 {
-	std::cout<<"contact_down"<<std::endl;
+	//std::cout<<"contact_down"<<std::endl;
     LinkRef link = event->contact_->link();
     ASSERT(link != NULL);
     ASSERT(!link->isdeleted());
@@ -578,7 +578,7 @@ TableBasedRouter::RerouteTimer::timeout(const struct timeval& now)
 void
 TableBasedRouter::reroute_bundles(const LinkRef& link)
 {
-	std::cout<<"reroute_bundles"<<std::endl;
+	//std::cout<<"reroute_bundles"<<std::endl;
     ASSERT(!link->isdeleted());
 
     // if the reroute timer fires, the link should be down and there
@@ -615,7 +615,7 @@ TableBasedRouter::reroute_bundles(const LinkRef& link)
 void
 TableBasedRouter::handle_link_available(LinkAvailableEvent* event)
 {
-	std::cout<<"link_available"<<std::endl;
+	//std::cout<<"link_available"<<std::endl;
     LinkRef link = event->link_;
     ASSERT(link != NULL);
     ASSERT(!link->isdeleted());
@@ -637,7 +637,7 @@ TableBasedRouter::handle_link_available(LinkAvailableEvent* event)
 void
 TableBasedRouter::handle_link_created(LinkCreatedEvent* event)
 {
-	std::cout<<"link_created"<<std::endl;
+	//std::cout<<"link_created"<<std::endl;
     LinkRef link = event->link_;
     ASSERT(link != NULL);
     ASSERT(!link->isdeleted());
@@ -652,7 +652,7 @@ TableBasedRouter::handle_link_created(LinkCreatedEvent* event)
 void
 TableBasedRouter::handle_link_deleted(LinkDeletedEvent* event)
 {
-	std::cout<<"link_deleted"<<std::endl;
+	//std::cout<<"link_deleted"<<std::endl;
     LinkRef link = event->link_;
     ASSERT(link != NULL);
 
@@ -685,7 +685,7 @@ TableBasedRouter::handle_custody_timeout(CustodyTimeoutEvent* event)
 void
 TableBasedRouter::get_routing_state(oasys::StringBuffer* buf)
 {
-	std::cout<<"get_routing_state"<<std::endl;
+	//std::cout<<"get_routing_state"<<std::endl;
     buf->appendf("Route table for %s router:\n\n", name_.c_str());
     route_table_->dump(buf);
 
@@ -714,7 +714,7 @@ TableBasedRouter::get_routing_state(oasys::StringBuffer* buf)
 void
 TableBasedRouter::tcl_dump_state(oasys::StringBuffer* buf)
 {
-	std::cout<<"tcl_dump_state"<<std::endl;
+	//std::cout<<"tcl_dump_state"<<std::endl;
     oasys::ScopeLock l(route_table_->lock(),
                        "TableBasedRouter::tcl_dump_state");
 
@@ -735,7 +735,7 @@ TableBasedRouter::tcl_dump_state(oasys::StringBuffer* buf)
 bool
 TableBasedRouter::fwd_to_nexthop(Bundle* bundle, RouteEntry* route)
 {
-	std::cout<<"fwd_to_nexthop"<<std::endl;
+	//std::cout<<"fwd_to_nexthop"<<std::endl;
     const LinkRef& link = route->link();
 
     // if the link is available and not open, open it
@@ -794,7 +794,7 @@ TableBasedRouter::fwd_to_nexthop(Bundle* bundle, RouteEntry* route)
 int
 TableBasedRouter::route_bundle(Bundle* bundle)
 {
-	std::cout<<"route_bundle"<<std::endl;
+	//std::cout<<"route_bundle"<<std::endl;
     RouteEntryVec matches;
     RouteEntryVec::iterator iter;
 
@@ -874,7 +874,7 @@ TableBasedRouter::sort_routes(Bundle* bundle, RouteEntryVec* routes)
 void
 TableBasedRouter::check_next_hop(const LinkRef& next_hop)
 {
-	std::cout<<"check_next_hop"<<std::endl;
+	//std::cout<<"check_next_hop"<<std::endl;
     // if the link isn't open, there's nothing to do now
     if (! next_hop->isopen()) {
         log_debug("check_next_hop %s -> %s: link not open...",
@@ -953,7 +953,7 @@ TableBasedRouter::check_next_hop(const LinkRef& next_hop)
 void
 TableBasedRouter::reroute_all_bundles()
 {
-	std::cout<<"reroute_all_bundles"<<std::endl;
+	//std::cout<<"reroute_all_bundles"<<std::endl;
     oasys::ScopeLock l(pending_bundles_->lock(), 
                        "TableBasedRouter::reroute_all_bundles");
 
@@ -1076,7 +1076,7 @@ TableBasedRouter::deferred_list(const LinkRef& link)
 void
 TableBasedRouter::handle_registration_added(RegistrationAddedEvent* event)
 {
-	std::cout<<"handle_registration_added"<<std::endl;
+	//std::cout<<"handle_registration_added"<<std::endl;
     Registration* reg = event->registration_;
     
     if (reg == NULL || reg->session_flags() == 0) {
@@ -1115,7 +1115,7 @@ TableBasedRouter::handle_registration_added(RegistrationAddedEvent* event)
 bool
 TableBasedRouter::subscribe_to_session(int mode, Session* session)
 {
-	std::cout<<"subscribe_to_session"<<std::endl;
+	//std::cout<<"subscribe_to_session"<<std::endl;
     if (! session->upstream().is_local()) {
         // XXX/demmer should set replyto to handle upstream nodes that
         // don't understand the session block
@@ -1181,7 +1181,7 @@ TableBasedRouter::ResubscribeTimer::timeout(const struct timeval& now)
 bool
 TableBasedRouter::handle_session_bundle(BundleReceivedEvent* event)
 {
-	std::cout<<"handle_session_bundle"<<std::endl;
+	//std::cout<<"handle_session_bundle"<<std::endl;
     Bundle* bundle = event->bundleref_.object();
 
     ASSERT(bundle->session_flags() != 0);

@@ -6,6 +6,8 @@
 #include<stdio.h>
 #include"PointInPolygon.h"
 #include<limits.h>
+#include<set>
+#include"AreaTree.h"
 
 #include"Line.h"
 
@@ -46,6 +48,85 @@ public:
 	        return Instance ;
 	}
 
+	void findAreaOrder(BottomtoTopAreaTree *bttAreatree)
+	{
+		ToptoBottomAreaTree *ttbAreatree=new ToptoBottomAreaTree;
+		int toparea=findToparea();
+		ttbAreatree->level=1;
+		ttbAreatree->id=toparea;
+
+		findsubareaoder(ttbAreatree,toparea,2);
+		toptoBottomStructure(ttbAreatree,bttAreatree);
+		/*list<AreaTreeNode *>::iterator it;
+		for(it=bttAreatree->buttonarea.begin();it!=bttAreatree->buttonarea.end();++it)
+		{
+			test(*it);
+			cout<<endl;
+		}*/
+		//删除ToptoBottomAreaTree结构，该结构已没有用
+		DeleteToptoBottomAreaTree(ttbAreatree);
+
+	}
+
+	void DeleteToptoBottomAreaTree(ToptoBottomAreaTree *ttbAreatree)
+	{
+		if(!ttbAreatree->child.empty())
+		{
+			list<ToptoBottomAreaTree *>::iterator it;
+			for(it=ttbAreatree->child.begin();it!=ttbAreatree->child.end();++it)
+				DeleteToptoBottomAreaTree(*it);
+		}
+		delete ttbAreatree;
+	}
+	/*void test(AreaTreeNode *t)
+	{
+		if(t!=NULL)
+		{
+			cout<<t->id<<","<<t->level<<" ";
+			test(t->father);
+		}
+	}*/
+	AreaTreeNode *toptoBottomStructure(ToptoBottomAreaTree *ttbAreatree,BottomtoTopAreaTree *bttAreatree)
+	{
+
+		AreaTreeNode *temp=new AreaTreeNode;
+		temp->id=ttbAreatree->id;
+		temp->level=ttbAreatree->level;
+		temp->father=NULL;
+
+		list<ToptoBottomAreaTree *>::iterator child;
+		if(ttbAreatree->child.empty())
+		{
+			bttAreatree->buttonarea.push_back(temp);
+			return temp;
+		}
+		for(child=ttbAreatree->child.begin();child!=ttbAreatree->child.end();++child)
+		{
+			AreaTreeNode *child2=toptoBottomStructure(*child,bttAreatree);
+			child2->father=temp;
+		}
+		return temp;
+	}
+	void findsubareaoder(ToptoBottomAreaTree *ttbAreatree,int id,int level)
+	{
+		char t[10];
+		sprintf(t, "%d", id);
+		string sql="select a.idRef,b.Name from Relation a,RelationRole b ";
+		sql.append("where a.idRole=b.id and b.Name='subarea' and a.idRelation=");
+		sql.append(t);
+		sqlite3_stmt* statement = NULL;
+		int idRef;
+		sqlite3_prepare(database,sql.c_str(),-1, &statement, NULL);
+		while (sqlite3_step(statement) == SQLITE_ROW)
+		{
+		    idRef = sqlite3_column_int(statement, 0);
+		    ToptoBottomAreaTree *child=new ToptoBottomAreaTree;
+		    child->id=idRef;
+		    child->level=level;
+		    findsubareaoder(child,idRef,level+1);
+		    ttbAreatree->child.push_back(child);
+		}
+	}
 
 	bool checkDbExist()
 	{
@@ -54,9 +135,40 @@ public:
 		return true;
 
 	}
+	int findToparea()
+	{
+		/****寻找最顶层区域*****/
+		string topArea="select idRef from Relation";
+		topArea.append(" where Type=1");
+		sqlite3_stmt* top_statement = NULL;
+		sqlite3_prepare(database,topArea.c_str(),-1, &top_statement, NULL);
+		set<int> subarea;
+		int sub_temp;
+		while (sqlite3_step(top_statement) == SQLITE_ROW)
+		{
+			sub_temp = sqlite3_column_int(top_statement, 0);
+			subarea.insert(sub_temp);
+		}
+
+		topArea="select idRelation from Relation";
+		top_statement = NULL;
+		sqlite3_prepare(database,topArea.c_str(),-1, &top_statement, NULL);
+		int top_area;
+		while (sqlite3_step(top_statement) == SQLITE_ROW)
+		{
+			sub_temp = sqlite3_column_int(top_statement, 0);
+			if(subarea.find(sub_temp)==subarea.end())
+			{
+				top_area=sub_temp;
+				return top_area;
+			}
+		}
+		/********************/
+	}
 
 	void querySubarea(Point p,int idRelation,vector<int> *idRelationList)
 	{
+
 		//查询idRelation区域所有的子区域的id
 		char t[10];
 		sprintf(t, "%d", idRelation);

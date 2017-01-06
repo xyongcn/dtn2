@@ -3,9 +3,9 @@
 namespace dtn
 {
 	//分钟级别的阈值
-	const double ChanceComputeConfig::MINUTE_LEVEL_AREA_THRESHOLD=1;
+	const double ChanceComputeConfig::MINUTE_LEVEL_AREA_THRESHOLD=0;
 	//小时级别的阈值
-	const double ChanceComputeConfig::HOUR_LEVEL_AREA_THRESHOLD=1;
+	const double ChanceComputeConfig::HOUR_LEVEL_AREA_THRESHOLD=0;
 	//上午中午下午级别的阈值
 	const double ChanceComputeConfig::MONAFTEVE_LEVEL_AREA_THRESHOLD=1;
 	//星期级别的阈值

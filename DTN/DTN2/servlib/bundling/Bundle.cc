@@ -67,7 +67,7 @@ Bundle::init(u_int32_t id)
     floodBundleNum=0;
     isFlooding=0;
 
-    bundleType=DATA_BUNDLE;
+    bundleType=ORIGINAL_BUNDLE;
     geoRouterTransmmited=false;
     //end by gaorui
 

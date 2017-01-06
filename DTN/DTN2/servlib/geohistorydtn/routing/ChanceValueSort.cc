@@ -25,7 +25,9 @@ namespace dtn
 
 		}
 
+		//allNodeList 存储本节点，当前邻居，以及多个临时邻居到达目的地最近的Area和机会值
 		list<Node> allNodeList=addNeibourAreaNode(nowNeighbour, bundle);
+
 		vector<Node> nodelist_temp;
 		for(list<Node>::iterator it=allNodeList.begin();it!=allNodeList.end();++it)
 		{
@@ -33,11 +35,41 @@ namespace dtn
 		}
 		sort(nodelist_temp.begin(),nodelist_temp.end(),NodeComparatorSort::compare);
 
+		vector<Node>::iterator iter;
+		int count=0;
+		/////////////////////////////////////////////////
+		printf("\n当前邻居，历史邻居，本节点到达目的地的机会值\n");
+		for(iter=nodelist_temp.begin();iter!=nodelist_temp.end();++iter)
+		{
+			/*if((*iter).nei!=NULL)
+			{
+				printf("历史邻居(%s)的机会值为:",(*iter).nei->neighbourEid.str().c_str());
+
+			}
+			else
+			{
+				if(count==0)
+				{
+					printf("当前邻居的机会值为:");
+					count++;
+				}
+				else
+				{
+					printf("本节点的机会值为:");
+				}
+			}*/
+			for(int i=0;i<(*iter).chanceValue.size();++i)
+				cout<<(*iter).chanceValue[i]<<" ";
+			printf("\n");
+		}
+
+		//////////////////////////////////////////
+
 		list<Area *> avaliable;
 
 		for(vector<Node>::iterator it=nodelist_temp.begin();it!=nodelist_temp.end();++it)
 		{
-			if((*it).closedArea->id!=thisnode->id)
+			if((*it).closedArea!=thisnode)
 			{
 				avaliable.push_back((*it).closedArea);
 			}
@@ -54,14 +86,17 @@ namespace dtn
 		list<Node> nodelist;
 
 		//加入当前邻居表的node,这个表里面包含有本几点的node
+		cout<<endl<<"当前邻居到各个区域的机会值,和本节点到达各个区域的机会值:"<<endl;
 		for(list<Area *>::iterator it=(*nowNeighbour).begin();
 				it!=(*nowNeighbour).end();++it)
 		{
 			Area *area=*it;
-			Node *tempNode=new Node((*it),ChanceValueCompute::carryChance(bundle, area));
+			vector<double> v=ChanceValueCompute::carryChance(bundle, area);
+			Node *tempNode=new Node((*it),NULL,v);
 			nodelist.push_back(*tempNode);
 		}
 
+		cout<<endl<<"历史邻居到各个区域的机会值:"<<endl;
 		list<Neighbour *> historyNeighbour=NeighbourManager::Getinstance()->getAllNeighbour();
 		for(list<Neighbour *>::iterator it=historyNeighbour.begin();
 				it!=historyNeighbour.end();++it)
@@ -70,23 +105,21 @@ namespace dtn
 			NeighbourArea *neiArea=(*it)->getNeighbourArea();
 			if(neiArea==NULL)
 				continue;
-
 			//这个邻居的历史区域没有接近目的区域的
 			Area *area=neiArea->checkBundleDestArea(bundle);
 			if(area==NULL)
 				continue;
-
-			//这个历史邻居中点在当前邻居中存在
-			list<Area *>::iterator p=(*nowNeighbour).begin();
-			for(;p!=(*nowNeighbour).end();p++)
+			//判断是否这个历史邻居中点在当前邻居中存在,存在，则不需要
+			list<Area *>::iterator p=nowNeighbour->begin();
+			for(;p!=nowNeighbour->end();p++)
 			{
-				if((*p)->id ==area->id)
+				if(*p==area)
 					break;
 			}
-			if(p!= (*nowNeighbour).end() )
+			if(p!= nowNeighbour->end() )
 				continue;
-
-			Node *tempNode=new Node(area, ChanceValueCompute::histroyNeighbourCarryChance(bundle, area, *it));
+			vector<double> v=ChanceValueCompute::histroyNeighbourCarryChance(bundle, area, *it);
+			Node *tempNode=new Node(area,*it,v);
 			nodelist.push_back(*tempNode);
 		}
 

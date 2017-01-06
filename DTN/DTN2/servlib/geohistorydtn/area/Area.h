@@ -26,6 +26,9 @@ private:
         ar & id;
         ar & vectorlist;
         ar & father;
+
+       // ar & WhetherisNeiArea;  //无需序列化，只在数据结构中维护即可
+        //ar & Neighbourid;
     }
 
 
@@ -60,6 +63,11 @@ public:
 	 */
 	string father;
 
+	bool WhetherisNeiArea;
+
+	string Neighbourid;//-1
+
+	//Area * fatherArea;
 	Area()
 	{}
 
@@ -69,7 +77,8 @@ public:
 		this->id=id;
 		this->isCurrent=false;
 		this->father=fatherArea;
-
+		this->WhetherisNeiArea=false;
+		this->Neighbourid=-1;
 	//	init(FrequencyConfig::frequcyType);
 	}
 
@@ -84,9 +93,30 @@ public:
 		this->level=level;
 		this->id=id;
 		this->isCurrent=false;
+		this->WhetherisNeiArea=false;
+		this->Neighbourid=-1;
 	//	init(FrequencyConfig::frequcyType);
 	}
 
+	Area(int level,int id,string fatherArea,string Neighour_id)
+	{
+		this->level=level;
+		this->id=id;
+		this->isCurrent=false;
+		this->father=fatherArea;
+		this->WhetherisNeiArea=true;
+		this->Neighbourid=Neighour_id;
+	}
+
+	/*Area(int level,int id,string father,Area *fatherArea)
+	{
+		this->level=level;
+		this->id=id;
+		this->isCurrent=false;
+		this->father=father;
+		this->fatherArea=fatherArea;
+
+	}*/
 	void init()
 	{
 		/**
@@ -154,10 +184,20 @@ public:
 
 	Area *getFatherArea();
 
+/*	Area *getFatherArea_modify()
+	{
+		return fatherArea;
+	}*/
+
 	void setFatherArea(string areaid)
 	{
 		father=areaid;
 	}
+
+	/*void setFatherArea(Area *father_area)
+	{
+		fatherArea=father_area;
+	}*/
 
 	/**
 	 * 设置区域为当前所在区域
@@ -205,7 +245,7 @@ public:
 	void removeTimeCount()
 	{
 		cancleCurrent();
-		cout<<"remove Frequency"<<endl;
+		//cout<<"remove Frequency"<<endl;
 		for(list<FrequencyVector *>::iterator it=vectorlist.begin();
 				it!=vectorlist.end();++it)
 		{

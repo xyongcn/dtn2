@@ -21,10 +21,10 @@ HandleMydtnConfig::HandleMydtnConfig()
 	int monafteve=FrequencyVectorLevel::monAftEveVector;
 	int week=FrequencyVectorLevel::weekVector;
 	int month=FrequencyVectorLevel::monthVector;
-	fr.open("./mydtn.conf",ios::in);
+	fr.open("mydtn.conf",ios::in);
 	if(!fr.is_open())
 	{
-		cout<<"error"<<endl;
+		cout<<"mydtn.conf 打开失败"<<endl;
 	}
 	else
 	{

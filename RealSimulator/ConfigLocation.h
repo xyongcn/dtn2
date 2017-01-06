@@ -207,9 +207,10 @@ public:
 					//读取到文件末，设置节点位置为配置文件里相关的最后一个位置
 					this->eof = true;
 					curLoc->gotTime = queryTime;
-					curPcf->copy(curLoc);
+					//curPcf->copy(curLoc);
 					//关闭连接
 						fr.close();
+					return curLoc;
 				}
 
 

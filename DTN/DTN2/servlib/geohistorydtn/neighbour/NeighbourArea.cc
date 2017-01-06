@@ -68,7 +68,6 @@ namespace dtn
 			return;
 		}
 		neighbourAreaDir.close();
-
 		fstream neighbourAreaFile;
 		neighbourAreaFile.open(file.c_str(),ios::in);
 		if(neighbourAreaFile)
@@ -98,7 +97,6 @@ namespace dtn
 			areaMap.clear();
 
 		//将文件保存到本地
-
 		string filename;
 		string temp=neighbourEID.str();
 		for(int i=0;i<temp.size();)
@@ -126,6 +124,7 @@ namespace dtn
 			}
 			++i;
 		}
+
 		string directories;
 		string file;
 		directories.append(NeighbourConfig::NEIGHBOURAREAFILEDIR);
@@ -134,7 +133,6 @@ namespace dtn
 		fstream neighAreaFile;
 		neighAreaFile.open(file.c_str(),ios::trunc|ios::out);//删除原来的记录，重新写
 
-
 		//将邻居的区域记录保存到本地
 		//	GeohistoryLog.i(tag, String.format("将邻居（ %s）发来的payload里面的区域移动规律存储到文件中", eid));
 		//payload.copy_to_file(neighAreaFile);
@@ -142,7 +140,6 @@ namespace dtn
 		int length=payload.length();
 		u_char *buf=new u_char[length];
 		payload.read_data(0,length,buf);
-
 		neighAreaFile.write((char *)buf,length);
 		neighAreaFile.close();
 		updateArea(file);
@@ -163,6 +160,7 @@ namespace dtn
 	NeighbourArea::NeighbourArea(EndpointID eid)
 	{
 		neighbourEID=eid;
+		neighbourEIDstr=eid.str();
 		init();
 	}
 
@@ -195,6 +193,8 @@ namespace dtn
 
 				//将读取到的area保存起来
 				ia >>area;
+				area.WhetherisNeiArea=true;
+				area.Neighbourid=neighbourEIDstr;
 				char c[20];
 				string s;
 				sprintf(c,"%d",area.level);
@@ -209,6 +209,69 @@ namespace dtn
 		catch(boost::archive::archive_exception &e)
 		{}
 		payloadFile.close();
+		WriteToNeiMoveLog(file);
+	}
+
+	void NeighbourArea::WriteToNeiMoveLog(string filename)
+	{
+		filename.append("read");
+		FILE * fr;
+		errno=0;
+		fr= fopen(filename.c_str(),"w");
+		if (NULL == fr)
+		{
+			if (EINVAL == errno)
+			{
+				printf("err:fopen log file %s failed\n",filename.c_str());
+			}
+			else
+			{
+				printf("err:unknow\n");
+			}
+		}
+		string temp;
+		string father;
+		temp.append("邻居(");
+		temp.append(neighbourEID.str());
+		temp.append("):\n");
+		temp.append("的历史移动规律");
+		char time_c[10];
+
+		tm currentTime=CurrentTimeManager::Getinstance()->currentTime;
+
+		sprintf(time_c,"%d",currentTime.tm_mon+1);
+		temp.append(time_c);
+		temp.append("月,");
+		if(currentTime.tm_wday==0)
+			temp.append("星期天,");
+		else
+		{
+			sprintf(time_c,"%d",currentTime.tm_wday);
+			temp.append("星期");
+			temp.append(time_c);
+			temp.append(",");
+		}
+		sprintf(time_c,"%d",currentTime.tm_hour);
+		temp.append(time_c);
+		temp.append("点");
+		sprintf(time_c,"%d",currentTime.tm_min);
+		temp.append(time_c);
+		temp.append("分钟\n");
+		map<string,Area>::iterator it=areaMap.begin();
+		for(;it!=areaMap.end();++it)
+		{
+			temp.append((*it).second.toString());
+			temp.append("\n");
+		}
+		fseek(fr, 0, SEEK_END);
+		int h=fwrite(temp.c_str(),sizeof(char),strlen(temp.c_str()),fr);
+		fflush(fr);
+
+		if(EOF == fclose(fr))
+		{
+			printf("err:fclose failed\n");
+			return ;
+		}
 	}
 
 

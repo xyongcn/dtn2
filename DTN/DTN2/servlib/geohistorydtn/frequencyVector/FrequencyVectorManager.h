@@ -162,7 +162,7 @@ public:
 		{
 			FrequencyVector *minutevector=*iter;
 			minutevector->attenuationVector();
-			cout<<endl;
+			//cout<<endl;
 			iter++;
 		}
 	}

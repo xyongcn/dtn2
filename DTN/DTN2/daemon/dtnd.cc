@@ -57,33 +57,6 @@ extern const char* dtn_version;
 namespace dtn {
 
 
-//ADD BY GAORUI
-/*QuestAreaInfo * QuestAreaInfo::Instance=NULL;
-const string QuestAreaInfo::tag="QuestAreaInfo";
-const string QuestAreaInfo::host="127.0.0.1";
-
-GeohistoryLog * GeohistoryLog::instance=NULL;
-CurrentTimeManager *CurrentTimeManager::instance=NULL;
-
-
-
-const string TimeManager::tag="TimeManager";
-TimeManager * TimeManager::instance=NULL;
-
-const string FrequencyVectorManager::tag="FrequencyVectorManager";
-FrequencyVectorManager *FrequencyVectorManager::Instance=NULL;
-
-
-CurrentLocationFromSimulator * CurrentLocationFromSimulator::Instance=NULL;
-const string CurrentLocationFromSimulator::host="127.0.0.1";
-const string CurrentLocationFromSimulator::tag="CurrentLocationFromSimulator";
-
-const string AreaManager::tag="AreaManager";
-const string AreaManager::historyAreaFilePath="/home/gaorui/workspace/DTN/historyarea.obj";
-const string AreaManager::historyAreaMovingFilePath="/home/gaorui/workspace/DTN/areamoving.txt";
-//AreaManager *AreaManager::instance=NULL;*/
-
-
 /**
  * Thin class that implements the daemon itself.
  */
@@ -192,11 +165,11 @@ int
 DTND::main(int argc, char* argv[])
 {
     init_app(argc, argv);
+
+    //add by gaorui
     GeohistoryLog *geohistoryLog=GeohistoryLog::GetInstance();
     HandleMydtnConfig *myconfig=HandleMydtnConfig::Getinstance();
-//	for(vector<int>::iterator it=FrequencyConfig::frequcyType.begin();
-//		it!=FrequencyConfig::frequcyType.end();++it)
-//		cout<<*it<<endl;
+    //end by gaorui
     log_notice_p("/dtnd", "DTN daemon starting up... (pid %d)", getpid());
 
 
@@ -254,15 +227,16 @@ DTND::main(int argc, char* argv[])
         apiserver->bind_listen_start(apiserver->local_addr(), 
                                      apiserver->local_port());
     }
-	//FrequencyConfig::frequcyType.push_back(1);
-	//FrequencyConfig::frequcyType.push_back(2);
-   // HandleMydtnConfig *myconfig=HandleMydtnConfig::Getinstance();//决定每个Area和Neighbor中的频率的类型，默认是分钟，小时
+
     AreaManager *areamanager= AreaManager::Getinstance();
     areamanager->init();//用于将原来的历史移动规律读入该程序
+
+    NeighbourManager *neimanager=  NeighbourManager::Getinstance();
+    neimanager->init();
     CurrentLocationFromSimulator *location=CurrentLocationFromSimulator::Getinstance();
     location->start();
     TimeManager *timemanager=TimeManager::GetInstance();
-     timemanager->start();
+    timemanager->start();
     oasys::Thread::release_start_barrier(); // run blocked threads
 
     // if the test script specified something to run for the test,

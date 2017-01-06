@@ -19,9 +19,13 @@ namespace dtn
 		//存储地图每一层的机会值
 		vector<double> chanceValue;
 		vector<double> error_chanceValue;
+		cout<<neighbour->neighbourEidstr<<":"<<endl;
+		cout<<"区域id,目的区域各频率向量机会值,邻居相遇各频率向量机会值,总机会值："<<endl;
 		while(area!=NULL)
 		{
+			cout<<area->id<<",";
 			double temp=ChanceValueCompute::historyNeighbourcarryChance(validVector, area, neighbour);
+			cout<<" 总机会值:"<<temp<<endl;
 			//出现不合法的机会值
 			if(temp==-1)
 				return error_chanceValue;
@@ -55,8 +59,9 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::MINUTE_LEVEL_AREA_THRESHOLD)
+						if(sum>=ChanceComputeConfig::MINUTE_LEVEL_AREA_THRESHOLD)
 						{
+							cout<<"minute:"<<sum<<",";
 							//乘以与历史邻居相遇的衰减
 							double minuteDenominator=ChanceComputeConfig::MINUTE_LEVEL_NEIGHBOUR_DENOMINATOR;
 							if(validVector->getMinuteVector().size()!=0)
@@ -64,6 +69,8 @@ namespace dtn
 								minuteDenominator=minuteDenominator*validVector->getMinuteVector().size();
 							}
 							double minuteTemp=vectorSum(vectorMultiplyvector(validVector->getMinuteVector(),neighbour->getFrequencyVector(FrequencyVectorLevel::minuteVector)->getVector()))/minuteDenominator;
+							//cout<<"minuteDenominator:"<<minuteDenominator<<"  ";
+							cout<<minuteTemp<<" ";
 							sum*=minuteTemp;
 
 							chanceValue+=sum;
@@ -84,8 +91,9 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::HOUR_LEVEL_AREA_THRESHOLD)
+						if(sum>=ChanceComputeConfig::HOUR_LEVEL_AREA_THRESHOLD)
 						{
+							cout<<"hour:"<<sum<<",";
 							//乘以与历史邻居相遇的衰减
 							double hourDenominator=ChanceComputeConfig::HOUR_LEVEL_NEIGHBOUR_DENOMINATOR;
 							if(validVector->getHourVector().size()!=0)
@@ -93,6 +101,7 @@ namespace dtn
 								hourDenominator=hourDenominator*validVector->getHourVector().size();
 							}
 							double hourTemp=vectorSum(vectorMultiplyvector(validVector->getHourVector(),neighbour->getFrequencyVector(FrequencyVectorLevel::hourVector)->getVector()))/hourDenominator;
+							cout<<hourTemp<<" ";
 							sum*=hourTemp;
 
 							chanceValue+=sum;
@@ -113,8 +122,9 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::WEEK_LEVEL_AREA_THREASHOLD)
+						if(sum>=ChanceComputeConfig::WEEK_LEVEL_AREA_THREASHOLD)
 						{
+							cout<<"week:"<<sum<<",";
 							//乘以与历史邻居相遇的衰减
 							double weekDenominator=ChanceComputeConfig::WEEK_LEVEL_NEIGHBOUR_DENOMINATOR;
 							if(validVector->getWeekVector().size()!=0)
@@ -122,6 +132,7 @@ namespace dtn
 								weekDenominator=weekDenominator*validVector->getWeekVector().size();
 							}
 							double weekTemp=vectorSum(vectorMultiplyvector(validVector->getWeekVector(),neighbour->getFrequencyVector(FrequencyVectorLevel::weekVector)->getVector()))/weekDenominator;
+							cout<<weekTemp<<" ";
 							sum*=weekTemp;
 
 							chanceValue+=sum;
@@ -141,8 +152,9 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::MONTH_LEVEL_AREA_THRESHOLD)
+						if(sum>=ChanceComputeConfig::MONTH_LEVEL_AREA_THRESHOLD)
 						{
+							cout<<"month:"<<sum<<",";
 							//乘以与历史邻居相遇的衰减
 							double monthDenominator=ChanceComputeConfig::MONTH_LEVEL_NEIGHBOUR_DENOMINATOR;
 							if(validVector->getMonthVector().size()!=0)
@@ -150,8 +162,8 @@ namespace dtn
 								monthDenominator=monthDenominator*validVector->getMonthVector().size();
 							}
 							double monthTemp=vectorSum(vectorMultiplyvector(validVector->getMonthVector(),neighbour->getFrequencyVector(FrequencyVectorLevel::monthVector)->getVector()))/monthDenominator;
+							cout<<monthTemp<<" ";
 							sum*=monthTemp;
-
 							chanceValue+=sum;
 						}
 						else
@@ -169,16 +181,17 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::MONAFTEVE_LEVEL_AREA_THRESHOLD)
+						if(sum>=ChanceComputeConfig::MONAFTEVE_LEVEL_AREA_THRESHOLD)
 						{
+							cout<<"monafteve:"<<sum<<",";
 							double monafteveDenominator=ChanceComputeConfig::MONAFTEVE_LEVEL_NEIGHBOUR_DENOMINATOR;
 							if(validVector->getMonAftEveVector().size()!=0)
 							{
 								monafteveDenominator=monafteveDenominator*validVector->getMonAftEveVector().size();
 							}
 							double monafteveTemp=vectorSum(vectorMultiplyvector(validVector->getMonAftEveVector(),neighbour->getFrequencyVector(FrequencyVectorLevel::monAftEveVector)->getVector()))/monafteveDenominator;
+							cout<<monafteveTemp<<" ";
 							sum*=monafteveTemp;
-
 							chanceValue+=sum;
 						}
 						else
@@ -205,6 +218,7 @@ namespace dtn
 		//存储地图每一层的机会值
 		vector<double> chanceValue;
 		vector<double> error_chanceValue;
+		cout<<"区域id，机会值: ";
 		while(area!=NULL)
 		{
 			double temp=carryChance(validVector, area);
@@ -212,9 +226,11 @@ namespace dtn
 			if(temp==-1)
 				return error_chanceValue;
 			chanceValue.push_back(temp);
+			cout<<area->id<<","<<temp<<" ";
 			area=area->getFatherArea();
+			//cout<<area->id<<endl;
 		}
-
+		cout<<endl;
 		return chanceValue;
 
 
@@ -252,7 +268,7 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::MINUTE_LEVEL_AREA_THRESHOLD)
+						if(sum>=ChanceComputeConfig::MINUTE_LEVEL_AREA_THRESHOLD)
 						{
 							chanceValue+=sum;
 						}
@@ -272,7 +288,7 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::HOUR_LEVEL_AREA_THRESHOLD)
+						if(sum>=ChanceComputeConfig::HOUR_LEVEL_AREA_THRESHOLD)
 						{
 							chanceValue+=sum;
 						}
@@ -292,7 +308,7 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::WEEK_LEVEL_AREA_THREASHOLD)
+						if(sum>=ChanceComputeConfig::WEEK_LEVEL_AREA_THREASHOLD)
 						{
 							chanceValue+=sum;
 						}
@@ -311,7 +327,7 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::MONTH_LEVEL_AREA_THRESHOLD)
+						if(sum>=ChanceComputeConfig::MONTH_LEVEL_AREA_THRESHOLD)
 						{
 							chanceValue+=sum;
 						}
@@ -330,7 +346,7 @@ namespace dtn
 					else
 					{
 						double sum=ChanceValueCompute::vectorSum(temp);
-						if(sum>ChanceComputeConfig::MONAFTEVE_LEVEL_AREA_THRESHOLD)
+						if(sum>=ChanceComputeConfig::MONAFTEVE_LEVEL_AREA_THRESHOLD)
 						{
 							chanceValue+=sum;
 						}
@@ -371,7 +387,6 @@ namespace dtn
 		{
 			result.push_back(a[i]*b[i]);
 		}
-
 		return result;
 
 	}
@@ -382,7 +397,6 @@ namespace dtn
 		long expirationSeconds=bundle->creation_ts().seconds_+bundle->expiration()+BundleTimestamp::TIMEVAL_CONVERSION;
 
 		long nowSeconds=BundleTimestamp::get_current_time()+BundleTimestamp::TIMEVAL_CONVERSION;
-
 		if(nowSeconds>=expirationSeconds)
 		{
 			GeohistoryLog::GetInstance()->LogAppend(GeohistoryLog::GetInstance()->INFO_LEVEL,
@@ -422,13 +436,13 @@ namespace dtn
 				}
 			}
 
-			time_t ttime_now =nowSeconds;
-			struct tm* tt_now;
-			tt_now=localtime(&ttime_now);
+			struct tm *tt_now;
+			tt_now=localtime(&nowSeconds);
+			struct tm now=*tt_now;
 
-			time_t ttime_exp =expirationSeconds;
-			struct tm* tt_exp;
-			tt_exp=localtime(&ttime_exp);
+			struct tm *tt_exp;
+			tt_exp=localtime(&expirationSeconds);
+			struct tm exp=*tt_exp;
 
 			//将当前时间和有效时间段内的值赋为1
 			for(int i=0;i<frequencyType.size();++i)
@@ -436,68 +450,68 @@ namespace dtn
 				if(frequencyType[i]==FrequencyVectorLevel::minuteVector)
 				{
 
-					if((tt_now->tm_hour+1)%24 < tt_exp->tm_hour)
+					if((now.tm_hour+1)%24 < exp.tm_hour)
 					{
 						for(int i=0;i<60;++i)
 							ValidMinuteVector[i]=1;
 					}
-					else if((tt_now->tm_hour+1)%24 ==tt_exp->tm_hour && tt_now->tm_min<=tt_exp->tm_min)
+					else if((now.tm_hour+1)%24 ==exp.tm_hour && now.tm_min<=exp.tm_min)
 					{
 						for(int i=0;i<60;++i)
 							ValidMinuteVector[i]=1;
 					}
-					else if((tt_now->tm_hour+1)%24 ==tt_exp->tm_hour && tt_now->tm_min>tt_exp->tm_min)
+					else if((now.tm_hour+1)%24 ==exp.tm_hour && now.tm_min > exp.tm_min)
 					{
-						for(int i=tt_now->tm_min;i<60;++i)
+						for(int i=now.tm_min;i<60;++i)
 							ValidMinuteVector[i]=1;
-						for(int i=0;i<=tt_exp->tm_min;++i)
+						for(int i=0;i<=exp.tm_min;++i)
 							ValidMinuteVector[i]=1;
 					}
-					else if(tt_now->tm_hour==tt_exp->tm_hour)
+					else if(now.tm_hour==exp.tm_hour)
 					{
-						for(int i=tt_now->tm_min;i<=tt_exp->tm_min;++i)
+						for(int i=now.tm_min;i<=exp.tm_min;++i)
 							ValidMinuteVector[i]=1;
 					}
 
 				}
 				if(frequencyType[i]==FrequencyVectorLevel::hourVector)
 				{
-					if(tt_now->tm_hour > tt_exp->tm_hour)
+					if(now.tm_hour > exp.tm_hour)
 					{
-						for(int i=tt_now->tm_hour;i<24;++i)
+						for(int i=now.tm_hour;i<24;++i)
 							ValidHourVector[i]=1;
-						for(int i=0;i<=tt_exp->tm_hour;++i)
+						for(int i=0;i<=exp.tm_hour;++i)
 							ValidHourVector[i]=1;
 					}
 					else
-						for(int i=tt_now->tm_hour;i<=tt_exp->tm_hour;++i)
+						for(int i=now.tm_hour;i<=exp.tm_hour;++i)
 							ValidHourVector[i]=1;
 				}
 
 				if(frequencyType[i]==FrequencyVectorLevel::weekVector)
 				{
-					if(tt_now->tm_wday > tt_exp->tm_wday)
+					if(now.tm_wday > exp.tm_wday)
 					{
-						for(int i=tt_now->tm_wday;i<7;++i)
+						for(int i=now.tm_wday;i<7;++i)
 							ValidWeekVector[i]=1;
-						for(int i=0;i<=tt_exp->tm_wday;++i)
+						for(int i=0;i<=exp.tm_wday;++i)
 							ValidWeekVector[i]=1;
 					}
 					else
-						for(int i=tt_now->tm_wday;i<=tt_exp->tm_wday;++i)
+						for(int i=now.tm_wday;i<=exp.tm_wday;++i)
 							ValidWeekVector[i]=1;
 				}
 				if(frequencyType[i]==FrequencyVectorLevel::monthVector)
 				{
-					if(tt_now->tm_mon > tt_exp->tm_mon)
+					if(now.tm_mon > exp.tm_mon)
 					{
-						for(int i=tt_now->tm_mon;i<12;++i)
+						for(int i=now.tm_mon;i<12;++i)
 							ValidMonthVector[i]=1;
-						for(int i=0;i<=tt_exp->tm_mon;++i)
+						for(int i=0;i<=exp.tm_mon;++i)
 							ValidMonthVector[i]=1;
 					}
 					else
-						for(int i=tt_now->tm_mon;i<=tt_exp->tm_mon;++i)
+						for(int i=now.tm_mon;i<=exp.tm_mon;++i)
 							ValidMonthVector[i]=1;
 				}
 				if(frequencyType[i]==FrequencyVectorLevel::monAftEveVector)
@@ -505,16 +519,16 @@ namespace dtn
 					int monafteve_now;
 					int monafteve_exp;
 
-					if(tt_now->tm_hour >=6 && tt_now->tm_hour <12)
+					if(now.tm_hour >=6 && now.tm_hour <12)
 						monafteve_now=1;
-					else if(tt_now->tm_hour >=12 && tt_now->tm_hour <20)
+					else if(now.tm_hour >=12 && now.tm_hour <20)
 						monafteve_now=2;
 					else
 						monafteve_now=3;
 
-					if(tt_exp->tm_hour >=6 && tt_exp->tm_hour <12)
+					if(exp.tm_hour >=6 && exp.tm_hour <12)
 						monafteve_exp=1;
-					else if(tt_exp->tm_hour >=12 && tt_exp->tm_hour <20)
+					else if(exp.tm_hour >=12 && exp.tm_hour <20)
 						monafteve_exp=2;
 					else
 						monafteve_exp=3;
@@ -531,6 +545,19 @@ namespace dtn
 							ValidMonafteveVector[i]=1;
 				}
 			}
+			//////////////test//////////////////////
+			/*vector<double>::iterator ii;
+			ii=ValidMinuteVector.begin();
+			int i=0;
+			for(;ii!=ValidMinuteVector.end();++ii,++i)
+				cout<<i<<" "<<*ii<<",";
+			cout<<endl;
+			i=0;
+			ii=ValidHourVector.begin();
+			for(;ii!=ValidHourVector.end();++ii,++i)
+				cout<<i<<" "<<*ii<<",";
+			cout<<endl;*/
+			///////////////////end test/////////////////
 			ValidVector *vector=new ValidVector(ValidMinuteVector,ValidHourVector
 					,ValidMonafteveVector,ValidWeekVector, ValidMonthVector);
 			return vector;
@@ -547,7 +574,6 @@ namespace dtn
 		{
 			sum+=a[i];
 		}
-
 		return sum;
 	}
 }

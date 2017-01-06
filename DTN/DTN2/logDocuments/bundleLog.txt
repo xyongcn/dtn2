@@ -1,0 +1,5698 @@
+delivery a new bundle:
+12月,星期2,14点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.12.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3120
+
+send a new bundle:
+12月,星期2,15点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 2203
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,15点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,15点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 3439
+邻居bundle，直接交付给邻居(dtn://192.168.5.12.gao.com)
+
+delivery a new bundle:
+12月,星期2,15点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.12.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,15点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 3583
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,15点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,15点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 3777
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,15点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点5分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4119
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点5分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点5分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 11
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期2,16点6分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,16点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点14分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,16点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点19分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,16点21分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点21分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点21分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:121412
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,16点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点23分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,16点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点25分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:121412
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,16点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期2,16点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点32分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点32分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期2,16点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点54分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,16点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3212
+
+send a new bundle:
+12月,星期2,16点58分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,16点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4135
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,16点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,17点0分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,19点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4509
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,19点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,19点52分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 11
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期2,19点53分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,19点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4635
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,19点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,19点58分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4901
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点1分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点3分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4901
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点3分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点3分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4901
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点6分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4901
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点8分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:121412
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4970
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期2,20点11分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+delivery a new bundle:
+12月,星期2,20点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点11分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4970
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点15分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4970
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点18分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4970
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点22分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4970
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点27分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4970
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点29分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点33分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 4970
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点33分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5078
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点35分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5150
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点37分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5150
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点42分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点44分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5150
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点44分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,20点44分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,20点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5150
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,20点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5150
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点3分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5150
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点3分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点3分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,21点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5150
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5150
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5165
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点11分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+
+send a new bundle:
+12月,星期2,21点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5165
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5165
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5165
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点48分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点48分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5279
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期2,21点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3226
+
+send a new bundle:
+12月,星期2,21点59分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期2,21点59分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5511
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点0分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 11
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期3,18点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5511
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点0分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5559
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期3,18点11分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点11分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*
+delivery a new bundle:
+12月,星期3,18点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5559
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点25分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5871
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点31分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5990
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点35分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点44分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5990
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点44分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点44分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:12141011
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5990
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点47分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5990
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点51分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点53分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5990
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点53分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点53分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:121412
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*1
+
+send a new bundle:
+12月,星期3,18点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 6149
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,18点56分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*  ,1
+
+send a new bundle:
+12月,星期3,18点56分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*  ,1
+
+send a new bundle:
+12月,星期3,18点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 6149
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,18点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,19点5分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 6149
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,19点5分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,19点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 6149
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,19点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.11.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期3,19点6分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+进入目标区域，执行洪泛转发,其中副本数为:2
+发送给邻居的id和副本数:
+dtn://192.168.5.13.gao.com/,1
+
+send a new bundle:
+12月,星期3,19点6分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.11.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 11
+进入目标区域，执行洪泛转发,其中副本数为:2
+发送给邻居的id和副本数:
+dtn://192.168.5.13.gao.com/,1
+
+send a new bundle:
+12月,星期4,16点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 7076
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期4,16点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.1.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期4,16点37分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 5
+进入目标区域，执行洪泛转发,其中副本数为:2
+发送给邻居的id和副本数:
+dtn://192.168.5.13.gao.com/,1
+
+send a new bundle:
+12月,星期4,16点37分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 5
+进入目标区域，执行洪泛转发,其中副本数为:2
+发送给邻居的id和副本数:
+dtn://192.168.5.13.gao.com/,1
+
+send a new bundle:
+12月,星期4,16点37分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 5
+进入目标区域，执行洪泛转发,其中副本数为:2
+发送给邻居的id和副本数:
+dtn://192.168.5.13.gao.com/,1
+
+send a new bundle:
+12月,星期4,16点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 7360
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期4,16点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.1.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期4,16点53分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期4,17点3分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 7
+进入目标区域，执行洪泛转发,其中副本数为:2
+发送给邻居的id和副本数:
+
+send a new bundle:
+12月,星期4,17点5分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 8009
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期4,17点5分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.1.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期4,17点5分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 7
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期4,17点6分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期4,17点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 8000
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期4,17点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.1.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期4,17点7分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期4,17点7分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5
+进入目标区域，执行洪泛转发,其中副本数为:2
+发送给邻居的id和副本数:
+
+send a new bundle:
+12月,星期4,17点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 8000
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期4,17点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.1.gao.com
+bundle的负载: 3225
+
+send a new bundle:
+12月,星期4,17点7分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期4,17点8分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期4,17点9分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 5
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*  ,1
+
+send a new bundle:
+12月,星期4,17点9分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 5
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*  ,1
+
+send a new bundle:
+12月,星期4,17点9分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.12.gao.com
+bundle的负载: 5
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:1413910
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*  ,1
+
+send a new bundle:
+12月,星期4,17点10分钟
+bundle的类型: data_bundle
+bundle的目的区域: 45615
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 5
+遇到了目的节点，直接将bundle发送给目的节点(dtn://192.168.5.13.gao.com)
+
+send a new bundle:
+12月,星期3,13点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 8155
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,13点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.1.gao.com
+bundle的负载: 9439
+
+send a new bundle:
+12月,星期3,13点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.13.gao.com
+bundle的负载: 8155
+邻居bundle，直接交付给邻居(dtn://192.168.5.13.gao.com)
+
+delivery a new bundle:
+12月,星期3,13点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.13.gao.com
+bundle的目的结点: dtn://192.168.5.1.gao.com
+bundle的负载: 9439
+
+send a new bundle:
+12月,星期3,13点11分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.2.gao.com
+bundle的负载: 5
+进入目标区域，执行洪泛转发,其中副本数为:2
+发送给邻居的id和副本数:
+dtn://192.168.5.13.gao.com/,1
+
+send a new bundle:
+12月,星期3,13点11分钟
+bundle的类型: data_bundle
+bundle的目的区域: 121412
+bundle的源结点: dtn://192.168.5.1.gao.com
+bundle的目的结点: dtn://192.168.5.2.gao.com
+bundle的负载: 5
+没有进入目标区域，执行普通转发,其中副本数为:2,当前的区域id为:231314
+发送给邻居的id和副本数
+dtn://192.168.5.13.gao.com/*  ,1
+
+send a new bundle:
+12月,星期天,19点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 8257
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,19点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 8257
+
+send a new bundle:
+12月,星期天,19点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 8257
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,19点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 8257
+
+send a new bundle:
+12月,星期天,19点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 8261
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,19点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 8242
+
+send a new bundle:
+12月,星期天,19点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 8261
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,19点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 8242
+
+send a new bundle:
+12月,星期天,19点41分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 8261
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,19点41分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 8242
+
+delivery a new bundle:
+12月,星期天,20点9分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3071
+
+send a new bundle:
+12月,星期天,20点9分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 2023
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,20点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3071
+
+send a new bundle:
+12月,星期天,20点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 3061
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+12月,星期天,20点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 3403
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,20点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3449
+
+send a new bundle:
+12月,星期天,21点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 3403
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,21点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3444
+
+send a new bundle:
+12月,星期天,21点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 3439
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,21点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3552
+
+send a new bundle:
+12月,星期天,21点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 3511
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,21点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3548
+
+send a new bundle:
+12月,星期天,21点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 3511
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,21点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3548
+
+send a new bundle:
+12月,星期天,22点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 3777
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期天,22点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3927
+
+send a new bundle:
+12月,星期1,9点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 4121
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期1,9点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 4236
+
+send a new bundle:
+12月,星期1,9点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 4659
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期1,9点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 4446
+
+send a new bundle:
+12月,星期1,10点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 4859
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期1,10点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 4656
+
+send a new bundle:
+12月,星期1,12点13分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 4928
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期1,12点13分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 4730
+
+delivery a new bundle:
+12月,星期1,12点30分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 4856
+
+send a new bundle:
+12月,星期1,12点30分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 4979
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+12月,星期1,12点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5067
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期1,12点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 4945
+
+send a new bundle:
+12月,星期5,15点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5240
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期5,15点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 5368
+
+send a new bundle:
+12月,星期5,15点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5245
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期5,15点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 5368
+
+send a new bundle:
+12月,星期5,16点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5251
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期5,16点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 5375
+
+send a new bundle:
+12月,星期5,16点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5251
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+12月,星期5,16点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 5375
+
+send a new bundle:
+12月,星期6,16点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.5.2.gao.com
+bundle的负载: 5249
+邻居bundle，直接交付给邻居(dtn://192.168.5.2.gao.com)
+
+delivery a new bundle:
+12月,星期6,16点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.5.2.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 2582
+
+send a new bundle:
+1月,星期2,13点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5245
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,13点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 5369
+
+delivery a new bundle:
+1月,星期2,13点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 5369
+
+send a new bundle:
+1月,星期2,13点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5242
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期2,14点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5259
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,14点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 5401
+
+send a new bundle:
+1月,星期2,14点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 5259
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期2,14点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 2682
+
+send a new bundle:
+1月,星期2,16点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5257
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期2,16点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 5257
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,16点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 5400
+
+send a new bundle:
+1月,星期2,16点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 7124
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,16点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 6200
+
+send a new bundle:
+1月,星期2,16点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 7237
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,16点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 6250
+
+send a new bundle:
+1月,星期2,16点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 7480
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期2,16点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 7480
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,16点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3410
+
+delivery a new bundle:
+1月,星期2,16点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 6311
+
+send a new bundle:
+1月,星期2,18点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 7480
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,18点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 6395
+
+send a new bundle:
+1月,星期2,18点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 7480
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期2,18点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 3955
+
+send a new bundle:
+1月,星期2,18点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 7484
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,18点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 6393
+
+send a new bundle:
+1月,星期2,19点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 8589
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期2,19点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 6393
+
+send a new bundle:
+1月,星期3,19点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 9419
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期3,19点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 9419
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期3,20点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10692
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期3,20点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12899
+
+delivery a new bundle:
+1月,星期4,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12903
+
+send a new bundle:
+1月,星期4,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10769
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9019
+
+send a new bundle:
+1月,星期4,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10769
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期4,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10769
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9019
+
+send a new bundle:
+1月,星期4,10点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10782
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12903
+
+send a new bundle:
+1月,星期4,10点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10782
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9110
+
+send a new bundle:
+1月,星期4,10点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10782
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12903
+
+delivery a new bundle:
+1月,星期4,10点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12955
+
+send a new bundle:
+1月,星期4,10点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10785
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期4,10点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10785
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9175
+
+delivery a new bundle:
+1月,星期4,10点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12940
+
+send a new bundle:
+1月,星期4,10点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10776
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期4,10点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10776
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9166
+
+delivery a new bundle:
+1月,星期4,10点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12940
+
+send a new bundle:
+1月,星期4,10点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10776
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期4,10点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10776
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9166
+
+send a new bundle:
+1月,星期4,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10811
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12931
+
+send a new bundle:
+1月,星期4,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10811
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点57分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9161
+
+send a new bundle:
+1月,星期4,10点57分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10821
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点57分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9149
+
+send a new bundle:
+1月,星期4,10点57分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10821
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点57分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12926
+
+send a new bundle:
+1月,星期4,10点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 10923
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 12968
+
+send a new bundle:
+1月,星期4,10点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 10923
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,10点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9156
+
+send a new bundle:
+1月,星期4,11点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 11079
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,11点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 13094
+
+send a new bundle:
+1月,星期4,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 11099
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9259
+
+send a new bundle:
+1月,星期4,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 11099
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 13156
+
+send a new bundle:
+1月,星期4,11点2分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 11168
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期4,11点2分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 9255
+
+send a new bundle:
+1月,星期4,11点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 11347
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期4,11点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 11347
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,11点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 13266
+
+send a new bundle:
+1月,星期4,11点9分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 11339
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,11点9分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 13252
+
+send a new bundle:
+1月,星期4,15点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 12059
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期4,15点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 13667
+
+delivery a new bundle:
+1月,星期4,15点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 10258
+
+send a new bundle:
+1月,星期4,15点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 12059
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,6点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13116
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,6点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14728
+
+send a new bundle:
+1月,星期5,6点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13116
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,6点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11209
+
+send a new bundle:
+1月,星期5,9点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13230
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,9点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14838
+
+send a new bundle:
+1月,星期5,9点48分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13240
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,9点48分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11354
+
+delivery a new bundle:
+1月,星期5,10点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14836
+
+send a new bundle:
+1月,星期5,10点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13223
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13223
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点0分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11362
+
+send a new bundle:
+1月,星期5,10点5分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13223
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点5分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14836
+
+send a new bundle:
+1月,星期5,10点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13218
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11362
+
+delivery a new bundle:
+1月,星期5,10点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14849
+
+send a new bundle:
+1月,星期5,10点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13232
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11357
+
+send a new bundle:
+1月,星期5,10点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13232
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,10点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13232
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11357
+
+send a new bundle:
+1月,星期5,10点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13232
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14883
+
+send a new bundle:
+1月,星期5,10点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13276
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11361
+
+send a new bundle:
+1月,星期5,10点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13350
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14903
+
+send a new bundle:
+1月,星期5,10点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13354
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11372
+
+send a new bundle:
+1月,星期5,10点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13354
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14927
+
+send a new bundle:
+1月,星期5,10点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13424
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11370
+
+send a new bundle:
+1月,星期5,10点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13506
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14963
+
+send a new bundle:
+1月,星期5,10点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13506
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11377
+
+send a new bundle:
+1月,星期5,10点21分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13548
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点21分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14977
+
+send a new bundle:
+1月,星期5,10点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13561
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11362
+
+send a new bundle:
+1月,星期5,10点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13561
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15020
+
+send a new bundle:
+1月,星期5,10点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13612
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11357
+
+send a new bundle:
+1月,星期5,10点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15038
+
+send a new bundle:
+1月,星期5,10点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13753
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11355
+
+send a new bundle:
+1月,星期5,10点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13753
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15049
+
+send a new bundle:
+1月,星期5,10点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13760
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11350
+
+send a new bundle:
+1月,星期5,10点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13760
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15077
+
+send a new bundle:
+1月,星期5,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13809
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15099
+
+send a new bundle:
+1月,星期5,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13809
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15099
+
+send a new bundle:
+1月,星期5,10点30分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13795
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点30分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15094
+
+send a new bundle:
+1月,星期5,10点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13800
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15082
+
+send a new bundle:
+1月,星期5,10点32分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13792
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点32分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15092
+
+send a new bundle:
+1月,星期5,10点33分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13780
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点33分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15099
+
+send a new bundle:
+1月,星期5,10点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13774
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15079
+
+send a new bundle:
+1月,星期5,10点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13770
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15076
+
+send a new bundle:
+1月,星期5,10点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13773
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15079
+
+send a new bundle:
+1月,星期5,10点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13764
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15088
+
+send a new bundle:
+1月,星期5,10点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13756
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15079
+
+send a new bundle:
+1月,星期5,10点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13762
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13762
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15082
+
+send a new bundle:
+1月,星期5,10点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13764
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15085
+
+send a new bundle:
+1月,星期5,10点41分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13746
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点41分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13746
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点41分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15073
+
+send a new bundle:
+1月,星期5,10点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13745
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,10点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13745
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,10点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13745
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13745
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15064
+
+delivery a new bundle:
+1月,星期5,10点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11368
+
+send a new bundle:
+1月,星期5,10点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13762
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13762
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13762
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13762
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15055
+
+send a new bundle:
+1月,星期5,10点44分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13749
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点44分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13749
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点44分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13749
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点44分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13749
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点45分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13722
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点45分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13722
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点45分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13722
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13741
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13741
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点46分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13741
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13729
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11359
+
+send a new bundle:
+1月,星期5,10点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13729
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,10点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13729
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点47分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13729
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点48分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13777
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点48分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13777
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点48分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13777
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13810
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13810
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13810
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15035
+
+send a new bundle:
+1月,星期5,10点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13810
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13810
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点49分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13810
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点50分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13819
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点50分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13819
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点50分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13819
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点50分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13819
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点50分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13819
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点50分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13819
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13860
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13860
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13860
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13860
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点51分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15041
+
+send a new bundle:
+1月,星期5,10点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13855
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13855
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点52分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13855
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点53分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13899
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,10点53分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13899
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,10点53分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13899
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点53分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11376
+
+send a new bundle:
+1月,星期5,10点53分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13899
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点53分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13899
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13872
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15022
+
+delivery a new bundle:
+1月,星期5,10点54分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15022
+
+send a new bundle:
+1月,星期5,10点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13876
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点55分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13876
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13855
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13855
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13855
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15014
+
+send a new bundle:
+1月,星期5,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13855
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13855
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点56分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15014
+
+send a new bundle:
+1月,星期5,10点57分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13853
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点57分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13853
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13834
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,10点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13834
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15018
+
+delivery a new bundle:
+1月,星期5,10点58分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15018
+
+send a new bundle:
+1月,星期5,10点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13838
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15021
+
+send a new bundle:
+1月,星期5,10点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13838
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,10点59分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11412
+
+send a new bundle:
+1月,星期5,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13854
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13854
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13854
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13854
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13854
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15031
+
+send a new bundle:
+1月,星期5,11点1分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13854
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点2分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13845
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点2分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13845
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点2分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13845
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点2分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13845
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点3分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13828
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点3分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13828
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点3分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13828
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点3分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13828
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点4分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13856
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点4分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13856
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点4分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13856
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点4分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15025
+
+send a new bundle:
+1月,星期5,11点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13879
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13879
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点6分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15022
+
+send a new bundle:
+1月,星期5,11点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13893
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13893
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13893
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点7分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13893
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13886
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13886
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13886
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点8分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13886
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点9分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13875
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点9分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13875
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点9分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13875
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点9分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13875
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点10分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13864
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点10分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15000
+
+delivery a new bundle:
+1月,星期5,11点10分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 15000
+
+send a new bundle:
+1月,星期5,11点10分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13864
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,11点10分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13864
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点10分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13864
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点10分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11389
+
+send a new bundle:
+1月,星期5,11点10分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13864
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点11分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13841
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点12分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13850
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点12分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13850
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点12分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13850
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点12分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13850
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点12分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13850
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点12分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13850
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点13分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13850
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点13分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13850
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点13分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14981
+
+send a new bundle:
+1月,星期5,11点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13836
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13836
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13836
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13836
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14974
+
+send a new bundle:
+1月,星期5,11点14分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13836
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13840
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13840
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13840
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14971
+
+send a new bundle:
+1月,星期5,11点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13840
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13840
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点15分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14971
+
+send a new bundle:
+1月,星期5,11点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13831
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13831
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点16分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11389
+
+send a new bundle:
+1月,星期5,11点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13832
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13832
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13832
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点17分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14952
+
+send a new bundle:
+1月,星期5,11点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13817
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13817
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13817
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13817
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13817
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点18分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14960
+
+send a new bundle:
+1月,星期5,11点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13796
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13796
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13796
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点19分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14957
+
+send a new bundle:
+1月,星期5,11点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13795
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14962
+
+delivery a new bundle:
+1月,星期5,11点20分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14962
+
+send a new bundle:
+1月,星期5,11点21分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13793
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点21分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13793
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点21分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13793
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13784
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13784
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点22分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14950
+
+send a new bundle:
+1月,星期5,11点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13771
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14961
+
+delivery a new bundle:
+1月,星期5,11点23分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14961
+
+send a new bundle:
+1月,星期5,11点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13755
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13755
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13755
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13755
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13755
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13755
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点24分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14975
+
+send a new bundle:
+1月,星期5,11点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13753
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13753
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13753
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13753
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13753
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13753
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点25分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14970
+
+send a new bundle:
+1月,星期5,11点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13744
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13744
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13744
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13744
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点26分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14974
+
+send a new bundle:
+1月,星期5,11点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13743
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14972
+
+delivery a new bundle:
+1月,星期5,11点27分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14972
+
+send a new bundle:
+1月,星期5,11点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13736
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14961
+
+delivery a new bundle:
+1月,星期5,11点28分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14961
+
+send a new bundle:
+1月,星期5,11点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13725
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13725
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13725
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13725
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14967
+
+delivery a new bundle:
+1月,星期5,11点29分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14967
+
+send a new bundle:
+1月,星期5,11点30分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13734
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点30分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14972
+
+send a new bundle:
+1月,星期5,11点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13730
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13730
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13730
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点31分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13730
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点32分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13720
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点32分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13720
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点33分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13723
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点33分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13723
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点33分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13723
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13716
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13716
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13716
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点34分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13716
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11380
+
+delivery a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11380
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点35分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13717
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13722
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13722
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13722
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13722
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13722
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点36分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14949
+
+send a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13724
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13724
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13724
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13724
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13724
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13724
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14949
+
+delivery a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14949
+
+send a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13724
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点37分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11360
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点38分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13711
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点39分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14942
+
+send a new bundle:
+1月,星期5,11点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13697
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13697
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13697
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13697
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点40分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14946
+
+send a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13708
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点42分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14940
+
+send a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13696
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13696
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13696
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13696
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13696
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+send a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.124.gao.com
+bundle的负载: 13696
+邻居bundle，直接交付给邻居(dtn://192.168.11.124.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.124.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 14930
+
+send a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.122.gao.com
+bundle的目的结点: dtn://192.168.11.125.gao.com
+bundle的负载: 13696
+邻居bundle，直接交付给邻居(dtn://192.168.11.125.gao.com)
+
+delivery a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11353
+
+delivery a new bundle:
+1月,星期5,11点43分钟
+bundle的类型: neighbour_bundle
+bundle的源结点: dtn://192.168.11.125.gao.com
+bundle的目的结点: dtn://192.168.11.122.gao.com
+bundle的负载: 11353
+

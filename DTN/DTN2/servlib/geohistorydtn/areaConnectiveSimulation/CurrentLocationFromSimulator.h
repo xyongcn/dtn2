@@ -14,7 +14,7 @@
  #include <iostream>
  #include <string>
 #include <pthread.h>
-#include <oasys/thread/Thread.h>
+//#include <oasys/thread/Thread.h>
 
 #include "servlib/geohistorydtn/questAreaInfo/QuestAreaInfo.h"
 #include "servlib/bundling/BundleDaemon.h"
@@ -74,7 +74,6 @@ private:
 				geohistoryLog->LogAppend(geohistoryLog->ERROR_LEVEL,"无法建立请求分层信息的server,绑定失败");
 			}
 			servlen_reply=sizeof(servaddr_reply);
-
 	}
 
 public:
@@ -87,6 +86,19 @@ public:
 	int reply_loc_socket;
 	socklen_t servlen_query;
 	socklen_t servlen_reply;
+
+	//////////////////////////////////////////////
+	static const int QUERY_LOCATION_PORT2 = 63302;//MapInterface请求区域序列部分绑定
+	static const int REPLY_LOCATION_PORT2 = 10007;//该程序绑定
+	struct sockaddr_in servaddr_query2;
+	struct sockaddr_in servaddr_reply2;
+	struct sockaddr_in cliaddr_reply2;
+	int query_loc_socket2;
+	int reply_loc_socket2;
+	socklen_t servlen_query2;
+	socklen_t servlen_reply2;
+	//////////////////////////////////////////////
+
 	static const string host;
 	bool shutdown_flag;
 	pthread_t id;

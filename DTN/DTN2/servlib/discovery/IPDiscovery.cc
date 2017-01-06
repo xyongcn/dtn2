@@ -193,12 +193,9 @@ IPDiscovery::run()
                 {
                     log_err("sendto failed: %s (%d)",
                             strerror(errno),errno);
-                    //add by gaorui
 
                     // quit thread on error
-                   // if (!persist_) return;
-                    continue;
-                    //end by gaorui
+                    if (!persist_) return;
                 }
                 min_diff = announce->interval();
                 alt.close();

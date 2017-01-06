@@ -18,6 +18,7 @@ class NeighbourManager {
 	static NeighbourManager *instance;
 	static const string tag;
 
+
 	/**
 	 * 历史邻居的表
 	 */
@@ -25,10 +26,10 @@ class NeighbourManager {
 
 	/**
 	 * 保存历史邻居对象的文件名称
-	 * @author wwtao
 	 */
 	static string historyNeighbourFileName;
 	static string historyNeighbourFileDirectory;
+	static string historyNeighbourFilePath;
 
 	NeighbourManager();
 
@@ -37,6 +38,7 @@ class NeighbourManager {
 	 */
 public:
 	GeohistoryLog *geohistoryLog;
+	pthread_mutex_t lockNeighbour;
 
 	static NeighbourManager *Getinstance()
 	{
@@ -44,7 +46,7 @@ public:
 			instance=new NeighbourManager();
 		return instance;
 	}
-
+	void writeNeighbourLogToFile(Neighbour *nei);
 	void init();
 	/**
 	 * 将历史的邻居记录保存到文件中，以便下一次访问
@@ -78,5 +80,17 @@ public:
 	 */
 	void saveNeighbourAreaPayload(BundlePayload payload,string eid);
 
+	Neighbour* lookforNeighbour(string id)
+	{
+		hash_map<string,Neighbour>::iterator it=neighbourlist.find(id);
+		if(it!=neighbourlist.end())
+		{
+			Neighbour *nei=&(it->second);
+			return nei;
+		}
+		else
+			return NULL;
+
+	}
 };
 }

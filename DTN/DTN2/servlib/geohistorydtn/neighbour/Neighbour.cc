@@ -25,6 +25,7 @@ namespace dtn
 		//	cout<<"the EndpointID is null while generate a new Neighbour"<<endl;
 
 		this->neighbourEid=eid;
+		this->neighbourEidstr=eid.str();
 		int serviceType=FrequencyVectorServiceType::NEIGHBOUR;
 		vector<int> frequencyType(FrequencyConfig::frequcyType);
 		for(int i=0;i<frequencyType.size();++i)
@@ -228,7 +229,7 @@ namespace dtn
 	*/
 	void Neighbour::removeTimeCount()
 	{
-		cout<<"remove Frequency"<<endl;
+		//cout<<"remove Frequency"<<endl;
 		for(list<FrequencyVector *>::iterator it=vectorlist.begin();
 			it!=vectorlist.end();++it)
 		{
