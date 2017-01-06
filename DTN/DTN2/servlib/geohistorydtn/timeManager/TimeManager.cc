@@ -17,6 +17,7 @@ TimeManager * TimeManager::instance=NULL;
 	{
 		//日志输出及提示信息
 		//Log.i(tag,getTimeNow()+"\t触发小时操作");
+		cout<<"触发分钟任务"<<endl;
 		if(minute==0)
 			FrequencyVectorManager::Getinstance()->minuteResetFrequency();
 
@@ -29,8 +30,14 @@ TimeManager * TimeManager::instance=NULL;
 		}
 		//测试使用,分钟尺度，并不应该进行衰减和写入Area的信息。
 		FrequencyVectorManager::Getinstance()->minuteAttenuation();
+		//将历史区域向量记录到文件中
+		cout<<"writeAreaInfoToFile!"<<endl;
 		AreaManager::Getinstance()->wrieteAreaInfoToFile();
+		//将历史邻居向量记录到文件中
+		NeighbourManager::Getinstance()->saveHistoryNeighbour();
+		//测试 将邻居的频率向量和区域的频率向量全部显示出来
 		NeighbourManager::Getinstance()->printAllNeighbour();
+		AreaManager::Getinstance()->printAllAreaMoving();
 	}
 
 	//每小时需要触发的操作
@@ -38,6 +45,7 @@ TimeManager * TimeManager::instance=NULL;
 	{
 		//日志输出及提示信息
 		//Log.i(tag,getTimeNow()+"\t触发小时操作");
+		cout<<"触发小时任务"<<endl;
 		if(hour==0)
 			FrequencyVectorManager::Getinstance()->hourResetFrequency();
 
@@ -52,17 +60,21 @@ TimeManager * TimeManager::instance=NULL;
 
 		//将历史区域向量记录到文件中
 		AreaManager::Getinstance()->wrieteAreaInfoToFile();
+		//将历史邻居向量记录到文件中
+		NeighbourManager::Getinstance()->saveHistoryNeighbour();
+		//测试 将邻居的频率向量和区域的频率向量全部显示出来
 
-		//测试 将邻居的频率向量全部显示出来
-	//	NeighbourManager::Getinstance()->printAllNeighbour();
+		//NeighbourManager::Getinstance()->printAllNeighbour();
+		//AreaManager::Getinstance()->printAllAreaMoving();
 	}
 
-	//每星期需要出发的操作
+	//每星期需要触发的操作
 	void TimeManager::weekTask(int week)
 	{
 		//日志输出及提示信息
 	//	Log.i(tag,getTimeNow()+"\t触发周操作");
 	//	AreaManager.writeAreaTimeChange2Log(getSimplifyTime());
+		cout<<"触发星期任务"<<endl;
 		if(week==0)
 			FrequencyVectorManager::Getinstance()->weekResetFrequency();
 
@@ -83,6 +95,7 @@ TimeManager * TimeManager::instance=NULL;
 		//日志输出及提示信息
 		//Log.i(tag,getTimeNow()+"\t触发月操作");
 		//AreaManager.writeAreaTimeChange2Log(getSimplifyTime());
+		cout<<"触发月任务"<<endl;
 		if(month==0)
 			FrequencyVectorManager::Getinstance()->monthResetFrequency();
 		for(list<FrequencyVector *>::iterator it=monFVectorQueue.begin();
@@ -102,6 +115,7 @@ TimeManager * TimeManager::instance=NULL;
 		//日志输出及提示信息
 		//Log.i(tag,getTimeNow()+"\t触发月操作");
 		//AreaManager.writeAreaTimeChange2Log(getSimplifyTime());
+		cout<<"触发上午下午晚上任务"<<endl;
 		if(monafteve==0)
 			FrequencyVectorManager::Getinstance()->monafteveResetFrequency();
 		for(list<FrequencyVector *>::iterator it=monafteveFVectorQueue.begin();

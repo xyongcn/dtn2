@@ -1,61 +1,76 @@
-################################################################################
-# Automatically-generated file. Do not edit!
-################################################################################
+####################################################
+# Generic makefile - 万能Makefile
+# for compiling and linking C++ projects on Linux 
+# Author: George Foot  Modified:Jackie Lee
+####################################################
+### Customising
+#
+# Adjust the following if necessary; EXECUTABLE is the target
+# executable's filename, and LIBS is a list of libraries to link in
+# (e.g. alleg, stdcx, iostr, etc). You can override these on make's
+# command line of course, if you prefer to do it that way.
+#
+#
+EXECUTABLE := RealSimulator    # 可执行文件名
+LIBDIR:=              # 静态库目录
+LIBS := pthread  	      # 静态库文件名
+INCLUDES:=.           # 头文件目录
+SRCDIR:=              # 除了当前目录外，其他的源代码文件目录
+#
+# # Now alter any implicit rules' variables if you like, e.g.:
 
--include ../makefile.init
+CC:=g++
+CFLAGS := -g -Wall -O3
+#LDFLAGS += pthread
+CPPFLAGS := $(CFLAGS)
+CPPFLAGS += $(addprefix -I,$(INCLUDES))
+CPPFLAGS += -MMD
+#
+# # The next bit checks to see whether rm is in your djgpp bin
+# # directory; if not it uses del instead, but this can cause (harmless)
+# # `File not found' error messages. If you are not using DOS at all,
+# # set the variable to something which will unquestioningly remove
+# # files.
+#
 
-RM := rm -rf
+RM-F := rm -f
 
 
-# All of the sources participating in the build are defined here
--include sources.mk
--include subdir.mk
--include objects.mk
+# # You shouldn't need to change anything below this point.
+#
+SRCS := $(wildcard *.cpp) $(wildcard $(addsuffix /*.cpp, $(SRCDIR)))
+OBJS := $(patsubst %.cpp,%.o,$(SRCS))
+DEPS := $(patsubst %.o,%.d,$(OBJS))
+MISSING_DEPS := $(filter-out $(wildcard $(DEPS)),$(DEPS))
+MISSING_DEPS_SOURCES := $(wildcard $(patsubst %.d,%.cpp,$(MISSING_DEPS)))
 
-ifneq ($(MAKECMDGOALS),clean)
-ifneq ($(strip $(CC_DEPS)),)
--include $(CC_DEPS)
+
+.PHONY : all deps objs clean veryclean rebuild info
+
+all: $(EXECUTABLE)
+
+deps : $(DEPS)
+
+objs : $(OBJS)
+
+clean :
+	@$(RM-F) *.o
+	@$(RM-F) *.d
+veryclean: clean
+	@$(RM-F) $(EXECUTABLE)
+
+rebuild: veryclean all
+ifneq ($(MISSING_DEPS),)
+$(MISSING_DEPS) :
+	@$(RM-F) $(patsubst %.d,%.o,$@)
 endif
-ifneq ($(strip $(C++_DEPS)),)
--include $(C++_DEPS)
-endif
-ifneq ($(strip $(C_UPPER_DEPS)),)
--include $(C_UPPER_DEPS)
-endif
-ifneq ($(strip $(CXX_DEPS)),)
--include $(CXX_DEPS)
-endif
-ifneq ($(strip $(CPP_DEPS)),)
--include $(CPP_DEPS)
-endif
-ifneq ($(strip $(C_DEPS)),)
--include $(C_DEPS)
-endif
-endif
+-include $(DEPS)
+$(EXECUTABLE) : $(OBJS)
+	$(CC) -o $(EXECUTABLE) $(OBJS) $(addprefix -L,$(LIBDIR)) $(addprefix -l,$(LIBS))
 
--include ../makefile.defs
-
-# Add inputs and outputs from these tool invocations to the build variables 
-
-# All Target
-all: RealSimulator
-
-# Tool invocations
-RealSimulator: $(OBJS) $(USER_OBJS)
-	@echo 'Building target: $@'
-	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "RealSimulator" $(OBJS) $(USER_OBJS) $(LIBS)
-	@echo 'Finished building target: $@'
-	@echo ' '
-	
-LIBS = -lpthread
-
-# Other Targets
-clean:
-	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(C_UPPER_DEPS)$(CXX_DEPS)$(OBJS)$(CPP_DEPS)$(C_DEPS) RealSimulator
-	-@echo ' '
-
-.PHONY: all clean dependents
-.SECONDARY:
-
--include ../makefile.targets
+info:
+	@echo $(SRCS)
+	@echo $(OBJS)
+	@echo $(DEPS)
+	@echo $(MISSING_DEPS)
+	@echo $(MISSING_DEPS_SOURCES)

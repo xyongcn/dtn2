@@ -277,7 +277,7 @@ public:
 		//执行相应的任务
 	void Task()
 	{
-		cout<<"time!"<<endl;
+		//cout<<"time!"<<endl;
 		currentTime->resetTime();
 
 		vector<int> frequencyType(FrequencyConfig::frequcyType);

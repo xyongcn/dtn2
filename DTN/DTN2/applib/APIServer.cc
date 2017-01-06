@@ -13,9 +13,7 @@
  *    See the License for the specific language governing permissions and
  *    limitations under the License.
  */
-//add by gaorui
-#include "servlib/geohistorydtn/config/BundleConfig.h"
-//end by gaorui
+
 #ifdef HAVE_CONFIG_H
 #  include <dtn-config.h>
 #endif
@@ -51,6 +49,12 @@
 #include "routing/BundleRouter.h"
 #include "storage/GlobalStore.h"
 #include "session/Session.h"
+//add by gaorui
+#include"Mybind.h"
+#include "MyByteHelper.h"
+#include<vector>
+#define MAXLINE 256
+//end by gaorui
 
 #ifndef MIN
 #define MIN(x, y) ((x)<(y) ? (x) : (y))
@@ -202,6 +206,33 @@ APIClient::APIClient(int fd, in_addr_t addr, u_int16_t port, APIServer *parent)
 
     bindings_ = new APIRegistrationList();
     sessions_ = new APIRegistrationList();
+    //add by gaorui
+    ////////////////////////////////////////////
+    // init 63302
+    bzero(&servaddr_query2, sizeof(servaddr_query2));
+    servaddr_query2.sin_family = AF_INET;
+    servaddr_query2.sin_port = htons(QUERY_LOCATION_PORT2);
+    if(inet_pton(AF_INET, "127.0.0.1", &servaddr_query2.sin_addr) <= 0)
+    {
+    	printf("[%s] is not a valid IPaddress\n","127.0.0.1");
+    }
+    servlen_query2=sizeof(servaddr_query2);
+    query_loc_socket2 = socket(AF_INET, SOCK_DGRAM, 0);
+
+    //bind 10007
+
+    bzero(&servaddr_reply2, sizeof(servaddr_reply2));
+    servaddr_reply2.sin_family = AF_INET;
+    servaddr_reply2.sin_addr.s_addr = htonl(INADDR_ANY);
+    servaddr_reply2.sin_port = htons(REPLY_LOCATION_PORT2);
+    reply_loc_socket2 = socket(AF_INET, SOCK_DGRAM, 0);
+    if( Mybind::mybind(reply_loc_socket2, (struct sockaddr *)&servaddr_reply2, sizeof(servaddr_reply2)) == -1)
+    {
+    	printf("10007 bind error\n");
+    }
+    servlen_reply2=sizeof(servaddr_reply2);
+    ////////////////////////////////////////////
+    //end by gaorui
 }
 
 
@@ -852,47 +883,6 @@ APIClient::handle_unbind()
     log_err("registration %d not bound to this api client", regid);
     return DTN_ENOTFOUND;
 }
-    
-//----------------------------------------------------------------------
-/*int
-APIClient::handle_send2(std::string dest_eid,std::string fileroute,bool rctp,int bundleType,unsigned int expiration)
-{
-	 dtn_reg_id_t regid;
-	    dtn_bundle_spec_t spec;
-	    dtn_bundle_payload_t payload;
-
-	    regid=0;
-
-
-	    BundleDaemon *daemon=BundleDaemon::GetInstance();
-	    const char *source=daemon->local_eid().str().c_str();
-	    size_t len1;
-
-	    len1 = strlen(source) + 1;
-	    memcpy(&(spec.source.uri[0]), source, len1);
-	    memcpy(&(spec.replyto.uri[0]), source, len1);
-
-
-	    const char *destination=dest_eid.c_str();
-	  	size_t len2;
-
-	  	len2 = strlen(destination) + 1;
-	  	memcpy(&(spec.dest.uri[0]), destination, len2);
-
-	    spec.expiration = expiration;
-	    spec.dopts      = 0;
-	    spec.priority   = COS_NORMAL;
-
-	    payload.location =	DTN_PAYLOAD_FILE;
-
-	    char *val;
-	    int len = fileroute.length();
-	    val = (char *)malloc((len+1)*sizeof(char));
-
-	    fileroute.copy(val,len,0);
-        payload.filename.filename_val = val;
-        payload.filename.filename_len = strlen(val);
-}*/
 
 int
 APIClient::handle_send()
@@ -917,76 +907,174 @@ APIClient::handle_send()
     b = new Bundle();
 
     //add by gaorui
-
+    b->setAreaSize(0);
     if(spec.areaid[0]!='\0')
     {
-    	b->setDeliverBundleNum(BundleConfig::DELIVERBUNDLENUM);
-    	b->setFloodBundleNum(BundleConfig::FLOODBUNDLENUM);
-    	b->setIsFlooding(0);
         b->setBundleType(Bundle::DATA_BUNDLE);
-        b->setAreaSize(3);
+		char recvBuf[MAXLINE+1];
+		char buf[MAXLINE];
+		int areaid_int=0;
+		int i=0;
+		for(;spec.areaid[i]!='\0';++i)
+		{
+			if(spec.areaid[i]-'0'<=9 && spec.areaid[i]-'0'>=0)
+				areaid_int=areaid_int*10+spec.areaid[i]-'0';
+		}
+		char areaid_char[5];
+		MyByteHelper::int_to_byte_array(areaid_int,areaid_char);
 
-    	if(!strcmp(spec.areaid,"121412"))
-    	{
-    		b->setAreaId(3,121412);
-    		b->setAreaId(2,13911);
-    		b->setAreaId(1,15711);
-    		b->setbottomArea(121412);
-    	}
-    	else if(!strcmp(spec.areaid,"231314"))
-    	{
-    		b->setAreaId(3,231314);
-    		b->setAreaId(2,13911);
-    		b->setAreaId(1,15711);
-    		b->setbottomArea(231314);
-    	}
-    	else if(!strcmp(spec.areaid,"12141011"))
-    	{
-    		b->setAreaId(3,12141011);
-    		b->setAreaId(2,13911);
-    		b->setAreaId(1,15711);
-    		b->setbottomArea(121412);
-    	}
-    	else if(!strcmp(spec.areaid,"1413910"))
-    	{
-    		b->setAreaId(3,1413910);
-    		b->setAreaId(2,13911);
-    		b->setAreaId(1,15711);
-    		b->setbottomArea(121412);
-    	}
-    	else if(!strcmp(spec.areaid,"341513"))
-    	{
-    		b->setAreaId(3,341513);
-    		b->setAreaId(2,3579);
-    		b->setAreaId(1,15711);
-    		b->setbottomArea(341513);
-    	}
-    	else if(!strcmp(spec.areaid,"45615"))
-    	{
-    		b->setAreaId(3,45615);
-    		b->setAreaId(2,3579);
-    		b->setAreaId(1,15711);
-    		b->setbottomArea(45615);
-    	}
-    	else if(!strcmp(spec.areaid,"131589"))
-    	{
-    		b->setAreaId(3,131589);
-    		b->setAreaId(2,3579);
-    		b->setAreaId(1,15711);
-    		b->setbottomArea(131589);
-    	}
-    	else if(!strcmp(spec.areaid,"15678"))
-    	{
-    		b->setAreaId(3,15678);
-    		b->setAreaId(2,3579);
-    		b->setAreaId(1,15711);
-    		b->setbottomArea(15678);
-    	}
-    	else
-    	{
-    		printf("error paramenter!");
-            return DTN_EINVAL;
-    	}
+		if(MyByteHelper::endian_test())//big endian
+		{
+			for (int k = 0; k < 4; k++)
+			{
+				buf[k] = areaid_char[k];
+			}
+		}
+		else
+		{    //程序走的是这个分支
+
+			for (int k = 0; k < 4; k++)
+			{
+				buf[k] = areaid_char[3-k];
+			}
+		}
+		Mybind::mysendto(query_loc_socket2, buf, MAXLINE, 0, (struct sockaddr *)&(servaddr_query2),servlen_query2);
+		int n = Mybind::myrecvfrom(reply_loc_socket2, recvBuf, MAXLINE,0, (struct sockaddr *)&(cliaddr_reply2),&(servlen_reply2));
+		if(n == -1)
+		{
+			printf("从MapInterface中接受区域的父区域信息错误,来自于APIServer\n");
+		}
+		recvBuf[n]=0;
+		//处理接收到的数据
+		char srcip_r[5];
+		char size_r[5];
+		int size_int;
+		char *area;
+
+		if(MyByteHelper::endian_test())//big endian
+		{
+			for (int k = 0; k < 4; k++)
+			{
+					srcip_r[k] = recvBuf[k];
+					size_r[k] = recvBuf[k + 4];
+			}
+			size_int=MyByteHelper::byte_array_to_int(size_r);
+			area=new char[size_int*4];
+			for(int j=0;j<size_int;++j)
+			{
+				for(int k=0;k<4;++k)
+				area[j*4+k]=recvBuf[k+8+j*4];
+			}
+		}
+		else
+		{    //程序走的是这个分支
+			for (int k = 0; k < 4; k++)
+			{
+				srcip_r[k] = recvBuf[k];
+				size_r[3-k] = recvBuf[k + 4];
+			}
+			size_int=MyByteHelper::byte_array_to_int(size_r);
+			area=new char[size_int*4];
+			for(int j=0;j<size_int;++j)
+			{
+				for(int k=0;k<4;++k)
+				{
+					//cout<<j*4+3-k<<"  "<<k+8+j*4<<endl;
+					area[j*4+3-k]=recvBuf[k+8+j*4];
+				}
+			}
+		}
+		//将字节转为int
+		int area_int;
+		char area_part[4];
+		std::vector<int> info;
+		for(int j=0;j<size_int;++j)
+		{
+			for(int k=0;k<4;++k)
+				area_part[k]=area[j*4+k];
+			area_int=MyByteHelper::byte_array_to_int(area_part);
+			info.push_back(area_int);
+		}
+		if(info.size()==0)
+		{
+			printf("区域id错误,按照普通bundle转发");
+		}
+		else
+		{
+			//////////////////////////////////////////
+			 b->setAreaSize(info.size());
+			 b->setDeliverBundleNum(2);
+			 b->setFloodBundleNum(2);
+			 b->setIsFlooding(0);
+			 int level=info.size();
+			 std::vector<int>::iterator it;
+			 for(it=info.begin();it!=info.end();++it)
+			 {
+				 b->setAreaId(level,*it);
+				 level--;
+			 }
+			 it=info.begin();
+			 b->setbottomArea(*it);
+			 /*if(!strcmp(spec.areaid,"121412"))
+			   {
+			    	b->setAreaId(3,121412);
+			    	b->setAreaId(2,13911);
+			    	b->setAreaId(1,15711);
+			    	b->setbottomArea(121412);
+			    }
+			    if(!strcmp(spec.areaid,"231314"))
+			    {
+			    	b->setAreaId(3,231314);
+			    	b->setAreaId(2,13911);
+			    	b->setAreaId(1,15711);
+			    	b->setbottomArea(231314);
+			    }
+			    if(!strcmp(spec.areaid,"12141011"))
+			    {
+			    	b->setAreaId(3,12141011);
+			    	b->setAreaId(2,13911);
+			    	b->setAreaId(1,15711);
+			    	b->setbottomArea(121412);
+			    }
+			    if(!strcmp(spec.areaid,"1413910"))
+			    {
+			    	b->setAreaId(3,1413910);
+			    	b->setAreaId(2,13911);
+			    	b->setAreaId(1,15711);
+			    	b->setbottomArea(121412);
+			    }
+			    if(!strcmp(spec.areaid,"341513"))
+			    {
+			    	b->setAreaId(3,341513);
+			    	b->setAreaId(2,3579);
+			    	b->setAreaId(1,15711);
+			    	b->setbottomArea(341513);
+			    }
+			    if(!strcmp(spec.areaid,"45615"))
+			    {
+			    	b->setAreaId(3,45615);
+			    	b->setAreaId(2,3579);
+			    	b->setAreaId(1,15711);
+			    	b->setbottomArea(45615);
+			    }
+			    if(!strcmp(spec.areaid,"131589"))
+			    {
+			    	b->setAreaId(3,131589);
+			    	b->setAreaId(2,3579);
+			    	b->setAreaId(1,15711);
+			    	b->setbottomArea(131589);
+			    }
+			    if(!strcmp(spec.areaid,"15678"))
+			    {
+			    	b->setAreaId(3,15678);
+			    	b->setAreaId(2,3579);
+			    	b->setAreaId(1,15711);
+			    	b->setbottomArea(15678);
+			    }*/
+			 }
+		Mybind::myclose(reply_loc_socket2);
+			   //end by gaorui
+
     }
     //end by gaorui
 

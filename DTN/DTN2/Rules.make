@@ -28,9 +28,9 @@ srcdir		= .
 #
 # Oasys directory substitutions
 #
-OASYS_INCDIR   = /home/gaorui/workspace/DTN/DTN2/oasys/include
-OASYS_LIBDIR   = /home/gaorui/workspace/DTN/DTN2/oasys/lib
-OASYS_ETCDIR   = /home/gaorui/workspace/DTN/DTN2/oasys/share
+OASYS_INCDIR   = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include
+OASYS_LIBDIR   = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/lib
+OASYS_ETCDIR   = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/share
 OASYS_VERSION  = 1.6.0
 
 #
@@ -53,8 +53,8 @@ SHLIBS		= yes
 SHLIB_EXT	= so
 LDFLAGS_SHLIB   = -shared -fPIC -DPIC
 EXTLIB_CFLAGS   =  $(SYS_EXTLIB_CFLAGS)
-EXTLIB_LDFLAGS  =   -lodbc $(SYS_EXTLIB_LDFLAGS)
-EXTRA_CFLAGS	= -lboost_serialization
+EXTLIB_LDFLAGS  =  $(SYS_EXTLIB_LDFLAGS)
+EXTRA_CFLAGS	= -fpermissive -lboost_serialization 
 EXTRA_CXXFLAGS  = -lboost_serialization
 EXTRA_LDFLAGS	= -lboost_serialization
 INCFLAGS	= -I$(BUILDDIR) -I$(SRCDIR) -I$(OASYS_INCDIR) -I$(OASYS_INCDIR)/oasys/ext -I$(SRCDIR)/servlib
@@ -69,9 +69,9 @@ CXXFLAGS_NOWARN	= $(CFLAGS_NOWARN) $(EXTRA_CXXFLAGS)
 CXXFLAGS        = $(CFLAGS) $(EXTRA_CXXFLAGS)
 LDFLAGS         = -L. $(EXTRA_LDFLAGS)
 
-OASYS_LDFLAGS        = /home/gaorui/workspace/DTN/DTN2/oasys/lib/liboasys-1.6.0.a
-OASYS_LDFLAGS_STATIC = /home/gaorui/workspace/DTN/DTN2/oasys/lib/liboasys-1.6.0.a
-OASYS_COMPAT_LDFLAGS = /home/gaorui/workspace/DTN/DTN2/oasys/lib/liboasyscompat-1.6.0.a
+OASYS_LDFLAGS        = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/lib/liboasys-1.6.0.a
+OASYS_LDFLAGS_STATIC = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/lib/liboasys-1.6.0.a
+OASYS_COMPAT_LDFLAGS = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/lib/liboasyscompat-1.6.0.a
 
 #
 # Add a phony rule to make sure this isn't included before the default

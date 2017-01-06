@@ -1,3 +1,6 @@
+#include <string>
+#include <sstream>
+using namespace std;
 class ByteHelper
 {
 public:
@@ -32,5 +35,31 @@ public:
 		s[1]=value >>16;
 		s[2]=value >>8;
 		s[3]=value;
+	}
+
+	static int byte2int(char b)
+	{
+		if(b>=0)
+			return b;
+		else
+			return b+256;
+
+	}
+
+	static string ipbyte_to_ipstr(char ip[])
+	{
+		string ipStr="";
+		for(int i=0;i<4;i++)
+		{
+			string s;
+			stringstream ss;
+			int ip_part=byte2int(ip[i]);
+			ss<<ip_part;
+			ss>>s;
+			ipStr+=s;
+			if(i < 3)
+				ipStr+=".";
+		}
+		return ipStr;
 	}
 };

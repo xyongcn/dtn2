@@ -37,12 +37,12 @@ public:
 		//逐个比较机会值
 		for(int i=0;i<min(node1.chanceValue.size(), node2.chanceValue.size());i++)
 		{
-			if(node2.chanceValue[i]>node1.chanceValue[i])
+			if(node2.chanceValue[i]<=node1.chanceValue[i])
 			{
 				return true;
 			}
 
-			if(node2.chanceValue[i]<node1.chanceValue[i])
+			if(node2.chanceValue[i]>node1.chanceValue[i])
 			{
 				return false;
 			}

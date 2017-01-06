@@ -31,8 +31,9 @@
 
 #include "servlib/bundling/BundleDaemon.h"
 
-
-
+//add by gaorui
+using namespace oasys;
+//end by gaorui
 namespace dtn {
 
 class BundleActions;
@@ -64,7 +65,9 @@ typedef std::vector<BundleRouter*> BundleRouterList;
  * active routing algorithm. As new algorithms are added to the
  * system, new cases should be added to the "create_router" function.
  */
-class BundleRouter : public BundleEventHandler {
+class BundleRouter : public BundleEventHandler
+,public Thread //add by gaorui
+{
 public:
     /**
      * Factory method to create the correct subclass of BundleRouter
@@ -214,6 +217,7 @@ protected:
 public:
 //by gaorui
     static void startThread(BundleRouter *router);
+    virtual void run(){}
 };
 
 } // namespace dtn

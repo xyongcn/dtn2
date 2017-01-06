@@ -45,7 +45,7 @@ private:
 				servlen_query=sizeof(servaddr_query);
 
 				//init 10004
-				bzero(&servaddr_reply, sizeof(servaddr_reply));
+		/*		bzero(&servaddr_reply, sizeof(servaddr_reply));
 				servaddr_reply.sin_family = AF_INET;
 				servaddr_reply.sin_port = htons(REPLY_LOCATION_PORT);
 				if(inet_pton(AF_INET, host.c_str(), &servaddr_reply.sin_addr) <= 0)
@@ -59,6 +59,20 @@ private:
 					cout<<"connect error"<<endl;
 					exit(1);
 				 }*/
+
+
+				//bind 10004
+				reply_loc_socket = socket(AF_INET, SOCK_DGRAM, 0);
+				bzero(&servaddr_reply, sizeof(servaddr_reply));
+				servaddr_reply.sin_family = AF_INET;
+				servaddr_reply.sin_addr.s_addr = htonl(INADDR_ANY);
+				servaddr_reply.sin_port = htons(REPLY_LOCATION_PORT);
+
+				if(bind(reply_loc_socket, (struct sockaddr *)&servaddr_reply, sizeof(servaddr_reply)) == -1)
+				{
+					cout<<"reply bind error";
+				}
+				servlen_reply=sizeof(servaddr_reply);
 	}
 
 public:
@@ -73,6 +87,8 @@ public:
 	static const string host;
 	socklen_t servlen_query;
 	socklen_t servlen_reply;
+
+	pthread_t id;
 	static InteractorThread* Getinstance()
 	{
 	        if(Instance == NULL)  //判断是否第一次调用
@@ -84,10 +100,10 @@ public:
 
 	void init()
 	{
-		pthread_t id;
+
 		int ret;
 		ret=pthread_create(&id,NULL,InteractorThread::run,this);
-	    pthread_join(id,NULL);
+
 	}
 
 	static void *run(void *arg)
@@ -104,7 +120,7 @@ public:
 
 			int m=recvfrom(this_thread->query_loc_socket, recvBuf, MAXLINE, 0,  (struct sockaddr *)&(this_thread->cliaddr_query), &(this_thread->servlen_query));
 			recvBuf[m]=0;
-
+			cout<<"aodv:__________________________________________________"<<endl;
 			//请求当前结点当前时间的经纬度
 			rsLocation *rsLoc =rsLocation::GetInstance();
 			Location location = rsLoc->getRsLocation();
@@ -120,6 +136,7 @@ public:
 			char neigh_lat[5];
 			char neigh_lng[5];
 			char dis[5];
+			char seq[5];
 
 			if(ByteHelper::endian_test())//big endian
 			{
@@ -129,6 +146,7 @@ public:
 					neigh_lat[k] = recvBuf[k + 4];
 					neigh_lng[k] = recvBuf[k + 8];
 					dis[k] = recvBuf[k +12];
+					seq[k] = recvBuf[k+16];
 				}
 			}
 			else
@@ -140,11 +158,13 @@ public:
 					neigh_lat[3-k] = recvBuf[k + 4];
 					neigh_lng[3-k] = recvBuf[k + 8];
 					dis[3-k] = recvBuf[k +12];
+					seq[k]=recvBuf[k+16];
 				}
 			}
 			//将字节转为int
 			int neigh_lat_int = ByteHelper::byte_array_to_int(neigh_lat);
 			int neigh_lng_int = ByteHelper::byte_array_to_int(neigh_lng);
+			int seq_int = ByteHelper::byte_array_to_int(seq);
 			if( (neigh_lat_int == 0) && (neigh_lng_int==0) )//节点位置请求
 			{
 				cout<<"LOCAL LOCATION QUERY"<<endl;
@@ -154,6 +174,7 @@ public:
 				double neigh_lat_double = neigh_lat_int * 1.0 / pow(10, accuracy);
 				double neigh_lng_double = neigh_lng_int * 1.0 / pow(10, accuracy);
 				cout<<neigh_lat_int<<"  "<<neigh_lng_int<<endl;
+				cout<<"seq_int:"<<seq_int<<endl;
 				double distance = Distance::getDistance(latitude, longitude, neigh_lat_double, neigh_lng_double);
 				ByteHelper::int_to_byte_array((int)distance,dis);
 
@@ -194,7 +215,8 @@ public:
 				{
 					buf[i+4] = yb[i];//纬度
 					buf[i+8] = xb[i];//经度
-					buf[i+12] = dis[i];//距离
+					buf[i+12] = dis[i];//距离i
+					buf[i+16] = seq[i];
 
 				}
 			}
@@ -205,6 +227,7 @@ public:
 					buf[i+4] = yb[3-i];//纬度
 					buf[i+8] = xb[3-i];//经度
 					buf[i+12] = dis[3-i];//距离
+					buf[i+16] = seq[i];
 
 				}
 			}
@@ -215,7 +238,7 @@ public:
 				 cout<<"read error"<<endl;
 				 continue;
 			}
-			cout<<"_______________________________________________________"<<endl;
+
 		//	sleep(1000);
 
 		}

@@ -56,7 +56,7 @@ namespace dtn
 	string toString()
 	{
 		string s;
-		s.append("valid vector:");
+		s.append("valid vector:\n");
 		if(!minuteVector.empty())
 		{
 			string minutestr;
@@ -64,7 +64,7 @@ namespace dtn
 			char c[10];
 			for(int i=0;i<minuteVector.size();++i)
 			{
-				sprintf(c,"%.6f",minuteVector[i]);
+				sprintf(c,"%.6f ",minuteVector[i]);
 				minutestr.append(c);
 			}
 			minutestr.append(";\n");
@@ -77,7 +77,7 @@ namespace dtn
 			char c[10];
 			for(int i=0;i<hourVector.size();++i)
 			{
-				sprintf(c,"%.6f",hourVector[i]);
+				sprintf(c,"%.6f ",hourVector[i]);
 				hourstr.append(c);
 			}
 			hourstr.append(";\n");
@@ -90,7 +90,7 @@ namespace dtn
 			char c[10];
 			for(int i=0;i<monafteveVector.size();++i)
 			{
-				sprintf(c,"%.6f",monafteveVector[i]);
+				sprintf(c,"%.6f ",monafteveVector[i]);
 				monaftevestr.append(c);
 			}
 			monaftevestr.append(";\n");
@@ -103,7 +103,7 @@ namespace dtn
 			char c[10];
 			for(int i=0;i<weekVector.size();++i)
 			{
-				sprintf(c,"%.6f",weekVector[i]);
+				sprintf(c,"%.6f ",weekVector[i]);
 				weekstr.append(c);
 			}
 			weekstr.append(";\n");
@@ -116,7 +116,7 @@ namespace dtn
 			char c[10];
 			for(int i=0;i<monthVector.size();++i)
 			{
-				sprintf(c,"%.6f",monthVector[i]);
+				sprintf(c,"%.6f ",monthVector[i]);
 				monthstr.append(c);
 			}
 			monthstr.append(";\n");

@@ -69,7 +69,7 @@ class QuestAreaInfo
 		struct sockaddr_in servaddr_reply;
 		struct sockaddr_in cliaddr_reply;
 		int query_loc_socket ;
-	//	int reply_loc_socket;
+		//int reply_loc_socket;
 		socklen_t servlen_query;
 		socklen_t servlen_reply;
 		static const string host;
@@ -135,11 +135,11 @@ class QuestAreaInfo
 			//while(true)
 			//{
 				sendto(query_loc_socket, buf, MAXLINE, 0, (struct sockaddr *)&(servaddr_query),servlen_query);
-				//接收到realsimulatior发送的经纬度
+				//接收到MapInterface该经纬度所在的各层区域
 				int n = recvfrom(reply_loc_socket, recvBuf, MAXLINE,0, (struct sockaddr *)&(cliaddr_reply),&(servlen_reply));
 				if(n == -1)
 				{
-					 cout<<"read error"<<endl;
+					 cout<<"从MapInterface中接受该经纬度所在的各层区域信息错误,来自于QuestAreaInfo"<<endl;
 					 AreaLayerInfo info;
 					 return info;
 				}

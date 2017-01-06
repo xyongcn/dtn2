@@ -119,7 +119,7 @@ public:
 		for(int i=0;i<vector_.size();i++)
 		{
 			vector_[i]=vector_[i]*parameter;
-			cout<<i<<":"<<vector_[i]<<" ";
+			//cout<<i<<":"<<vector_[i]<<" ";
 		}
 	}
 

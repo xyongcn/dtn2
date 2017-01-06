@@ -18,7 +18,6 @@
 #define __LOCKDEBUGGER_H__
 
 #include <vector>
-#include<oasys/include/oasys/oasys-config.h>
 
 #include "../debug/Formatter.h"
 

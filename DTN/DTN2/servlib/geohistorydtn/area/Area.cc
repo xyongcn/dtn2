@@ -1,9 +1,14 @@
 //#include "Area.h"
 
 
-#ifndef AREAMANAGER_H_
+/*#ifndef AREAMANAGER_H_
 #define AREAMANAGER_H_
 #include "servlib/geohistorydtn/area/AreaManager.h"
+#endif*/
+
+#ifndef NEIGHBOURMANAGER_H_
+#define NEIGHBOURMANAGER_H_
+#include"servlib/geohistorydtn/neighbour/NeighbourManager.h"
 #endif
 
 BOOST_CLASS_EXPORT_GUID(dtn::HourFrequencyVector, "HourFrequencyVector")
@@ -31,14 +36,30 @@ void Area::changeFVector(AreaInfo info)
 }
 
 
-Area *Area::getFatherArea()
-{
-	if(!father.empty())
+	Area *Area::getFatherArea()
 	{
-		Area *fatherArea=AreaManager::Getinstance()->lookforArea(father);
-		return fatherArea;
-	}
-	else
+		if(!father.empty())
+		{
+			if(!WhetherisNeiArea)
+			{
+				Area *fatherArea=AreaManager::Getinstance()->lookforArea(father);
+				return fatherArea;
+			}
+			else
+			{
+				Neighbour *nei=NeighbourManager::Getinstance()->lookforNeighbour(Neighbourid);
+				if(nei!=NULL)
+				{
+					NeighbourArea *neiArea=nei->getNeighbourArea();
+					if(neiArea!=NULL)
+					{
+						Area *fatherArea=neiArea->lookforArea(father);
+						return fatherArea;
+					}
+				}
+
+			}
+		}
 		return NULL;
-}
+	}
 }

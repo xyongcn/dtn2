@@ -18,7 +18,6 @@
 #define __TLS_H__
 
 #include <pthread.h>
-#include<oasys/include/oasys/oasys-config.h>
 
 #ifndef OASYS_CONFIG_STATE
 #error "MUST INCLUDE oasys-config.h before including this file"

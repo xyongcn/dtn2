@@ -64,7 +64,7 @@ namespace dtn{
 			int n = recvfrom(reply_loc_socket, recvBuf, MAXLINE,0, (struct sockaddr *)&(cliaddr_reply),&(servlen_reply));
 			if(n == -1)
 			{
-				 cout<<"read error"<<endl;
+				 cout<<"从RealSimulator中接受信息错误,来自于CurrentLocationFromSimulator"<<endl;
 				 continue;
 			}
 			recvBuf[n]=0;
@@ -103,12 +103,17 @@ namespace dtn{
 			double log_dou =LocationHelper::gpsint2double(log_int);
 			geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,
 					"获取请求到的经纬度信息:%.6lf,%.6lf",log_dou,lat_dou);
-			printf("获取请求到的经纬度信息:%.6lf,%.6lf",log_dou,lat_dou);
 
 			AreaLayerInfo areaLayerInfo=QuestAreaInfo::Getinstance()->getLayerInfo(reply_loc_socket,host.c_str(), log_dou, lat_dou);
 			string s=areaLayerInfo.toString();
-			cout<<s<<endl;
-			cout<<"______________________________________"<<endl;
+			if(num==10)
+			{
+				printf("获取请求到的经纬度信息:%.6lf,%.6lf\n",log_dou,lat_dou);
+				cout<<"该经纬度所在的区域:";
+				cout<<s<<endl;
+				cout<<"______________________________________"<<endl;
+				num=0;
+			}
 
 			BundleRouter *router=BundleDaemon::GetInstance()->getrouter();
 			GeoHistoryRouter *geoHistoryRouter=dynamic_cast<GeoHistoryRouter *>(router);
@@ -117,7 +122,7 @@ namespace dtn{
 				AreaInfo *areaInfo=new AreaInfo(areaLayerInfo);
 				geoHistoryRouter->movetoArea(areaInfo);
 			}
-			//++num;
+			++num;
 			sleep(3);
 
 		}

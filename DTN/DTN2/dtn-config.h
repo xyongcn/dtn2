@@ -59,7 +59,7 @@
 #define INSTALL_SYSCONFDIR "/etc"
 
 /* whether odbc is enabled */
-#define LIBODBC_ENABLED 1
+/* #undef LIBODBC_ENABLED */
 
 /* whether LTP support is enabled */
 /* #undef LTP_ENABLED */

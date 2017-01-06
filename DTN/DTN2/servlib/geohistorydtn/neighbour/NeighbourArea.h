@@ -62,6 +62,7 @@ private:
 
 public:
 	void Payload_update(string eid,const BundlePayload &payload);
+	void WriteToNeiMoveLog(string filename);
 	/**
 	 * 该邻居的区域向量记录
 	 */
@@ -100,5 +101,18 @@ public:
 	 * @return
 	 */
 	Area *checkArea(Area area);
+
+	Area *lookforArea(string areakey)
+	{
+		map<string,Area>::iterator it=areaMap.find(areakey);
+		if(it!=areaMap.end())
+		{
+			Area *area=&(it->second);
+			return area;
+		}
+		else
+			return NULL;
+
+	}
 };
 }

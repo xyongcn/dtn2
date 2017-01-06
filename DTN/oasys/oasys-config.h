@@ -128,7 +128,7 @@
 /* #undef LIBMYSQLD_ENABLED */
 
 /* whether odbc is enabled */
-#define LIBODBC_ENABLED 1
+/* #undef LIBODBC_ENABLED */
 
 /* whether mysql support is enabled */
 /* #undef MYSQL_ENABLED */
@@ -200,7 +200,7 @@
 #define TCLREADLINE_ENABLED 0
 
 /* whether xerces support is enabled */
-#define XERCES_C_ENABLED 1
+/* #undef XERCES_C_ENABLED */
 
 /* Define to empty if `const' does not conform to ANSI C. */
 /* #undef const */

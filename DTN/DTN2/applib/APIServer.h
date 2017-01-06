@@ -137,7 +137,19 @@ protected:
     size_t total_sent_;
     size_t total_rcvd_;
 public:
-  //  int handle_send2(std::string dest_eid,std::string fileroute,bool rctp,int bundleType,unsigned int expiration);
+  //add by gaorui
+	//////////////////////////////////////////////
+	static const int QUERY_LOCATION_PORT2 = 63302;//MapInterface请求区域序列部分绑定
+	static const int REPLY_LOCATION_PORT2 = 10007;//该程序绑定
+	struct sockaddr_in servaddr_query2;
+	struct sockaddr_in servaddr_reply2;
+	struct sockaddr_in cliaddr_reply2;
+	int query_loc_socket2;
+	int reply_loc_socket2;
+	socklen_t servlen_query2;
+	socklen_t servlen_reply2;
+	//////////////////////////////////////////////
+  //
 };
 
 

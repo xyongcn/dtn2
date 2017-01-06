@@ -46,13 +46,13 @@ storage/DurableStore.o storage/DurableStore.E: storage/DurableStore.cc \
  storage/../thread/../util/../debug/Log.h storage/../thread/MsgQueue.h \
  storage/../thread/Notifier.h storage/../thread/SpinLock.h \
  storage/../thread/MsgQueue.tcc storage/../thread/OnOffNotifier.h \
- storage/ODBCMySQL.h storage/StorageConfig.h storage/ODBCStore.h \
- storage/ODBCSQLite.h storage/FileSystemStore.h \
- storage/../util/OpenFdCache.h storage/../util/../debug/Logger.h \
- storage/../util/../thread/SpinLock.h storage/../util/../io/IO.h \
- storage/../util/../io/../debug/DebugUtils.h \
+ storage/ODBCMySQL.h storage/ODBCSQLite.h storage/ODBCStore.h \
+ storage/FileSystemStore.h storage/../util/OpenFdCache.h \
+ storage/../util/../debug/Logger.h storage/../util/../thread/SpinLock.h \
+ storage/../util/../io/IO.h storage/../util/../io/../debug/DebugUtils.h \
  storage/../util/../io/../thread/Notifier.h \
- storage/../util/../util/LRUList.h storage/MemoryStore.h
+ storage/../util/../util/LRUList.h storage/MemoryStore.h \
+ storage/StorageConfig.h
 
 oasys-config.h:
 
@@ -202,11 +202,9 @@ storage/../thread/OnOffNotifier.h:
 
 storage/ODBCMySQL.h:
 
-storage/StorageConfig.h:
+storage/ODBCSQLite.h:
 
 storage/ODBCStore.h:
-
-storage/ODBCSQLite.h:
 
 storage/FileSystemStore.h:
 
@@ -225,3 +223,5 @@ storage/../util/../io/../thread/Notifier.h:
 storage/../util/../util/LRUList.h:
 
 storage/MemoryStore.h:
+
+storage/StorageConfig.h:

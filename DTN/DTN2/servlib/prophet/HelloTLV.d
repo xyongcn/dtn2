@@ -3,8 +3,8 @@ prophet/HelloTLV.o prophet/HelloTLV.E: prophet/HelloTLV.cc prophet/Util.h \
  prophet/Alarm.h prophet/Node.h prophet/PointerList.h prophet/Bundle.h \
  prophet/BundleImpl.h prophet/BundleList.h prophet/Link.h \
  prophet/AckList.h prophet/Ack.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/oasys-config.h \
- /home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/inttypes.h
+ /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/oasys-config.h \
+ /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/compat/inttypes.h
 
 prophet/Util.h:
 
@@ -32,6 +32,6 @@ prophet/AckList.h:
 
 prophet/Ack.h:
 
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/oasys-config.h:
+/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/oasys-config.h:
 
-/home/gaorui/workspace/DTN/DTN2/oasys/include/oasys/compat/inttypes.h:
+/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/compat/inttypes.h:

@@ -2,13 +2,14 @@
 namespace dtn{
 	NeighbourManager *NeighbourManager::instance=NULL;
 	const string NeighbourManager::tag="NeighbourManager";
-	string NeighbourManager::historyNeighbourFileName="./logDocuments/geoHistory_dtn/historyNeighbour";
-	string NeighbourManager::historyNeighbourFileDirectory="./logDocuments/geoHistory_dtn/";
-
+	string NeighbourManager::historyNeighbourFileName="logDocuments/geoHistory_dtn/historyNeighbour.txt";
+	string NeighbourManager::historyNeighbourFileDirectory="logDocuments/geoHistory_dtn/";
+	string NeighbourManager::historyNeighbourFilePath="logDocuments/geoHistory_dtn/neighbour.txt";
 
 	NeighbourManager::NeighbourManager()
 	{
 		geohistoryLog=GeohistoryLog::GetInstance();
+		pthread_mutex_init(&lockNeighbour,NULL);
 		//neighbourlist=new HashMap<String, Neighbour>(NeighbourConfig::NEIGHOURNUM);
 	}
 
@@ -17,18 +18,23 @@ namespace dtn{
 	{
 		//从文件中读取邻居
 		fstream file;
-
-		file.open(historyNeighbourFileName.c_str(),ios::in | ios::binary);
+		file.open(historyNeighbourFileName.c_str(),ios::in);
+		if (!file.is_open())
+	    {
+	   	 	cout<< "historyNeighbour.txt does not exist\n";
+	   	 	return;
+	    }
 		boost::archive::text_iarchive ia(file);
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"从文件%s中读取历史的邻居信息",historyNeighbourFileName.c_str());
-
 		Neighbour neighbour;
 		try
 		{
 			while(!file.eof())
 			{
 				ia >> neighbour;
+				neighbour.neighbourEid=EndpointID(neighbour.neighbourEidstr);
 				string s=neighbour.neighbourEid.str();
+				neighbour.init();
 				if(s.empty())
 					continue;
 				neighbourlist[s]=neighbour;
@@ -40,6 +46,60 @@ namespace dtn{
 		file.close();
 	}
 
+
+	void NeighbourManager::writeNeighbourLogToFile(Neighbour *nei)
+	{
+		FILE * fr;
+		errno=0;
+		fr= fopen(historyNeighbourFilePath.c_str(),"a");
+		if (NULL == fr)
+		{
+			if (EINVAL == errno)
+			{
+				printf("err:fopen log file %s failed\n",historyNeighbourFilePath.c_str());
+			}
+			else
+			{
+				printf("err:unknow\n");
+			}
+		}
+		string temp;
+		string father;
+
+		tm currentTime=CurrentTimeManager::Getinstance()->currentTime;
+		temp.append("met a new neighbour:\n");
+		char time_c[10];
+		sprintf(time_c,"%d",currentTime.tm_mon+1);
+		temp.append(time_c);
+		temp.append("月,");
+		if(currentTime.tm_wday==0)
+			temp.append("星期天,");
+		else
+		{
+			sprintf(time_c,"%d",currentTime.tm_wday);
+			temp.append("星期");
+			temp.append(time_c);
+			temp.append(",");
+		}
+		sprintf(time_c,"%d",currentTime.tm_hour);
+		temp.append(time_c);
+		temp.append("点");
+		sprintf(time_c,"%d",currentTime.tm_min);
+		temp.append(time_c);
+		temp.append("分钟\n");
+		temp.append(nei->toString());
+
+		fseek(fr, 0, SEEK_END);
+		int h=fwrite(temp.c_str(),sizeof(char),strlen(temp.c_str()),fr);
+		fflush(fr);
+
+		if(EOF == fclose(fr))
+		{
+			printf("err:fclose failed\n");
+			return ;
+		}
+	}
+
 	/**
 	 * 将历史的邻居记录保存到文件中，以便下一次访问
 	 */
@@ -49,19 +109,13 @@ namespace dtn{
 		string file;
 		directories.append(historyNeighbourFileDirectory);
 		file.append(historyNeighbourFileName);
-		fstream neighbourAreaDir(directories.c_str());
 
-		if (!neighbourAreaDir)
-		{
-			if(mkdir(directories.c_str(),S_IRWXU|S_IRWXG|S_IRWXO)==0)
-				cout<<"Folder creation success"<<endl;//文件夹创建成功
-			else
-				cout<<"Folder creation fail"<<endl;//can not make a dir;
-			return;
-		}
+		pthread_mutex_lock(&lockNeighbour);
+		mkdir(directories.c_str(),S_IRWXU|S_IRWXG|S_IRWXO);
+
 
 		fstream neighbourAreaFile;
-		neighbourAreaFile.open(file.c_str(),ios::out | ios::binary | ios::trunc);
+		neighbourAreaFile.open(historyNeighbourFileName.c_str(),ios::out | ios::trunc);
 		boost::archive::text_oarchive oa(neighbourAreaFile);
 		for(hash_map<string,Neighbour>::iterator it=neighbourlist.begin();
 			it!=neighbourlist.end();++it)
@@ -70,6 +124,7 @@ namespace dtn{
 			oa << n;
 		}
 		neighbourAreaFile.close();
+		pthread_mutex_unlock(&lockNeighbour);
 	}
 
 
@@ -120,12 +175,21 @@ namespace dtn{
 	{
 		//if(eid==null)
 			//return null;
+		string eid_r;
 		string eid_s=eid.str();
-		eid_s=eid_s.substr(0,eid_s.length()-2);
-
-		hash_map<string,Neighbour>::iterator it=neighbourlist.find(eid_s);
+		string eid_s1="";
+		eid_s1.clear();
+		eid_s1.append(eid_s.begin(),(--(--eid_s.end())));
+		//eid_s=eid_s.substr(0,eid_s.length()-2);
+		if(*(--eid_s.end())=='m')
+			eid_r=eid_s;
+		if(*(--eid_s1.end())=='m')
+			eid_r=eid_s1;
+		hash_map<string,Neighbour>::iterator it=neighbourlist.find(eid_r);
 		if(it==neighbourlist.end())
+		{
 			return NULL;
+		}
 		else
 		{
 			Neighbour *n=&(it->second);

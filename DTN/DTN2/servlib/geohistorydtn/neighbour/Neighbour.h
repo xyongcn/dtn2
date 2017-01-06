@@ -17,7 +17,7 @@ private:
     {
        // ar & tag;//序列化或反序列化&操作符比>>和<<更为方便
         ar & vectorlist;
-        ar & neighbourArea;
+       // ar & neighbourArea;
         ar & neighbourEidstr;
     }
 

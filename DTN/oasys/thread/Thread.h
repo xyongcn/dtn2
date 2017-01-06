@@ -18,7 +18,7 @@
 #define _OASYS_THREAD_H_
 
 #ifndef OASYS_CONFIG_STATE
-//#error "MUST INCLUDE oasys-config.h before including this file"
+#error "MUST INCLUDE oasys-config.h before including this file"
 #endif
 
 #include <sys/types.h>
@@ -43,7 +43,6 @@
 #include "../debug/DebugUtils.h"
 #include "../thread/LockDebugger.h"
 #include "../thread/TLS.h"
-
 
 namespace oasys {
 
@@ -278,10 +277,10 @@ protected:
     static bool                 start_barrier_enabled_;
     static std::vector<Thread*> threads_in_barrier_;
 
-//#if OASYS_DEBUG_LOCKING_ENABLED
+#if OASYS_DEBUG_LOCKING_ENABLED
     // Locking debugging thread - local to each thread
     static TLS<LockDebugger> lock_debugger_;
-//#endif
+#endif
 
     ThreadId_t thread_id_;
     volatile int	flags_;

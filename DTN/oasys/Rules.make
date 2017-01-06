@@ -8,7 +8,7 @@
 #
 TARGET 		= native
 BUILD_SYSTEM	= Linux
-EXTRA_CFLAGS	= -fpermissive
+
 #
 # Installation settings from the configure script
 #
@@ -28,9 +28,9 @@ srcdir		= .
 #
 # Oasys directory substitutions
 #
-OASYS_INCDIR   = /home/gaorui/workspace/DTN/oasys
-OASYS_LIBDIR   = /home/gaorui/workspace/DTN/oasys/lib
-OASYS_ETCDIR   = /home/gaorui/workspace/DTN/oasys
+OASYS_INCDIR   = /home/grui/dtn2/dtn-experiment/DTN/oasys
+OASYS_LIBDIR   = /home/grui/dtn2/dtn-experiment/DTN/oasys/lib
+OASYS_ETCDIR   = /home/grui/dtn2/dtn-experiment/DTN/oasys
 OASYS_VERSION  = 1.6.0
 
 #
@@ -54,7 +54,7 @@ SHLIB_EXT	= so
 LDFLAGS_SHLIB   = -shared -fPIC -DPIC
 EXTLIB_CFLAGS   =  $(SYS_EXTLIB_CFLAGS)
 EXTLIB_LDFLAGS  =  $(SYS_EXTLIB_LDFLAGS)
-EXTRA_CFLAGS	= 
+EXTRA_CFLAGS	= -fpermissive
 EXTRA_CXXFLAGS  = 
 EXTRA_LDFLAGS	= 
 INCFLAGS	= -I$(BUILDDIR) -I$(SRCDIR) -I$(OASYS_INCDIR) -I$(SRCDIR)/ext
@@ -69,9 +69,9 @@ CXXFLAGS_NOWARN	= $(CFLAGS_NOWARN) $(EXTRA_CXXFLAGS)
 CXXFLAGS        = $(CFLAGS) $(EXTRA_CXXFLAGS)
 LDFLAGS         = -L. $(EXTRA_LDFLAGS)
 
-OASYS_LDFLAGS        = /home/gaorui/workspace/DTN/oasys/lib/liboasys-1.6.0.a
-OASYS_LDFLAGS_STATIC = /home/gaorui/workspace/DTN/oasys/lib/liboasys-1.6.0.a
-OASYS_COMPAT_LDFLAGS = /home/gaorui/workspace/DTN/oasys/lib/liboasyscompat-1.6.0.a
+OASYS_LDFLAGS        = -L/home/grui/dtn2/dtn-experiment/DTN/oasys/lib -loasys-1.6.0
+OASYS_LDFLAGS_STATIC = /home/grui/dtn2/dtn-experiment/DTN/oasys/lib/liboasys-1.6.0.a
+OASYS_COMPAT_LDFLAGS = -L/home/grui/dtn2/dtn-experiment/DTN/oasys/lib -loasyscompat-1.6.0
 
 #
 # Add a phony rule to make sure this isn't included before the default

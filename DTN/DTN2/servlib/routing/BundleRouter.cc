@@ -96,6 +96,9 @@ BundleRouter::create_router(const char* type)
 //----------------------------------------------------------------------
 BundleRouter::BundleRouter(const char* classname, const std::string& name)
     : BundleEventHandler(classname, "/dtn/route"),
+      //add by gaorui
+      Thread("GeoHistoryRouter", CREATE_JOINABLE),
+      //end by gaorui
       name_(name)
 {
     logpathf("/dtn/route/%s", name.c_str());
@@ -275,8 +278,10 @@ BundleRouter::shutdown()
 //add by gaorui
 void BundleRouter::startThread(BundleRouter *router)
 {
-	GeoHistoryRouter *geoHistoryRouter=dynamic_cast<GeoHistoryRouter *>(router);
-	geoHistoryRouter->start();
+	//GeoHistoryRouter *geoHistoryRouter=dynamic_cast<GeoHistoryRouter *>(router);
+	//geoHistoryRouter->start();
+	//printf("open router!\n");
+	router->start();
 }
 
 } // namespace dtn

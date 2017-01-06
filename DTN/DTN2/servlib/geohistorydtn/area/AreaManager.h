@@ -203,13 +203,72 @@ public:
 		return baseArea;
 
 	}
+	/*Area *checkAreaInfo_modify(AreaInfo areainfo)
+	{
+		vector<int> areaid(areainfo.getAreaId());
+		int start=1;
+		int end=areaid.size();
+	//	vector<Area> arealist;
+
+		bool valid=true;
+		int level=1;
+		string father;
+		Area *baseArea=NULL;
+		Area *fatherArea=NULL;
+		for(int i=start;i<end;i++)
+		{
+			int id=areaid[i];
+			if(AreaLevel::isLevelValid(level))
+			{
+				//生成hashmap的标识字符串
+				char level_c[10];
+				char id_c[10];
+				sprintf(level_c,"%d",level);
+				sprintf(id_c,"%d",id);
+				string s;
+				s.append(level_c);
+				s.append("#");
+				s.append(id_c);
+				hash_map<string,Area>::iterator it=areaMap.find(s);
+				if(it==areaMap.end())
+				{
+					Area a(level,id,father,fatherArea);
+					areaMap[s]=a;
+					hash_map<string,Area>::iterator p=areaMap.find(s);
+					//生成每个区域的频率向量
+					p->second.init();
+					father=s;
+					fatherArea=&(p->second);
+					baseArea=&(p->second);
+				}
+				else
+				{
+					fatherArea=&(it->second);
+					baseArea=&(it->second);
+					father=s;
+				}
+
+			}
+			//如果存在不合格的level，那么就不需要
+			else
+			{
+				geohistoryLog->LogAppend(geohistoryLog->ERROR_LEVEL,"%s:areainfo的lever不合法",tag.c_str());
+				valid=false;
+				break;
+			}
+
+			//将区域层级+1
+			++level;
+		}
+		return baseArea;
+	}*/
 
 	//写入内存中的area相关信息,写入时删除原有的内容
 	void wrieteAreaInfoToFile()
 	{
 
 		lockHistoryAreaMovingFile();
-		cout<<"minute:wrieteAreaInfoToFile"<<endl;
+		//cout<<"minute:wrieteAreaInfoToFile"<<endl;
 		fstream ofs;
 		ofs.open(historyAreaFilePath.c_str(),ios::trunc|ios::out);
 		boost::archive::text_oarchive oa(ofs);
@@ -221,7 +280,7 @@ public:
 		}
 		ofs.close();
 		geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s:更新完本地的移动记录文件",tag.c_str());
-		printAllAreaMoving();
+	//	printAllAreaMoving();
 
 		unlockHistoryAreaMovingFile();
 	}
@@ -340,8 +399,13 @@ public:
 	Area *lookforArea(string areakey)
 	{
 		hash_map<string,Area>::iterator it=AreaManager::Getinstance()->areaMap.find(areakey);
-		Area *area=&(it->second);
-		return area;
+		if(it!=AreaManager::Getinstance()->areaMap.end())
+		{
+			Area *area=&(it->second);
+			return area;
+		}
+		else
+			return NULL;
 	}
 
 	/**
@@ -372,7 +436,7 @@ public:
 			s.append(c);
 			s.append("的移动规律:\n");
 			s.append(a.toString());
-		//	cout<<s<<endl;
+			cout<<s<<endl;
 		//	geohistoryLog->LogAppend(geohistoryLog->INFO_LEVEL,"%s",s.c_str());
 		}
 	}

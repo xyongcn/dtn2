@@ -13,7 +13,7 @@ INSTALL 	= /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_DATA 	= ${INSTALL} -m 644
 PYTHON		= /usr/bin/python
-PYTHON_BUILD_EXT= 
+PYTHON_BUILD_EXT= yes
 XSD_TOOL	= 
 
 #
@@ -22,7 +22,7 @@ XSD_TOOL	=
 #
 SYS_CFLAGS          = -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
 SYS_EXTLIB_CFLAGS   =  -I/opt/tcl/include -I/opt/db/include
-SYS_EXTLIB_LDFLAGS  =  -ldl -lm  -L/opt/tcl/lib -ltcl8.5 -lexpat -lxerces-c -lz  -L/opt/db/lib -ldb-5.3  -lodbc -lpthread 
+SYS_EXTLIB_LDFLAGS  =  -ldl -lm  -L/opt/tcl/lib -ltcl8.5 -lexpat -lz  -L/opt/db/lib -ldb-5.3 -lpthread 
 
 #
 # Library-specific compilation flags
