@@ -22,11 +22,13 @@ help(){
 	echo "./dtn-control.sh -closeWatch: close the information"
 	echo "./dtn-control.sh -clearData: clear log and historyarea law and neighbour historyarea law,if you want to change 			frequency vector's type,you must carry out this first"
 	echo "./dtn-control.sh -sendBundle : Then,knock command at the terminal,for example: ./dtnsend -s dtn://192.168.5.1.gao.com 			-d dtn://192.168.5.2.gao.com -t m -p hello -g 121412 "
+	echo "./dtn-control.sh -configEnvironment: configure the environment,using all network cards to send and receive data"
 
 	echo "with 2 or more arguments :"
 	echo "./dtn-control.sh -renameDevices : rename the dtn node's name"
 	echo "./dtn-control.sh -modifyVector : modify frequency vector's type,options [minute | hour | monafteve | week | month]
 		for example: ./dtn-control.sh -modifyVector minute hour week"
+	echo "./dtn-control.sh -configEnvironment: configure the environment,using all network cards to send and receive data"
 
 	}
 #find node's name from /etc/dtn.conf
@@ -90,12 +92,12 @@ elif [ $# -eq 1 ];then
 		./daemon/dtnd -d -o ./dtn2.log
 		cd $this_dir
 
-elif [ $1 = "-dtn" ];then
-#open dtn2
-cd ./DTN/DTN2/
-#gnome-terminal -x bash -c "./dtnd"
-./daemon/dtnd
-cd $this_dir
+	elif [ $1 = "-dtn" ];then
+		#open dtn2
+		cd ./DTN/DTN2/
+		#gnome-terminal -x bash -c "./dtnd"
+		./daemon/dtnd
+		cd $this_dir
 
 	elif [ $1 = "-clearData" ];then
 		#open dtn2
@@ -181,6 +183,11 @@ cd $this_dir
  			fi
  		done
 
+	elif [ $1 = "-configEnvironment" ];then
+		cd ./ConfigEnvironment
+		./ConfigEnvironment.sh $*
+		cd $this_dir
+
 	else
 	     echo "error : wrong arguments"
 	     help
@@ -201,6 +208,11 @@ elif [ $# -eq 2 ];then
 		./dtnsend $temp
 		cd $this_dir
 
+	elif [ $1 = "-configEnvironment" ];then
+		cd ./ConfigEnvironment
+		./ConfigEnvironment.sh $*
+		cd $this_dir
+
 	else
 		echo "error : wrong arguments"	
 		help
@@ -212,6 +224,11 @@ elif [ $# -ge 2 ];then
 		#modify frequency vector's type
 		cd ./ModifyVector
 		./ModifyVector $*
+		cd $this_dir
+
+	elif [ $1 = "-configEnvironment" ];then
+		cd ./ConfigEnvironment
+		./ConfigEnvironment.sh $*
 		cd $this_dir
 
 	else
