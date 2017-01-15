@@ -1,0 +1,38 @@
+<edges>   
+<!-- Layer1 -->
+	<edge id="A-B" from="A" to="B" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="B-C" from="B" to="C" priority="75"  numLanes="1" speed="30" />   
+	<edge id="C-D" from="C" to="D" priority="75"  numLanes="1" speed="30" />  
+	<edge id="D-E" from="D" to="E" priority="75"  numLanes="1" speed="30" />  
+	<edge id="E-F" from="E" to="F" priority="75"  numLanes="1" speed="30" />  
+	<edge id="F-G" from="F" to="G" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="G-H" from="G" to="H" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="H-I" from="H" to="I" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="I-J" from="I" to="J" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="J-K" from="J" to="K" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="K-L" from="K" to="L" priority="75"  numLanes="1" speed="30" />
+	<edge id="L-A" from="L" to="A" priority="75"  numLanes="1" speed="30" />
+
+	<edge id="P-Q" from="P" to="Q" priority="75"  numLanes="1" speed="10" /> 
+	<edge id="Q-R" from="Q" to="R" priority="75"  numLanes="1" speed="10" /> 
+	<edge id="R-S" from="R" to="S" priority="75"  numLanes="1" speed="10" /> 
+	<edge id="S-P" from="S" to="P" priority="75"  numLanes="1" speed="10" /> 
+
+	<edge id="T-W" from="T" to="W" priority="75"  numLanes="1" speed="10" /> 
+	<edge id="W-V" from="W" to="V" priority="75"  numLanes="1" speed="10" /> 
+	<edge id="V-U" from="V" to="U" priority="75"  numLanes="1" speed="10" /> 
+	<edge id="U-E1" from="U" to="E1" priority="75"  numLanes="1" speed="10" /> 
+	<edge id="E1-M1" from="E1" to="M1" priority="75"  numLanes="1" speed="10" /> 
+	<edge id="M1-T" from="M1" to="T" priority="75"  numLanes="1" speed="10" /> 
+
+	<edge id="H1-D1" from="H1" to="D1" priority="75"  numLanes="1" speed="12" /> 
+	<edge id="D1-N1" from="D1" to="N1" priority="75"  numLanes="1" speed="12" /> 
+	<edge id="N1-X" from="N1" to="X" priority="75"  numLanes="1" speed="12" /> 
+	<edge id="X-A1" from="X" to="A1" priority="75"  numLanes="1" speed="12" /> 
+	<edge id="A1-B1" from="A1" to="B1" priority="75"  numLanes="1" speed="12" /> 
+	<edge id="B1-C1" from="B1" to="C1" priority="75"  numLanes="1" speed="12" />
+	<edge id="C1-Z" from="C1" to="Z" priority="75"  numLanes="1" speed="12" />
+	<edge id="Z-Y" from="Z" to="Y" priority="75"  numLanes="1" speed="12" />
+	<edge id="Y-H1" from="Y" to="H1" priority="75"  numLanes="1" speed="12" />
+</edges>  
+

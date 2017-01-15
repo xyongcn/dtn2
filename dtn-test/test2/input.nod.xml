@@ -1,0 +1,26 @@
+<nodes>   
+	<node id="1" x="-1000.0" y="500.0" type="priority"/>  
+	<node id="2" x="-500.0" y="500.0" type="priority"/>   
+	<node id="3" x="0.0" y="500.0" type="priority"/>   
+	<node id="4" x="500.0" y="500.0" type="priority"/>   
+	<node id="5" x="1000.0" y="500.0" type="priority"/>  
+	<node id="6" x="1000.0" y="0.0" type="priority"/>  
+	<node id="7" x="1000.0" y="-500.0" type="priority"/>  
+	<node id="8" x="500.0" y="-500.0" type="priority"/>  
+	<node id="9" x="0.0" y="-500.0" type="priority"/>  
+	<node id="10" x="-500.0" y="-500.0" type="priority"/> 
+	<node id="11" x="-1000.0" y="-500.0" type="priority"/> 
+	<node id="12" x="-1000.0" y="0.0" type="priority"/> 
+	<node id="13" x="0.0" y="0.0" type="priority"/> 
+	<node id="14" x="-500.0" y="0.0" type="priority"/> 
+	<node id="15" x="500.0" y="0.0" type="priority"/>  
+
+	<node id="16" x="-300.0" y="100.0" type="priority"/> 
+	<node id="17" x="-200.0" y="200.0" type="priority"/> 
+	<node id="18" x="100.0" y="100.0" type="priority"/> 
+	<node id="19" x="0.0" y="200.0" type="priority"/>  
+	<node id="20" x="-200.0" y="0.0" type="priority"/> 
+
+
+</nodes>
+
