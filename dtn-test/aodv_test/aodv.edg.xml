@@ -1,0 +1,23 @@
+<edges>   
+<!-- Layer1 -->
+	<edge id="1-2" from="1" to="2" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="2-3" from="2" to="3" priority="75"  numLanes="1" speed="30" />   
+	<edge id="3-4" from="3" to="4" priority="75"  numLanes="1" speed="30" />  
+	<edge id="4-5" from="4" to="5" priority="75"  numLanes="1" speed="30" />  
+	<edge id="5-6" from="5" to="6" priority="75"  numLanes="1" speed="30" />  
+	<edge id="6-7" from="6" to="7" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="7-8" from="7" to="8" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="8-9" from="8" to="9" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="9-10" from="9" to="10" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="10-11" from="10" to="11" priority="75"  numLanes="1" speed="30" /> 
+	<edge id="11-12" from="11" to="12" priority="75"  numLanes="1" speed="30" />
+	<edge id="12-1" from="12" to="1" priority="75"  numLanes="1" speed="30" />
+
+	<edge id="18-19" from="18" to="19" priority="75"  numLanes="1" speed="50" /> 
+	<edge id="19-20" from="19" to="20" priority="75"  numLanes="1" speed="50" /> 
+	<edge id="20-21" from="20" to="21" priority="75"  numLanes="1" speed="50" /> 
+	<edge id="21-18" from="21" to="18" priority="75"  numLanes="1" speed="50" /> 
+
+
+</edges>  
+

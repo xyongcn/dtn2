@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Dec 30 17:04:33 2016 by SUMO duarouter Version 0.23.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="test3.net.xml"/>
+        <flow-files value="test3.flow.xml"/>
+    </input>
+
+    <output>
+        <output-file value="test3.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="flowA.0" depart="0.00">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.1" depart="82.35">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.2" depart="164.70">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.3" depart="247.06">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.4" depart="329.41">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.5" depart="411.76">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.6" depart="494.11">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.7" depart="576.46">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.8" depart="658.82">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.9" depart="741.17">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.10" depart="823.52">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.11" depart="905.87">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.12" depart="988.22">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.13" depart="1070.58">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.14" depart="1152.93">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.15" depart="1235.28">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.16" depart="1317.63">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.17" depart="1399.98">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.18" depart="1482.34">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.19" depart="1564.69">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.20" depart="1647.04">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.21" depart="1729.39">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.22" depart="1811.74">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.23" depart="1894.10">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.24" depart="1976.45">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.25" depart="2058.80">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.26" depart="2141.15">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.27" depart="2223.50">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.28" depart="2305.86">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.29" depart="2388.21">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.30" depart="2470.56">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.31" depart="2552.91">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.32" depart="2635.26">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.33" depart="2717.62">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.34" depart="2799.97">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.35" depart="2882.32">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.36" depart="2964.67">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.37" depart="3047.02">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.38" depart="3129.38">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.39" depart="3211.73">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.40" depart="3294.08">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.41" depart="3376.43">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.42" depart="3458.78">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.43" depart="3541.14">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.44" depart="3623.49">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.45" depart="3705.84">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.46" depart="3788.19">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.47" depart="3870.54">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.48" depart="3952.90">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.49" depart="4035.25">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.50" depart="4117.60">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.51" depart="4199.95">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.52" depart="4282.30">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.53" depart="4364.66">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.54" depart="4447.01">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.55" depart="4529.36">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.56" depart="4611.71">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.57" depart="4694.06">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.58" depart="4776.42">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.59" depart="4858.77">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.60" depart="4941.12">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.61" depart="5023.47">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.62" depart="5105.82">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.63" depart="5188.18">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.64" depart="5270.53">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.65" depart="5352.88">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.66" depart="5435.23">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.67" depart="5517.58">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.68" depart="5599.94">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.69" depart="5682.29">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.70" depart="5764.64">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.71" depart="5846.99">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.72" depart="5929.34">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.73" depart="6011.70">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.74" depart="6094.05">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.75" depart="6176.40">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.76" depart="6258.75">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.77" depart="6341.10">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.78" depart="6423.46">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.79" depart="6505.81">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.80" depart="6588.16">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.81" depart="6670.51">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.82" depart="6752.86">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.83" depart="6835.22">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+    <vehicle id="flowA.84" depart="6917.57">
+        <route edges="17-18 18-19 19-20 20-17"/>
+    </vehicle>
+</routes>
