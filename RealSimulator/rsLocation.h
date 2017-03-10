@@ -8,7 +8,7 @@
 
 #include<iostream>
 #include"Location.h"
-#include"ConfigLocation.h"
+#include"DTN2ConfigLocation.h"
 
 using namespace std;
  class rsLocation {

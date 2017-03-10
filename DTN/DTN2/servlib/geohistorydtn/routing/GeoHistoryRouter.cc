@@ -9,7 +9,7 @@
 namespace dtn
 {
 string GeoHistoryRouter::BundleLogPath="logDocuments/bundleLog.txt";
-
+string GeoHistoryRouter::DataBundleLogPath="logDocuments/dataBundleLog.txt";
 
 GeoHistoryRouter::GeoHistoryRouter()
 :TableBasedRouter("GeoHistoryRouter", "geohistory")//,
@@ -32,16 +32,16 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 	if(bundle->getBundleType()==Bundle::NEI_AREA_BUNDLE)
 	{
 		int r=route_neighbourArea_bundle(bundle);
-		reason.append("邻居bundle，直接交付给邻居(");
+		//reason.append("邻居bundle，直接交付给邻居(");
+		reason.append("neighbour bundle,delivery to neighbour node directly(");
 		reason.append(bundle->dest().str());
 		reason.append(")\n");
 		writeSendBundleLogToFile(reason,bundle);
 		return r;
 	}
 	//如果是原DTN2bundle或目的地为本结点
-	if((bundle->getAreaSize() == 0 &&
-			bundle->getBundleType()!=Bundle::NEI_AREA_BUNDLE)
-			|| bundle->dest() == BundleDaemon::GetInstance()->local_eid())
+	//if((bundle->getAreaSize() == 0 &&	bundle->getBundleType()!=Bundle::NEI_AREA_BUNDLE)
+	if(bundle->getBundleType()==Bundle::ORIGINAL_BUNDLE	|| bundle->dest() == BundleDaemon::GetInstance()->local_eid())
 	{
 		 RouteEntryVec matches;
 		 RouteEntryVec::iterator iter;
@@ -121,15 +121,16 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 	    return 0;
 	}
 	//判断 bundle的关于区域的信息是否合法，GeoHistory相关信息不合法时退出发送
-	if(!bundle->isGeoHistoryDtnValide())
+	/*if(!bundle->isGeoHistoryDtnValide())
 	{
 		printf("bundle_%d 的geohistory相关信息不合法",bundle->bundleid());
 		return 0;
-	}
+	}*/
 	//判断是否遇到了目标节点，是否可以直接发送给目标节点
 	if(canDirectDelivery(bundle))
 	{
-		reason.append("遇到了目的节点，直接将bundle发送给目的节点(");
+		//reason.append("遇到了目的节点，直接将bundle发送给目的节点(");
+		reason.append("meet destination node,delivery the bundle to destination node directly(");
 		reason.append(bundle->dest().str());
 		reason.append(")\n");
 		writeSendBundleLogToFile(reason,bundle);
@@ -137,21 +138,24 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 	}
 	//查找合适的需要转发的bundle
 	Area *bundleArea=new Area(bundle->getAreaSize(),bundle->getAreaId(bundle->getAreaSize()));
-	//本节点到达目的地区域
+	//本节点到达bundle的目的地区域
 	if(baseArea->id==bundleArea->id)
 	{
 		if(bundle->getIsFlooding()==0)
 		{
 			bundle->setIsFlooding(1);
 		}
-		reason.append("进入目标区域，执行洪泛转发,其中副本数为:");
+		//reason.append("进入目标区域，执行洪泛转发,其中副本数为:");
+		reason.append("enter into destination area,carry out flooding forwarding.The number of copies is:");
 		char temp[10];
 		sprintf(temp,"%d",bundle->getFloodBundleNum());
 		reason.append(temp);
 		reason.append("\n");
 
-		printf("进入目标区域，执行洪泛转发:dst(%s),copyNum(%d),bundle_%d,区域:%d",
-					bundle->dest().str().c_str(),bundle->getFloodBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+		//printf("进入目标区域，执行洪泛转发:dst(%s),copyNum(%d),bundle_%d,区域:%d",
+		//			bundle->dest().str().c_str(),bundle->getFloodBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+		printf("enter into destination area,carry out flooding forwarding:dst(%s),copyNum(%d),bundle_%d,区域:%d",
+							bundle->dest().str().c_str(),bundle->getFloodBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
 		//进行洪泛转发
 		get_matching_RouteEntryVec(bundle,matches, -1, linkAreaMap);
 
@@ -159,7 +163,8 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 
 	    log_debug("route_bundle bundle id %d: checking %zu route entry matches",
 	              bundle->bundleid(), matches.size());
-	    reason.append("发送给邻居的id和副本数:\n");
+	    //reason.append("发送给邻居的id和副本数:\n");
+	    reason.append("neighbour id and number of copies sent to neighbour are :");
 	    unsigned int count = 0;
 	    for (iter = matches.begin(); iter != matches.end(); ++iter)
 	    {
@@ -227,9 +232,12 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 		//本节点进入目的区域后又离开了,这里不进行任何转发
 		if(bundle->getIsFlooding()==1)
 		{
-			reason.append("进入目标区域又离开了，不进行任何转发\n");
-			printf("进入目标区域又离开了，不进行任何转发。bundle_%d,目的区域：%d",
-					bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+			//reason.append("进入目标区域又离开了，不进行任何转发\n");
+			reason.append("ever entered into destination but left,so don't make any forwarding\n");
+			//printf("进入目标区域又离开了，不进行任何转发。bundle_%d,目的区域：%d",
+			//		bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+			printf("ever entered into destination but left,so don't make any forwarding.bundle:%d,destination area:%d",
+								bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
 			//判断是否超时
 			//先不管超时，bytewalla应该自己管理好了超时
 //				if(bundle.creation_ts().seconds()+bundle.expiration_timer())
@@ -239,41 +247,56 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 		//本节点没有进入目的区域，执行普通转发
 		else
 		{
-			reason.append("没有进入目标区域，执行普通转发,其中副本数为:");
+			//reason.append("没有进入目标区域，执行普通转发,其中副本数为:");
+			reason.append("don't enter into destination,carry out oridinary forwarding.the number of copies are:");
 			char temp[10];
 			sprintf(temp,"%d",bundle->getFloodBundleNum());
 			reason.append(temp);
-			reason.append(",当前的区域id为:");
+			//reason.append(",当前的区域id为:");
+			reason.append(",current area'id is:");
 			sprintf(temp,"%d",baseArea->id);
 			reason.append(temp);
 			reason.append("\n");
 
-			 printf("没有进入目标区域，执行普通转发:dst(%s),copyNum(%d),bundle_%d,目的区域：%d\n",
-						bundle->dest().str().c_str(),bundle->getDeliverBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
-
+			// printf("没有进入目标区域，执行普通转发:dst(%s),copyNum(%d),bundle_%d,目的区域：%d\n",
+			//			bundle->dest().str().c_str(),bundle->getDeliverBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+			 printf("don't enter into destination,carry out oridinary forwarding:dst(%s),copyNum(%d),bundle(%d),destination area(%d)\n",
+									bundle->dest().str().c_str(),bundle->getDeliverBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
 			 //普通转发
-			 //本节点离目的地最近的区域
+			 //本节点离bundle的目的地最近的区域
 			 Area *thisnodeArea=baseArea->checkBundleDestArea(bundle);
 			// printf("%d\n",thisnodeArea->id);
 			 if(thisnodeArea==NULL)
 			{
-				printf("执行普通转发时，本节点没有找到与目标节点处在同一层的区域。bundle_%d,目的区域：%d",
-							bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
-				return 0;
+				//printf("执行普通转发时，本节点没有找到与目标节点处在同一层的区域。bundle_%d,目的区域：%d",
+				//			bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+				 printf("when we carry out oridinary forwarding,this node don't find the same area of goal node.bundle_%d,destination:%d",
+				 							bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+
+				 return 0;
 			}
 			 //获取符合要求的当前邻居节点
 			 //要求邻居结点一定要比当前结点到达的区域层次更接近目的区域,且只有一个
 			get_matching_RouteEntryVec(bundle,matches,thisnodeArea->getAreaLevel(),linkAreaMap);
 			if(linkAreaMap.empty())
 			{
-			 	printf("没有找到合适的link\n");
+			 	//printf("没有找到合适的link\n");
+				printf("don't find suitable link\n");
 			 	return 0;
 			}
 
 			map<Arearef,RouteEntryref>::iterator it_link=linkAreaMap.begin();
-			printf("最接近目的地的邻居结点,linkAreaMap:%s\n",it_link->second->dest_pattern().str().c_str());
-			list<Arearef> avaliableNodeList;
+			//printf("最接近目的地的邻居结点,linkAreaMap:%s\n",it_link->second->dest_pattern().str().c_str());
+			map<Area *,string> neiIdRecord;
 			for(;it_link!=linkAreaMap.end();++it_link)
+			{
+				Area * temp_area=it_link->first;
+				string s_temp=it_link->second->dest_pattern().str();
+				neiIdRecord.insert(make_pair(temp_area,s_temp));
+			}
+
+			list<Arearef> avaliableNodeList;
+			for(it_link=linkAreaMap.begin();it_link!=linkAreaMap.end();++it_link)
 			{
 				Arearef temp_area=it_link->first;
 				avaliableNodeList.push_back(temp_area);
@@ -281,15 +304,17 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 			//存储当前邻居结点到达bundle的最近区域，和当前结点到达目的地的最近区域,且当前结点区域层次一定比当前邻居的高
 			avaliableNodeList.push_back(thisnodeArea);
 			////////////test///////////
-			/*for(list<Arearef>::iterator p=avaliableNodeList.begin();
+			for(list<Arearef>::iterator p=avaliableNodeList.begin();
 					p!=avaliableNodeList.end();++p)
 			{
 				cout<<(*p)->id<<endl;
-			}*/
+			}
+		
 			////////////end test///////////
 			//存储当前邻居结点到达bundle的最近区域
 			//历史邻居到达bundle的最近区域,且一定不等于当前邻居结点和当前结点到达bundle的最近区域
-			avaliableNodeList=ChanceValueSort::getAllAvaliableNodeArea(&avaliableNodeList, bundle, thisnodeArea);
+			string *record=new string;
+			avaliableNodeList=ChanceValueSort::getAllAvaliableNodeArea(&avaliableNodeList, bundle, thisnodeArea,record,neiIdRecord);
 
 			////////////test///////////
 			/*for(list<Arearef>::iterator q=avaliableNodeList.begin();
@@ -298,7 +323,9 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 				printf("test:%d\n",(*q)->id);
 			}*/
 			////////////end test///////////
-		    reason.append("发送给邻居的id和副本数\n");
+		    //reason.append("发送给邻居的id和副本数\n");
+			reason.append(*record);
+			reason.append("neighbour id and number of copies sent to neighbour are :");
 			//寻找合适的link转发
 			int no=1;//标志着该节点的排名
 			int count = 0;//原路由算法携带，返回向邻居发送bundle的个数
@@ -317,7 +344,8 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 					//更改bundle的副本数量
 					string bundle_id=StringOfBundle(bundle);
 					int num=bundle->getDeliverBundleNum();
-					cout<<"bundle的副本数:"<<num<<endl;
+					//cout<<"bundle的副本数:"<<num<<endl;
+					cout<<"bundle's number of copies:"<<num<<endl;
 					map<string,int>::iterator it_f=Forward1PayloadNumMap.find(bundle_id);
 					if(it_f!=Forward1PayloadNumMap.end())
 					{
@@ -330,7 +358,8 @@ int GeoHistoryRouter::route_bundle(Bundle* bundle)
 						continue;
 					}
 					//该节点排名小于副本数量，执行2分法发送
-					cout<<"发送的副本数:";
+					//cout<<"发送的副本数:";
+					cout<<"copies sent to:";
 					if(no<=num)
 					{
 						bundle->setDeliverBundleNum(num/2);
@@ -422,19 +451,22 @@ int GeoHistoryRouter::get_matching_RouteEntryVec(Bundle *bundle,RouteEntryVec &e
 			if (prevhop == entry->link()->remote_eid()
 					&& prevhop != EndpointID::NULL_EID())
 			{
-				printf("bundle在这个link(remote:%s)收到过或者发送过\n",prevhop.str().c_str());
+				//printf("bundle在这个link(remote:%s)收到过或者发送过\n",prevhop.str().c_str());
+				printf("bundle have already been received or sent in this link(remote:%s)\n",prevhop.str().c_str());
 				continue;
+
 			}
 			else
 			{
-				printf("link(%s)上发送bundle(%d)并不重复\n",prevhop.str().c_str(),
-						bundle->bundleid());
+				//printf("link(%s)上发送bundle(%d)并不重复\n",prevhop.str().c_str(),bundle->bundleid());
+				printf("it is not repeated in this link(%s) to send bundle\n",prevhop.str().c_str(),bundle->bundleid());
 			}
 		}
 		//如果是flood的转发的方式，那么需要获取所有的link
 		if(sameAreaLevel==RouteType::Flooding)
 		{
-			printf("洪泛式路由方式查找路由表中的Link,bundle dst:%s\n",bundle->dest().str().c_str());
+			//printf("洪泛式路由方式查找路由表中的Link,bundle dst:%s\n",bundle->dest().str().c_str());
+			printf("find route table by flooding way to find link,bundle dst:%s\n",bundle->dest().str().c_str());
 			//原有算法，将link加到路由项中
 			if(	entry->link()->state() ==Link::OPEN ||
 					entry->link()->state() == Link::AVAILABLE )
@@ -459,7 +491,8 @@ int GeoHistoryRouter::get_matching_RouteEntryVec(Bundle *bundle,RouteEntryVec &e
 		//如果只是转发给特定的邻居，那么只要获取邻居的link就行了
 		else if(sameAreaLevel==RouteType::Neighbour)
 		{
-			printf("向特定邻居发送信息的路由方式查找路由表中的Link,bundle dst:%s\n",bundle->dest().str().c_str());
+			//printf("向特定邻居发送信息的路由方式查找路由表中的Link,bundle dst:%s\n",bundle->dest().str().c_str());
+			printf("find route table to find specific link,bundle dst:%s\n",bundle->dest().str().c_str());
 			//检查是否是目的邻居
 			if(entry->dest_pattern().match(bundle->dest()))
 			{
@@ -491,18 +524,22 @@ int GeoHistoryRouter::get_matching_RouteEntryVec(Bundle *bundle,RouteEntryVec &e
 		}
 		else if(sameAreaLevel>0)
 		{
-			printf("普通转发方式查找路由表中Link,bundle dst:%s,sameAreaLevel:%d\n",
-											bundle->dest().str().c_str(),sameAreaLevel);
+			//printf("普通转发方式查找路由表中Link,bundle dst:%s,sameAreaLevel:%d\n",
+			//								bundle->dest().str().c_str(),sameAreaLevel);
+			printf("find route table to find link by ordinary forwarding way,bundle dst:%s,sameAreaLevel:%d\n",
+														bundle->dest().str().c_str(),sameAreaLevel);
 			Neighbour *neighbour=NeighbourManager::Getinstance()->getNeighbour(entry->dest_pattern());
 			if(neighbour==NULL)
 			{
-				printf("没有邻居的记录\n");
+				//printf("没有邻居的记录\n");
+				printf("don't have neighbour'record\n");
 				continue;
 			}
 			NeighbourArea *neiArea=neighbour->getNeighbourArea();
 			if(neiArea==NULL || neiArea->areaMap.empty())
 			{
-				printf("没有邻居%s的历史区域移动规律",neighbour->getEid().str().c_str());
+				//printf("没有邻居%s的历史区域移动规律",neighbour->getEid().str().c_str());
+				printf("don't have neighbour(%s)'s historyarea law\n",neighbour->getEid().str().c_str());
 				continue;
 			}
 			Area *area=neiArea->checkBundleDestArea(bundle);
@@ -510,13 +547,15 @@ int GeoHistoryRouter::get_matching_RouteEntryVec(Bundle *bundle,RouteEntryVec &e
 				//printf("%d\n",area->id);
 			if(area==NULL)
 			{
-				printf("邻居%s没有去过目标区域\n",neighbour->getEid().str().c_str());
+				//printf("邻居%s没有去过目标区域\n",neighbour->getEid().str().c_str());
+				printf("neighbour(%s) didn't go to destination area\n",neighbour->getEid().str().c_str());
 				continue;
 			}
 			//本节点离目标节点更接近，因此否决该link
 			if(area->getAreaLevel()<areaLevel)
 			{
-				printf("本节点到过的区域比邻居%s更接近目标区域\n",neighbour->getEid().str().c_str());
+				//printf("本节点到过的区域比邻居%s更接近目标区域\n",neighbour->getEid().str().c_str());
+				printf("this node is closer than neighbour(%s)\n",neighbour->getEid().str().c_str());
 				continue;
 			}
 
@@ -530,7 +569,8 @@ int GeoHistoryRouter::get_matching_RouteEntryVec(Bundle *bundle,RouteEntryVec &e
 			//该邻居与本节点一样接近目的地，默认操作
 			else
 			{
-				printf("本节点和比邻居%s一样接近目标区域\n",neighbour->getEid().str().c_str());
+				//printf("本节点和比邻居%s一样接近目标区域\n",neighbour->getEid().str().c_str());
+				printf("this node is as close as neighbour(%s)\n",neighbour->getEid().str().c_str());
 				continue;
 			}
 			//将link加到路由项中
@@ -581,7 +621,8 @@ bool GeoHistoryRouter::canDirectDelivery(Bundle *bundle)
 			if(	entry->link()->state() ==Link::OPEN ||
 					entry->link()->state() == Link::AVAILABLE )
 			{
-				printf("遇到了目的节点，直接将bundle发送给目的节点%s",entry->dest_pattern().str().c_str());
+				//printf("遇到了目的节点，直接将bundle发送给目的节点%s",entry->dest_pattern().str().c_str());
+				printf("meet destination node,send to destination node(%s) directly",entry->dest_pattern().str().c_str());
 
 				DeferredList* dl = deferred_list(entry->link());
 
@@ -605,8 +646,10 @@ bool GeoHistoryRouter::canDirectDelivery(Bundle *bundle)
 				if (!fwd_to_nexthop(bundle, *iter)) {
 					continue;
 				}
-				printf("直接转发给目的节点完成:dst(%s),copyNum(%d),bundle_%d,目的区域：%d",
-					bundle->dest().str().c_str(),bundle->getDeliverBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+				//printf("直接转发给目的节点完成:dst(%s),copyNum(%d),bundle_%d,目的区域：%d",
+					//bundle->dest().str().c_str(),bundle->getDeliverBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
+					printf("complete forwarding the bundle to destination node:dst(%s),copyNum(%d),bundle_%d,目的区域：%d",
+										bundle->dest().str().c_str(),bundle->getDeliverBundleNum(),bundle->bundleid(),bundle->getAreaId(bundle->getAreaSize()));
 				//可以删除bundle了
 				bundle->geoRouterTransmmited=true;
 				route_table_->lock()->unlock();
@@ -705,16 +748,20 @@ void GeoHistoryRouter::handle_routeAllBundle()
 	void GeoHistoryRouter::handle_bundle_received(BundleReceivedEvent *event)
 	{
 		cout<<"___________________________________________"<<endl;
-		cout<< "GeohistoryRouter收到一个BundleReceivedEvent"<<endl;
-		cout<<"类型为:";
+		//cout<< "GeohistoryRouter收到一个BundleReceivedEvent"<<endl;
+		cout<< "GeohistoryRouter receive an BundleReceivedEvent"<<endl;
+		//cout<<"类型为:";
+		cout<<"type :";
 		if(event->bundleref_.object()->getBundleType()==Bundle::DATA_BUNDLE)
 			cout<<"data_bundle"<<endl;
 		if(event->bundleref_.object()->getBundleType()==Bundle::NEI_AREA_BUNDLE)
 			cout<<"neighbour_bundle"<<endl;
 		if(event->bundleref_.object()->getBundleType()==Bundle::ORIGINAL_BUNDLE)
 			cout<<"original_bundle"<<endl;
-		cout<<"源节点为:"<<event->bundleref_.object()->source().str()<<endl;
-		cout<<"目的节点为:"<<event->bundleref_.object()->dest().str()<<endl;
+		//cout<<"源节点为:"<<event->bundleref_.object()->source().str()<<endl;
+		//cout<<"目的节点为:"<<event->bundleref_.object()->dest().str()<<endl;
+		cout<<"source node:"<<event->bundleref_.object()->source().str()<<endl;
+		cout<<"destination node:"<<event->bundleref_.object()->dest().str()<<endl;
 		//cout<<"!"<<event->source_<<endl;
 
 		//int length=event->bundleref_.object()->payload().length();

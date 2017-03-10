@@ -905,21 +905,20 @@ APIClient::handle_send()
 
     BundleRef b("APIClient::handle_send");
     b = new Bundle();
-
     //add by gaorui
     b->setAreaSize(0);
-    if(spec.areaid[0]!='\0')
+    if(spec.areaID!=-1)
     {
         b->setBundleType(Bundle::DATA_BUNDLE);
 		char recvBuf[MAXLINE+1];
 		char buf[MAXLINE];
-		int areaid_int=0;
-		int i=0;
-		for(;spec.areaid[i]!='\0';++i)
+		int areaid_int=spec.areaID;
+		//int i=0;
+		/*for(;spec.areaid[i]!='\0';++i)
 		{
 			if(spec.areaid[i]-'0'<=9 && spec.areaid[i]-'0'>=0)
 				areaid_int=areaid_int*10+spec.areaid[i]-'0';
-		}
+		}*/
 		char areaid_char[5];
 		MyByteHelper::int_to_byte_array(areaid_int,areaid_char);
 
@@ -1003,8 +1002,8 @@ APIClient::handle_send()
 		{
 			//////////////////////////////////////////
 			 b->setAreaSize(info.size());
-			 b->setDeliverBundleNum(2);
-			 b->setFloodBundleNum(2);
+			 b->setDeliverBundleNum(Bundle::DELIVERBUNDLENUM_DEFAULT);
+			 b->setFloodBundleNum(Bundle::FLOODBUNDLENUM_DEFAULT);
 			 b->setIsFlooding(0);
 			 int level=info.size();
 			 std::vector<int>::iterator it;

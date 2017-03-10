@@ -36,8 +36,8 @@ TimeManager * TimeManager::instance=NULL;
 		//将历史邻居向量记录到文件中
 		NeighbourManager::Getinstance()->saveHistoryNeighbour();
 		//测试 将邻居的频率向量和区域的频率向量全部显示出来
-		NeighbourManager::Getinstance()->printAllNeighbour();
-		AreaManager::Getinstance()->printAllAreaMoving();
+		//NeighbourManager::Getinstance()->printAllNeighbour();
+		//AreaManager::Getinstance()->printAllAreaMoving();
 	}
 
 	//每小时需要触发的操作

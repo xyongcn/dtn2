@@ -352,7 +352,8 @@ typedef struct dtn_sequence_id_t dtn_sequence_id_t;
 
 struct dtn_bundle_spec_t {
 	//add by gaorui
-	char areaid[10];
+	char areaid[20];
+	int areaID;
 	//end by gaorui
 	dtn_endpoint_id_t source;
 	dtn_endpoint_id_t dest;

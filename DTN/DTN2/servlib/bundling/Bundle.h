@@ -445,8 +445,10 @@ public:
     int bundleType;//=DATA_BUNDLE;
     const static int DATA_BUNDLE=1;
     const static int NEI_AREA_BUNDLE=2;
-    const static int ORIGINAL_BUNDLE=0;
-
+    const static int ORIGINAL_BUNDLE=0; 
+    const static int DELIVERBUNDLENUM_DEFAULT=10;
+    const static int FLOODBUNDLENUM_DEFAULT=10;
+    
     /**
     * 用于geoHistoryRouter里面判断bundle是否传输完成的标识
     */

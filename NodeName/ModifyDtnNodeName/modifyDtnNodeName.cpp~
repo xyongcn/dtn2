@@ -11,6 +11,7 @@ using namespace std;
 int main(int argc,char *argv[])
 {
 	//修改/etc/dtn.conf
+	printf("修改/etc/dtn.conf中dtn结点的名字\n");
 	char *part1=new char[MAX];
 	char *part2=new char[MAX];
 	char *buffer=new char[MAXIMUM];
@@ -49,7 +50,7 @@ int main(int argc,char *argv[])
 			    for(j=1;j<i-1;++j)
 			    	strArray[j-1]=strArray[j];
 			    strArray[j-1]='\0';
-			    printf("old name : %s",strArray);
+			    printf("old name : %s\n",strArray);
 			    break;
 			}
 		}
@@ -66,6 +67,7 @@ int main(int argc,char *argv[])
     string s="route local_eid \"";
     s+=*++argv;
     s+="\"";
+    printf("new name : %s\n",*argv);
     for(int i=0;i<s.size();++i)
     	part1[location_last+i]=s[i];
 	fr.open("/etc/dtn.conf",ios::out | ios::trunc);
@@ -81,7 +83,7 @@ int main(int argc,char *argv[])
 
 
   	//修改/RealSimulator/nodeInfo.txt中的nodeNo
-	char *part3=new char[MAX];
+/*	char *part3=new char[MAX];
 	char *part4=new char[MAX];
 	char *buffer2=new char[MAXIMUM];
 	fstream fn;
@@ -126,7 +128,7 @@ int main(int argc,char *argv[])
     fn.close();
     delete [] part3;
     delete [] part4;
-    delete [] buffer2;
+    delete [] buffer2;*/
     return 0;
 }
 

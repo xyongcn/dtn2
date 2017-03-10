@@ -149,7 +149,7 @@ public:
 
 		//从上次读取到的部分继续读取下一次的位置
 		//先判断前两次位置的时间与当前请求时间的关系
-		ParseConfigFile *curPcf = NULL;
+		ParseConfigFile *curPcf = new ParseConfigFile();
 
 		if(queryTime < curLoc->gotTime)//节点未运动到上次所读取到的时间点，匀速计算位置
 		{

@@ -14,7 +14,7 @@
  #include <string.h>
  #include <stdio.h>
  #include <stdlib.h>
-#include"rsLocation.h"
+#include"DTN2rsLocation.h"
 #include"ByteHelper.h"
 #include<math.h>
 #include"Distance.h"

@@ -29,11 +29,19 @@ public:
 		int node2level=area2->getAreaLevel();
 
 		if(node2level<node1level)
-			return true;
+			return true;  //不交换
 
 		if(node2level>node1level)
-			return false;
+			return false; //交换
 
+		//针对区域中某个频率下机会值小于阈值，返回的机会值为空的情况
+		if(node1.chanceValue.size()==0 || node2.chanceValue.size()==0)
+		{
+			if(node1.chanceValue.size()==0)
+				return false;
+			if(node2.chanceValue.size()==0)
+				return true;
+		}
 		//逐个比较机会值
 		for(int i=0;i<min(node1.chanceValue.size(), node2.chanceValue.size());i++)
 		{
@@ -50,7 +58,7 @@ public:
 
 
 		//默认不交换
-		return false;
+		return true;
 	}
 
 };
