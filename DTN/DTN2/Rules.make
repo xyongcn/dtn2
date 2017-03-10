@@ -28,9 +28,9 @@ srcdir		= .
 #
 # Oasys directory substitutions
 #
-OASYS_INCDIR   = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include
-OASYS_LIBDIR   = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/lib
-OASYS_ETCDIR   = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/share
+OASYS_INCDIR   = /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include
+OASYS_LIBDIR   = /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/lib
+OASYS_ETCDIR   = /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/share
 OASYS_VERSION  = 1.6.0
 
 #
@@ -69,9 +69,9 @@ CXXFLAGS_NOWARN	= $(CFLAGS_NOWARN) $(EXTRA_CXXFLAGS)
 CXXFLAGS        = $(CFLAGS) $(EXTRA_CXXFLAGS)
 LDFLAGS         = -L. $(EXTRA_LDFLAGS)
 
-OASYS_LDFLAGS        = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/lib/liboasys-1.6.0.a
-OASYS_LDFLAGS_STATIC = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/lib/liboasys-1.6.0.a
-OASYS_COMPAT_LDFLAGS = /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/lib/liboasyscompat-1.6.0.a
+OASYS_LDFLAGS        = /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/lib/liboasys-1.6.0.a
+OASYS_LDFLAGS_STATIC = /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/lib/liboasys-1.6.0.a
+OASYS_COMPAT_LDFLAGS = /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/lib/liboasyscompat-1.6.0.a
 
 #
 # Add a phony rule to make sure this isn't included before the default

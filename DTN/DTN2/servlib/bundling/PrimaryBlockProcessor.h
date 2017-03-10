@@ -107,6 +107,7 @@ protected:
 
         //add by gaorui
         u_int64_t areasize_flag;
+        u_int64_t areaid0_flag;
         u_int64_t areaid1_flag;
         u_int64_t areaid2_flag;
         u_int64_t areaid3_flag;

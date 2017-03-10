@@ -6,14 +6,14 @@
 #
 #       ANY CHANGES MADE HERE WILL BE LOST!
 #
-#   MakeMaker ARGV: (q[CC=g++], q[LD=g++], q[CCFLAGS=-g], q[-fno-inline], q[-fPIC], q[-DPIC], q[-MMD], q[-MP], q[-MT], q[perl/dtn_api_wrap_perl.o perl/dtn_api_wrap_perl.E], q[-DHAVE_CONFIG_H], q[-D_LARGEFILE_SOURCE], q[-D_FILE_OFFSET_BITS=64], q[-I..], q[-I..], q[-I/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include], q[-I/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/ext], q[-I../servlib], q[-I/opt/tcl/include], q[-I/opt/db/include], q[-fpermissive], q[-lboost_serialization], q[-Wall], q[-W], q[-Wcast-align], q[VERSION=2.9.0])
+#   MakeMaker ARGV: (q[CC=g++], q[LD=g++], q[CCFLAGS=-g], q[-fno-inline], q[-fPIC], q[-DPIC], q[-MMD], q[-MP], q[-MT], q[perl/dtn_api_wrap_perl.o perl/dtn_api_wrap_perl.E], q[-DHAVE_CONFIG_H], q[-D_LARGEFILE_SOURCE], q[-D_FILE_OFFSET_BITS=64], q[-I..], q[-I..], q[-I/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include], q[-I/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include/oasys/ext], q[-I../servlib], q[-I/opt/tcl/include], q[-I/opt/db/include], q[-fpermissive], q[-lboost_serialization], q[-Wall], q[-W], q[-Wcast-align], q[VERSION=2.9.0])
 #
 
 #   MakeMaker Parameters:
 
 #     BUILD_REQUIRES => {  }
 #     FIRST_MAKEFILE => q[Makefile]
-#     INC => q[-I ../../ -I /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include]
+#     INC => q[-I ../../ -I /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include]
 #     LIBS => [q[-L.. -ldtnapi]]
 #     NAME => q[dtnapi]
 #     OBJECT => q[dtn_api_wrap_perl.o]
@@ -149,7 +149,7 @@ BASEEXT = dtnapi
 PARENT_NAME = 
 DLBASE = $(BASEEXT)
 VERSION_FROM = 
-INC = -I ../../ -I /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include
+INC = -I ../../ -I /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include
 OBJECT = dtn_api_wrap_perl$(OBJ_EXT)
 LDFROM = $(OBJECT)
 LINKTYPE = dynamic
@@ -288,9 +288,10 @@ MPOLLUTE =
 # dtnapi might depend on some other libraries:
 # See ExtUtils::Liblist for details
 #
-EXTRALIBS = -L/home/grui/dtn2/dtn-experiment/DTN/DTN2/applib/perl/.. -ldtnapi
-LDLOADLIBS = -L/home/grui/dtn2/dtn-experiment/DTN/DTN2/applib/perl/.. -ldtnapi
+EXTRALIBS = -L/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/applib/perl/.. -ldtnapi
+LDLOADLIBS = -L/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/applib/perl/.. -ldtnapi
 BSLOADLIBS = 
+LD_RUN_PATH = /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/applib/perl/..
 
 
 # --- MakeMaker const_cccmd section:
@@ -472,7 +473,7 @@ INST_DYNAMIC_FIX =
 
 $(INST_DYNAMIC): $(OBJECT) $(MYEXTLIB) $(BOOTSTRAP) $(INST_ARCHAUTODIR)$(DFSEP).exists $(EXPORT_LIST) $(PERL_ARCHIVE) $(PERL_ARCHIVE_AFTER) $(INST_DYNAMIC_DEP)
 	$(RM_F) $@
-	$(LD)  $(LDDLFLAGS) $(LDFROM) $(OTHERLDFLAGS) -o $@ $(MYEXTLIB)	\
+	LD_RUN_PATH="$(LD_RUN_PATH)" $(LD)  $(LDDLFLAGS) $(LDFROM) $(OTHERLDFLAGS) -o $@ $(MYEXTLIB)	\
 	  $(PERL_ARCHIVE) $(LDLOADLIBS) $(PERL_ARCHIVE_AFTER) $(EXPORT_LIST)	\
 	  $(INST_DYNAMIC_FIX)
 	$(CHMOD) $(PERM_RWX) $@
@@ -662,7 +663,7 @@ distdir : create_distdir distmeta
 
 # --- MakeMaker dist_test section:
 disttest : distdir
-	cd $(DISTVNAME) && $(ABSPERLRUN) Makefile.PL "CC=g++" "LD=g++" "CCFLAGS=-g" "-fno-inline" "-fPIC" "-DPIC" "-MMD" "-MP" "-MT" "perl/dtn_api_wrap_perl.o perl/dtn_api_wrap_perl.E" "-DHAVE_CONFIG_H" "-D_LARGEFILE_SOURCE" "-D_FILE_OFFSET_BITS=64" "-I.." "-I.." "-I/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include" "-I/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/ext" "-I../servlib" "-I/opt/tcl/include" "-I/opt/db/include" "-fpermissive" "-lboost_serialization" "-Wall" "-W" "-Wcast-align" "VERSION=2.9.0"
+	cd $(DISTVNAME) && $(ABSPERLRUN) Makefile.PL "CC=g++" "LD=g++" "CCFLAGS=-g" "-fno-inline" "-fPIC" "-DPIC" "-MMD" "-MP" "-MT" "perl/dtn_api_wrap_perl.o perl/dtn_api_wrap_perl.E" "-DHAVE_CONFIG_H" "-D_LARGEFILE_SOURCE" "-D_FILE_OFFSET_BITS=64" "-I.." "-I.." "-I/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include" "-I/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include/oasys/ext" "-I../servlib" "-I/opt/tcl/include" "-I/opt/db/include" "-fpermissive" "-lboost_serialization" "-Wall" "-W" "-Wcast-align" "VERSION=2.9.0"
 	cd $(DISTVNAME) && $(MAKE) $(PASTHRU)
 	cd $(DISTVNAME) && $(MAKE) test $(PASTHRU)
 
@@ -846,7 +847,7 @@ $(FIRST_MAKEFILE) : Makefile.PL $(CONFIGDEP)
 	-$(NOECHO) $(RM_F) $(MAKEFILE_OLD)
 	-$(NOECHO) $(MV)   $(FIRST_MAKEFILE) $(MAKEFILE_OLD)
 	- $(MAKE) $(USEMAKEFILE) $(MAKEFILE_OLD) clean $(DEV_NULL)
-	$(PERLRUN) Makefile.PL "CC=g++" "LD=g++" "CCFLAGS=-g" "-fno-inline" "-fPIC" "-DPIC" "-MMD" "-MP" "-MT" "perl/dtn_api_wrap_perl.o perl/dtn_api_wrap_perl.E" "-DHAVE_CONFIG_H" "-D_LARGEFILE_SOURCE" "-D_FILE_OFFSET_BITS=64" "-I.." "-I.." "-I/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include" "-I/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/ext" "-I../servlib" "-I/opt/tcl/include" "-I/opt/db/include" "-fpermissive" "-lboost_serialization" "-Wall" "-W" "-Wcast-align" "VERSION=2.9.0"
+	$(PERLRUN) Makefile.PL "CC=g++" "LD=g++" "CCFLAGS=-g" "-fno-inline" "-fPIC" "-DPIC" "-MMD" "-MP" "-MT" "perl/dtn_api_wrap_perl.o perl/dtn_api_wrap_perl.E" "-DHAVE_CONFIG_H" "-D_LARGEFILE_SOURCE" "-D_FILE_OFFSET_BITS=64" "-I.." "-I.." "-I/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include" "-I/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include/oasys/ext" "-I../servlib" "-I/opt/tcl/include" "-I/opt/db/include" "-fpermissive" "-lboost_serialization" "-Wall" "-W" "-Wcast-align" "VERSION=2.9.0"
 	$(NOECHO) $(ECHO) "==> Your Makefile has been rebuilt. <=="
 	$(NOECHO) $(ECHO) "==> Please rerun the $(MAKE) command.  <=="
 	$(FALSE)
@@ -883,8 +884,8 @@ $(MAKE_APERL_FILE) : $(FIRST_MAKEFILE) pm_to_blib
 		-D_FILE_OFFSET_BITS=64 \
 		-I.. \
 		-I.. \
-		-I/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include \
-		-I/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/ext \
+		-I/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include \
+		-I/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include/oasys/ext \
 		-I../servlib \
 		-I/opt/tcl/include \
 		-I/opt/db/include \

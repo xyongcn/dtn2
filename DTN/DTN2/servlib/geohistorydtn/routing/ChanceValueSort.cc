@@ -10,7 +10,8 @@ namespace dtn
 	//thisnode内的Area是本节点与bundle的目的地址最接近的区域,
 	//它与nowNeighbour中存储的最后一个Area是相同的
 	list<Area *> ChanceValueSort::getAllAvaliableNodeArea(
-			list<Area *> *nowNeighbour,Bundle *bundle,Area *thisnode)
+			list<Area *> *nowNeighbour,Bundle *bundle,Area *thisnode,
+			string *record,map<Area *,string> neiIdRecord)
 	{
 		list<Area *>::iterator it=(*nowNeighbour).begin();
 		for(;it!=(*nowNeighbour).end();it++)
@@ -27,18 +28,68 @@ namespace dtn
 
 		//allNodeList 存储本节点，当前邻居，以及多个临时邻居到达目的地最近的Area和机会值
 		list<Node> allNodeList=addNeibourAreaNode(nowNeighbour, bundle);
-
 		vector<Node> nodelist_temp;
 		for(list<Node>::iterator it=allNodeList.begin();it!=allNodeList.end();++it)
 		{
 			nodelist_temp.push_back(*it);
 		}
+		/////////////////////////////////////////////////////
+		for(vector<Node>::iterator it=nodelist_temp.begin();it!=nodelist_temp.end();++it)
+		{
+			if((*it).nei==NULL)
+			{
+				map<Area *,string>::iterator itn;
+				for(itn=neiIdRecord.begin();itn!=neiIdRecord.end();++itn)
+				{
+					if(itn->first==it->closedArea)
+						break;
+				}
+				if(itn==neiIdRecord.end())
+					record->append("this node:");
+				else
+				{
+					record->append("current neighbour id:");
+					record->append(itn->second);
+				}
+				record->append("\ndestination id:");
+				char tp[10];
+				sprintf(tp,"%d",(*it).closedArea->id);
+				record->append(tp);
+				record->append(" opportunity value:");
+				for(int i=0;i<(*it).chanceValue.size();++i)
+				{
+					sprintf(tp,"%f",(*it).chanceValue[i]);
+					record->append(tp);
+					record->append(" ");
+				}
+				record->append("\n");
+			}
+			else
+			{
+				record->append("history neighbour id:");
+				char tp[10];
+				record->append((*it).nei->neighbourEidstr);
+				record->append("\ndestination id:");
+				sprintf(tp,"%d",(*it).closedArea->id);
+				record->append(tp);
+				record->append(" opportunity value:");
+				for(int i=0;i<(*it).chanceValue.size();++i)
+				{
+					sprintf(tp,"%f",(*it).chanceValue[i]);
+					record->append(tp);
+					record->append(" ");
+				}
+				record->append("\n");
+			}
+		}
+		/////////////////////////////////////////////////////
 		sort(nodelist_temp.begin(),nodelist_temp.end(),NodeComparatorSort::compare);
 
 		vector<Node>::iterator iter;
 		int count=0;
 		/////////////////////////////////////////////////
-		printf("\n当前邻居，历史邻居，本节点到达目的地的机会值\n");
+		//printf("\n当前邻居，历史邻居，本节点到达目的地的机会值\n");
+		printf("\ncurrent neighbour,history neighbour,this node's value\n");
 		for(iter=nodelist_temp.begin();iter!=nodelist_temp.end();++iter)
 		{
 			/*if((*iter).nei!=NULL)
@@ -86,7 +137,8 @@ namespace dtn
 		list<Node> nodelist;
 
 		//加入当前邻居表的node,这个表里面包含有本几点的node
-		cout<<endl<<"当前邻居到各个区域的机会值,和本节点到达各个区域的机会值:"<<endl;
+		//cout<<endl<<"当前邻居到各个区域的机会值,和本节点到达各个区域的机会值:"<<endl;
+		cout<<endl<<"current neighbour and this node's opportunity value:"<<endl;
 		for(list<Area *>::iterator it=(*nowNeighbour).begin();
 				it!=(*nowNeighbour).end();++it)
 		{
@@ -96,7 +148,8 @@ namespace dtn
 			nodelist.push_back(*tempNode);
 		}
 
-		cout<<endl<<"历史邻居到各个区域的机会值:"<<endl;
+		//cout<<endl<<"历史邻居到各个区域的机会值:"<<endl;
+		cout<<endl<<"history neighbour's opportunity value:"<<endl;
 		list<Neighbour *> historyNeighbour=NeighbourManager::Getinstance()->getAllNeighbour();
 		for(list<Neighbour *>::iterator it=historyNeighbour.begin();
 				it!=historyNeighbour.end();++it)

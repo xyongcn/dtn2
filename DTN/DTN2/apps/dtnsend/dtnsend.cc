@@ -327,7 +327,14 @@ main(int argc, char** argv)
 
         //add by gaorui
         if(Areaid!=NULL)
+        {
         	strcpy(bundle_spec.areaid,Areaid);
+        	int temp;
+        	temp=atoi(Areaid);
+        	bundle_spec.areaID=temp;
+        }
+       // else
+        //	bundle_spec.areaID=-1;
        // bundle_spec.areaid=Areaid;
         //end by gaorui
        
@@ -392,7 +399,6 @@ main(int argc, char** argv)
         bundle_spec.metadata.metadata_val = NULL;
         bundle_spec.metadata.metadata_len = 0;
     }
-
     return 0;
 }
 

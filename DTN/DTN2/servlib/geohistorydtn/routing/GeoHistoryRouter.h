@@ -148,8 +148,10 @@ private:
 	 map<string,int> Forward2PayloadNumMap;
 	 map<string,int> Forward1PayloadNumMap;
 	 static string BundleLogPath;
+	 static string DataBundleLogPath;
 
 	 pthread_mutex_t lockBundleLog;
+	 pthread_mutex_t lockDataBundleLog;
 
 	void lock_BundleLog()
 	{
@@ -159,6 +161,16 @@ private:
 	void unlock_BundleLog()
 	{
 		pthread_mutex_unlock(&lockBundleLog);
+	}
+
+	void lock_DataBundleLog()
+	{
+		pthread_mutex_lock(&lockDataBundleLog);
+	}
+
+	void unlock_DataBundleLog()
+	{
+		pthread_mutex_unlock(&lockDataBundleLog);
 	}
 
 	/**
@@ -343,27 +355,47 @@ public:
 			char time_c[10];
 			sprintf(time_c,"%d",currentTime.tm_mon+1);
 			temp.append(time_c);
-			temp.append("月,");
+			//temp.append("月,");
+			temp.append("month,");
 			if(currentTime.tm_wday==0)
-				temp.append("星期天,");
+				//temp.append("星期天,");
+				temp.append("Sunday,");
 			else
 			{
 				sprintf(time_c,"%d",currentTime.tm_wday);
-				temp.append("星期");
+				//temp.append("星期");
+				temp.append("week ");
 				temp.append(time_c);
 				temp.append(",");
 			}
 			sprintf(time_c,"%d",currentTime.tm_hour);
 			temp.append(time_c);
-			temp.append("点");
+			//temp.append("点");
+			temp.append(" hour ");
 			sprintf(time_c,"%d",currentTime.tm_min);
 			temp.append(time_c);
-			temp.append("分钟\n");
-			temp.append("bundle的类型: ");
+			//temp.append("分钟\n");
+			temp.append("minute\n");
+			temp.append("bundle id:");
+			sprintf(time_c,"%d",bundle->bundleid());
+			temp.append(time_c);
+			temp.append("\n");
+
+			temp.append("bundle timestamp:");
+			temp.append("seconds_:");
+			sprintf(time_c,"%d",bundle->creation_ts().seconds_);
+			temp.append("  seqno_:");
+			sprintf(time_c,"%d",bundle->creation_ts().seqno_);
+			temp.append(time_c);
+			temp.append("\n");
+
+			//temp.append("bundle的类型: ");
+			temp.append("bundle's type: ");
 			if(bundle->getBundleType()==1)
 			{
 				temp.append("data_bundle\n");
-				temp.append("bundle的目的区域: ");
+				//temp.append("bundle的目的区域: ");
+				temp.append("bundle's destination area: ");
 				sprintf(time_c,"%d",bundle->bottomArea());
 				temp.append(time_c);
 				temp.append("\n");
@@ -372,11 +404,14 @@ public:
 			{
 				temp.append("neighbour_bundle\n");
 			}
-			temp.append("bundle的源结点: ");
+			//temp.append("bundle的源结点: ");
+			temp.append("bundle's source node: ");
 			temp.append(bundle->source().str());
-			temp.append("\nbundle的目的结点: ");
+			//temp.append("\nbundle的目的结点: ");
+			temp.append("\nbundle's destination node: ");
 			temp.append(bundle->dest().str());
-			temp.append("\nbundle的负载: ");
+			//temp.append("\nbundle的负载: ");
+			temp.append("\nbundle's payload: ");
 			sprintf(time_c,"%d",bundle->payload().length());
 			temp.append(time_c);
 			temp.append("\n\n");
@@ -393,6 +428,36 @@ public:
 			return ;
 		}
 		unlock_BundleLog();
+
+
+		if(bundle->getBundleType()==Bundle::DATA_BUNDLE &&
+				bundle->dest().str()==BundleDaemon::GetInstance()->local_eid().str())
+		{
+			lock_DataBundleLog();
+			FILE * fr2;
+			errno=0;
+			fr2= fopen(DataBundleLogPath.c_str(),"a");
+			if (NULL == fr2)
+			{
+				if (EINVAL == errno)
+					printf("err:fopen log file %s failed\n",DataBundleLogPath.c_str());
+				else
+					printf("err:unknow\n");
+			}
+
+			fseek(fr2, 0, SEEK_END);
+			int h=fwrite(temp.c_str(),sizeof(char),strlen(temp.c_str()),fr2);
+			fflush(fr2);
+
+			if(EOF == fclose(fr2))
+			{
+				printf("err:fclose failed\n");
+				unlock_DataBundleLog();
+				return ;
+			}
+			unlock_DataBundleLog();
+		}
+
 	}
 
 	void writeSendBundleLogToFile(string reason,Bundle *bundle)
@@ -423,27 +488,47 @@ public:
 			char time_c[10];
 			sprintf(time_c,"%d",currentTime.tm_mon+1);
 			temp.append(time_c);
-			temp.append("月,");
+			//temp.append("月,");
+			temp.append("month,");
 			if(currentTime.tm_wday==0)
-				temp.append("星期天,");
+				//temp.append("星期天,");
+				temp.append("Sunday,");
 			else
 			{
 				sprintf(time_c,"%d",currentTime.tm_wday);
-				temp.append("星期");
+				//temp.append("星期");
+				temp.append("week ");
 				temp.append(time_c);
 				temp.append(",");
 			}
 			sprintf(time_c,"%d",currentTime.tm_hour);
 			temp.append(time_c);
-			temp.append("点");
+			//temp.append("点");
+			temp.append(" hour ");
 			sprintf(time_c,"%d",currentTime.tm_min);
 			temp.append(time_c);
-			temp.append("分钟\n");
-			temp.append("bundle的类型: ");
+			//temp.append("分钟\n");
+			temp.append("minute\n");
+			temp.append("bundle id:");
+			sprintf(time_c,"%d",bundle->bundleid());
+			temp.append(time_c);
+			temp.append("\n");
+
+			temp.append("bundle timestamp: ");
+			temp.append("seconds_:");
+			sprintf(time_c,"%d",bundle->creation_ts().seconds_);
+			temp.append("  seqno_:");
+			sprintf(time_c,"%d",bundle->creation_ts().seqno_);
+			temp.append(time_c);
+			temp.append("\n");
+
+			//temp.append("bundle的类型: ");
+			temp.append("bundle's type: ");
 			if(bundle->getBundleType()==1)
 			{
 				temp.append("data_bundle\n");
-				temp.append("bundle的目的区域: ");
+				//temp.append("bundle的目的区域: ");
+				temp.append("bundle's destination area: ");
 				sprintf(time_c,"%d",bundle->bottomArea());
 				temp.append(time_c);
 				temp.append("\n");
@@ -452,11 +537,14 @@ public:
 			{
 				temp.append("neighbour_bundle\n");
 			}
-			temp.append("bundle的源结点: ");
+			//temp.append("bundle的源结点: ");
+			temp.append("bundle's source node: ");
 			temp.append(bundle->source().str());
-			temp.append("\nbundle的目的结点: ");
+			//temp.append("\nbundle的目的结点: ");
+			temp.append("\nbundle's destination node: ");
 			temp.append(bundle->dest().str());
-			temp.append("\nbundle的负载: ");
+			//temp.append("\nbundle的负载: ");
+			temp.append("\nbundle's payload: ");
 			sprintf(time_c,"%d",bundle->payload().length());
 			temp.append(time_c);
 			temp.append("\n");
@@ -475,6 +563,35 @@ public:
 			return;
 		}
 		unlock_BundleLog();
+
+
+		if(bundle->getBundleType()==Bundle::DATA_BUNDLE &&
+				bundle->dest().str()!=BundleDaemon::GetInstance()->local_eid().str())
+		{
+			lock_DataBundleLog();
+			FILE * fr2;
+			errno=0;
+			fr2= fopen(DataBundleLogPath.c_str(),"a");
+			if (NULL == fr2)
+			{
+				if (EINVAL == errno)
+					printf("err:fopen log file %s failed\n",DataBundleLogPath.c_str());
+				else
+					printf("err:unknow\n");
+			}
+
+			fseek(fr2, 0, SEEK_END);
+			int h=fwrite(temp.c_str(),sizeof(char),strlen(temp.c_str()),fr2);
+			fflush(fr2);
+
+			if(EOF == fclose(fr2))
+			{
+				printf("err:fclose failed\n");
+				unlock_DataBundleLog();
+				return ;
+			}
+			unlock_DataBundleLog();
+		}
 	}
 
 

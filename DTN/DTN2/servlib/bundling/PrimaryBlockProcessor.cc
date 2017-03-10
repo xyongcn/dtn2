@@ -272,6 +272,7 @@ PrimaryBlockProcessor::get_primary_len(const Bundle*  bundle,
 
     //add by gaorui
     primary->block_length += SDNV::encoding_len(bundle->getAreaSize());
+    primary->block_length += SDNV::encoding_len(bundle->getAreaId(0));
     primary->block_length += SDNV::encoding_len(bundle->getAreaId(1));
     primary->block_length += SDNV::encoding_len(bundle->getAreaId(2));
     primary->block_length += SDNV::encoding_len(bundle->getAreaId(3));
@@ -571,6 +572,7 @@ PrimaryBlockProcessor::consume(Bundle*    bundle,
 
     //add by gaorui
     PBP_READ_SDNV(&primary.areasize_flag);
+    PBP_READ_SDNV(&primary.areaid0_flag);
     PBP_READ_SDNV(&primary.areaid1_flag);
     PBP_READ_SDNV(&primary.areaid2_flag);
     PBP_READ_SDNV(&primary.areaid3_flag);
@@ -584,12 +586,13 @@ PrimaryBlockProcessor::consume(Bundle*    bundle,
     PBP_READ_SDNV(&primary.areaid11_flag);
     PBP_READ_SDNV(&primary.areaid12_flag);
 
-     PBP_READ_SDNV(&primary.deliverBundleNum_flag);
+    PBP_READ_SDNV(&primary.deliverBundleNum_flag);
     PBP_READ_SDNV(&primary.floodBundleNum_flag);
     PBP_READ_SDNV(&primary.isFlooding_flag);
     PBP_READ_SDNV(&primary.bundleType_flag);
 
     bundle->setAreaSize(primary.areasize_flag);
+    bundle->setAreaId(0,primary.areaid0_flag);
     bundle->setAreaId(1,primary.areaid1_flag);
     bundle->setAreaId(2,primary.areaid2_flag);
     bundle->setAreaId(3,primary.areaid3_flag);
@@ -602,7 +605,7 @@ PrimaryBlockProcessor::consume(Bundle*    bundle,
     bundle->setAreaId(10,primary.areaid10_flag);
     bundle->setAreaId(11,primary.areaid11_flag);
     bundle->setAreaId(12,primary.areaid12_flag);
-    bundle->setbottomArea(primary.areaid1_flag);
+    bundle->setbottomArea(primary.areaid0_flag);
 
     bundle->setDeliverBundleNum(primary.deliverBundleNum_flag);
     bundle->setFloodBundleNum(primary.floodBundleNum_flag);
@@ -796,6 +799,7 @@ PrimaryBlockProcessor::generate_primary(const Bundle* bundle,
 
     //add by gaorui
     PBP_WRITE_SDNV(bundle->getAreaSize());
+    PBP_WRITE_SDNV(bundle->getAreaId(0));
     PBP_WRITE_SDNV(bundle->getAreaId(1));
     PBP_WRITE_SDNV(bundle->getAreaId(2));
     PBP_WRITE_SDNV(bundle->getAreaId(3));

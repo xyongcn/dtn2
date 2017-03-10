@@ -1,7 +1,7 @@
 prophet/Controller.o prophet/Controller.E: prophet/Controller.cc \
  prophet/Controller.h prophet/Link.h prophet/AckList.h prophet/Ack.h \
- /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/oasys-config.h \
- /home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/compat/inttypes.h \
+ /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include/oasys/oasys-config.h \
+ /home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include/oasys/compat/inttypes.h \
  prophet/Bundle.h prophet/PointerList.h prophet/Alarm.h prophet/Oracle.h \
  prophet/Params.h prophet/Node.h prophet/FwdStrategy.h prophet/Table.h \
  prophet/Util.h prophet/BundleCore.h prophet/BundleImpl.h \
@@ -18,9 +18,9 @@ prophet/AckList.h:
 
 prophet/Ack.h:
 
-/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/oasys-config.h:
+/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include/oasys/oasys-config.h:
 
-/home/grui/dtn2/dtn-experiment/DTN/DTN2/oasys/include/oasys/compat/inttypes.h:
+/home/grui/2017newwork/dtn2_20170223/DTN/DTN2/oasys/include/oasys/compat/inttypes.h:
 
 prophet/Bundle.h:
 

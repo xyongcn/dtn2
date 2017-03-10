@@ -347,7 +347,10 @@ bool_t
 xdr_dtn_bundle_spec_t (XDR *xdrs, dtn_bundle_spec_t *objp)
 {
 	register int32_t *buf;
-
+       //add by gaorui
+	 if (!xdr_int (xdrs, &objp->areaID))
+		 return FALSE;
+	//end by gaorui
 	 if (!xdr_dtn_endpoint_id_t (xdrs, &objp->source))
 		 return FALSE;
 	 if (!xdr_dtn_endpoint_id_t (xdrs, &objp->dest))

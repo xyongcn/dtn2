@@ -20,12 +20,14 @@ namespace dtn
 		vector<double> chanceValue;
 		vector<double> error_chanceValue;
 		cout<<neighbour->neighbourEidstr<<":"<<endl;
-		cout<<"区域id,目的区域各频率向量机会值,邻居相遇各频率向量机会值,总机会值："<<endl;
+		//cout<<"区域id,目的区域各频率向量机会值,邻居相遇各频率向量机会值,总机会值："<<endl;
+		cout<<"area id,destination area's opportunity value,neighbour meeting opportunity value,all value:"<<endl;
 		while(area!=NULL)
 		{
 			cout<<area->id<<",";
 			double temp=ChanceValueCompute::historyNeighbourcarryChance(validVector, area, neighbour);
-			cout<<" 总机会值:"<<temp<<endl;
+			//cout<<" 总机会值:"<<temp<<endl;
+			cout<<" all value:"<<temp<<endl;
 			//出现不合法的机会值
 			if(temp==-1)
 				return error_chanceValue;
@@ -218,7 +220,8 @@ namespace dtn
 		//存储地图每一层的机会值
 		vector<double> chanceValue;
 		vector<double> error_chanceValue;
-		cout<<"区域id，机会值: ";
+		//cout<<"区域id，机会值: ";
+		cout<<"area id,opportunity value: ";
 		while(area!=NULL)
 		{
 			double temp=carryChance(validVector, area);

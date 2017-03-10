@@ -19,7 +19,9 @@ int main(void)
 	{
 		//确定首个配置位置
 		ConfigLocation *configLoc = ConfigLocation::GetInstance();
+		DTN2ConfigLocation *dtn2configLoc = DTN2ConfigLocation::GetInstance();
 		ParseConfigFile *pcf = configLoc->getFirstLocation();
+		dtn2configLoc->getFirstLocation();
 		printf("首个位置经纬度：%.8lf,%.8lf\n",pcf->longitude,pcf->latitude);
 		cout<<"_______________________________________________"<<endl;
 		}
@@ -34,7 +36,5 @@ int main(void)
 	    aodvqueryListener->init();
 	    pthread_join(aodvqueryListener->id,NULL);
 	    pthread_join(dtn2queryListener->id,NULL);
-
-
-		return 0;
+	    return 0;
 }

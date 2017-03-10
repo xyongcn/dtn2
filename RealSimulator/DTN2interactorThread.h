@@ -92,8 +92,8 @@ public:
 			recvBuf[m]=0;
 			cout<<"dtn2:_________________________________________________"<<endl;
 			//请求当前结点当前时间的经纬度
-			rsLocation *rsLoc =rsLocation::GetInstance();
-			Location location = rsLoc->getRsLocation();
+			DTN2rsLocation *dtn2rsLoc =DTN2rsLocation::GetInstance();
+			Location location = dtn2rsLoc->getRsLocation();
 			double latitude = location.getLatitude();
 			double longitude = location.getLongitude();
 			cout<<"当前结点当前时间经纬度："<<"latitude:"<<latitude<<"  ";
