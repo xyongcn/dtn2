@@ -396,7 +396,7 @@ public:
 						 n.WayList.push_back(pwi);
 					 }
 
-			/*		 for(vector<pair<Way,int> >::iterator it=n.WayList.begin();
+					 /*for(vector<pair<Way,int> >::iterator it=n.WayList.begin();
 							 it<n.WayList.end();++it)
 						 cout<<it->first.id<<"    ";
 					 cout<<endl;*/

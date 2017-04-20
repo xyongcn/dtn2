@@ -1,0 +1,51 @@
+delivery a new bundle:
+3month,week 6,15 hour 15minute
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+
+delivery a new bundle:
+3month,week 6,15 hour 15minute
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+
+delivery a new bundle:
+3month,week 6,15 hour 15minute
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+
+send a new bundle:
+3month,week 6,15 hour 15minute
+bundle's type: data_bundle
+bundle's destination area: 231314
+bundle's source node: dtn://192.168.11.125.gao.com
+bundle's destination node: dtn://192.168.11.122.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.122.gao.com)
+
+send a new bundle:
+3month,week 6,15 hour 15minute
+bundle's type: data_bundle
+bundle's destination area: 231314
+bundle's source node: dtn://192.168.11.125.gao.com
+bundle's destination node: dtn://192.168.11.122.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.122.gao.com)
+
+send a new bundle:
+3month,week 6,15 hour 15minute
+bundle's type: data_bundle
+bundle's destination area: 231314
+bundle's source node: dtn://192.168.11.125.gao.com
+bundle's destination node: dtn://192.168.11.122.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.122.gao.com)
+

@@ -147,6 +147,7 @@ private:
 	 RouteAllBundleMsg *routeAllBundle;
 	 map<string,int> Forward2PayloadNumMap;
 	 map<string,int> Forward1PayloadNumMap;
+	 multimap<u_int32_t,string> bundleRecord;
 	 static string BundleLogPath;
 	 static string DataBundleLogPath;
 

@@ -331,11 +331,11 @@ namespace dtn
 		if(areaMap.empty())
 			return NULL;
 
-		string areastr;
 		Area *result=NULL;
 		char c[20];
 		for(int i=bundle->getAreaSize();i>=1;--i)
 		{
+			string areastr;
 			sprintf(c,"%d",i);
 			areastr.append(c);
 			areastr.append("#");

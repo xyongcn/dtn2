@@ -17,7 +17,7 @@ int main()
 	//open sumo.db
 	fstream _file;
 	char *buffer=new char[100];
-	strcpy(buffer,"/home/gaorui/sumo.db");
+	strcpy(buffer,"./sumo.db");
 	_file.open(buffer,ios::in);
 	    if(!_file)
 	    {
@@ -77,35 +77,40 @@ int main()
 		{
 			n=q.front();
 			q.pop();
+
+
+
+
 			for(vector<AreaNode>::iterator it=n.ChildList.begin();
-					it<n.ChildList.end();++it)
+					it!=n.ChildList.end();++it)
 			{
+
 				sprintf(value,"insert into Relation(idRelation,idRef,Type,idRole) values('%d','%d','1','%d');",n.id,it->id,subarea_id);
 				sqlite3_exec(db,value,0,0,&errMsg);
 				q.push(*it);
 			}
+
 			sprintf(value,"insert into Relation(idRelation,idRef,Type,idRole) values('%d','%d','2','%d');",n.id,n.key_point.id,label_id);
 			sqlite3_exec(db,value,0,0,&errMsg);
 
+			if(point_flag[n.key_point.id]!=1)
+			{
+				double temp=n.key_point.longitude*1000000;
+				int lon=(int)temp;
+				temp=n.key_point.latitude*1000000;
+				int lat=(int)temp;
 
-			if(point_flag[n.key_point.id]==1)
-				continue;
-
-			double temp=n.key_point.longitude*1000000;
-			int lon=(int)temp;
-			temp=n.key_point.latitude*1000000;
-			int lat=(int)temp;
-
-
-			//handle with point
-			sprintf(value,"insert into Node(id,lat,lon) values('%d','%d','%d')", n.key_point.id,lat,lon);
-			sqlite3_exec(db,value,0,0,&errMsg);
-			point_flag[n.key_point.id]=1;
-
+				//handle with point
+				sprintf(value,"insert into Node(id,lat,lon) values('%d','%d','%d')", n.key_point.id,lat,lon);
+				sqlite3_exec(db,value,0,0,&errMsg);
+				point_flag[n.key_point.id]=1;
+			}
+			cout<<n.id<<endl;
 			//way
 			for(vector<pair<Way,int> >::iterator it=n.WayList.begin();
 					it<n.WayList.end();++it)
 			{
+				cout<<it->first.id<<" ";
 				if(it->second == outer_id)
 					sprintf(value,"insert into Relation(idRelation,idRef,Type,idRole) values('%d','%d','0','%d');",n.id,it->first.id,outer_id);
 				else if(it->second == inner_id)
@@ -140,6 +145,7 @@ int main()
 				way_flag[it->first.id]=1;
 
 			}
+			cout<<endl;
 
 		}
 	cout<<"sumo.db创建完毕，在路径"<<buffer<<"下"<<endl;

@@ -1,0 +1,58 @@
+<areas>   
+<!-- Layer1 -->
+	<area id="191321" way="12/o" way="23/o" way="34/o" way="45/o" way="56/o" way="67/o"  way="78/o"  way="89/o" way="910/o"/> 
+	<area id="151721" way="12/o" way="23/o" way="34/o" way="45/o" way="528/o" way="2843/o" way="4336/o" way="3617/o" way="1817/o" way="1918/o" way="2019/o" way="2120/o" way="2221/o" way="2322/o" way="2423/o" way="124/o" relation="134123" relation="354341" relation="23411921" relation="41431719" node="41" level="2"/>
+	<area id="591317" way="56/o" way="67/o" way="78/o" way="89/o" way="910/o" way="1011/o" way="1112/o" way="1213/o" way="1413/o" way="1514/o" way="1615/o" way="1716/o" way="3617/o" way="4336/o" way="2843/o" way="528/o" relation="574543" relation="791145" relation="43451517" relation="45111315" node="45" level="2"/>
+
+	<area id="134123" way="12/o" way="23/o" way="326/o" way="2641/o" way="4041/o" way="2340/o" way="2423/o" way="124/o"      relation="122524" relation="232625" relation="24254023" relation="25264140" node="25" level="3"/>
+	<area id="354341" way="34/o" way="45/o" way="528/o" way="2843/o" way="4243/o" way="4142/o" way="2641/o" way="326/o"      relation="342726" relation="452827" relation="26274241" relation="27284342" node="27" level="3"/>
+	<area id="23411921" way="2340/o" way="4041/o" way="4138/o" way="3819/o" way="2019/o" way="2120/o" way="2221/o" way="2322/o" relation="23403922" relation="40413839" relation="22392021" relation="39381920" node="39" level="3"/>
+	<area id="41431719" way="4142/o" way="4243/o" way="4336/o" way="3617/o" way="1817/o" way="1918/o" way="3819/o" way="4138/o"      relation="41423738" relation="42433637" relation="38371819" relation="37361718" node="37" level="3"/>
+
+	<area id="574543" way="56/o" way="67/o" way="730/o" way="3045/o" way="4445/o" way="4344/o" way="2843/o" way="528/o"      relation="562928" relation="673029" relation="28294443" relation="29304544" node="29" level="3"/>
+	<area id="791145" way="78/o" way="89/o" way="910/o" way="1011/o" way="3211/o" way="4532/o" way="3045/o" way="730/o"      relation="783130" relation="891031" relation="30313245" relation="31101132" node="31" level="3"/>
+	<area id="43451517" way="4344/o" way="4445/o" way="4534/o" way="3415/o" way="1615/o" way="1716/o" way="3617/o" way="4336/o"      relation="43443536" relation="44453435" relation="36351617" relation="35341516" node="35" level="3"/>
+	<area id="45111315" way="4532/o" way="3211/o" way="1112/o" way="1213/o" way="1413/o" way="1514/o" way="3415/o" way="4534/o"      relation="45323334" relation="32111233" relation="34331415" relation="33121314" node="33" level="3"/>
+
+	<area id="122524" way="12/o" way="225/o" way="2425/o" way="124/o" node="1" level="4"/>
+	<area id="232625" way="23/o" way="326/o" way="2526/o" way="225/o" node="2" level="4"/>
+	<area id="24254023" way="2425/o" way="2540/o" way="2340/o" way="2423/o" node="24" level="4"/>
+	<area id="25264140" way="2526/o" way="2641/o" way="4041/o" way="2540/o" node="25" level="4"/>
+
+	<area id="342726" way="34/o" way="427/o" way="2627/o" way="326/o" node="3" level="4"/>
+	<area id="452827" way="45/o" way="528/o" way="2728/o" way="427/o" node="4" level="4"/>
+	<area id="26274241" way="2627/o" way="2742/o" way="4142/o" way="2641/o" node="26" level="4"/>
+	<area id="27284342" way="2728/o" way="2843/o" way="4243/o" way="2742/o" node="27" level="4"/>
+
+	<area id="23403922" way="2340/o" way="4039/o" way="2239/o" way="2322/o" node="23" level="4"/>
+	<area id="40413839" way="4041/o" way="4138/o" way="3938/o" way="4039/o" node="40" level="4"/>
+	<area id="22392021" way="2239/o" way="3920/o" way="2120/o" way="2221/o" node="22" level="4"/>
+	<area id="39381920" way="3938/o" way="3819/o" way="2019/o" way="3920/o" node="39" level="4"/>
+
+	<area id="41423738" way="4142/o" way="4237/o" way="3837/o" way="4138/o" node="41" level="4"/>
+	<area id="42433637" way="4243/o" way="4336/o" way="3736/o" way="4237/o" node="42" level="4"/>
+	<area id="38371819" way="3837/o" way="3718/o" way="1918/o" way="3819/o" node="38" level="4"/>
+	<area id="37361718" way="3736/o" way="3617/o" way="1817/o" way="3718/o" node="37" level="4"/>
+
+	<area id="562928" way="56/o" way="629/o" way="2829/o" way="528/o" node="5" level="4"/>
+	<area id="673029" way="67/o" way="730/o" way="2930/o" way="629/o" node="6" level="4"/>
+	<area id="28294443" way="2829/o" way="2944/o" way="4344/o" way="2843/o" node="28" level="4"/>
+	<area id="29304544" way="2930/o" way="3045/o" way="4445/o" way="2944/o" node="29" level="4"/>
+
+	<area id="783130" way="78/o" way="831/o" way="3031/o" way="730/o" node="7" level="4"/>
+	<area id="891031" way="89/o" way="910/o" way="3110/o" way="831/o" node="8" level="4"/>
+	<area id="30313245" way="3031/o" way="3132/o" way="4532/o" way="3045/o" node="30" level="4"/>
+	<area id="31101132" way="3110/o" way="1011/o" way="3211/o" way="3132/o" node="31" level="4"/>
+
+	<area id="43443536" way="4344/o" way="4435/o" way="3635/o" way="4336/o" node="43" level="4"/>
+	<area id="44453435" way="4445/o" way="4534/o" way="3534/o" way="4435/o" node="44" level="4"/>
+	<area id="36351617" way="3635/o" way="3516/o" way="1716/o" way="3617/o" node="36" level="4"/>
+	<area id="35341516" way="3534/o" way="3415/o" way="1615/o" way="3516/o" node="35" level="4"/>
+
+	<area id="45323334" way="4532/o" way="3233/o" way="3433/o" way="4534/o" node="45" level="4"/>
+	<area id="32111233" way="3211/o" way="1112/o" way="3312/o" way="3233/o" node="32" level="4"/>
+	<area id="34331415" way="3433/o" way="3314/o" way="1514/o" way="3415/o" node="34" level="4"/>
+	<area id="33121314" way="3312/o" way="1213/o" way="1413/o" way="3314/o" node="33" level="4"/>
+
+</areas>  
+

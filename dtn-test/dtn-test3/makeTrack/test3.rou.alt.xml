@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Dec 30 17:04:33 2016 by SUMO duarouter Version 0.23.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="test3.net.xml"/>
+        <flow-files value="test3.flow.xml"/>
+    </input>
+
+    <output>
+        <output-file value="test3.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="flowA.0" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.1" depart="82.35">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.2" depart="164.70">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.3" depart="247.06">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.4" depart="329.41">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.5" depart="411.76">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.6" depart="494.11">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.7" depart="576.46">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.8" depart="658.82">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.9" depart="741.17">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.10" depart="823.52">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.11" depart="905.87">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.12" depart="988.22">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.13" depart="1070.58">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.14" depart="1152.93">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.15" depart="1235.28">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.16" depart="1317.63">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.17" depart="1399.98">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.18" depart="1482.34">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.19" depart="1564.69">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.20" depart="1647.04">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.21" depart="1729.39">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.22" depart="1811.74">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.23" depart="1894.10">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.24" depart="1976.45">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.25" depart="2058.80">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.26" depart="2141.15">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.27" depart="2223.50">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.28" depart="2305.86">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.29" depart="2388.21">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.30" depart="2470.56">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.31" depart="2552.91">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.32" depart="2635.26">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.33" depart="2717.62">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.34" depart="2799.97">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.35" depart="2882.32">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.36" depart="2964.67">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.37" depart="3047.02">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.38" depart="3129.38">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.39" depart="3211.73">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.40" depart="3294.08">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.41" depart="3376.43">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.42" depart="3458.78">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.43" depart="3541.14">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.44" depart="3623.49">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.45" depart="3705.84">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.46" depart="3788.19">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.47" depart="3870.54">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.48" depart="3952.90">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.49" depart="4035.25">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.50" depart="4117.60">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.51" depart="4199.95">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.52" depart="4282.30">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.53" depart="4364.66">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.54" depart="4447.01">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.55" depart="4529.36">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.56" depart="4611.71">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.57" depart="4694.06">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.58" depart="4776.42">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.59" depart="4858.77">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.60" depart="4941.12">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.61" depart="5023.47">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.62" depart="5105.82">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.63" depart="5188.18">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.64" depart="5270.53">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.65" depart="5352.88">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.66" depart="5435.23">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.67" depart="5517.58">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.68" depart="5599.94">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.69" depart="5682.29">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.70" depart="5764.64">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.71" depart="5846.99">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.72" depart="5929.34">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.73" depart="6011.70">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.74" depart="6094.05">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.75" depart="6176.40">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.76" depart="6258.75">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.77" depart="6341.10">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.78" depart="6423.46">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.79" depart="6505.81">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.80" depart="6588.16">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.81" depart="6670.51">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.82" depart="6752.86">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.83" depart="6835.22">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.84" depart="6917.57">
+        <routeDistribution last="0">
+            <route cost="65.78" probability="1.00000000" edges="17-18 18-19 19-20 20-17"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

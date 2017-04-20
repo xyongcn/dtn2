@@ -1,0 +1,8 @@
+<edges>   
+<!-- Layer1 -->
+	<edge id="47-48" from="47" to="48" priority="75"  numLanes="1" speed="120" /> 
+	<edge id="48-49" from="48" to="49" priority="75"  numLanes="1" speed="120" />   
+	<edge id="49-50" from="49" to="50" priority="75"  numLanes="1" speed="120" />  
+	<edge id="50-47" from="50" to="47" priority="75"  numLanes="1" speed="120" />  
+</edges>  
+

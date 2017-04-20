@@ -1212,6 +1212,19 @@ BundleDaemon::handle_bundle_delivered(BundleDeliveredEvent* event)
     Bundle* bundle = event->bundleref_.object();
 
     log_warn("in bundle delivered, source:%s, dest:%s,type:%d", bundle->source().c_str(), bundle->dest().c_str(),bundle->getBundleType());
+     
+    //add by gaorui
+    char copycomm[200], bundleid[10];
+    copycomm[0] = '\0';
+    strcat(copycomm, "cp /var/dtn/bundles/bundle_");
+    sprintf(bundleid, "%d", bundle->bundleid());
+    strcat(copycomm, bundleid);
+    strcat(copycomm, ".dat /var/dtn/bundleDeliveried/bundle_");
+    strcat(copycomm, bundleid);
+    strcat(copycomm, ".dat");
+    printf("%s\n",copycomm);
+    system(copycomm);
+    //end by gaorui
 
     char logfile[255];
     const BlockInfo* bkinfo = NULL;
@@ -2515,12 +2528,13 @@ bool
 BundleDaemon::add_to_pending(Bundle* bundle, bool add_to_store)
 {
     bool ok_to_route = true;
-
-    if(bundle->source().equals(bundle->dest()))
+    //modified by gaorui
+   /* if(bundle->source().equals(bundle->dest()))
     {
     	 log_warn("add_to_pending self production avoidance");
          return false;
-    }
+    }*/
+//end by gaorui
 
     log_debug("adding bundle *%p to pending list (%d)",
               bundle, add_to_store);

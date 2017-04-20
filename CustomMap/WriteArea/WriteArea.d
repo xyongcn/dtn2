@@ -1,0 +1,1 @@
+WriteArea.o: WriteArea.cpp

@@ -1,0 +1,192 @@
+send a new bundle:
+3month,week 5,15 hour 43minute
+bundle id:1163
+bundle timestamp: seconds_:  seqno_:1163
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:3.950399 4.930499 4.910698 
+this node:
+destination id:15711 opportunity value:12.510463 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 43minute
+bundle id:1164
+bundle timestamp: seconds_:  seqno_:1164
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:3.950399 4.930499 4.910698 
+this node:
+destination id:15711 opportunity value:12.510463 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 43minute
+bundle id:1168
+bundle timestamp: seconds_:  seqno_:1168
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:3.950399 4.930499 4.910698 
+this node:
+destination id:15711 opportunity value:12.510463 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 44minute
+bundle id:1169
+bundle timestamp: seconds_:  seqno_:1169
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:3.950399 4.930499 4.910698 
+this node:
+destination id:15711 opportunity value:13.385358 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 44minute
+bundle id:1172
+bundle timestamp: seconds_:  seqno_:1172
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:5.920895 6.891194 6.851591 
+this node:
+destination id:15711 opportunity value:13.385358 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 45minute
+bundle id:1173
+bundle timestamp: seconds_:  seqno_:1173
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:5.920895 6.891194 6.851591 
+this node:
+destination id:15711 opportunity value:14.251505 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 45minute
+bundle id:1174
+bundle timestamp: seconds_:  seqno_:1174
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:5.920895 6.891194 6.851591 
+this node:
+destination id:15711 opportunity value:14.251505 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 46minute
+bundle id:1177
+bundle timestamp: seconds_:  seqno_:1177
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:10.822869 11.773859 8.705244 
+this node:
+destination id:15711 opportunity value:15.108990 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 46minute
+bundle id:1178
+bundle timestamp: seconds_:  seqno_:1178
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:10.822869 11.773859 8.705244 
+this node:
+destination id:15711 opportunity value:15.108990 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 47minute
+bundle id:1179
+bundle timestamp: seconds_:  seqno_:1179
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:10.822869 11.773859 8.705244 
+this node:
+destination id:15711 opportunity value:15.957900 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 47minute
+bundle id:1182
+bundle timestamp: seconds_:  seqno_:1182
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:10.764641 11.706121 9.618192 
+this node:
+destination id:15711 opportunity value:15.957900 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
+send a new bundle:
+3month,week 5,15 hour 47minute
+bundle id:1183
+bundle timestamp: seconds_:  seqno_:1183
+bundle's type: data_bundle
+bundle's destination area: 341513
+bundle's source node: dtn://192.168.11.124.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:121412
+current neighbour id:dtn://192.168.11.122.gao.com/*
+destination id:341513 opportunity value:10.764641 11.706121 9.618192 
+this node:
+destination id:15711 opportunity value:15.957900 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.122.gao.com/*  ,5
+
