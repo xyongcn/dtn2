@@ -1,0 +1,1 @@
+cmd_/home/cai/code/iaodv/iaodv/fbaodv_panda.ko := arm-none-linux-gnueabi-ld -r  -T /home/cai/exp/pandaboard_kernel/linaro-kernel/scripts/module-common.lds --build-id  -o /home/cai/code/iaodv/iaodv/fbaodv_panda.ko /home/cai/code/iaodv/iaodv/fbaodv_panda.o /home/cai/code/iaodv/iaodv/fbaodv_panda.mod.o

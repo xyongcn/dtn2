@@ -1,0 +1,1 @@
+cmd_/home/cai/code/iaodv/iaodv/fbaodv_intel.ko := i686-android-linux-ld -r -m elf_i386 -T /home/cai/exp/linux-2.6/scripts/module-common.lds --build-id  -o /home/cai/code/iaodv/iaodv/fbaodv_intel.ko /home/cai/code/iaodv/iaodv/fbaodv_intel.o /home/cai/code/iaodv/iaodv/fbaodv_intel.mod.o

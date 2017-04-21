@@ -1,0 +1,151 @@
+try to get all devs and set up a dev list--just contains the eth* and adhoc0
+
+modified the data structure of aodv_dev in adov.h:add next ptr
+get all devs in fbaodv_protocol.c
+change init aodv dev to init wireless & wired dev use init_net_dev,create_net_dev,insert_net_dev
+and add a var called net_dev_list---contain all devs
+
+modified the data structure of aodv_dev in adov.h:add nodename
+
+modified local_broadcast in socket.c
+broadcast wireless and wired
+the g_local_route is binding to the first inited dev
+
+
+1026
+del code of ett and wcim
+with debug fs file in /proc/fbaodv/
+get new funs : find_neigh_by_name,find_net_dev_by_name
+
+1028
+modified local_broadcast in socket, add param aodv_dev *from_dev
+
+1030
+try to modified route things to adapt to inter-link
+
+1105
+get node type by go through the dev_list
+
+1106
+try to introduce the dev into create_aodv_route & the other 
+
+1113
+let the broadcast go out first from wired inface then wireless inface
+
+1120
+try to use the wired inface first between neighbor's data transmission.
+when node get hello,it will just setup neigh entry but not neigh route.
+when they has data to exchange,set up route using the best link--always is wired link
+
+1130
+change the field of dst_id to dst_seq
+let the smallest ip be the node name
+
+
+1130
+change "some_ip==g_mesh_ip" to is_local_ip(some_ip) in rreq & rrep
+
+1207
+Change the linaro-kernel code in /net/ipv4/ip_forward.c & mm/slab.c
+The other changes I have forgot
+
+1210
+cleanup_neigh_routes只针对g_mesh_ip处理，若g_mesh_ip未传送数据，则会导致空指针操作，修改。
+
+1213
+add a func to get other link to neigh when a neigh is deleted in aodv_neigh.c.h
+
+1220
+add tcnp.c .h to manage network topoloy change notification packet
+
+1221
+aodv.h add new TASK tcnp & gen rrrp, add tcnp data strcuture
+
+1222
+add TASK_GEN_RRREQ, TASK_GEN_RRREP& TASK_RECV_TCNP in aodv.h , task_queue.c &aodv_thread.c
+add a field of rediscovery in rreq&rrep.this field means that if the rreq or rrep is a rediscovery packert.If it's,do not return rrep anyway.And ,when route rreq and rrep,we should manage it in other way.
+
+1223
+add gen_tcnp or gen_rreq with rediscovery is set in recv hello in hello.c.
+code--when get a rreq with rediscovery is set.Compare the hop_nums in rreq and the one of route.And set the smaller as a better route.
+
+1230
+add rediscovery in aodv_route.rreq & rrep will deal with routing recording it.
+
+2015
+0103
+recv_rreq & rreq_aodv_route增加处理r字段为1的部分。在rreq_aodv_route处理中，不处理收到的第二个带rediscovery为1的rreq，处理首个时，直接建立路由且该路由的r字段设置为1，以为原有的route区分。
+
+0329
+add a function called create_re_route in aodv_route to manage rediscovery route,it will be set after the old using route,and in the rreq_aodv_route,use the new function.
+
+0408
+add a field in rreq,rrep,aodv_route in aodv.h
+
+0409
+gen_rreq add path's initial,set to "\n",a zero string around ln 420.
+resend_rreq add path's initial,set to "\n",a zero string around ln 302.
+recv_rreq add codes to record the path in rreq, 116-121
+	  add codes to set path of the new setup route to path of rreq,170-184
+gen_rrep add path's initial,set to "\n",a zero string around ln 365.
+recv_rrep add codes to record the path in rrep, 68-78
+	  add codes to set path of the send_route to path of rrep,iam_dst(108-118),not dst(301-311)
+	
+在引入DTN邻居发现的部分，目前未处理添加path信息的代码，即在else的new_recv部分，没有处理path
+
+0518
+aodv_dev.c add func to set the neigh name as the smallest ip in insert_net_dev(I rememered I had coded it?)
+           add func to find netdev by ip(for the neigh_route_clean to remove route)
+
+
+0530
+aodv.h add a struct of node_info
+
+0531
+utils.c .h add a func to caculate distance between two node according to longitude & latitude
+aodv.h add longitude & latitude in struct of hello packet
+hello.c add query location at the beginning of gen hello packet(0608-now we use the send2dtn func)
+	& add code to set longitude & latitude in hello packet in send_hello()
+	add variable nodeinfo in fbaodv_protocol.c , add it as a extern variable in aodv_dev.c,aodv_config.c,hello.c.
+	add code to manage the location_reply at packet_in.c:when the src_ip is local ips,it means that the reply is a normal reply of location query.when the src_ip is not local ips,it means that it's a dtn hello reply which had asked location.
+
+0701
+aodv.h add a data structure of interaction between app layer & .ko
+hello.c if define REALSIM recv_hello is devided into two parts--recv_hello() to ask location & wait for 	reply,add_neigh() to do the add process.
+	if not, do normal things.
+hello.h add related function declaration
+socket.c .h add query_location function
+
+0703
+aodv.h add a task called TASK_ADD_NEIGH & related management in aodv_tread.c & task_queue.c
+
+
+0809
+aodv.h add PORT
+packet_in.c change the code about location,add a function called manage_location & related declaration in packet_in.h
+
+rpdb.c correct some warning 
+
+0826
+add app_request_queue.c & .h when def REALSIM. This restore the hello task when it need to query location.
+aodv.h change struct of interdata. para1 -> src_ip, para2 -> n_latitude, para3 ->n_longitude, para4 -> dis,pdata(void *) ->dst_seq. And all code in packet_in.c & hello.c
+fbaodv_protocol.c init app_request_queue at 202~203
+		  free queue in ou1:425~231,out2:480~486
+
+0913
+修改一个小bug。将g_mesh_ip的初始化放到dev初始化中，以保持g_mesh_ip与g_mesh_dev的一致。修改位置:aodv_dev.c line 270
+
+
+11.14
+1.添加dis_history.c .h文件以记录相遇过的节点及其距离。
+2.在aodv.h中添加关于dis_record数据结构和头文件的定义
+3.在fbaodv_protocol.h中添加dis_history的初始化及filedebug所有的文件创建和删除。
+4.在packet_in.c中，每次接收到位置请求的回复时，在manage_location里更新历史记录距离，无该记录则创建。
+5.rreq和rrep中，在判断邻居是否存在后再判断该邻居是否超出范围
+
+ 
+
+
+
+
+
