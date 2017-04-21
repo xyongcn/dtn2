@@ -1,0 +1,1 @@
+WriteNode.o: WriteNode.cpp

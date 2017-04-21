@@ -1,0 +1,9 @@
+{
+	"retrieval": {
+		"file": "/home/grui/2017newwork/dtn2_20170223/ion/general.jpg",
+		"saddr": "dtn://192.168.11.122.gao.com",		
+		"daddr": "dtn://192.168.11.125.gao.com",
+		"darea": "45615",
+		"sarea": "121412"
+	}
+}

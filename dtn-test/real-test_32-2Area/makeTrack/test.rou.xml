@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Apr  5 12:39:18 2017 by SUMO duarouter Version 0.23.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="test.net.xml"/>
+        <flow-files value="test.flow.xml"/>
+    </input>
+
+    <output>
+        <output-file value="test.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="flowA.0" depart="0.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.1" depart="140.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.2" depart="280.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.3" depart="420.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.4" depart="560.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.5" depart="700.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.6" depart="840.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.7" depart="980.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.8" depart="1120.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.9" depart="1260.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.10" depart="1400.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.11" depart="1540.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.12" depart="1680.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.13" depart="1820.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.14" depart="1960.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.15" depart="2100.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.16" depart="2240.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.17" depart="2380.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.18" depart="2520.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.19" depart="2660.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.20" depart="2800.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.21" depart="2940.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.22" depart="3080.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.23" depart="3220.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.24" depart="3360.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.25" depart="3500.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.26" depart="3640.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.27" depart="3780.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.28" depart="3920.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.29" depart="4060.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.30" depart="4200.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.31" depart="4340.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.32" depart="4480.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.33" depart="4620.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.34" depart="4760.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.35" depart="4900.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.36" depart="5040.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.37" depart="5180.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.38" depart="5320.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.39" depart="5460.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.40" depart="5600.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.41" depart="5740.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.42" depart="5880.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.43" depart="6020.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.44" depart="6160.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.45" depart="6300.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.46" depart="6440.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.47" depart="6580.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.48" depart="6720.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+    <vehicle id="flowA.49" depart="6860.00">
+        <route edges="47-48 48-49 49-50 50-47"/>
+    </vehicle>
+</routes>

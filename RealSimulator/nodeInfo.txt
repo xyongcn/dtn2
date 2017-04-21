@@ -1,4 +1,4 @@
-nodeNo:1
+nodeNo:2
 com_Dis:500
 Mode:Config_Mode
 defualtLatitude:39.0

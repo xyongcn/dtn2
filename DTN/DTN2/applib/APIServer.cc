@@ -209,7 +209,7 @@ APIClient::APIClient(int fd, in_addr_t addr, u_int16_t port, APIServer *parent)
     //add by gaorui
     ////////////////////////////////////////////
     // init 63302
-    bzero(&servaddr_query2, sizeof(servaddr_query2));
+ /*   bzero(&servaddr_query2, sizeof(servaddr_query2));
     servaddr_query2.sin_family = AF_INET;
     servaddr_query2.sin_port = htons(QUERY_LOCATION_PORT2);
     if(inet_pton(AF_INET, "127.0.0.1", &servaddr_query2.sin_addr) <= 0)
@@ -230,7 +230,7 @@ APIClient::APIClient(int fd, in_addr_t addr, u_int16_t port, APIServer *parent)
     {
     	printf("10007 bind error\n");
     }
-    servlen_reply2=sizeof(servaddr_reply2);
+    servlen_reply2=sizeof(servaddr_reply2);*/
     ////////////////////////////////////////////
     //end by gaorui
 }
@@ -909,6 +909,35 @@ APIClient::handle_send()
     b->setAreaSize(0);
     if(spec.areaID!=-1)
     {
+
+    	 //add by gaorui
+    	    ////////////////////////////////////////////
+    	    // init 63302
+    	    bzero(&servaddr_query2, sizeof(servaddr_query2));
+    	    servaddr_query2.sin_family = AF_INET;
+    	    servaddr_query2.sin_port = htons(QUERY_LOCATION_PORT2);
+    	    if(inet_pton(AF_INET, "127.0.0.1", &servaddr_query2.sin_addr) <= 0)
+    	    {
+    	    	printf("[%s] is not a valid IPaddress\n","127.0.0.1");
+    	    }
+    	    servlen_query2=sizeof(servaddr_query2);
+    	    query_loc_socket2 = socket(AF_INET, SOCK_DGRAM, 0);
+
+    	    //bind 10007
+
+    	    bzero(&servaddr_reply2, sizeof(servaddr_reply2));
+    	    servaddr_reply2.sin_family = AF_INET;
+    	    servaddr_reply2.sin_addr.s_addr = htonl(INADDR_ANY);
+    	    servaddr_reply2.sin_port = htons(REPLY_LOCATION_PORT2);
+    	    reply_loc_socket2 = socket(AF_INET, SOCK_DGRAM, 0);
+    	    if( Mybind::mybind(reply_loc_socket2, (struct sockaddr *)&servaddr_reply2, sizeof(servaddr_reply2)) == -1)
+    	    {
+    	    	printf("10007 bind error\n");
+    	    }
+    	    servlen_reply2=sizeof(servaddr_reply2);
+    	    ////////////////////////////////////////////
+    	    //end by gaorui
+
         b->setBundleType(Bundle::DATA_BUNDLE);
 		char recvBuf[MAXLINE+1];
 		char buf[MAXLINE];

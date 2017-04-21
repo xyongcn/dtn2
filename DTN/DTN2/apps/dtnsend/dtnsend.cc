@@ -333,8 +333,8 @@ main(int argc, char** argv)
         	temp=atoi(Areaid);
         	bundle_spec.areaID=temp;
         }
-       // else
-        //	bundle_spec.areaID=-1;
+        else
+        	bundle_spec.areaID=-1;
        // bundle_spec.areaid=Areaid;
         //end by gaorui
        

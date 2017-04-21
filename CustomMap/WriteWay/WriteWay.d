@@ -1,0 +1,1 @@
+WriteWay.o: WriteWay.cpp

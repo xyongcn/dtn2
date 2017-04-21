@@ -1,0 +1,96 @@
+send a new bundle:
+3month,week 2,12 hour 22minute
+bundle id:1406
+bundle timestamp: seconds_:  seqno_:1406
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:231314
+current neighbour id:dtn://192.168.11.124.gao.com/*
+destination id:3579 opportunity value:14.733476 7.792975 
+this node:
+destination id:15711 opportunity value:8.715045 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.124.gao.com/*  ,5
+
+send a new bundle:
+3month,week 2,12 hour 22minute
+bundle id:1407
+bundle timestamp: seconds_:  seqno_:1407
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:231314
+current neighbour id:dtn://192.168.11.124.gao.com/*
+destination id:3579 opportunity value:14.733476 7.792975 
+this node:
+destination id:15711 opportunity value:8.715045 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.124.gao.com/*  ,5
+
+send a new bundle:
+3month,week 2,12 hour 22minute
+bundle id:1410
+bundle timestamp: seconds_:  seqno_:1410
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:1413910
+current neighbour id:dtn://192.168.11.124.gao.com/*
+destination id:3579 opportunity value:14.733476 7.792975 
+this node:
+destination id:15711 opportunity value:8.715045 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.124.gao.com/*  ,5
+
+send a new bundle:
+3month,week 2,12 hour 22minute
+bundle id:1411
+bundle timestamp: seconds_:  seqno_:1411
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:231314
+current neighbour id:dtn://192.168.11.124.gao.com/*
+destination id:3579 opportunity value:16.636141 8.715045 
+this node:
+destination id:15711 opportunity value:8.715045 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.124.gao.com/*  ,5
+
+send a new bundle:
+3month,week 2,12 hour 23minute
+bundle id:1416
+bundle timestamp: seconds_:  seqno_:1416
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:231314
+current neighbour id:dtn://192.168.11.124.gao.com/*
+destination id:3579 opportunity value:18.529780 9.627895 
+this node:
+destination id:15711 opportunity value:9.627895 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.124.gao.com/*  ,5
+
+send a new bundle:
+3month,week 2,12 hour 23minute
+bundle id:1417
+bundle timestamp: seconds_:  seqno_:1417
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+don't enter into destination,carry out oridinary forwarding.the number of copies are:10,current area'id is:231314
+current neighbour id:dtn://192.168.11.124.gao.com/*
+destination id:3579 opportunity value:18.529780 9.627895 
+this node:
+destination id:15711 opportunity value:9.627895 
+neighbour id and number of copies sent to neighbour are :dtn://192.168.11.124.gao.com/*  ,5
+

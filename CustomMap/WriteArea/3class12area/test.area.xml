@@ -1,0 +1,21 @@
+<areas>   
+<!-- Layer1 -->
+	<area id="1171911" way="12/o" way="23/o" way="34/o" way="45/o" way="516/o" way="1617/o"  way="1718/o"  way="1819/o" way="2019/o"  way="720/o"  way="87/o"  way="98/o"  way="109/o"  way="1110/o"  way="1211/o"  way="112/o" relation="13911" relation="3579"   relation="517197" node="15" level="1"/> 
+	<area id="13911" way="12/o" way="23/o" way="313/o" way="139/o" way="109/o" way="1110/o" way="1211/o" way="112/o"      relation="121412" relation="231314" relation="12141011" relation="1413910" node="14" level="2"/>
+	<area id="3579" way="34/o" way="45/o" way="56/o" way="67/o" way="87/o" way="98/o" way="139/o" way="313/o"      relation="341513" relation="45615" relation="131589" relation="15678" node="15" level="2"/>
+	<area id="517197" way="516/o" way="1617/o" way="1718/o" way="1819/o" way="2019/o" way="720/o" way="67/o" way="56/o"      relation="516216" relation="16171821" relation="621207" relation="21181920" node="21" level="2"/>
+	<area id="121412" way="12/o" way="214/o" way="1214/o" way="112/o" node="22" level="3"/>
+	<area id="231314" way="23/o" way="313/o" way="1413/o" way="214/o" node="23" level="3"/>
+	<area id="341513" way="34/o" way="415/o" way="1315/o" way="313/o" node="24" level="3"/>
+	<area id="45615" way="45/o" way="56/o" way="156/o" way="415/o" node="25" level="3"/>
+	<area id="516216" way="516/o" way="1621/o" way="621/o" way="56/o" node="26" level="3"/>
+	<area id="16171821" way="1617/o" way="1718/o" way="2118/o" way="1621/o" node="27" level="3"/>
+
+	<area id="12141011" way="1214/o" way="1410/o" way="1110/o" way="1211/o" node="33" level="3"/>
+	<area id="1413910" way="1413/o" way="139/o" way="109/o" way="1410/o" node="32" level="3"/>
+	<area id="131589" way="1315/o" way="158/o" way="98/o" way="139/o" node="31" level="3"/>
+	<area id="15678" way="156/o" way="67/o" way="87/o" way="158/o" node="30" level="3"/>
+	<area id="621207" way="621/o" way="2120/o" way="720/o" way="67/o" node="29" level="3"/>
+	<area id="21181920" way="2118/o" way="1819/o" way="2019/o" way="2120/o" node="28" level="3"/>
+</areas>  
+

@@ -1,0 +1,60 @@
+<nodes>   
+	<node id="1" x="116.29144400" y="0.00904353" type="priority"/>
+	<node id="2" x="116.29593550" y="0.00904353" type="priority"/>
+	<node id="3" x="116.30042700" y="0.00904353" type="priority"/>
+	<node id="4" x="116.30491850" y="0.00904353" type="priority"/>
+	<node id="5" x="116.30941000" y="0.00904353" type="priority"/>
+	<node id="6" x="116.31390150" y="0.00904353" type="priority"/>
+	<node id="7" x="116.31839300" y="0.00904353" type="priority"/>
+	<node id="8" x="116.32288450" y="0.00904353" type="priority"/>
+	<node id="9" x="116.32737600" y="0.00904353" type="priority"/>
+  
+	<node id="10" x="116.32737600" y="0.00452177" type="priority"/>
+	<node id="11" x="116.32737600" y="0.00000000" type="priority"/>
+	<node id="12" x="116.32737600" y="-0.00452177" type="priority"/>
+	<node id="13" x="116.32737600" y="-0.00904353" type="priority"/>
+	<node id="14" x="116.32288450" y="-0.00904353" type="priority"/>
+	<node id="15" x="116.31839300" y="-0.00904353" type="priority"/>
+	<node id="16" x="116.31390150" y="-0.00904353" type="priority"/>
+	<node id="17" x="116.30941000" y="-0.00904353" type="priority"/>
+	<node id="18" x="116.30491850" y="-0.00904353" type="priority"/>
+	<node id="19" x="116.30042700" y="-0.00904353" type="priority"/>
+	<node id="20" x="116.29593550" y="-0.00904353" type="priority"/>
+	<node id="21" x="116.29144400" y="-0.00904353" type="priority"/>
+
+	<node id="22" x="116.29144400" y="-0.00452177" type="priority"/>
+	<node id="23" x="116.29144400" y="0.00000000" type="priority"/>
+	<node id="24" x="116.29144400" y="0.00452177" type="priority"/>
+	<node id="25" x="116.29593550" y="0.00452177" type="priority"/>
+	<node id="26" x="116.30042700" y="0.00452177" type="priority"/>
+	<node id="27" x="116.30491850" y="0.00452177" type="priority"/>
+
+	<node id="28" x="116.30941000" y="0.00452177" type="priority"/>
+	<node id="29" x="116.31390150" y="0.00452177" type="priority"/>
+	<node id="30" x="116.31839300" y="0.00452177" type="priority"/>
+	<node id="31" x="116.32288450" y="0.00452177" type="priority"/>
+	<node id="32" x="116.32288450" y="0.00000000" type="priority"/>
+	<node id="33" x="116.32288450" y="-0.00452177" type="priority"/>
+
+	<node id="34" x="116.31839300" y="-0.00452177" type="priority"/>
+	<node id="35" x="116.31390150" y="-0.00452177" type="priority"/>
+	<node id="36" x="116.30941000" y="-0.00452177" type="priority"/>
+	<node id="37" x="116.30491850" y="-0.00452177" type="priority"/>
+	<node id="38" x="116.30042700" y="-0.00452177" type="priority"/>
+	<node id="39" x="116.29593550" y="-0.00452177" type="priority"/>
+	<node id="40" x="116.29593550" y="0.00000000" type="priority"/>
+	<node id="41" x="116.30042700" y="0.00000000" type="priority"/>
+	<node id="42" x="116.30491850" y="0.00000000" type="priority"/>
+	<node id="43" x="116.30941000" y="0.00000000" type="priority"/>
+	<node id="44" x="116.31390150" y="0.00000000" type="priority"/>
+	<node id="45" x="116.31839300" y="0.00000000" type="priority"/>
+
+	<node id="46" x="116.29324060" y="0.00090435" type="priority"/>
+	<node id="47" x="116.29503720" y="0.00633047" type="priority"/>
+	<node id="48" x="116.32378280" y="0.00633047" type="priority"/>
+	<node id="49" x="116.32378280" y="-0.00542612" type="priority"/>
+	<node id="50" x="116.29503720" y="-0.00542612" type="priority"/>
+	<node id="51" x="116.32557940" y="0.00090435" type="priority"/>
+ 
+</nodes>
+

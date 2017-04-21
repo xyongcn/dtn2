@@ -1,5 +1,0 @@
-<flows>
-	<flow id="flowA" from="16-17" to="19-16" begin="0" end="7000" number="120"/>
-	<flow id="flowB" from="21-20" to="22-21" begin="0" end="7000" number="120"/>
-
-</flows>

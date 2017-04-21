@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Apr  5 16:37:58 2017 by SUMO duarouter Version 0.23.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="test.net.xml"/>
+        <flow-files value="test.flow.xml"/>
+    </input>
+
+    <output>
+        <output-file value="test.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="flowA.0" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.1" depart="175.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.2" depart="350.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.3" depart="525.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.4" depart="700.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.5" depart="875.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.6" depart="1050.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.7" depart="1225.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.8" depart="1400.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.9" depart="1575.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.10" depart="1750.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.11" depart="1925.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.12" depart="2100.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.13" depart="2275.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.14" depart="2450.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.15" depart="2625.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.16" depart="2800.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.17" depart="2975.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.18" depart="3150.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.19" depart="3325.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.20" depart="3500.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.21" depart="3675.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.22" depart="3850.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.23" depart="4025.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.24" depart="4200.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.25" depart="4375.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.26" depart="4550.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.27" depart="4725.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.28" depart="4900.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.29" depart="5075.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.30" depart="5250.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.31" depart="5425.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.32" depart="5600.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.33" depart="5775.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.34" depart="5950.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.35" depart="6125.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.36" depart="6300.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.37" depart="6475.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.38" depart="6650.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flowA.39" depart="6825.00">
+        <routeDistribution last="0">
+            <route cost="161.48" probability="1.00000000" edges="47-48 48-49 49-50 50-47"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

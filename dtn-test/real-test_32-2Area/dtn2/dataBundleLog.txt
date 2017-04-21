@@ -1,0 +1,165 @@
+send a new bundle:
+4month,week 3,16 hour 7minute
+bundle id:3218
+bundle timestamp: seconds_:  seqno_:3668
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 7minute
+bundle id:3219
+bundle timestamp: seconds_:  seqno_:3669
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 7minute
+bundle id:3220
+bundle timestamp: seconds_:  seqno_:3670
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 7minute
+bundle id:3221
+bundle timestamp: seconds_:  seqno_:3671
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 7minute
+bundle id:3222
+bundle timestamp: seconds_:  seqno_:3674
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 7minute
+bundle id:3223
+bundle timestamp: seconds_:  seqno_:3675
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 7minute
+bundle id:3224
+bundle timestamp: seconds_:  seqno_:3676
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 10minute
+bundle id:3230
+bundle timestamp: seconds_:  seqno_:3677
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 10minute
+bundle id:3231
+bundle timestamp: seconds_:  seqno_:3678
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 10minute
+bundle id:3232
+bundle timestamp: seconds_:  seqno_:3679
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 10minute
+bundle id:3233
+bundle timestamp: seconds_:  seqno_:3680
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 10minute
+bundle id:3234
+bundle timestamp: seconds_:  seqno_:3681
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 10minute
+bundle id:3235
+bundle timestamp: seconds_:  seqno_:3682
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 10minute
+bundle id:3236
+bundle timestamp: seconds_:  seqno_:3683
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+4month,week 3,16 hour 10minute
+bundle id:3237
+bundle timestamp: seconds_:  seqno_:3684
+bundle's type: data_bundle
+bundle's destination area: 31101132
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+

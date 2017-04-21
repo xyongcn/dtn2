@@ -1,0 +1,165 @@
+send a new bundle:
+3month,week 2,9 hour 45minute
+bundle id:1283
+bundle timestamp: seconds_:  seqno_:1372
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 46minute
+bundle id:1286
+bundle timestamp: seconds_:  seqno_:1373
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 47minute
+bundle id:1287
+bundle timestamp: seconds_:  seqno_:1376
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 47minute
+bundle id:1287
+bundle timestamp: seconds_:  seqno_:1376
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 47minute
+bundle id:1290
+bundle timestamp: seconds_:  seqno_:1379
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 48minute
+bundle id:1293
+bundle timestamp: seconds_:  seqno_:1382
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 49minute
+bundle id:1296
+bundle timestamp: seconds_:  seqno_:1385
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 50minute
+bundle id:1299
+bundle timestamp: seconds_:  seqno_:1386
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 51minute
+bundle id:1300
+bundle timestamp: seconds_:  seqno_:1389
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 51minute
+bundle id:1300
+bundle timestamp: seconds_:  seqno_:1389
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 51minute
+bundle id:1303
+bundle timestamp: seconds_:  seqno_:1392
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 52minute
+bundle id:1306
+bundle timestamp: seconds_:  seqno_:1395
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 53minute
+bundle id:1309
+bundle timestamp: seconds_:  seqno_:1398
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 54minute
+bundle id:1310
+bundle timestamp: seconds_:  seqno_:1399
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+
+send a new bundle:
+3month,week 2,9 hour 54minute
+bundle id:1310
+bundle timestamp: seconds_:  seqno_:1399
+bundle's type: data_bundle
+bundle's destination area: 45615
+bundle's source node: dtn://192.168.11.122.gao.com
+bundle's destination node: dtn://192.168.11.125.gao.com
+bundle's payload: 5
+meet destination node,delivery the bundle to destination node directly(dtn://192.168.11.125.gao.com)
+

@@ -20,7 +20,7 @@ help(){
 	echo "./dtn-control.sh -killrealSimulator: kill realSimulator"
 	echo "./dtn-control.sh -killmapInterface: kill mapInterface"
 	echo "./dtn-control.sh -watch: detection information of distance between nodes and dtn2"
-	echo "./dtn-control.sh -closeWatch: close the information"
+	#echo "./dtn-control.sh -closeWatch: close the information"
 	echo "./dtn-control.sh -clearData: clear log and historyarea law and neighbour historyarea law,if you want to change 			frequency vector's type,you must carry out this first"
 	echo "./dtn-control.sh -clearLog: delete dtn2.log,MapInLog.txt.RealLog.txt"
 	echo "./dtn-control.sh -sendBundle : Then,knock command at the terminal,for example: ./dtn-control.sh -sendBundle \"./dtnsend -s dtn://192.168.5.1.gao.com 			-d dtn://192.168.5.2.gao.com -t m -p hello -g 121412\""
@@ -29,6 +29,7 @@ help(){
 	echo "with 2 or more arguments :"
 	echo "./dtn-control.sh -renameDevices : rename the dtn node's name"
 	echo "./dtn-control.sh -modifyNodeTrack : modify node's track by modifying realsimulator's nodeInfo.txt"
+	echo "./dtn-control.sh -modifyCommDis : modify communication distance between nodes"
 	echo "./dtn-control.sh -modifyVector : modify frequency vector's type,options [minute | hour | monafteve | week | month]
 		for example: ./dtn-control.sh -modifyVector minute hour week"
 	echo "./dtn-control.sh -configEnvironment: configure the environment,using specified network cards to send and receive data"
@@ -103,7 +104,7 @@ elif [ $# -eq 1 ];then
 		cd $this_dir
 
 	elif [ $1 = "-clearLog" ];then
-		#clear Data
+		#clear Log
 		cd ./DTN/DTN2/
 		rm -rf dtn2.log
 		echo "delete dtn2.log"
@@ -120,7 +121,7 @@ elif [ $# -eq 1 ];then
 		cd $this_dir
 	
 	elif [ $1 = "-clearData" ];then
-		#clear Log
+		#clear Data
 		cd ./DTN/DTN2/logDocuments
 		rm -rf areamoving.txt
 		echo "delete areamoving.txt"
@@ -137,78 +138,46 @@ elif [ $# -eq 1 ];then
 		cd $this_dir
 
 	elif [ $1 = "-killrealSimulator" ];then
-		numRe=`ps aux | grep "RealSimulator"`
-		numRe2=$numRe
-
-		for strR in $numRe
+		PROCESS=`ps -ef|grep "RealSimulator"|grep -v grep|grep -v PPID|awk '{ print $2}'`
+		for i in $PROCESS
 		do
-			if [ $strR = "./RealSimulator" ];then
-				idRe=${numRe2#* }
-				idRe=${idRe%%.*}
-				idRe=${idRe% *}
-				echo "kill RealSimulator,pid is$idRe"
-				kill $idRe
-				break
-			fi
+ 			echo "Kill the RealSimulator process [ $i ]"
+ 		 	kill -9 $i
 		done
 
 	elif [ $1 = "-killmapInterface" ];then
-		numMa=`ps aux | grep "MapInterface"`
-		numMa2=$numMa
-
-		for strM in $numMa
+		PROCESS=`ps -ef|grep "MapInterface"|grep -v grep|grep -v PPID|awk '{ print $2}'`
+		for i in $PROCESS
 		do
-			if [ $strM = "./MapInterface" ];then
-				idMa=${numMa2#* }
-				idMa=${idMa%%.*}
-				idMa=${idMa% *}
-				echo "kill MapInterface,pid is$idMa"
-				kill $idMa
-				break
-			fi
+ 			echo "Kill the MapInterface process [ $i ]"
+ 		 	kill -9 $i
 		done
 
 	elif [ $1 = "-killdtn2" ];then
- 		numDt=`ps aux | grep "dtnd"`
- 		numDt2=$numDt
+		PROCESS=`ps -ef|grep "dtnd"|grep -v grep|grep -v PPID|awk '{ print $2}'`
+		for i in $PROCESS
+		do
+ 			echo "Kill the dtn2 process [ $i ]"
+ 		 	kill -9 $i
+		done
 
-	 	for strD in $numDt
- 		do
- 			if [ $strD = "./daemon/dtnd" ];then
- 				idDt=${numDt2#* }
- 				idDt=${idDt%%.*}
- 				idDt=${idDt% *}
- 				echo "kill dtn2,pid is$idDt"
- 				kill $idDt
-				 break
-			 fi
- 		done
 	elif [ $1 = "-watch" ];then
-		tail -f ./DTN/DTN2/dtn2.log &
-
+	#	tail -f ./DTN/DTN2/dtn2.log &
  		while true
         	do
  			clear
  			echo "************************************"
  			cat /proc/fbaodv/dis_history
- 			sleep 5
+ 			sleep 3
  		done
 
-	elif [ $1 = "-closewatch" ];then
-		numTa=`ps aux | grep "tail"`
- 		numTa2=$numTa
-
-		for strT in $numTa
- 		do
- 			if [ $strT = "./DTN/DTN2/dtn2.log" ];then
- 				idTa=${numTa2#* }
- 				idTa=${idTa%%.*}
-			 	idTa=${idTa% *}
-				 echo "kill tail -f dtn2.log,pid is$idTa"
- 				kill $idTa
- 				break
- 			fi
- 		done
+	#elif [ $1 = "-closewatch" ];then
+	#	PROCESS=`ps -ef|grep "tail -f ./DTN/DTN2/"|grep -v grep|grep -v PPID|awk '{ print $2}'`
+	#	for i in $PROCESS
+	#	do
+ 	#		echo "Kill the tarl -f ./DTN/DTN2/dtn2.log process [ $i ]"
+ 	#	 	kill -9 $i
+	#	done
 
 	elif [ $1 = "-configEnvironment" ];then
 		cd ./ConfigEnvironment
@@ -229,6 +198,11 @@ elif [ $# -eq 2 ];then
 	elif [ $1 = "-modifyNodeTrack" ];then
 		cd ./NodeName/ModifyNodeTrack
 		./ModifyNodeTrack $2	
+		cd $this_dir
+
+	elif [ $1 = "-modifyCommDis" ];then
+		cd ./ConfigEnvironment/ModifyIaodv.shCom_radius
+		./ModifyIaodv.shCom_radius $2	
 		cd $this_dir
 
 	elif [ $1 = "-sendBundle" ];then

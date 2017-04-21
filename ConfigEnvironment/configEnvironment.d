@@ -1,1 +1,0 @@
-configEnvironment.o: configEnvironment.cpp

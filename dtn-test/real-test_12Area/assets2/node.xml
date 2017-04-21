@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.4.3 (24429 thorn-04.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="1" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00452177" lon="116.30042700"/>
+ <node id="2" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00452177" lon="116.30491850"/>
+ <node id="3" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00452177" lon="116.30941000"/>
+ <node id="4" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00452177" lon="116.31390150"/>
+ <node id="5" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00452177" lon="116.31839300"/>
+ <node id="6" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00000000" lon="116.31839300"/>
+ <node id="7" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00452177" lon="116.31839300"/>
+ <node id="8" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00452177" lon="116.31390150"/>
+ <node id="9" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00452177" lon="116.30941000"/>
+ <node id="10" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00452177" lon="116.30491850"/>
+ <node id="11" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00452177" lon="116.30042700"/>
+ <node id="12" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00000000" lon="116.30042700"/>
+ <node id="13" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00000000" lon="116.30941000"/>
+ <node id="14" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00000000" lon="116.30491850"/>
+ <node id="15" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00000000" lon="116.31390150"/>
+ <node id="16" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00452177" lon="116.32288450"/>
+ <node id="17" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00452177" lon="116.32737600"/>
+ <node id="18" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00000000" lon="116.32737600"/>
+ <node id="19" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00452177" lon="116.32737600"/>
+ <node id="20" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00452177" lon="116.32288450"/>
+ <node id="21" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00000000" lon="116.32288450"/>
+ <node id="22" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00226088" lon="116.30267275"/>
+ <node id="23" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00226088" lon="116.30716425"/>
+ <node id="24" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00226088" lon="116.31165575"/>
+ <node id="25" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00226088" lon="116.31614725"/>
+ <node id="26" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00226088" lon="116.32063875"/>
+ <node id="27" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="0.00226088" lon="116.32513025"/>
+ <node id="28" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00226088" lon="116.32513025"/>
+ <node id="29" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00226088" lon="116.32063875"/>
+ <node id="30" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00226088" lon="116.31614725"/>
+ <node id="31" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00226088" lon="116.31165575"/>
+ <node id="32" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00226088" lon="116.30716425"/>
+ <node id="33" visible="true" version="3" changeset="35986026" timestamp="2015-12-16T11:29:05Z" user="FreedSky" uid="1236135" lat="-0.00226088" lon="116.30267275"/>
+</osm>
