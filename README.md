@@ -103,6 +103,10 @@ cp -rf * /usr/lib/
 ./daemon/dtnd --init  
 - (11)执行程序  
 在root权限下执行  ./daemon/dtnd  
+- (12)缺少openssl的evp.h解决  
+apt-get install libssl-dev
+
+
 
 ### 9.编译
 ./MapInterface  
